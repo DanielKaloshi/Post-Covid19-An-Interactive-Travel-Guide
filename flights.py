@@ -1,5 +1,6 @@
 from __future__ import annotations
-from typing import Any, Optional
+import csv
+import compute_stats
 
 
 class Country:
@@ -27,11 +28,21 @@ class Country:
     safety_index: float
     region: str
 
-    def __init__(self, name: str, neighbours: dict[str, Country], region: str) -> None:
+    def __init__(self, name: str) -> None:
         """Initialize this country with the given name, region, and neighbours."""
         self.name = name
-        self.neighbours = neighbours
-        self.region: region
+        self.neighbours = {}
+        self.safety_index = compute_stats.compute_safety_index(name)
+        self.add_region()
+
+    def add_region(self) -> None:
+        """Add the WHO region that this country is located in."""
+        with open('data/COVID-19-data-from-2023-02-01.csv') as csv_file:
+            reader = csv.reader(csv_file)
+            for row in reader:
+                if row[2] == self.name:
+                    self.region = row[3]
+                    break
 
     def check_connected(self, target_country: str, visited: set[Country]) -> bool:
         """Return whether this country is connected to a country corresponding to the target_country,
@@ -64,17 +75,16 @@ class Flights:
     """
     countries: dict[str, Country]
 
-    def __init(self) -> None:
+    def __init__(self) -> None:
         """Initialize an empty flight network."""
         self.countries = {}
 
-    def add_country(self, name: str, region: str) -> None:
+    def add_country(self, name: str) -> None:
         """Add a country with the given name to this flight netowrk.
 
         The new country is not connected by a flight to any other countries.
         """
-        self.countries[name] = Country(name, {}, region)
-        # TODO: Define a function to find the WHO region the given country is in
+        self.countries[name] = Country(name)
 
     def add_flight(self, country1: str, country2: str) -> None:
         """Add a flight between the two countries with the given names in this flight network.
@@ -83,9 +93,9 @@ class Flights:
             - country1 != country2
         """
         if country1 not in self.countries:
-            self.add_country(country1, region1)
+            self.add_country(country1)
         if country2 not in self.countries:
-            self.add_country(country2, region2)
+            self.add_country(country2)
 
         f1 = self.countries[country1]
         f2 = self.countries[country2]
@@ -94,7 +104,8 @@ class Flights:
         f2.neighbours[country1] = f1
 
     def connected(self, country1: str, country2: str) -> bool:
-        """Return whether country1 and country2 are countries connected """
+        """Return whether country1 and country2 are countries connected.
+        """
         if country1 in self.countries and country2 in self.countries:
             c1 = self.countries[country1]
             return c1.check_connected(country2, set())

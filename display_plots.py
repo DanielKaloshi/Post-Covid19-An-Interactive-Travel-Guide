@@ -19,7 +19,7 @@ def plot_map(file: str) -> None:
 
     fig = px.choropleth_mapbox(df, geojson=world_countries, locations='id', color='safety_index',
                                color_continuous_scale=px.colors.diverging.RdYlGn_r,
-                               range_color=(0, 5),
+                               range_color=(0, 15),
                                mapbox_style='carto-positron',
                                zoom=3, center={'lat': 37.0902, 'lon': -95.7129},
                                opacity=0.5,
