@@ -18,8 +18,8 @@ def plot_map(file: str) -> None:
     df['id'] = df['country'].apply(lambda country: map_id[country])
 
     fig = px.choropleth_mapbox(df, geojson=world_countries, locations='id', color='safety_index',
-                               color_continuous_scale='matter',
-                               range_color=(0, 12),
+                               color_continuous_scale=px.colors.diverging.RdYlGn_r,
+                               range_color=(0, 5),
                                mapbox_style='carto-positron',
                                zoom=3, center={'lat': 37.0902, 'lon': -95.7129},
                                opacity=0.5,
@@ -28,12 +28,11 @@ def plot_map(file: str) -> None:
     fig.show()
 
 world_data = 'data/sample_data_map.csv'
-def plot_animated_bar_graph(file: str, paths: list) -> None:
-    """Plot an animated bar graph using the given file. The graph shows how the given metric
-    changes over time per country.
+def plot_bar_graph(file: str, path: list) -> None:
+    """Plot a bar graph using the given file and countries in the given path. The graph
 
     Preconditions:
-    - metric in {'death_rate', 'infection_rate}
+    -
     """
     df = pd.read_csv(file)
     fig = px.bar(df.sort_values())
