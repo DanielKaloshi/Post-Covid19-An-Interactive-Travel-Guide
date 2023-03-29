@@ -172,27 +172,3 @@ def compute_safest_neighbour(neighbours: set[str]) -> dict:
         neighbour_so_far = ''
 
     return top_three_so_far
-
-
-def find_flights(self, destination: Country, visited: set[Country]) -> set[Country]:
-
-    """Return a set containing all the possible country paths from this country that do NOT use any countries in
-    visited.
-
-    Preconditions:
-        - self not in visited
-    """
-
-    country_set = set()
-
-    if self.country == destination:
-        return {destination}
-
-    else:
-        visited.add(self)
-
-        for neighbour in self.neighbours:
-            if neighbour not in visited:
-                country_set.add(neighbour.check_connected(destination, visited))
-
-    return country_set

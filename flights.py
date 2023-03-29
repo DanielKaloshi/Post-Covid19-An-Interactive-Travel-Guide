@@ -3,7 +3,7 @@ import csv
 import compute_stats
 
 
-class Country:
+class _Country:
     """A vertex that represents a country in the flights network.
 
     Instance Attributes:
@@ -24,7 +24,7 @@ class Country:
     - all(self.name in country.neighbours for country in self.neighbours.values())
     """
     name: str
-    neighbours: dict[str, Country]
+    neighbours: dict[str, _Country]
     safety_index: float
     region: str
 
@@ -44,7 +44,7 @@ class Country:
                     self.region = row[3]
                     break
 
-    def check_connected(self, target_country: str, visited: set[Country]) -> bool:
+    def check_connected(self, target_country: str, visited: set[_Country]) -> bool:
         """Return whether this country is connected to a country corresponding to the target_country,
         WITHOUT using any of the countries in visited.
 
@@ -61,6 +61,26 @@ class Country:
                         return True
             return False
 
+    def find_flights(self, destination: _Country, visited: set[_Country]) -> set[_Country]:
+
+        """Return a set containing all the possible country paths from this country that do NOT use any countries in
+        visited.
+
+        Preconditions:
+            - self not in visited
+        """
+
+        country_set = set()
+
+        if self.name == destination:
+            return {destination}
+        else:
+            visited.add(self)
+            for neighbour in self.neighbours.values():
+                if neighbour not in visited:
+                    country_set.union(neighbour.find_flights(destination, visited))
+        return country_set
+
 
 class Flights:
     """A network representing the available flight paths around the world.
@@ -73,7 +93,7 @@ class Flights:
     Representation Invariants:
     - all(country == self.countries[country].name for country in self.countries)
     """
-    countries: dict[str, Country]
+    countries: dict[str, _Country]
 
     def __init__(self) -> None:
         """Initialize an empty flight network."""
@@ -84,7 +104,7 @@ class Flights:
 
         The new country is not connected by a flight to any other countries.
         """
-        self.countries[name] = Country(name)
+        self.countries[name] = _Country(name)
 
     def add_flight(self, country1: str, country2: str) -> None:
         """Add a flight between the two countries with the given names in this flight network.
