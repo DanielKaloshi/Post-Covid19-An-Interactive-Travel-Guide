@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 """
 
 """
@@ -96,6 +95,3 @@ def filter_csv_file(filename: str, output_file='data/COVID-19-data-from-2023-02-
 
 if __name__ == '__main__':
     filter_csv_file('data/WHO-COVID-19-global-data.csv')
-=======
-# Dua
->>>>>>> 8bb22f09fc950d538b7426d5f5642c799aa9b854
