@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+"""
+This file is for filtering the three datasets, COVID-19-data-from-2023-02-01.csv
+"""
+
+=======
+>>>>>>> d156b5e4dde1009d941e1bef1b1def26e0ea6b8d
 import csv
 from datetime import datetime
 
