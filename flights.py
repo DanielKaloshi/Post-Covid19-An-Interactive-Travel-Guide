@@ -61,6 +61,26 @@ class Country:
                         return True
             return False
 
+    def find_flights(self, destination: Country, visited: set[Country]) -> set[Country]:
+
+        """Return a set containing all the possible country paths from this country that do NOT use any countries in
+        visited.
+
+        Preconditions:
+            - self not in visited
+        """
+
+        country_set = set()
+
+        if self.name == destination:
+            return {destination}
+        else:
+            visited.add(self)
+            for neighbour in self.neighbours.values():
+                if neighbour not in visited:
+                    country_set.union(neighbour.find_flights(destination, visited))
+        return country_set
+
 
 class Flights:
     """A network representing the available flight paths around the world.
