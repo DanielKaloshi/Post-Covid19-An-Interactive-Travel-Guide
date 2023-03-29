@@ -1,34 +1,42 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 """
-This file is for filtering the three datasets, COVID-19-data-from-2023-02-01.csv
+This file is for filtering the four datasets, WHO-COVID-19-global-data, COVID-19-data-from-2023-02-01.csv, routes.csv
+and airports.csv
 """
 
-=======
->>>>>>> d156b5e4dde1009d941e1bef1b1def26e0ea6b8d
 import csv
 from datetime import datetime
 
 
 def csv_airports_dict(file: str) -> dict[str, list[str]]:
     """
+    This Takes the airports.csv and returns a dict with key values of countries in the file
+    and then the associated value is the airports within that country
 
     :param file:
     :return:
     """
+    # Accumalator Dict
     dict_so_far = {}
+
+    # Opens airport.csv
     with open(file) as csv_file:
         reader = csv.reader(csv_file, delimiter=',')
         next(reader)
         for row in reader:
+            # country name
             country = row[3]
+            # associated airport code
             airports = row[4]
+
+            # Checks if country is already in accumaltor to not get duplicates
             if country not in dict_so_far:
                 dict_so_far[country] = [airports]
-            elif airports not in dict_so_far[country]:
-                dict_so_far[country].append(airports)
+            # By this point, country should be in accumalator and should add assosiated
+            # airport code to country in dict
             else:
-                pass
+                assert country in dict_so_far
+                dict_so_far[country].append(airports)
     return dict_so_far
 
 
