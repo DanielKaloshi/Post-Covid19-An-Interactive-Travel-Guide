@@ -28,11 +28,12 @@ def plot_map(file: str) -> None:
     fig.show()
 
 world_data = 'data/sample_data_map.csv'
-def plot_bar_graph(file: str, path: list) -> None:
-    """Plot a bar graph using the given file and countries in the given path. The graph
+def plot_bar_graph(file: str, path: list[str]) -> None:
+    """Plot a bar graph using the given file and countries in the given path. The graph compares the ____ of
+    the countries in the path.
 
     Preconditions:
-    -
+    - len(path) > 1
     """
     df = pd.read_csv(file)
-    fig = px.bar(df.sort_values())
+    # TODO: implement after filter_csv functions are complete
