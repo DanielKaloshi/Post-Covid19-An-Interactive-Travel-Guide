@@ -139,7 +139,7 @@ def compute_safety_index(country_name: str) -> float:
     return (infection_rate + death_rate) / 2
 
 
-def compute_safest_neighbour(neighbours: set[str]) -> dict:
+def compute_safest_neighbour(neighbours: set[str]) -> list[(str, float)]:
     """ Computes the safety index for each country in the set of neighbours returned by find_paths and returns
      a dictionary containing the Top 3 'safest' neighbours and their associated safety indexes.
 
@@ -154,7 +154,7 @@ def compute_safest_neighbour(neighbours: set[str]) -> dict:
 
     """
 
-    top_three_so_far = {}
+    top_three_so_far = []
     lowest_index_so_far = math.inf
     neighbour_so_far = ''
     set_neighbours = neighbours
@@ -166,7 +166,7 @@ def compute_safest_neighbour(neighbours: set[str]) -> dict:
                 lowest_index_so_far = neighbour_index
                 neighbour_so_far = neighbour
 
-        top_three_so_far[neighbour_so_far] = lowest_index_so_far
+        top_three_so_far.append((neighbour_so_far, lowest_index_so_far))
         set.remove(set_neighbours, neighbour_so_far)
         lowest_index_so_far = math.inf
         neighbour_so_far = ''
