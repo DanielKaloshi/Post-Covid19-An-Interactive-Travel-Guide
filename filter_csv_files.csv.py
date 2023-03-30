@@ -98,10 +98,10 @@ def filter_csv_file(filename: str, output_file='data/COVID-19-data-from-2023-02-
         next(reader)
 
         with open(output_file, mode='w') as filter_data:
-            writer = csv.writer(filter_data, delimiter=',')
+            writer = csv.writer(filter_data, delimiter=',', lineterminator="\n")
 
             non_un_list = ['American Samoa', 'Anguilla', 'Aruba', 'Bermuda', 'Bonaire', 'British Virgin Islands',
-                           'Cayman Islands', 'Cook Islands', 'Curaçao', 'Falkland Islands', 'Faroe Islands',
+                           'Cayman Islands', 'Cook Islands', 'Curaçao', 'Falkland Islands (Malvinas)', 'Faroe Islands',
                            'French Guiana', 'French Polynesia', 'Gibraltar', 'Greenland', 'Guadeloupe', 'Guam',
                            'Guernsey',
                            'Holy See', 'Isle of Man', 'Jersey', 'Kosovo[1]', 'Martinique', 'Mayotte', 'Montserrat',

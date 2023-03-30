@@ -81,17 +81,23 @@ def compute_num_deaths(country_name: str) -> int:
     return deaths_so_far
 
 
-def compute_infection_rate_per_1000(country_name: str) -> float:
+def compute_infection_rate_per_1000_people(country_name: str) -> float:
     """ Computes the infection rate per 1000 people for each country.
 
-    >>> compute_infection_rate_per_1000('France')
+    >>> compute_infection_rate_per_1000_people('France')
     2.64589079287875
 
-    >>> compute_infection_rate_per_1000('Canada')
+    >>> compute_infection_rate_per_1000_people('Canada')
     1.5268242764981947
 
-    >>> compute_infection_rate_per_1000('Japan')
+    >>> compute_infection_rate_per_1000_people('Japan')
     6.86711077731799
+
+    >>> compute_infection_rate_per_1000_people('Bangladesh')
+    0.002284060322278458
+
+    >>> compute_infection_rate_per_1000_people('Albania')
+    0.14037823314115472
     """
 
     cases = compute_num_infections(country_name)
@@ -100,41 +106,50 @@ def compute_infection_rate_per_1000(country_name: str) -> float:
     return (cases / population) * 1000
 
 
-def compute_death_rate_per_1000(country_name: str) -> float:
+def compute_death_rate_per_100_cases(country_name: str) -> float:
     """ Computes the death rate per 1000 people for each country.
 
-    >>> compute_death_rate_per_1000('France')
-    6.204859791221965
+    >>> compute_death_rate_per_100_cases('France')
+    0.6204859791221966
 
-    >>> compute_death_rate_per_1000('Canada')
-    18.053923321921893
+    >>> compute_death_rate_per_100_cases('Canada')
+    1.8053923321921892
 
-    >>> compute_death_rate_per_1000('Japan')
-    6.376954616478107
+    >>> compute_death_rate_per_100_cases('Japan')
+    0.6376954616478107
+
+    >>> compute_death_rate_per_100_cases('Bangladesh')
+    0.7672634271099744
+
+    >>> compute_death_rate_per_100_cases('Albania')
+    1.0025062656641603
     """
 
     cases = compute_num_infections(country_name)
     deaths = compute_num_deaths(country_name)
 
-    return (deaths / cases) * 1000
+    if cases == 0:
+        return 0.0
+    else:
+        return (deaths / cases) * 100
 
 
 def compute_safety_index(country_name: str) -> float:
     """ Computes the 'safety index' for each country by averaging out the infection rate and the death rate.
 
     >>> compute_safety_index('France')
-    4.425375292050358
+    1.6331883860004732
 
     >>> compute_safety_index('Canada')
-    9.790373799210045
+    1.666108304345192
 
     >>> compute_safety_index('Japan')
-    6.6220326968980485
+    3.7524031194829
 
     """
 
-    infection_rate = compute_infection_rate_per_1000(country_name)
-    death_rate = compute_death_rate_per_1000(country_name)
+    infection_rate = compute_infection_rate_per_1000_people(country_name)
+    death_rate = compute_death_rate_per_100_cases(country_name)
 
     return (infection_rate + death_rate) / 2
 
@@ -144,14 +159,16 @@ def compute_safest_neighbour(neighbours: set[str]) -> list[(str, float)]:
      a dictionary containing the Top 3 'safest' neighbours and their associated safety indexes.
 
     >>> compute_safest_neighbour({'Canada', 'France', 'Japan'})
-    {'France': 4.425375292050358, 'Japan': 6.6220326968980485, 'Canada': 9.790373799210045}
+    [('France', 1.6331883860004732), ('Canada', 1.666108304345192), ('Japan', 3.7524031194829)]
 
     >>> compute_safest_neighbour({'Canada', 'Japan'})
-    {'Japan': 6.6220326968980485, 'Canada': 9.790373799210045}
+    [('Canada', 1.666108304345192), ('Japan', 3.7524031194829)]
 
     >>> compute_safest_neighbour({'Albania', 'Afghanistan', 'Italy', 'Canada', 'Morocco'})
-    {'Morocco': 0.003964443242267447, 'Albania': 5.082720444891379, 'Afghanistan': 5.801719919452148}
+    [('Morocco', 0.003964443242267447), ('Albania', 0.5714422494026575), ('Afghanistan', 0.5924590111707589)]
 
+    >>> compute_safest_neighbour({'Algeria', 'Belarus', 'Burundi', 'The United Kingdom', 'Uruguay'})
+    [('Belarus', 0.0), ('Algeria', 0.0016257184200021268), ('Burundi', 0.006555684996930854)]
     """
 
     top_three_so_far = []
