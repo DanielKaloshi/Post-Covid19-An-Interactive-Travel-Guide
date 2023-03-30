@@ -1,6 +1,7 @@
 import json
 import pandas as pd
 import plotly.express as px
+from matplotlib import pyplot as plt
 
 sample_data = 'data/sample_data_map.csv'  # for testing purposes
 def plot_map(file: str) -> None:
@@ -27,13 +28,23 @@ def plot_map(file: str) -> None:
     fig.update_layout(margin={'r': 0, 't': 0, 'l': 0, 'b': 0})
     fig.show()
 
-world_data = 'data/sample_data_map.csv'
-def plot_bar_graph(file: str, path: list[str]) -> None:
-    """Plot a bar graph using the given file and countries in the given path. The graph compares the ____ of
+
+def plot_bar_graph(file: str, paths: list[str]) -> None:
+    """Plot a bar graph using the given file and countries in the given path. The graph compares the safety indexes of
     the countries in the path.
 
     Preconditions:
     - len(path) > 1
+    - Each country in paths is a country in the given file
     """
     df = pd.read_csv(file)
-    # TODO: implement after filter_csv functions are complete
+    df = df.loc[df['country'].isin(paths)]
+    country = df['country']
+    safety_index = df['safety_index']
+
+    fig = plt.figure(figsize=(10, 5))
+    plt.bar(country, safety_index)
+    plt.title('Comparison of Safety Indexes')
+    plt.xlabel('Countries')
+    plt.ylabel('Safety Index')
+    plt.show()
