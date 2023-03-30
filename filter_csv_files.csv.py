@@ -106,16 +106,18 @@ def filter_csv_file(filename: str, output_file='data/COVID-19-data-from-2023-02-
                            'Guernsey',
                            'Holy See', 'Isle of Man', 'Jersey', 'Kosovo[1]', 'Martinique', 'Mayotte', 'Montserrat',
                            'New Caledonia', 'Niue', 'Northern Mariana Islands (Commonwealth of the)',
-                           '"occupied Palestinian territory, including east Jerusalem"', 'Other', 'Pitcairn Islands',
+                           'occupied Palestinian territory, including east Jerusalem', 'Other', 'Pitcairn Islands',
                            'Puerto Rico', 'Réunion', 'Saba', 'Saint Barthélemy',
-                           '"Saint Helena, Ascension and Tristan da Cunha"', 'Saint Martin',
+                           'Saint Helena, Ascension and Tristan da Cunha', 'Saint Martin',
                            'Saint Pierre and Miquelon',
                            'Sint Eustatius', 'Sint Maarten', 'Tokelau', 'Turks and Caicos Islands',
                            'United States Virgin Islands', 'Wallis and Futuna']
 
+            special_codes = ['CW', 'BL', 'RE']
+
             first_date = datetime(2023, 2, 1).date()
             writer.writerows(row for row in reader if datetime.strptime(row[0], '%Y-%m-%d').date() >= first_date and
-                             row[2] not in non_un_list)
+                             row[2] not in non_un_list and row[1] not in special_codes)
 
 
 if __name__ == '__main__':
