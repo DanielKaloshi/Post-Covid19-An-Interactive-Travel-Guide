@@ -51,6 +51,7 @@ def compute_population(country_name: str) -> int:
         for row in reader:
             if row[0] == country_name:
                 population = int(row[1])
+                assert population > 0
                 break
 
     return population
