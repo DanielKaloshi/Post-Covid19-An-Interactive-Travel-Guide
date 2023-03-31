@@ -3,14 +3,21 @@ based on our safest flight algorithm and graph data type.
 
 All UI windows are shown using Tkinter library.
 
+Note: For simplicity, in all the docstrings, 'CC' is short for 'current country',
+and 'DC' is short for 'destination country'
+
 """
 # Contributor: Alex
 from tkinter import *
+from tkinter import messagebox
 from PIL import ImageTk, Image
 
+from display_plots import plot_map
+from flights import *
+
 # Create the main window
-WINDOW_COLOUR = '#93BFCF'
-WINDOW_FONT_SIZE = ('Helvetica', 14)
+WINDOW_COLOUR = '#E4DCCF'
+WINDOW_FONT_SIZE = ('Helvetica', 15)
 TEXT_COLOUR = 'black'
 root = Tk()
 root.title('Post Covid-19: Where to Travel?')
@@ -38,10 +45,9 @@ dest_locat_label.place(x=600, y=525)
 # Create a name entry box
 name_entry = Entry(root, width=30, borderwidth=2)
 name_entry.place(x=600, y=400)
-user_answer = name_entry.get()
 
 # Create a current location entry box
-curr_entry = Entry(root, width=30, borderwidth=2)
+curr_entry = Entry(root, width=30, borderwidth=0)
 curr_entry.place(x=600, y=475)
 
 # Create a destination location entry box
@@ -49,12 +55,17 @@ dest_entry = Entry(root, width=30, borderwidth=2)
 dest_entry.place(x=600, y=550)
 
 # Create an introduction text
-welcome_label = Label(root, text='Welcome!', font=('Helvetica', 20), bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
-welcome_label.place(x=700, y=210)
+welcome_label = Label(root, text='Welcome!', font=('Helvetica', 25), bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
+welcome_label.place(x=680, y=180)
 
-intro_label = Label(root, text="Let's help you find the safest post-pandemic flight across the globe",
+intro_label = Label(root, text="Let's help you find the safest post-pandemic international flight across the globe",
                     font=WINDOW_FONT_SIZE, bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
-intro_label.place(x=540, y=250)
+intro_label.place(x=490, y=250)
+
+view_map_label = Label(root, text="Click here to view our Safety Choropleth map for reference",
+                       font=('Helvetica', 15, 'italic', 'underline'), bg=WINDOW_COLOUR, fg=TEXT_COLOUR, cursor='hand2')
+view_map_label.place(x=550, y=280)
+view_map_label.bind('<Button-1>', lambda x: plot_map('data/sample_data_map.csv'))
 
 
 def display_direct_flight():
@@ -62,9 +73,22 @@ def display_direct_flight():
     the system has found a direct flight between the user's current country and their destination country
 
     """
+    result_root = Toplevel()
+    result_root.title('Direct flight')
+    result_root.config(bg=WINDOW_COLOUR)
+    w = root.winfo_screenwidth()
+    h = root.winfo_screenheight()
+    result_root.geometry("%dx%d" % (w, h))
+
+    # User's name
+    user_answer = name_entry.get()
+
+    # Display text on the right-hand side of the screen
+
+    # Display graph on the left-hand side of the screen
 
 
-def display_layover_countries():
+def display_layover_countries(top3_flights: list[tuple]):
     """Display onto a new tkinter window the graphs of the top three safest layover countries based on
     the user's input of current country and destination country.
 
@@ -72,6 +96,46 @@ def display_layover_countries():
     and display a ranking from safest to least safe with a bold highlight on the safest layover country.
 
     """
+    # user's name
+    user_name = name_entry.get()
+
+    first, second, third = top3_flights
+
+    result_root = Toplevel()
+    result_root.title('Top 3 layover flights')
+    result_root.config(bg=WINDOW_COLOUR)
+    w = root.winfo_screenwidth()
+    h = root.winfo_screenheight()
+    result_root.geometry("%dx%d" % (w, h))
+
+    # Display communication text
+    communicate_label1 = Label(result_root,
+                               text=f"Hi {user_name}, we found you the top three safest layover countries for your "
+                                    f"destination", font=('Helvetica', 15), bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
+    communicate_label1.pack(pady=(75, 5))
+    communicate_label2 = Label(result_root, text=f"Your best choice is {first[0]} with the safety index of {first[1]}.",
+                               font=('Helvetica', 15), bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
+    communicate_label2.pack(pady=5)
+
+    # Display 1st country, bold and with the text '(recommended)' below the country name
+    first_label = Label(result_root, text='1. ' + first[0], font=('Helvetica', 15, 'bold'),
+                        bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
+    first_label.place(x=675, y=750)
+    recomended_label = Label(result_root, text='(recommended)', font=('Helvetica', 13, 'italic'),
+                             bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
+    recomended_label.place(x=670, y=775)
+
+    # Display 2nd country
+    second_label = Label(result_root, text='2. ' + second[0], font=('Helvetica', 15),
+                         bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
+    second_label.place(x=175, y=750)
+
+    # Display 3rd country
+    third_label = Label(result_root, text='3. ' + third[0], font=('Helvetica', 15),
+                        bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
+    third_label.place(x=1175, y=750)
+
+    # Display three graphs corresponding to three layover countries
 
 
 def display_no_result():
@@ -80,7 +144,7 @@ def display_no_result():
 
     """
     result_root = Toplevel()
-    result_root.title('No flight in database')
+    result_root.title('No flight')
     result_root.config(bg=WINDOW_COLOUR)
     w = root.winfo_screenwidth()
     h = root.winfo_screenheight()
@@ -112,6 +176,59 @@ def display_no_result():
     result_root.mainloop()
 
 
+def error_message(box_empty: bool = False, both_incorrect: bool = False, same_location: bool = False):
+    """Display a message box if
+
+    :param box_empty:
+    :return:
+    """
+    if not box_empty:
+        if both_incorrect:
+            messagebox.showinfo('Error', 'Sorry, both inputs are not in our database. Please try again')
+        else:
+            if same_location:
+                messagebox.showinfo('Error', 'Sorry, two inputs can not be the same. Please try again')
+            else:
+                messagebox.showinfo('Error', 'Sorry, one of your inputs is not in our database.\nPlease try '
+                                             'again')
+
+    else:  # If box is empty
+        messagebox.showinfo('Error', 'Sorry, your input is incomplete. Please try again')
+
+
+def display_results(source_country: str, dest_country: str):
+    """
+
+    :param source_country:
+    :param dest_country:
+    :return:
+    """
+    # A complete graph of flights
+    flight_network = Flights()  # For testing purpose only
+    # generate_complete_flight_network() # Return a complete graph of flights from the database
+
+    # Two objects of source country and destination country
+    source_vertex = flight_network.countries[source_country]
+    dest_vertex = flight_network.countries[dest_country]
+
+    # Check for a direct flight
+    check_direct_flight = flight_network.adjacent(source_country, dest_country)
+
+    if check_direct_flight:  # Direct flight
+        display_direct_flight()
+
+    elif source_vertex.check_connected(dest_country, set()):  # Case 2: Two countries are connected
+        possible_flights = source_vertex.find_flights(dest_vertex, set())
+        # For testing purpose, ('ITALY', 3.0), ('POLAND', 2.0), ('UNITED STATES', 1.0)]
+
+        top3_flights = compute_stats.compute_safest_neighbour(possible_flights)
+
+        display_layover_countries(top3_flights)
+
+    else:
+        display_no_result()
+
+
 def check_inputs():
     """Check the user's input after the 'Submit' button is clicked and display the corresponding responses.
         Note: For simplicity, 'CC' is short for 'current country', and 'DC' is short for 'destination country'
@@ -119,44 +236,32 @@ def check_inputs():
         - If the input for CC and DC are empty, ask the user to input again
         - If either the input for CC or DC is empty, ask the user to input the missing parameter.
         - If either the input for CC or DC is not in the database, ask the user to try again.
+        - If the input for CC and DC are the same, ask the user to try again.
 
-        Otherwise, proceed to the next window accordingly to three conditions:
-        - Direct flight:
-        - Top layover countries:
-        - No result founded:
-
-        *TO BE FINISHED!!!*
+        Otherwise, call display_results which proceeds to the next window accordingly to one of these conditions:
+        - Direct flight: The vertices reprensenting two input countries are adjacent in the graph.
+        - Top layover flights: The vertices representing two input countries are connected in the graph
+        - No result founded: The vertices representing two input countries are not connected in the graph
 
     """
-    curr_location_ans = curr_entry.get()
-    dest_location_ans = dest_entry.get()
-    database_countries = ['Canada', 'Vietnam']
+    curr_location = curr_entry.get().upper()
+    dest_location = dest_entry.get().upper()
+    database_countries = ['CANADA', 'FRANCE', 'GERMANY']  # For testing purposes
 
-    if not curr_location_ans and not dest_location_ans:
-        print('Please enter your information')
+    if not curr_location or not dest_location:  # Input is empty
+        error_message(True)
 
-    elif not curr_location_ans:
-        print('Please enter your current country')
+    elif curr_location not in database_countries and dest_location not in database_countries:  # Input's not in database
+        error_message(False, True)
 
-    elif not dest_location_ans:
-        print('Please enter your destination country')
+    elif curr_location not in database_countries or dest_location not in database_countries:
+        error_message()
 
-    elif curr_location_ans not in database_countries:
-        print('Sorry, your current country is not in our database. Please try again')
-
-    elif dest_location_ans not in database_countries:
-        print('Sorry, your destination country is not in our database. Please try again')
+    elif curr_location == dest_location:  # Both inputs are the same
+        error_message(False, False, True)
 
     else:
-        print('Successfully submitted')
-        # Case 1: Show direct flight
-        display_direct_flight()
-
-        # Case 2: Show top 3 layover countries and highlight the safest one
-        display_layover_countries()
-
-        # Case 3: No direct flight and no layover countries
-        display_no_result()
+        display_results(curr_location, dest_location)
 
 
 # Create a submit button

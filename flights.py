@@ -131,3 +131,18 @@ class Flights:
             return c1.check_connected(country2, set())
         else:
             return False
+
+    def adjacent(self, country1: str, country2: str) -> bool:
+        """Return whether country1 is adjacent to country2 in this flights network
+
+         In our domain context, if country1 is adjacent to country2,
+         that means there is a direct flight between two countries.
+
+        Return False if country1 and country2 do not appear as countries in this flight.
+        """
+        if country1 in self.countries and country2 in self.countries:
+            v1 = self.countries[country1]
+            return any(neighbour == country2 for neighbour in v1.neighbours)  # v1.neighbours are a dict of vertices of v1
+        else:
+            # We didn't find an existing vertex for both items.
+            return False
