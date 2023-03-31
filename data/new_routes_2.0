@@ -1,4 +1,4 @@
-Russia,Azerbaijan
+Russian Federation,Azerbaijan
 Cote d'Ivoire,Burkina Faso
 Ghana,Burkina Faso
 Mali,Cote d'Ivoire
@@ -90,7 +90,7 @@ Malaysia,Singapore
 Australia,Singapore
 Cambodia,Singapore
 Burma,Singapore
-Vietnam,Singapore
+Viet Nam,Singapore
 Singapore,Thailand
 Singapore,Australia
 Singapore,China
@@ -101,7 +101,7 @@ Singapore,Malaysia
 Singapore,Australia
 Singapore,Cambodia
 Singapore,Burma
-Singapore,Vietnam
+Singapore,Viet Nam
 Singapore,China
 China,Singapore
 Switzerland,Italy
@@ -175,11 +175,20 @@ Morocco,Spain
 Morocco,Belgium
 Morocco,The United Kingdom
 Italy,Morocco
-Uzbekistan,Russia
-Russia,Uzbekistan
-Russia,Montenegro
-Uzbekistan,Russia
-Montenegro,Russia
+Uzbekistan,Russian Federation
+Russian Federation,Uzbekistan
+Russian Federation,Uzbekistan
+Russian Federation,Uzbekistan
+Russian Federation,Uzbekistan
+Russian Federation,Uzbekistan
+Russian Federation,Uzbekistan
+Russian Federation,Montenegro
+Uzbekistan,Russian Federation
+Uzbekistan,Russian Federation
+Uzbekistan,Russian Federation
+Uzbekistan,Russian Federation
+Uzbekistan,Russian Federation
+Montenegro,Russian Federation
 China,Northern Mariana Islands
 China,Thailand
 China,Australia
@@ -189,17 +198,17 @@ China,Australia
 Thailand,China
 Republic of Korea,China
 Australia,China
-China,Vietnam
+China,Viet Nam
 China,Northern Mariana Islands
-Vietnam,China
+Viet Nam,China
 China,Canada
 Northern Mariana Islands,China
 Australia,China
 Canada,China
 Egypt,Israel
 Israel,Egypt
-Uzbekistan,Russia
-Russia,Uzbekistan
+Uzbekistan,Russian Federation
+Russian Federation,Uzbekistan
 Thailand,Bangladesh
 India,Bangladesh
 Bangladesh,India
@@ -576,7 +585,7 @@ Indonesia,Philippines
 Philippines,Singapore
 Indonesia,Philippines
 United Arab Emirates,Philippines
-Vietnam,Philippines
+Viet Nam,Philippines
 Thailand,Philippines
 Republic of Korea,Philippines
 Republic of Korea,Philippines
@@ -591,7 +600,7 @@ Philippines,Brunei
 Philippines,China
 Philippines,Indonesia
 Philippines,United Arab Emirates
-Philippines,Vietnam
+Philippines,Viet Nam
 Philippines,Thailand
 Philippines,Republic of Korea
 Philippines,Japan
@@ -601,7 +610,7 @@ Philippines,China
 Philippines,Republic of Korea
 Philippines,China
 Philippines,Cambodia
-Philippines,Vietnam
+Philippines,Viet Nam
 Philippines,Singapore
 Philippines,China
 Japan,Philippines
@@ -610,13 +619,13 @@ Republic of Korea,Philippines
 Republic of Korea,Philippines
 China,Philippines
 Cambodia,Philippines
-Vietnam,Philippines
+Viet Nam,Philippines
 Singapore,Philippines
 China,Philippines
 Antigua and Barbuda,Saint Kitts and Nevis
 Saint Kitts and Nevis,Antigua and Barbuda
-Russia,Norway
-Norway,Russia
+Russian Federation,Norway
+Norway,Russian Federation
 Argentina,Uruguay
 Paraguay,Uruguay
 Brazil,Uruguay
@@ -659,10 +668,10 @@ Israel,Italy
 Israel,France
 Israel,Germany
 Israel,Georgia
-Armenia,Russia
-Czech Republic,Russia
-Russia,Armenia
-Russia,Czech Republic
+Armenia,Russian Federation
+Czech Republic,Russian Federation
+Russian Federation,Armenia
+Russian Federation,Czech Republic
 Latvia,Spain
 Spain,Latvia
 Thailand,Republic of Korea
@@ -690,37 +699,48 @@ Republic of Korea,Thailand
 China,Republic of Korea
 Suriname,Trinidad and Tobago
 Trinidad and Tobago,Suriname
-Russia,Tajikistan
+Russian Federation,Tajikistan
 Kazakhstan,Tajikistan
 India,Tajikistan
-Russia,Tajikistan
-Tajikistan,Russia
+Russian Federation,Tajikistan
+Russian Federation,Tajikistan
+Tajikistan,Russian Federation
 Tajikistan,Kazakhstan
 Tajikistan,India
-Tajikistan,Russia
+Tajikistan,Russian Federation
 Tajikistan,Kyrgyzstan
 Tajikistan,Iran (Islamic Republic of)
 Tajikistan,Turkiye
-Tajikistan,Russia
+Tajikistan,Russian Federation
+Tajikistan,Russian Federation
+Tajikistan,Russian Federation
 Tajikistan,United Arab Emirates
-Tajikistan,Russia
+Tajikistan,Russian Federation
 Tajikistan,China
 Kyrgyzstan,Tajikistan
 Iran (Islamic Republic of),Tajikistan
 Turkiye,Tajikistan
-Tajikistan,Russia
-Russia,Tajikistan
+Tajikistan,Russian Federation
+Tajikistan,Russian Federation
+Tajikistan,Russian Federation
+Tajikistan,Russian Federation
+Russian Federation,Tajikistan
+Russian Federation,Tajikistan
+Russian Federation,Tajikistan
+Russian Federation,Tajikistan
+Russian Federation,Tajikistan
+Russian Federation,Tajikistan
 United Arab Emirates,Tajikistan
-Russia,Tajikistan
+Russian Federation,Tajikistan
 China,Tajikistan
 Panama,Costa Rica
 Costa Rica,Panama
-Kazakhstan,Russia
-Russia,Kazakhstan
-Armenia,Russia
-Russia,Turkiye
-Turkiye,Russia
-Russia,Armenia
+Kazakhstan,Russian Federation
+Russian Federation,Kazakhstan
+Armenia,Russian Federation
+Russian Federation,Turkiye
+Turkiye,Russian Federation
+Russian Federation,Armenia
 Thailand,China
 Thailand,Republic of Korea
 China,Thailand
@@ -744,16 +764,16 @@ Burma,Malaysia
 Burma,Cambodia
 Burma,Singapore
 Singapore,Burma
-Turkiye,Russia
-Turkiye,Russia
+Turkiye,Russian Federation
+Turkiye,Russian Federation
 France,Turkiye
 Cyprus,Turkiye
 Turkiye,France
 Turkiye,Cyprus
 Turkiye,Ukraine
-Russia,Turkiye
+Russian Federation,Turkiye
 Ukraine,Turkiye
-Russia,Turkiye
+Russian Federation,Turkiye
 Uruguay,Argentina
 Argentina,Uruguay
 Jordan,Libya
@@ -806,41 +826,41 @@ Mexico,Belize
 Guatemala,Belize
 Mexico,Belize
 Honduras,Belize
-Russia,Republic of Moldova
+Russian Federation,Republic of Moldova
 Greece,Republic of Moldova
 Italy,Republic of Moldova
 France,Republic of Moldova
-Russia,Republic of Moldova
+Russian Federation,Republic of Moldova
 Ireland,Republic of Moldova
 Italy,Republic of Moldova
 Germany,Republic of Moldova
 Turkiye,Republic of Moldova
 Ukraine,Republic of Moldova
-Republic of Moldova,Russia
+Republic of Moldova,Russian Federation
 Republic of Moldova,Greece
 Republic of Moldova,Italy
 Republic of Moldova,France
-Republic of Moldova,Russia
+Republic of Moldova,Russian Federation
 Republic of Moldova,Ireland
 Republic of Moldova,Italy
 Republic of Moldova,Germany
 Republic of Moldova,Turkiye
 Republic of Moldova,Ukraine
 Republic of Moldova,Cyprus
-Republic of Moldova,Russia
+Republic of Moldova,Russian Federation
 Republic of Moldova,Portugal
 Republic of Moldova,Italy
 Republic of Moldova,Romania
-Republic of Moldova,Russia
+Republic of Moldova,Russian Federation
 Republic of Moldova,The United Kingdom
 Republic of Moldova,Italy
 Republic of Moldova,Italy
 Cyprus,Republic of Moldova
-Russia,Republic of Moldova
+Russian Federation,Republic of Moldova
 Portugal,Republic of Moldova
 Italy,Republic of Moldova
 Romania,Republic of Moldova
-Russia,Republic of Moldova
+Russian Federation,Republic of Moldova
 The United Kingdom,Republic of Moldova
 Italy,Republic of Moldova
 Italy,Republic of Moldova
@@ -938,7 +958,7 @@ Greece,Belgium
 Greece,Hungary
 Greece,Egypt
 Greece,France
-Greece,Russia
+Greece,Russian Federation
 Greece,Germany
 Greece,Italy
 Greece,Germany
@@ -947,7 +967,7 @@ Greece,Egypt
 Greece,Ukraine
 Greece,Turkiye
 Greece,Cyprus
-Greece,Russia
+Greece,Russian Federation
 Greece,The United Kingdom
 Greece,France
 Greece,Spain
@@ -975,9 +995,14 @@ Belgium,Greece
 Hungary,Greece
 Egypt,Greece
 France,Greece
-Greece,Russia
+Greece,Russian Federation
 Denmark,Greece
-Russia,Greece
+Russian Federation,Greece
+Russian Federation,Greece
+Russian Federation,Greece
+Russian Federation,Greece
+Russian Federation,Greece
+Russian Federation,Greece
 Germany,Greece
 Italy,Greece
 Germany,Greece
@@ -988,9 +1013,9 @@ Egypt,Greece
 Greece,France
 Greece,Belgium
 Greece,France
-Greece,Russia
+Greece,Russian Federation
 Greece,Germany
-Greece,Russia
+Greece,Russian Federation
 Greece,France
 Greece,Germany
 Greece,Israel
@@ -998,11 +1023,14 @@ Greece,Germany
 Greece,Austria
 Ukraine,Greece
 Turkiye,Greece
-Greece,Russia
+Greece,Russian Federation
 Greece,Sweden
 Greece,Germany
 Cyprus,Greece
-Russia,Greece
+Russian Federation,Greece
+Russian Federation,Greece
+Russian Federation,Greece
+Russian Federation,Greece
 The United Kingdom,Greece
 France,Greece
 Spain,Greece
@@ -1017,14 +1045,15 @@ Romania,Greece
 United States of America,Greece
 Czech Republic,Greece
 Greece,France
-Greece,Russia
+Greece,Russian Federation
+Greece,Russian Federation
 Greece,Sweden
 Greece,France
 Greece,Denmark
-Greece,Russia
+Greece,Russian Federation
 Greece,Germany
 Greece,Cyprus
-Greece,Russia
+Greece,Russian Federation
 Greece,Germany
 Bulgaria,Greece
 Germany,Greece
@@ -1061,19 +1090,20 @@ France,Netherlands
 France,Italy
 Italy,France
 Netherlands,Georgia
-Georgia,Russia
+Georgia,Russian Federation
 France,Georgia
-Russia,Georgia
+Russian Federation,Georgia
 Latvia,Georgia
 Georgia,Netherlands
 Georgia,France
 Georgia,Latvia
 Georgia,Israel
 Georgia,Austria
-Georgia,Russia
+Georgia,Russian Federation
 Israel,Georgia
 Austria,Georgia
-Russia,Georgia
+Russian Federation,Georgia
+Russian Federation,Georgia
 Ghana,The United Kingdom
 Spain,The United Kingdom
 Mexico,United States of America
@@ -1303,7 +1333,7 @@ Ecuador,United States of America
 Ecuador,United States of America
 Germany,The United Kingdom
 Germany,The United Kingdom
-Vietnam,Japan
+Viet Nam,Japan
 Finland,United States of America
 Finland,The United Kingdom
 Finland,The United Kingdom
@@ -1560,7 +1590,7 @@ United States of America,Jamaica
 United States of America,The United Kingdom
 United States of America,Peru
 United States of America,Costa Rica
-United States of America,Bolivia
+United States of America,Bolivia (Plurinational State of)
 United States of America,Dominican Republic
 United States of America,Spain
 United States of America,Brazil
@@ -1619,7 +1649,7 @@ Japan,United States of America
 Japan,Thailand
 Japan,United States of America
 Japan,United States of America
-Japan,Vietnam
+Japan,Viet Nam
 Japan,United States of America
 Japan,Republic of Korea
 Japan,United States of America
@@ -1628,7 +1658,7 @@ Japan,United States of America
 Japan,United States of America
 Japan,Republic of Korea
 Japan,United States of America
-Japan,Vietnam
+Japan,Viet Nam
 Japan,Singapore
 Japan,Canada
 United States of America,Jordan
@@ -1750,7 +1780,7 @@ United States of America,Canada
 United States of America,Japan
 United States of America,The United Kingdom
 United States of America,Mexico
-Vietnam,Japan
+Viet Nam,Japan
 Singapore,Malaysia
 Singapore,Japan
 United States of America,Mexico
@@ -1794,7 +1824,7 @@ Saint Lucia,United States of America
 Italy,The United Kingdom
 Italy,United States of America
 Austria,The United Kingdom
-Bolivia,United States of America
+Bolivia (Plurinational State of),United States of America
 Poland,The United Kingdom
 Canada,United States of America
 Canada,United States of America
@@ -1926,7 +1956,10 @@ Italy,Switzerland
 Mexico,Germany
 United States of America,Germany
 Tunisia,Germany
-Russia,Germany
+Russian Federation,Germany
+Russian Federation,Germany
+Russian Federation,Germany
+Russian Federation,Germany
 Germany,Turkiye
 Germany,Greece
 Germany,Egypt
@@ -1945,7 +1978,7 @@ Germany,Denmark
 Germany,Italy
 Germany,Mexico
 Germany,Tunisia
-Germany,Russia
+Germany,Russian Federation
 Germany,Portugal
 Germany,Italy
 Germany,Portugal
@@ -2006,7 +2039,7 @@ Germany,Serbia
 Germany,Greece
 Germany,Italy
 Germany,United States of America
-Germany,Russia
+Germany,Russian Federation
 Germany,Finland
 Germany,Spain
 Germany,The United Kingdom
@@ -2070,7 +2103,7 @@ Austria,Spain
 United States of America,Germany
 United States of America,Germany
 Greece,Austria
-Russia,Germany
+Russian Federation,Germany
 Greece,Germany
 Greece,Austria
 Poland,Germany
@@ -2079,7 +2112,7 @@ United States of America,Germany
 Cyprus,Austria
 The United Kingdom,Germany
 The United Kingdom,Switzerland
-Russia,Germany
+Russian Federation,Germany
 Germany,Spain
 Germany,Turkiye
 Germany,Portugal
@@ -2125,7 +2158,7 @@ Germany,Turkiye
 Germany,Italy
 Germany,Greece
 Germany,Italy
-Germany,Russia
+Germany,Russian Federation
 Germany,Portugal
 Germany,Spain
 Germany,Finland
@@ -2268,7 +2301,7 @@ Germany,Hungary
 Germany,Greece
 Germany,Denmark
 Germany,Italy
-Germany,Russia
+Germany,Russian Federation
 Germany,Portugal
 Germany,Italy
 Germany,Portugal
@@ -2281,10 +2314,10 @@ Germany,Greece
 Germany,Egypt
 Germany,Spain
 Germany,United States of America
-Germany,Russia
+Germany,Russian Federation
 Germany,Greece
 Germany,Poland
-Germany,Russia
+Germany,Russian Federation
 Germany,The United Kingdom
 Germany,Spain
 Germany,United States of America
@@ -2893,7 +2926,7 @@ France,Brazil
 France,Switzerland
 France,Azerbaijan
 France,Germany
-France,Vietnam
+France,Viet Nam
 France,Cuba
 France,Finland
 France,Japan
@@ -2912,7 +2945,7 @@ France,Angola
 France,United States of America
 France,Gabon
 France,Cyprus
-France,Russia
+France,Russian Federation
 France,Togo
 France,The United Kingdom
 France,Peru
@@ -2957,13 +2990,13 @@ France,Saudi Arabia
 France,Chile
 France,United States of America
 France,United States of America
-France,Vietnam
+France,Viet Nam
 France,Singapore
 France,United States of America
 France,Bulgaria
 France,Germany
 France,Norway
-France,Russia
+France,Russian Federation
 France,Georgia
 France,Israel
 France,Madagascar
@@ -3047,8 +3080,8 @@ Azerbaijan,France
 Ecuador,Netherlands
 Comoros,Kenya
 Germany,France
-Vietnam,France
-Vietnam,Cambodia
+Viet Nam,France
+Viet Nam,Cambodia
 Cuba,France
 Finland,France
 Japan,France
@@ -3097,7 +3130,7 @@ The United Kingdom,Italy
 The United Kingdom,France
 The United Kingdom,France
 The United Kingdom,Netherlands
-Russia,France
+Russian Federation,France
 Togo,France
 Belgium,France
 The United Kingdom,United States of America
@@ -3160,7 +3193,7 @@ France,Turkiye
 France,Italy
 France,Czech Republic
 France,Morocco
-France,Russia
+France,Russian Federation
 France,Israel
 France,Tunisia
 France,Germany
@@ -3230,7 +3263,7 @@ Dominican Republic,France
 China,France
 Mexico,United States of America
 Morocco,France
-Cambodia,Vietnam
+Cambodia,Viet Nam
 Latvia,France
 France,The United Kingdom
 France,The United Kingdom
@@ -3245,7 +3278,7 @@ Dominican Republic,France
 United States of America,France
 United States of America,The United Kingdom
 United States of America,France
-Vietnam,France
+Viet Nam,France
 Singapore,France
 Mexico,United States of America
 Costa Rica,United States of America
@@ -3264,7 +3297,8 @@ Germany,United States of America
 Germany,France
 Virgin Islands,United States of America
 Norway,France
-Russia,France
+Russian Federation,France
+Russian Federation,France
 Spain,France
 France,Netherlands
 France,Italy
@@ -3333,7 +3367,7 @@ Algeria,France
 Algeria,Burkina Faso
 Algeria,China
 Algeria,Spain
-Algeria,Russia
+Algeria,Russian Federation
 Algeria,Libya
 Algeria,France
 Algeria,Tunisia
@@ -3384,7 +3418,7 @@ Burkina Faso,Algeria
 China,Algeria
 Spain,Algeria
 Algeria,France
-Russia,Algeria
+Russian Federation,Algeria
 Libya,Algeria
 Algeria,France
 France,Algeria
@@ -3532,7 +3566,7 @@ Thailand,Malaysia
 India,Malaysia
 Thailand,Malaysia
 Indonesia,Malaysia
-Vietnam,Malaysia
+Viet Nam,Malaysia
 Thailand,Malaysia
 China,Malaysia
 Thailand,Malaysia
@@ -3553,7 +3587,7 @@ Malaysia,Thailand
 Malaysia,India
 Malaysia,Thailand
 Malaysia,Indonesia
-Malaysia,Vietnam
+Malaysia,Viet Nam
 Malaysia,Thailand
 Malaysia,Indonesia
 Malaysia,Thailand
@@ -3565,7 +3599,7 @@ Malaysia,China
 Malaysia,Indonesia
 Malaysia,Cambodia
 Malaysia,Burma
-Malaysia,Vietnam
+Malaysia,Viet Nam
 Malaysia,Singapore
 Malaysia,Indonesia
 Malaysia,China
@@ -3584,7 +3618,7 @@ Malaysia,Singapore
 Indonesia,Malaysia
 Cambodia,Malaysia
 Burma,Malaysia
-Vietnam,Malaysia
+Viet Nam,Malaysia
 Singapore,Malaysia
 Indonesia,Malaysia
 China,Malaysia
@@ -3664,10 +3698,10 @@ United States of America,Mexico
 United States of America,Mexico
 United States of America,Mexico
 The United Kingdom,Mexico
-Peru,Bolivia
+Peru,Bolivia (Plurinational State of)
 Peru,Mexico
-Peru,Bolivia
-Bolivia,Peru
+Peru,Bolivia (Plurinational State of)
+Bolivia (Plurinational State of),Peru
 Spain,United States of America
 Spain,Belgium
 Spain,Mexico
@@ -3759,7 +3793,7 @@ Mexico,Guatemala
 Mexico,Japan
 Mexico,China
 Ecuador,Mexico
-Bolivia,Peru
+Bolivia (Plurinational State of),Peru
 Canada,United States of America
 Canada,Mexico
 Mexico,United States of America
@@ -3775,12 +3809,12 @@ Italy,Germany
 Italy,The United Kingdom
 Italy,France
 Italy,Germany
-Italy,Russia
+Italy,Russian Federation
 Italy,Germany
 Italy,Austria
 Germany,Italy
 Italy,Albania
-Russia,Italy
+Russian Federation,Italy
 The United Kingdom,Italy
 The United Kingdom,Italy
 Italy,Netherlands
@@ -3790,20 +3824,22 @@ Italy,Albania
 Italy,Netherlands
 Italy,France
 Italy,The United Kingdom
-Italy,Russia
+Italy,Russian Federation
 Italy,Germany
 Czech Republic,Italy
 Italy,Czech Republic
-Italy,Russia
+Italy,Russian Federation
 Italy,Albania
 Italy,Germany
 Germany,Italy
-Russia,Italy
+Russian Federation,Italy
+Russian Federation,Italy
+Russian Federation,Italy
 Albania,Italy
 Germany,Italy
 Italy,Greece
 Italy,Denmark
-Italy,Russia
+Italy,Russian Federation
 Italy,Czech Republic
 Italy,Albania
 Austria,Italy
@@ -3835,7 +3871,7 @@ Argentina,Spain
 Argentina,United States of America
 Argentina,Uruguay
 Argentina,Chile
-Argentina,Bolivia
+Argentina,Bolivia (Plurinational State of)
 Italy,Argentina
 Brazil,Argentina
 United States of America,Argentina
@@ -3845,7 +3881,7 @@ United States of America,Argentina
 Uruguay,Argentina
 Brazil,Argentina
 Chile,Argentina
-Bolivia,Argentina
+Bolivia (Plurinational State of),Argentina
 Mexico,United States of America
 Mexico,United States of America
 United States of America,Mexico
@@ -3905,7 +3941,7 @@ Lebanon,Morocco
 Central African Republic,Morocco
 Gambia,Morocco
 Gambia,Guinea-Bissau
-Gambia,Cape Verde
+Gambia,Cabo Verde
 Mali,Morocco
 Italy,Morocco
 France,Morocco
@@ -3963,10 +3999,10 @@ Morocco,France
 Morocco,Burkina Faso
 Morocco,Guinea-Bissau
 Morocco,Congo (Brazzaville)
-Morocco,Cape Verde
+Morocco,Cabo Verde
 Morocco,Liberia
 Morocco,Equatorial Guinea
-Morocco,Russia
+Morocco,Russian Federation
 Morocco,France
 Morocco,Spain
 Morocco,Libya
@@ -4027,12 +4063,12 @@ Morocco,Belgium
 Morocco,France
 Guinea-Bissau,Gambia
 Guinea-Bissau,Morocco
-Guinea-Bissau,Cape Verde
+Guinea-Bissau,Cabo Verde
 Morocco,France
 Congo (Brazzaville),Morocco
-Cape Verde,Gambia
-Cape Verde,Morocco
-Cape Verde,Guinea-Bissau
+Cabo Verde,Gambia
+Cabo Verde,Morocco
+Cabo Verde,Guinea-Bissau
 Morocco,France
 Morocco,Belgium
 Morocco,The United Kingdom
@@ -4048,7 +4084,7 @@ Saudi Arabia,Egypt
 Singapore,United Arab Emirates
 Equatorial Guinea,Morocco
 Equatorial Guinea,Gabon
-Russia,Morocco
+Russian Federation,Morocco
 France,Morocco
 Spain,Morocco
 Libya,Morocco
@@ -4085,7 +4121,7 @@ Colombia,United States of America
 Colombia,United States of America
 Colombia,United States of America
 Colombia,Peru
-Colombia,Bolivia
+Colombia,Bolivia (Plurinational State of)
 Colombia,Spain
 Colombia,United States of America
 Colombia,Mexico
@@ -4150,7 +4186,7 @@ Peru,Colombia
 Peru,Argentina
 Peru,Brazil
 Peru,Ecuador
-Peru,Bolivia
+Peru,Bolivia (Plurinational State of)
 Peru,Colombia
 Peru,Mexico
 Peru,United States of America
@@ -4161,10 +4197,10 @@ Peru,Chile
 Peru,Dominican Republic
 Peru,Costa Rica
 Peru,Ecuador
-Peru,Bolivia
+Peru,Bolivia (Plurinational State of)
 Costa Rica,El Salvador
-Bolivia,Colombia
-Bolivia,Peru
+Bolivia (Plurinational State of),Colombia
+Bolivia (Plurinational State of),Peru
 Spain,Colombia
 United States of America,Colombia
 United States of America,El Salvador
@@ -4245,7 +4281,7 @@ Honduras,Costa Rica
 Ecuador,Colombia
 Ecuador,Peru
 Ecuador,El Salvador
-Bolivia,Peru
+Bolivia (Plurinational State of),Peru
 Canada,Colombia
 Canada,Mexico
 Canada,El Salvador
@@ -4290,7 +4326,7 @@ United States of America,France
 United States of America,Germany
 United States of America,The United Kingdom
 United States of America,Spain
-Russia,Finland
+Russian Federation,Finland
 Ireland,United States of America
 Ireland,United States of America
 Germany,Denmark
@@ -4328,7 +4364,7 @@ Finland,China
 Finland,Denmark
 Finland,Croatia
 Finland,India
-Finland,Russia
+Finland,Russian Federation
 Finland,Germany
 Finland,Italy
 Finland,Germany
@@ -4341,7 +4377,7 @@ Finland,United States of America
 Finland,Iceland
 Finland,Japan
 Finland,Poland
-Finland,Russia
+Finland,Russian Federation
 Finland,The United Kingdom
 Finland,Portugal
 Finland,Slovenia
@@ -4360,7 +4396,8 @@ Finland,Czech Republic
 Finland,China
 Finland,Latvia
 Finland,Singapore
-Finland,Russia
+Finland,Russian Federation
+Finland,Russian Federation
 Finland,Estonia
 Finland,Israel
 Finland,Germany
@@ -4391,7 +4428,7 @@ United States of America,The United Kingdom
 United States of America,The United Kingdom
 United States of America,The United Kingdom
 United States of America,Spain
-Russia,Finland
+Russian Federation,Finland
 The United Kingdom,United States of America
 The United Kingdom,United States of America
 The United Kingdom,United States of America
@@ -4480,7 +4517,8 @@ United States of America,The United Kingdom
 United States of America,The United Kingdom
 Singapore,Finland
 Bulgaria,Germany
-Russia,Finland
+Russian Federation,Finland
+Russian Federation,Finland
 Austria,Germany
 Estonia,Finland
 Israel,Finland
@@ -4600,7 +4638,7 @@ Italy,Netherlands
 Italy,France
 Italy,Romania
 Italy,Portugal
-Italy,Russia
+Italy,Russian Federation
 Italy,Albania
 India,United Arab Emirates
 France,Italy
@@ -4637,7 +4675,7 @@ France,Armenia
 France,Italy
 France,Sweden
 France,Germany
-France,Vietnam
+France,Viet Nam
 France,United States of America
 France,United States of America
 France,United States of America
@@ -4659,7 +4697,7 @@ France,Dominican Republic
 France,Chile
 France,United States of America
 France,United States of America
-France,Vietnam
+France,Viet Nam
 France,Germany
 France,Norway
 France,Italy
@@ -4684,7 +4722,7 @@ Italy,Germany
 Italy,The United Kingdom
 Italy,France
 Italy,Germany
-Italy,Russia
+Italy,Russian Federation
 Italy,Germany
 Italy,Austria
 China,United Arab Emirates
@@ -4743,7 +4781,7 @@ Italy,Japan
 Italy,Kuwait
 Italy,United States of America
 Italy,The United Kingdom
-Italy,Russia
+Italy,Russian Federation
 Italy,The United Kingdom
 Italy,Portugal
 Italy,Nigeria
@@ -4767,7 +4805,7 @@ Italy,Saudi Arabia
 Italy,Greece
 Italy,Macedonia
 Italy,Bulgaria
-Italy,Russia
+Italy,Russian Federation
 Italy,France
 Italy,Georgia
 Italy,Montenegro
@@ -4785,10 +4823,10 @@ Italy,Netherlands
 Italy,France
 Italy,Switzerland
 Germany,Italy
-Germany,Vietnam
+Germany,Viet Nam
 Germany,Italy
-Germany,Vietnam
-Kyrgyzstan,Russia
+Germany,Viet Nam
+Kyrgyzstan,Russian Federation
 Mexico,United States of America
 Brazil,Italy
 The United Kingdom,Netherlands
@@ -4802,8 +4840,8 @@ Germany,Netherlands
 Germany,France
 Germany,Netherlands
 Germany,France
-Vietnam,France
-Vietnam,Germany
+Viet Nam,France
+Viet Nam,Germany
 Finland,Netherlands
 The United Kingdom,Netherlands
 United States of America,France
@@ -4837,7 +4875,9 @@ The United Kingdom,Netherlands
 Cyprus,Greece
 The United Kingdom,Italy
 The United Kingdom,Italy
-Russia,Italy
+Russian Federation,Italy
+Russian Federation,Italy
+Russian Federation,Italy
 The United Kingdom,Italy
 The United Kingdom,Italy
 Pakistan,United Arab Emirates
@@ -4889,7 +4929,7 @@ Italy,Egypt
 Italy,Azerbaijan
 Italy,Saudi Arabia
 Italy,United States of America
-Italy,Russia
+Italy,Russian Federation
 Italy,Portugal
 Italy,Luxembourg
 Italy,France
@@ -4899,7 +4939,7 @@ Italy,Portugal
 Italy,Latvia
 Italy,Saudi Arabia
 Italy,Bulgaria
-Italy,Russia
+Italy,Russian Federation
 Italy,Albania
 Italy,Tunisia
 Italy,France
@@ -4924,12 +4964,12 @@ China,United Arab Emirates
 Italy,Netherlands
 Italy,France
 Italy,The United Kingdom
-Italy,Russia
+Italy,Russian Federation
 Italy,Germany
 Czech Republic,France
 Czech Republic,Italy
 Italy,Czech Republic
-Italy,Russia
+Italy,Russian Federation
 Italy,Albania
 Italy,Germany
 Panama,Netherlands
@@ -4942,8 +4982,8 @@ Chile,France
 United States of America,France
 Seychelles,United Arab Emirates
 United States of America,France
-Vietnam,France
-Vietnam,Germany
+Viet Nam,France
+Viet Nam,Germany
 Singapore,United Arab Emirates
 Greece,Italy
 Macedonia,Italy
@@ -4953,14 +4993,18 @@ Germany,Italy
 Virgin Islands,United States of America
 Norway,Netherlands
 Norway,France
-Russia,Italy
-Russia,Kyrgyzstan
-Russia,Italy
-Russia,Uzbekistan
-Russia,Italy
+Russian Federation,Italy
+Russian Federation,Italy
+Russian Federation,Italy
+Russian Federation,Kyrgyzstan
+Russian Federation,Italy
+Russian Federation,Italy
+Russian Federation,Italy
+Russian Federation,Uzbekistan
+Russian Federation,Italy
 France,Italy
 Australia,United Arab Emirates
-Uzbekistan,Russia
+Uzbekistan,Russian Federation
 Georgia,Italy
 Montenegro,Italy
 Albania,Italy
@@ -4980,13 +5024,13 @@ Italy,Greece
 Italy,France
 Italy,Denmark
 Italy,United States of America
-Italy,Russia
+Italy,Russian Federation
 Italy,Portugal
 Italy,France
 Italy,Japan
 Italy,Czech Republic
 Italy,Latvia
-Italy,Russia
+Italy,Russian Federation
 Italy,Albania
 Italy,France
 Spain,France
@@ -5001,7 +5045,7 @@ Canada,France
 Canada,United States of America
 Canada,Italy
 Switzerland,Italy
-Russia,Belarus
+Russian Federation,Belarus
 Netherlands,Belarus
 Sweden,Belarus
 Turkmenistan,Belarus
@@ -5013,7 +5057,7 @@ Hungary,Serbia
 Hungary,Belarus
 Georgia,Belarus
 France,Belarus
-Russia,Belarus
+Russian Federation,Belarus
 Armenia,Belarus
 Italy,Belarus
 Germany,Belarus
@@ -5024,12 +5068,14 @@ Finland,Belarus
 Iran (Islamic Republic of),Belarus
 Turkiye,Belarus
 Ukraine,Belarus
-Russia,Belarus
+Russian Federation,Belarus
+Russian Federation,Belarus
+Russian Federation,Belarus
 Georgia,Belarus
 Cyprus,Belarus
-Russia,Belarus
+Russian Federation,Belarus
 The United Kingdom,Belarus
-Belarus,Russia
+Belarus,Russian Federation
 Belarus,Netherlands
 Belarus,Sweden
 Belarus,Turkmenistan
@@ -5039,7 +5085,7 @@ Belarus,Lebanon
 Belarus,Hungary
 Belarus,Georgia
 Belarus,France
-Belarus,Russia
+Belarus,Russian Federation
 Belarus,Armenia
 Belarus,Italy
 Belarus,Germany
@@ -5050,16 +5096,18 @@ Belarus,Finland
 Belarus,Iran (Islamic Republic of)
 Belarus,Turkiye
 Belarus,Ukraine
-Belarus,Russia
+Belarus,Russian Federation
+Belarus,Russian Federation
+Belarus,Russian Federation
 Belarus,Georgia
 Belarus,Cyprus
-Belarus,Russia
+Belarus,Russian Federation
 Belarus,The United Kingdom
 Belarus,Italy
 Belarus,France
 Belarus,Czech Republic
 Belarus,Latvia
-Belarus,Russia
+Belarus,Russian Federation
 Belarus,Germany
 Belarus,Georgia
 Belarus,Israel
@@ -5071,7 +5119,7 @@ Italy,Belarus
 France,Belarus
 Czech Republic,Belarus
 Latvia,Belarus
-Russia,Belarus
+Russian Federation,Belarus
 Germany,Belarus
 Georgia,Belarus
 Israel,Belarus
@@ -5267,7 +5315,7 @@ United States of America,The United Kingdom
 United States of America,Spain
 United States of America,Mexico
 United States of America,Mexico
-Russia,The United Kingdom
+Russian Federation,The United Kingdom
 Qatar,Bahrain
 Ireland,United States of America
 Ireland,The United Kingdom
@@ -5367,7 +5415,7 @@ The United Kingdom,Spain
 The United Kingdom,Netherlands
 The United Kingdom,Italy
 The United Kingdom,Switzerland
-Russia,The United Kingdom
+Russian Federation,The United Kingdom
 The United Kingdom,Spain
 The United Kingdom,Spain
 The United Kingdom,Spain
@@ -5438,7 +5486,7 @@ The United Kingdom,China
 The United Kingdom,India
 The United Kingdom,United States of America
 The United Kingdom,United States of America
-The United Kingdom,Russia
+The United Kingdom,Russian Federation
 The United Kingdom,Ireland
 The United Kingdom,Germany
 The United Kingdom,United Arab Emirates
@@ -5475,7 +5523,7 @@ The United Kingdom,Angola
 The United Kingdom,United States of America
 The United Kingdom,United States of America
 The United Kingdom,Cyprus
-The United Kingdom,Russia
+The United Kingdom,Russian Federation
 The United Kingdom,Italy
 The United Kingdom,Portugal
 The United Kingdom,Nigeria
@@ -5828,16 +5876,16 @@ France,Tunisia
 Tunisia,France
 Tunisia,Germany
 Tunisia,France
-Russia,Tunisia
+Russian Federation,Tunisia
 Germany,Tunisia
-Russia,Tunisia
+Russian Federation,Tunisia
 France,Tunisia
 Tunisia,France
 France,Tunisia
 Germany,Tunisia
-Tunisia,Russia
+Tunisia,Russian Federation
 Tunisia,Germany
-Tunisia,Russia
+Tunisia,Russian Federation
 Tunisia,Germany
 France,Tunisia
 Tunisia,France
@@ -5903,7 +5951,7 @@ Belgium,Lithuania
 Hungary,Latvia
 France,Latvia
 Denmark,Latvia
-Russia,Latvia
+Russian Federation,Latvia
 Germany,Latvia
 Italy,Latvia
 Germany,United Arab Emirates
@@ -5913,10 +5961,10 @@ Azerbaijan,Latvia
 Germany,Latvia
 Finland,Latvia
 Ukraine,Latvia
-Russia,Latvia
+Russian Federation,Latvia
 Republic of Moldova,Latvia
 Cyprus,Latvia
-Russia,Latvia
+Russian Federation,Latvia
 The United Kingdom,Latvia
 The United Kingdom,Italy
 Italy,The United Kingdom
@@ -5942,7 +5990,7 @@ Latvia,Belgium
 Latvia,Hungary
 Latvia,France
 Latvia,Denmark
-Latvia,Russia
+Latvia,Russian Federation
 Latvia,Germany
 Latvia,Italy
 Latvia,Germany
@@ -5951,10 +5999,10 @@ Latvia,Azerbaijan
 Latvia,Germany
 Latvia,Finland
 Latvia,Ukraine
-Latvia,Russia
+Latvia,Russian Federation
 Latvia,Republic of Moldova
 Latvia,Cyprus
-Latvia,Russia
+Latvia,Russian Federation
 Latvia,The United Kingdom
 Latvia,Malta
 Latvia,Belarus
@@ -5967,7 +6015,7 @@ Latvia,Lithuania
 Latvia,Czech Republic
 Latvia,Turkiye
 Latvia,Norway
-Latvia,Russia
+Latvia,Russian Federation
 Latvia,Uzbekistan
 Latvia,Georgia
 Latvia,Finland
@@ -5976,13 +6024,13 @@ Latvia,Israel
 Latvia,Germany
 Latvia,Italy
 Latvia,Austria
-Latvia,Russia
+Latvia,Russian Federation
 Latvia,Lithuania
 Latvia,Poland
 Latvia,Switzerland
 Turkiye,Latvia
 Norway,Latvia
-Russia,Latvia
+Russian Federation,Latvia
 Uzbekistan,Latvia
 Georgia,Latvia
 Finland,Latvia
@@ -5991,7 +6039,7 @@ Israel,Latvia
 Germany,Latvia
 Italy,Latvia
 Austria,Latvia
-Russia,Latvia
+Russian Federation,Latvia
 Lithuania,Belgium
 Lithuania,Latvia
 Poland,Latvia
@@ -6001,8 +6049,8 @@ South Africa,Congo (Kinshasa)
 Italy,Albania
 Mexico,Italy
 Cuba,Italy
-Russia,Italy
-Italy,Russia
+Russian Federation,Italy
+Italy,Russian Federation
 Italy,Cuba
 Italy,Dominican Republic
 Italy,Albania
@@ -6155,10 +6203,10 @@ China,Japan
 China,Republic of Korea
 Japan,China
 Thailand,China
-China,Russia
+China,Russian Federation
 Japan,China
 United States of America,China
-Russia,China
+Russian Federation,China
 United States of America,China
 United States of America,Mexico
 United States of America,Mexico
@@ -6245,9 +6293,9 @@ China,Republic of Korea
 China,Cambodia
 China,Burma
 China,United States of America
-China,Vietnam
+China,Viet Nam
 China,Singapore
-China,Russia
+China,Russian Federation
 China,Australia
 China,Republic of Korea
 China,Israel
@@ -6281,12 +6329,12 @@ Burma,China
 Japan,China
 United States of America,China
 United States of America,China
-Vietnam,China
+Viet Nam,China
 China,Japan
 China,Germany
 China,Japan
 Singapore,China
-Russia,China
+Russian Federation,China
 Australia,China
 China,Thailand
 China,Singapore
@@ -6318,10 +6366,10 @@ Netherlands,Thailand
 Netherlands,The United Kingdom
 Netherlands,The United Kingdom
 Thailand,Netherlands
-Thailand,Russia
+Thailand,Russian Federation
 Australia,New Zealand
 India,Italy
-Russia,Thailand
+Russian Federation,Thailand
 Italy,India
 Guatemala,United States of America
 United States of America,Japan
@@ -6448,7 +6496,7 @@ Panama,Honduras
 Panama,United States of America
 Panama,Ecuador
 Panama,Venezuela (Bolivarian Republic of)
-Panama,Bolivia
+Panama,Bolivia (Plurinational State of)
 Panama,Canada
 Dominican Republic,Colombia
 Dominican Republic,Panama
@@ -6469,7 +6517,7 @@ United States of America,Panama
 Ecuador,Colombia
 Ecuador,Panama
 Venezuela (Bolivarian Republic of),Panama
-Bolivia,Panama
+Bolivia (Plurinational State of),Panama
 Canada,Panama
 Colombia,Cuba
 Venezuela (Bolivarian Republic of),Cuba
@@ -6489,7 +6537,7 @@ Cuba,France
 Cuba,Venezuela (Bolivarian Republic of)
 Cuba,Panama
 Cuba,Dominican Republic
-Cuba,Russia
+Cuba,Russian Federation
 Cuba,Canada
 Spain,Cuba
 Mexico,Cuba
@@ -6502,7 +6550,7 @@ Cuba,Dominican Republic
 Cuba,Canada
 Dominican Republic,Cuba
 Cuba,Canada
-Russia,Cuba
+Russian Federation,Cuba
 Cuba,Canada
 Canada,Cuba
 Greece,Qatar
@@ -6548,7 +6596,7 @@ Cyprus,Germany
 Cyprus,Romania
 Cyprus,Greece
 Cyprus,Bulgaria
-Cyprus,Russia
+Cyprus,Russian Federation
 Cyprus,Israel
 Cyprus,Switzerland
 The United Kingdom,Cyprus
@@ -6556,7 +6604,7 @@ Germany,Cyprus
 Romania,Cyprus
 Greece,Cyprus
 Bulgaria,Cyprus
-Russia,Cyprus
+Russian Federation,Cyprus
 Israel,Cyprus
 Switzerland,Cyprus
 New Zealand,China
@@ -6576,12 +6624,12 @@ China,France
 China,Indonesia
 China,Thailand
 China,Bangladesh
-China,Vietnam
+China,Viet Nam
 China,India
 China,Indonesia
 China,United Arab Emirates
 China,Japan
-China,Vietnam
+China,Viet Nam
 China,Thailand
 China,Republic of Korea
 China,Japan
@@ -6598,9 +6646,9 @@ China,Malaysia
 China,Australia
 China,Cambodia
 China,Burma
-China,Vietnam
+China,Viet Nam
 China,Singapore
-China,Russia
+China,Russian Federation
 China,Australia
 China,Canada
 France,China
@@ -6624,7 +6672,7 @@ China,Republic of Korea
 China,Republic of Korea
 China,Netherlands
 Bangladesh,China
-Vietnam,China
+Viet Nam,China
 India,China
 China,Republic of Korea
 China,Republic of Korea
@@ -6642,7 +6690,8 @@ Kyrgyzstan,China
 Japan,China
 Republic of Korea,China
 Azerbaijan,China
-Vietnam,China
+Viet Nam,China
+Viet Nam,China
 China,Netherlands
 Thailand,China
 China,Republic of Korea
@@ -6682,11 +6731,11 @@ Japan,China
 China,Thailand
 Japan,China
 Kyrgyzstan,China
-Russia,China
+Russian Federation,China
 China,Netherlands
 China,United States of America
 China,Republic of Korea
-China,Vietnam
+China,Viet Nam
 China,Republic of Korea
 China,Pakistan
 China,Japan
@@ -6704,14 +6753,15 @@ China,Japan
 Cambodia,China
 Burma,China
 United States of America,China
-Vietnam,China
+Viet Nam,China
 China,Republic of Korea
 China,Japan
 China,Republic of Korea
 China,Japan
 China,Republic of Korea
 Singapore,China
-Russia,China
+Russian Federation,China
+Russian Federation,China
 China,Thailand
 Australia,China
 China,Malaysia
@@ -6732,7 +6782,8 @@ China,Pakistan
 China,Turkiye
 China,Tajikistan
 China,Kyrgyzstan
-China,Russia
+China,Russian Federation
+China,Russian Federation
 China,Uzbekistan
 China,Georgia
 China,Kazakhstan
@@ -6746,8 +6797,8 @@ China,Philippines
 China,Singapore
 China,Republic of Korea
 Canada,China
-Russia,Finland
-Finland,Russia
+Russian Federation,Finland
+Finland,Russian Federation
 United Arab Emirates,Somalia
 Somalia,Djibouti
 Djibouti,United Arab Emirates
@@ -7264,7 +7315,7 @@ United States of America,France
 United States of America,Republic of Korea
 United States of America,The United Kingdom
 United States of America,Mexico
-United States of America,Russia
+United States of America,Russian Federation
 United States of America,Netherlands
 United States of America,France
 United States of America,Mexico
@@ -7313,7 +7364,7 @@ United States of America,Dominican Republic
 United States of America,Costa Rica
 United States of America,Dominican Republic
 United States of America,Virgin Islands
-United States of America,Russia
+United States of America,Russian Federation
 United States of America,Israel
 United States of America,Italy
 United States of America,Canada
@@ -7354,7 +7405,7 @@ United States of America,Japan
 United States of America,China
 United States of America,Mexico
 United States of America,Costa Rica
-United States of America,Russia
+United States of America,Russian Federation
 United States of America,Australia
 United States of America,Canada
 United States of America,Canada
@@ -7420,7 +7471,7 @@ United States of America,Mexico
 United States of America,Mexico
 United States of America,Haiti
 United States of America,Dominican Republic
-United States of America,Russia
+United States of America,Russian Federation
 Mexico,United States of America
 Philippines,Japan
 United States of America,Netherlands
@@ -7553,10 +7604,10 @@ Dominican Republic,United States of America
 Germany,United States of America
 Virgin Islands,United States of America
 Virgin Islands,United States of America
-Russia,United States of America
-Russia,United States of America
-Russia,United States of America
-Russia,United States of America
+Russian Federation,United States of America
+Russian Federation,United States of America
+Russian Federation,United States of America
+Russian Federation,United States of America
 Australia,United States of America
 Honduras,United States of America
 Israel,United States of America
@@ -7625,7 +7676,7 @@ Senegal,Guinea
 Senegal,Benin
 Senegal,Mauritania
 Senegal,Guinea-Bissau
-Senegal,Cape Verde
+Senegal,Cabo Verde
 Cameroon,Benin
 Gabon,Benin
 Niger,Burkina Faso
@@ -7633,7 +7684,7 @@ Mauritania,Senegal
 Burkina Faso,Mali
 Burkina Faso,Niger
 Guinea-Bissau,Senegal
-Cape Verde,Senegal
+Cabo Verde,Senegal
 Congo (Brazzaville),Angola
 South Africa,Angola
 United Arab Emirates,Angola
@@ -7656,22 +7707,29 @@ Portugal,Angola
 Zambia,Angola
 Portugal,Angola
 China,Angola
-Cape Verde,Sao Tome and Principe
+Cabo Verde,Sao Tome and Principe
 Angola,Namibia
 Sao Tome and Principe,Angola
-Sao Tome and Principe,Cape Verde
+Sao Tome and Principe,Cabo Verde
 Namibia,Angola
-Kazakhstan,Russia
-Russia,Kazakhstan
-Kazakhstan,Russia
-Russia,Kazakhstan
+Kazakhstan,Russian Federation
+Russian Federation,Kazakhstan
+Kazakhstan,Russian Federation
+Russian Federation,Kazakhstan
+Russian Federation,Kazakhstan
+Russian Federation,Kazakhstan
 Armenia,Kazakhstan
 Azerbaijan,Kazakhstan
-Russia,Kazakhstan
-Kazakhstan,Russia
+Russian Federation,Kazakhstan
+Russian Federation,Kazakhstan
+Russian Federation,Kazakhstan
+Kazakhstan,Russian Federation
+Kazakhstan,Russian Federation
 Kazakhstan,Armenia
 Kazakhstan,Azerbaijan
-Kazakhstan,Russia
+Kazakhstan,Russian Federation
+Kazakhstan,Russian Federation
+Kazakhstan,Russian Federation
 Kazakhstan,Georgia
 Georgia,Kazakhstan
 Denmark,Norway
@@ -7936,7 +7994,7 @@ United States of America,Denmark
 Cyprus,Sweden
 Cyprus,The United Kingdom
 Cyprus,Norway
-Russia,Norway
+Russian Federation,Norway
 The United Kingdom,Denmark
 The United Kingdom,Spain
 The United Kingdom,Norway
@@ -8040,7 +8098,7 @@ Norway,Ukraine
 Norway,Iceland
 Norway,Poland
 Norway,Cyprus
-Norway,Russia
+Norway,Russian Federation
 Norway,The United Kingdom
 Norway,Portugal
 Norway,Spain
@@ -8185,13 +8243,23 @@ Mexico,Spain
 Spain,Mexico
 Spain,Dominican Republic
 Dominican Republic,Spain
-Kazakhstan,Russia
-Russia,Tajikistan
+Kazakhstan,Russian Federation
+Kazakhstan,Russian Federation
+Kazakhstan,Russian Federation
+Russian Federation,Tajikistan
+Russian Federation,Tajikistan
 Tajikistan,Kazakhstan
-Tajikistan,Russia
-Russia,Tajikistan
+Tajikistan,Russian Federation
+Tajikistan,Russian Federation
+Russian Federation,Tajikistan
+Russian Federation,Tajikistan
+Russian Federation,Tajikistan
+Russian Federation,Tajikistan
+Russian Federation,Tajikistan
+Russian Federation,Tajikistan
 Tajikistan,Kazakhstan
-Tajikistan,Russia
+Tajikistan,Russian Federation
+Tajikistan,Russian Federation
 The United Kingdom,Ireland
 Spain,Ireland
 Turkiye,Ireland
@@ -8421,7 +8489,7 @@ United Republic of Tanzania,United Arab Emirates
 India,United Arab Emirates
 United States of America,United Arab Emirates
 Senegal,United Arab Emirates
-Russia,United Arab Emirates
+Russian Federation,United Arab Emirates
 Saudi Arabia,United Arab Emirates
 Qatar,United Arab Emirates
 Ireland,United Arab Emirates
@@ -8462,7 +8530,7 @@ United Arab Emirates,United Republic of Tanzania
 United Arab Emirates,India
 United Arab Emirates,United States of America
 United Arab Emirates,Senegal
-United Arab Emirates,Russia
+United Arab Emirates,Russian Federation
 United Arab Emirates,Saudi Arabia
 United Arab Emirates,Qatar
 United Arab Emirates,Ireland
@@ -8499,7 +8567,7 @@ United Arab Emirates,Kuwait
 United Arab Emirates,Angola
 United Arab Emirates,United States of America
 United Arab Emirates,Cyprus
-United Arab Emirates,Russia
+United Arab Emirates,Russian Federation
 United Arab Emirates,The United Kingdom
 United Arab Emirates,Pakistan
 United Arab Emirates,The United Kingdom
@@ -8533,7 +8601,7 @@ United Arab Emirates,Yemen
 United Arab Emirates,United States of America
 United Arab Emirates,Seychelles
 United Arab Emirates,United States of America
-United Arab Emirates,Vietnam
+United Arab Emirates,Viet Nam
 United Arab Emirates,Singapore
 United Arab Emirates,Pakistan
 United Arab Emirates,Australia
@@ -8581,7 +8649,7 @@ Angola,United Arab Emirates
 United States of America,United Arab Emirates
 Cyprus,United Arab Emirates
 Cyprus,Malta
-Russia,United Arab Emirates
+Russian Federation,United Arab Emirates
 The United Kingdom,United Arab Emirates
 Pakistan,United Arab Emirates
 The United Kingdom,United Arab Emirates
@@ -8624,7 +8692,7 @@ Yemen,United Arab Emirates
 United States of America,United Arab Emirates
 Seychelles,United Arab Emirates
 United States of America,United Arab Emirates
-Vietnam,United Arab Emirates
+Viet Nam,United Arab Emirates
 Singapore,Australia
 Singapore,United Arab Emirates
 Singapore,Australia
@@ -8645,12 +8713,12 @@ New Zealand,Australia
 Canada,United Arab Emirates
 New Zealand,Australia
 Switzerland,United Arab Emirates
-Russia,Greece
+Russian Federation,Greece
 Ukraine,Greece
-Russia,Greece
-Greece,Russia
+Russian Federation,Greece
+Greece,Russian Federation
 Greece,Ukraine
-Greece,Russia
+Greece,Russian Federation
 Italy,Germany
 Germany,Italy
 Italy,Germany
@@ -9042,7 +9110,7 @@ United Arab Emirates,India
 United Arab Emirates,China
 United Arab Emirates,Bangladesh
 United Arab Emirates,India
-United Arab Emirates,Russia
+United Arab Emirates,Russian Federation
 United Arab Emirates,Saudi Arabia
 United Arab Emirates,Qatar
 United Arab Emirates,Ireland
@@ -9091,7 +9159,7 @@ United Arab Emirates,China
 United Arab Emirates,Saudi Arabia
 United Arab Emirates,Yemen
 United Arab Emirates,Seychelles
-United Arab Emirates,Vietnam
+United Arab Emirates,Viet Nam
 United Arab Emirates,Singapore
 United Arab Emirates,Australia
 United Arab Emirates,India
@@ -9129,7 +9197,7 @@ India,United Arab Emirates
 China,United Arab Emirates
 Bangladesh,United Arab Emirates
 India,United Arab Emirates
-Russia,United Arab Emirates
+Russian Federation,United Arab Emirates
 Saudi Arabia,United Arab Emirates
 Qatar,United Arab Emirates
 Ireland,United Arab Emirates
@@ -9197,7 +9265,7 @@ China,United Arab Emirates
 Saudi Arabia,United Arab Emirates
 Yemen,United Arab Emirates
 Seychelles,United Arab Emirates
-Vietnam,United Arab Emirates
+Viet Nam,United Arab Emirates
 Singapore,United Arab Emirates
 Singapore,Australia
 Australia,United Arab Emirates
@@ -9277,13 +9345,14 @@ Spain,Bulgaria
 Netherlands,Bulgaria
 Greece,Bulgaria
 Spain,Bulgaria
-Bulgaria,Russia
+Bulgaria,Russian Federation
+Bulgaria,Russian Federation
 Belgium,Bulgaria
 France,Bulgaria
 Italy,Bulgaria
 Germany,Bulgaria
 Cyprus,Bulgaria
-Russia,Bulgaria
+Russian Federation,Bulgaria
 The United Kingdom,Bulgaria
 Spain,Bulgaria
 Italy,Bulgaria
@@ -9307,16 +9376,18 @@ Bulgaria,Romania
 Bulgaria,Cyprus
 Bulgaria,Spain
 Bulgaria,Czech Republic
-Bulgaria,Russia
+Bulgaria,Russian Federation
 Bulgaria,Israel
 Bulgaria,Germany
 Bulgaria,Austria
 Bulgaria,Poland
 Bulgaria,Switzerland
-Russia,Bulgaria
+Russian Federation,Bulgaria
+Russian Federation,Bulgaria
+Russian Federation,Bulgaria
 Israel,Bulgaria
 Germany,Bulgaria
-Bulgaria,Russia
+Bulgaria,Russian Federation
 Austria,Bulgaria
 Poland,Bulgaria
 Switzerland,Bulgaria
@@ -9325,7 +9396,7 @@ Thailand,China
 China,Thailand
 Thailand,China
 Thailand,Indonesia
-Thailand,Vietnam
+Thailand,Viet Nam
 Thailand,China
 Thailand,Malaysia
 Thailand,India
@@ -9334,11 +9405,11 @@ Thailand,China
 Thailand,Malaysia
 Thailand,Cambodia
 Thailand,Burma
-Thailand,Vietnam
+Thailand,Viet Nam
 Thailand,Singapore
 Thailand,China
 Indonesia,Thailand
-Vietnam,Thailand
+Viet Nam,Thailand
 China,Thailand
 Thailand,Singapore
 China,Thailand
@@ -9349,13 +9420,13 @@ China,Thailand
 Malaysia,Thailand
 Cambodia,Thailand
 Burma,Thailand
-Vietnam,Thailand
+Viet Nam,Thailand
 Singapore,Thailand
 China,Thailand
 India,Afghanistan
 United Arab Emirates,Afghanistan
 Azerbaijan,Afghanistan
-Azerbaijan,Russia
+Azerbaijan,Russian Federation
 Saudi Arabia,Kuwait
 Afghanistan,India
 Afghanistan,United Arab Emirates
@@ -9366,7 +9437,7 @@ Afghanistan,India
 Afghanistan,United Arab Emirates
 Kuwait,Saudi Arabia
 Kuwait,Afghanistan
-Russia,Azerbaijan
+Russian Federation,Azerbaijan
 Netherlands,Iceland
 Sweden,Iceland
 Denmark,Iceland
@@ -11563,8 +11634,9 @@ Libya,Tunisia
 Tunisia,France
 Tunisia,Libya
 Canada,Tunisia
-Germany,Russia
-Russia,Germany
+Germany,Russian Federation
+Russian Federation,Germany
+Russian Federation,Germany
 Indonesia,Malaysia
 Thailand,Malaysia
 Malaysia,Singapore
@@ -11605,14 +11677,15 @@ United Arab Emirates,Afghanistan
 United Arab Emirates,Republic of Moldova
 United Arab Emirates,Sudan
 United Arab Emirates,Nepal
-United Arab Emirates,Russia
+United Arab Emirates,Russian Federation
 United Arab Emirates,Kuwait
-United Arab Emirates,Russia
+United Arab Emirates,Russian Federation
 United Arab Emirates,Oman
 United Arab Emirates,Maldives
 United Arab Emirates,Ukraine
 United Arab Emirates,Saudi Arabia
-United Arab Emirates,Russia
+United Arab Emirates,Russian Federation
+United Arab Emirates,Russian Federation
 United Arab Emirates,Ethiopia
 United Arab Emirates,Saudi Arabia
 United Arab Emirates,Jordan
@@ -11639,19 +11712,19 @@ United Arab Emirates,Djibouti
 United Arab Emirates,South Sudan
 United Arab Emirates,Afghanistan
 United Arab Emirates,Pakistan
-United Arab Emirates,Russia
+United Arab Emirates,Russian Federation
 United Arab Emirates,Sudan
 United Arab Emirates,Nepal
 United Arab Emirates,Kuwait
 United Arab Emirates,India
 United Arab Emirates,Oman
 United Arab Emirates,Saudi Arabia
-United Arab Emirates,Russia
+United Arab Emirates,Russian Federation
 United Arab Emirates,Pakistan
 United Arab Emirates,Iraq
 United Arab Emirates,Romania
 United Arab Emirates,Sudan
-United Arab Emirates,Russia
+United Arab Emirates,Russian Federation
 United Arab Emirates,Yemen
 United Arab Emirates,Turkiye
 United Arab Emirates,Macedonia
@@ -11659,7 +11732,7 @@ United Arab Emirates,Pakistan
 United Arab Emirates,Oman
 United Arab Emirates,Georgia
 United Arab Emirates,Saudi Arabia
-United Arab Emirates,Russia
+United Arab Emirates,Russian Federation
 United Arab Emirates,Saudi Arabia
 Tajikistan,United Arab Emirates
 Iraq,United Arab Emirates
@@ -11679,32 +11752,33 @@ South Sudan,United Arab Emirates
 Afghanistan,United Arab Emirates
 Pakistan,United Arab Emirates
 Republic of Moldova,United Arab Emirates
-Russia,United Arab Emirates
+Russian Federation,United Arab Emirates
 Sudan,United Arab Emirates
 Nepal,United Arab Emirates
-Russia,United Arab Emirates
+Russian Federation,United Arab Emirates
 Kuwait,United Arab Emirates
-Russia,United Arab Emirates
+Russian Federation,United Arab Emirates
 India,United Arab Emirates
 Oman,United Arab Emirates
 Saudi Arabia,United Arab Emirates
 Maldives,United Arab Emirates
-Russia,United Arab Emirates
+Russian Federation,United Arab Emirates
 Pakistan,United Arab Emirates
 Iraq,United Arab Emirates
 Ukraine,United Arab Emirates
 Romania,United Arab Emirates
-Russia,United Arab Emirates
+Russian Federation,United Arab Emirates
 Saudi Arabia,United Arab Emirates
 Yemen,United Arab Emirates
 Turkiye,United Arab Emirates
 Macedonia,United Arab Emirates
 Pakistan,United Arab Emirates
 Oman,United Arab Emirates
-Russia,United Arab Emirates
+Russian Federation,United Arab Emirates
 Georgia,United Arab Emirates
 Saudi Arabia,United Arab Emirates
-Russia,United Arab Emirates
+Russian Federation,United Arab Emirates
+Russian Federation,United Arab Emirates
 Saudi Arabia,United Arab Emirates
 Argentina,Brazil
 Paraguay,Brazil
@@ -11728,7 +11802,7 @@ Brazil,United States of America
 Brazil,Uruguay
 Brazil,Argentina
 Brazil,Dominican Republic
-Brazil,Bolivia
+Brazil,Bolivia (Plurinational State of)
 United States of America,Brazil
 United States of America,Dominican Republic
 United States of America,Dominican Republic
@@ -11740,7 +11814,7 @@ Argentina,Brazil
 Dominican Republic,Brazil
 Dominican Republic,United States of America
 Dominican Republic,United States of America
-Bolivia,Brazil
+Bolivia (Plurinational State of),Brazil
 Saudi Arabia,United Arab Emirates
 Kazakhstan,United Arab Emirates
 India,United Arab Emirates
@@ -11760,7 +11834,7 @@ Sri Lanka,United Arab Emirates
 India,United Arab Emirates
 Bangladesh,United Arab Emirates
 India,United Arab Emirates
-Russia,United Arab Emirates
+Russian Federation,United Arab Emirates
 Saudi Arabia,United Arab Emirates
 Qatar,United Arab Emirates
 Ukraine,United Arab Emirates
@@ -11781,7 +11855,7 @@ Pakistan,United Arab Emirates
 Sudan,United Arab Emirates
 Nepal,United Arab Emirates
 Kuwait,United Arab Emirates
-Russia,United Arab Emirates
+Russian Federation,United Arab Emirates
 Iran (Islamic Republic of),United Arab Emirates
 India,United Arab Emirates
 Oman,United Arab Emirates
@@ -11792,7 +11866,7 @@ Kenya,United Arab Emirates
 Iraq,United Arab Emirates
 Ukraine,United Arab Emirates
 Pakistan,United Arab Emirates
-Russia,United Arab Emirates
+Russian Federation,United Arab Emirates
 Saudi Arabia,United Arab Emirates
 Turkiye,United Arab Emirates
 United Arab Emirates,Saudi Arabia
@@ -11814,7 +11888,7 @@ United Arab Emirates,Sri Lanka
 United Arab Emirates,India
 United Arab Emirates,Bangladesh
 United Arab Emirates,India
-United Arab Emirates,Russia
+United Arab Emirates,Russian Federation
 United Arab Emirates,Saudi Arabia
 United Arab Emirates,Qatar
 United Arab Emirates,Ukraine
@@ -11835,7 +11909,7 @@ United Arab Emirates,Pakistan
 United Arab Emirates,Sudan
 United Arab Emirates,Nepal
 United Arab Emirates,Kuwait
-United Arab Emirates,Russia
+United Arab Emirates,Russian Federation
 United Arab Emirates,Iran (Islamic Republic of)
 United Arab Emirates,India
 United Arab Emirates,Oman
@@ -11846,26 +11920,26 @@ United Arab Emirates,Kenya
 United Arab Emirates,Iraq
 United Arab Emirates,Ukraine
 United Arab Emirates,Pakistan
-United Arab Emirates,Russia
+United Arab Emirates,Russian Federation
 United Arab Emirates,Saudi Arabia
 United Arab Emirates,Turkiye
 United Arab Emirates,Pakistan
 United Arab Emirates,Oman
-United Arab Emirates,Russia
+United Arab Emirates,Russian Federation
 United Arab Emirates,Iran (Islamic Republic of)
 United Arab Emirates,Saudi Arabia
 United Arab Emirates,India
 United Arab Emirates,Kazakhstan
-United Arab Emirates,Russia
+United Arab Emirates,Russian Federation
 United Arab Emirates,Saudi Arabia
 Pakistan,United Arab Emirates
 Oman,United Arab Emirates
-Russia,United Arab Emirates
+Russian Federation,United Arab Emirates
 Iran (Islamic Republic of),United Arab Emirates
 Saudi Arabia,United Arab Emirates
 India,United Arab Emirates
 Kazakhstan,United Arab Emirates
-Russia,United Arab Emirates
+Russian Federation,United Arab Emirates
 Saudi Arabia,United Arab Emirates
 Netherlands,United Arab Emirates
 United Arab Emirates,Netherlands
@@ -12016,12 +12090,12 @@ Republic of Korea,China
 China,Republic of Korea
 China,Republic of Korea
 China,Republic of Korea
-Russia,Kyrgyzstan
-Kyrgyzstan,Russia
-Chile,Bolivia
+Russian Federation,Kyrgyzstan
+Kyrgyzstan,Russian Federation
+Chile,Bolivia (Plurinational State of)
 Argentina,Chile
 Brazil,Chile
-Bolivia,Chile
+Bolivia (Plurinational State of),Chile
 Chile,Argentina
 Chile,Brazil
 Australia,United States of America
@@ -12076,7 +12150,7 @@ Greece,Austria
 France,Germany
 France,Austria
 Denmark,Austria
-Russia,Austria
+Russian Federation,Austria
 Italy,Austria
 Germany,France
 Portugal,Austria
@@ -12117,7 +12191,7 @@ Austria,Spain
 Austria,France
 Austria,Greece
 Austria,Denmark
-Austria,Russia
+Austria,Russian Federation
 Austria,Italy
 Austria,Portugal
 Austria,Germany
@@ -12264,34 +12338,40 @@ Switzerland,United Arab Emirates
 Switzerland,Belgium
 China,Singapore
 Thailand,China
-Russia,China
+Russian Federation,China
+Russian Federation,China
 South Africa,United Arab Emirates
-Russia,China
+Russian Federation,China
+Russian Federation,China
 Sudan,United Arab Emirates
 United States of America,China
-Russia,China
+Russian Federation,China
 Spain,Belgium
 Maldives,China
 Italy,Belgium
 Kenya,United Arab Emirates
 China,Thailand
-China,Russia
+China,Russian Federation
+China,Russian Federation
 United States of America,China
 United States of America,China
 Norway,Germany
-Russia,China
+Russian Federation,China
+Russian Federation,China
 China,Kazakhstan
 China,United Arab Emirates
 China,Thailand
 China,Belgium
 China,Thailand
-China,Russia
+China,Russian Federation
+China,Russian Federation
+China,Russian Federation
 China,Maldives
 China,United States of America
-China,Russia
+China,Russian Federation
 China,Republic of Korea
 China,United States of America
-China,Russia
+China,Russian Federation
 China,Germany
 China,Canada
 Republic of Korea,China
@@ -12300,7 +12380,7 @@ China,United States of America
 China,United States of America
 United States of America,China
 Singapore,China
-Russia,China
+Russian Federation,China
 Germany,Sweden
 Germany,Belgium
 Germany,Denmark
@@ -12309,7 +12389,7 @@ Germany,Norway
 Germany,China
 Germany,Austria
 Germany,Switzerland
-China,Russia
+China,Russian Federation
 Austria,Germany
 Canada,China
 Switzerland,Germany
@@ -12403,7 +12483,7 @@ Netherlands,Germany
 Netherlands,Italy
 Netherlands,Spain
 Portugal,Netherlands
-Portugal,Cape Verde
+Portugal,Cabo Verde
 Italy,Netherlands
 Portugal,Netherlands
 Spain,Netherlands
@@ -12458,7 +12538,7 @@ Netherlands,Spain
 Turkiye,Netherlands
 Turkiye,Netherlands
 Turkiye,Netherlands
-Cape Verde,Netherlands
+Cabo Verde,Netherlands
 Greece,Netherlands
 Spain,Netherlands
 Croatia,Netherlands
@@ -12473,17 +12553,32 @@ Spain,Netherlands
 Greece,Netherlands
 Italy,Netherlands
 Greece,Netherlands
-Russia,Uzbekistan
+Russian Federation,Uzbekistan
 Kazakhstan,Uzbekistan
 India,Uzbekistan
-Uzbekistan,Russia
+Uzbekistan,Russian Federation
+Uzbekistan,Russian Federation
+Uzbekistan,Russian Federation
+Uzbekistan,Russian Federation
 Thailand,Uzbekistan
 France,Uzbekistan
 India,Uzbekistan
-Russia,Uzbekistan
+Russian Federation,Uzbekistan
+Russian Federation,Uzbekistan
+Russian Federation,Uzbekistan
+Russian Federation,Uzbekistan
+Russian Federation,Uzbekistan
+Russian Federation,Uzbekistan
+Russian Federation,Uzbekistan
+Russian Federation,Uzbekistan
+Russian Federation,Uzbekistan
+Russian Federation,Uzbekistan
+Russian Federation,Uzbekistan
 United Arab Emirates,Uzbekistan
 Italy,Uzbekistan
-Uzbekistan,Russia
+Uzbekistan,Russian Federation
+Uzbekistan,Russian Federation
+Uzbekistan,Russian Federation
 Germany,Uzbekistan
 Kyrgyzstan,Uzbekistan
 Azerbaijan,Uzbekistan
@@ -12491,35 +12586,58 @@ Republic of Korea,Uzbekistan
 Turkiye,Uzbekistan
 United States of America,Latvia
 Ukraine,Uzbekistan
-Russia,Uzbekistan
-Uzbekistan,Russia
-Russia,Uzbekistan
+Russian Federation,Uzbekistan
+Russian Federation,Uzbekistan
+Russian Federation,Uzbekistan
+Uzbekistan,Russian Federation
+Uzbekistan,Russian Federation
+Russian Federation,Uzbekistan
 Malaysia,Singapore
 Malaysia,Uzbekistan
-Russia,Uzbekistan
+Russian Federation,Uzbekistan
+Russian Federation,Uzbekistan
+Russian Federation,Uzbekistan
+Russian Federation,Uzbekistan
+Russian Federation,Uzbekistan
+Russian Federation,Uzbekistan
+Russian Federation,Uzbekistan
+Russian Federation,Uzbekistan
+Russian Federation,Uzbekistan
+Russian Federation,Uzbekistan
+Russian Federation,Uzbekistan
+Russian Federation,Uzbekistan
 The United Kingdom,Uzbekistan
-Russia,Uzbekistan
+Russian Federation,Uzbekistan
 Italy,Uzbekistan
-Uzbekistan,Russia
+Uzbekistan,Russian Federation
+Uzbekistan,Russian Federation
+Uzbekistan,Russian Federation
+Uzbekistan,Russian Federation
+Uzbekistan,Russian Federation
 Japan,Uzbekistan
-Uzbekistan,Russia
-Russia,Uzbekistan
+Uzbekistan,Russian Federation
+Uzbekistan,Russian Federation
+Russian Federation,Uzbekistan
+Russian Federation,Uzbekistan
 China,Uzbekistan
 Latvia,United States of America
 Latvia,Uzbekistan
-Russia,Uzbekistan
+Russian Federation,Uzbekistan
 United Arab Emirates,Uzbekistan
 Singapore,Malaysia
 Singapore,Uzbekistan
-Uzbekistan,Russia
-Russia,Uzbekistan
-Uzbekistan,Russia
+Uzbekistan,Russian Federation
+Uzbekistan,Russian Federation
+Uzbekistan,Russian Federation
+Russian Federation,Uzbekistan
+Russian Federation,Uzbekistan
+Uzbekistan,Russian Federation
 Uzbekistan,Kazakhstan
 Uzbekistan,India
 Uzbekistan,Thailand
 Uzbekistan,France
 Uzbekistan,India
-Uzbekistan,Russia
+Uzbekistan,Russian Federation
 Uzbekistan,United Arab Emirates
 Uzbekistan,Italy
 Uzbekistan,Germany
@@ -12528,42 +12646,50 @@ Uzbekistan,Azerbaijan
 Uzbekistan,Republic of Korea
 Uzbekistan,Turkiye
 Uzbekistan,Ukraine
-Uzbekistan,Russia
+Uzbekistan,Russian Federation
+Uzbekistan,Russian Federation
+Uzbekistan,Russian Federation
+Uzbekistan,Russian Federation
 Uzbekistan,Malaysia
-Uzbekistan,Russia
+Uzbekistan,Russian Federation
+Uzbekistan,Russian Federation
 Uzbekistan,The United Kingdom
-Uzbekistan,Russia
+Uzbekistan,Russian Federation
 Uzbekistan,Italy
 Uzbekistan,Japan
-Uzbekistan,Russia
+Uzbekistan,Russian Federation
 Uzbekistan,China
 Uzbekistan,Czech Republic
 Uzbekistan,Latvia
-Uzbekistan,Russia
+Uzbekistan,Russian Federation
 Uzbekistan,United Arab Emirates
 Uzbekistan,Singapore
-Uzbekistan,Russia
+Uzbekistan,Russian Federation
+Uzbekistan,Russian Federation
 Uzbekistan,Israel
 Uzbekistan,Kazakhstan
-Uzbekistan,Russia
+Uzbekistan,Russian Federation
 Uzbekistan,China
-Uzbekistan,Russia
-Russia,Uzbekistan
+Uzbekistan,Russian Federation
+Russian Federation,Uzbekistan
 Israel,Uzbekistan
-Uzbekistan,Russia
+Uzbekistan,Russian Federation
 Kazakhstan,Uzbekistan
-Russia,Uzbekistan
-Uzbekistan,Russia
+Russian Federation,Uzbekistan
+Uzbekistan,Russian Federation
+Uzbekistan,Russian Federation
+Uzbekistan,Russian Federation
 China,Uzbekistan
-Russia,Uzbekistan
-Japan,Russia
-China,Russia
-Republic of Korea,Russia
-Russia,China
-Japan,Russia
-Russia,Japan
-Russia,China
-Russia,Japan
+Russian Federation,Uzbekistan
+Russian Federation,Uzbekistan
+Japan,Russian Federation
+China,Russian Federation
+Republic of Korea,Russian Federation
+Russian Federation,China
+Japan,Russian Federation
+Russian Federation,Japan
+Russian Federation,China
+Russian Federation,Japan
 Brazil,Italy
 Italy,Brazil
 Denmark,Spain
@@ -12574,7 +12700,7 @@ Spain,Belgium
 Spain,Morocco
 Spain,Denmark
 Spain,The United Kingdom
-Spain,Russia
+Spain,Russian Federation
 Spain,Italy
 Spain,Germany
 Spain,The United Kingdom
@@ -12586,7 +12712,7 @@ Spain,Netherlands
 Spain,Belgium
 Spain,Denmark
 Spain,The United Kingdom
-Spain,Russia
+Spain,Russian Federation
 Spain,Italy
 Spain,The United Kingdom
 Spain,Algeria
@@ -12628,7 +12754,7 @@ Spain,Italy
 Spain,The United Kingdom
 Spain,Croatia
 Spain,Senegal
-Spain,Russia
+Spain,Russian Federation
 Spain,Germany
 Spain,The United Kingdom
 Spain,Italy
@@ -12642,7 +12768,7 @@ Spain,Finland
 Spain,Ukraine
 Spain,United States of America
 Spain,Ukraine
-Spain,Russia
+Spain,Russian Federation
 Spain,Germany
 Spain,The United Kingdom
 Spain,The United Kingdom
@@ -12732,7 +12858,11 @@ United States of America,Germany
 United States of America,The United Kingdom
 United States of America,Spain
 Senegal,Spain
-Russia,Spain
+Russian Federation,Spain
+Russian Federation,Spain
+Russian Federation,Spain
+Russian Federation,Spain
+Russian Federation,Spain
 Qatar,Bahrain
 Germany,Spain
 Ireland,Spain
@@ -12807,7 +12937,7 @@ The United Kingdom,Spain
 The United Kingdom,Spain
 The United Kingdom,Spain
 France,Spain
-Russia,Spain
+Russian Federation,Spain
 Germany,Spain
 The United Kingdom,Spain
 The United Kingdom,Spain
@@ -12891,7 +13021,7 @@ Spain,Morocco
 Spain,Denmark
 Spain,United States of America
 Spain,Senegal
-Spain,Russia
+Spain,Russian Federation
 Spain,Ireland
 Spain,Germany
 Spain,Argentina
@@ -13001,7 +13131,7 @@ United States of America,The United Kingdom
 Spain,Netherlands
 Spain,France
 Spain,Belgium
-Spain,Russia
+Spain,Russian Federation
 Spain,The United Kingdom
 Spain,The United Kingdom
 Spain,France
@@ -13161,21 +13291,24 @@ Italy,Republic of Moldova
 Italy,Spain
 Italy,Albania
 Switzerland,Italy
-Tajikistan,Russia
-Armenia,Russia
-Azerbaijan,Russia
-China,Russia
-Russia,China
-China,Russia
-Russia,China
-China,Russia
-Russia,Tajikistan
-Russia,Armenia
-Russia,Azerbaijan
-Russia,Uzbekistan
-Russia,China
-Uzbekistan,Russia
-Russia,China
+Tajikistan,Russian Federation
+Armenia,Russian Federation
+Azerbaijan,Russian Federation
+China,Russian Federation
+Russian Federation,China
+China,Russian Federation
+Russian Federation,China
+Russian Federation,China
+China,Russian Federation
+China,Russian Federation
+China,Russian Federation
+Russian Federation,Tajikistan
+Russian Federation,Armenia
+Russian Federation,Azerbaijan
+Russian Federation,Uzbekistan
+Russian Federation,China
+Uzbekistan,Russian Federation
+Russian Federation,China
 Netherlands,Iran (Islamic Republic of)
 Sweden,Iran (Islamic Republic of)
 Iran (Islamic Republic of),United Arab Emirates
@@ -13242,7 +13375,7 @@ Italy,Iran (Islamic Republic of)
 Iraq,Iran (Islamic Republic of)
 France,Iran (Islamic Republic of)
 China,Iran (Islamic Republic of)
-Russia,Iran (Islamic Republic of)
+Russian Federation,Iran (Islamic Republic of)
 Iran (Islamic Republic of),Qatar
 Iran (Islamic Republic of),Kuwait
 Uzbekistan,Iran (Islamic Republic of)
@@ -13363,14 +13496,14 @@ Israel,France
 Israel,Cyprus
 Israel,Georgia
 France,Azerbaijan
-Russia,Azerbaijan
+Russian Federation,Azerbaijan
 Qatar,Azerbaijan
 United Arab Emirates,Azerbaijan
 Turkiye,Azerbaijan
 Italy,Azerbaijan
 Germany,Azerbaijan
 Azerbaijan,France
-Azerbaijan,Russia
+Azerbaijan,Russian Federation
 Azerbaijan,Qatar
 Azerbaijan,United Arab Emirates
 Azerbaijan,Turkiye
@@ -13379,17 +13512,17 @@ Azerbaijan,Germany
 Azerbaijan,Iran (Islamic Republic of)
 Azerbaijan,Turkiye
 Azerbaijan,Ukraine
-Azerbaijan,Russia
+Azerbaijan,Russian Federation
 Azerbaijan,The United Kingdom
-Azerbaijan,Russia
+Azerbaijan,Russian Federation
 Azerbaijan,Italy
-Azerbaijan,Russia
+Azerbaijan,Russian Federation
 Azerbaijan,China
 Azerbaijan,Czech Republic
 Azerbaijan,Latvia
 Azerbaijan,Turkiye
 Azerbaijan,Kazakhstan
-Azerbaijan,Russia
+Azerbaijan,Russian Federation
 Azerbaijan,Georgia
 Azerbaijan,Iran (Islamic Republic of)
 Azerbaijan,Israel
@@ -13397,18 +13530,19 @@ Azerbaijan,Austria
 Iran (Islamic Republic of),Azerbaijan
 Turkiye,Azerbaijan
 Ukraine,Azerbaijan
-Azerbaijan,Russia
-Russia,Azerbaijan
+Azerbaijan,Russian Federation
+Russian Federation,Azerbaijan
+Russian Federation,Azerbaijan
 The United Kingdom,Azerbaijan
-Russia,Azerbaijan
+Russian Federation,Azerbaijan
 Italy,Azerbaijan
-Russia,Azerbaijan
+Russian Federation,Azerbaijan
 China,Azerbaijan
 Czech Republic,Azerbaijan
 Latvia,Azerbaijan
 Turkiye,Azerbaijan
 Kazakhstan,Azerbaijan
-Russia,Azerbaijan
+Russian Federation,Azerbaijan
 Georgia,Azerbaijan
 Iran (Islamic Republic of),Azerbaijan
 Israel,Azerbaijan
@@ -13544,19 +13678,22 @@ Japan,China
 India,Japan
 United States of America,Japan
 China,Japan
-Russia,Japan
+Russian Federation,Japan
 Qatar,Japan
 United Arab Emirates,Japan
 Germany,Japan
 Japan,Thailand
-Japan,Vietnam
+Japan,Viet Nam
 Japan,Republic of Korea
 Japan,China
-Japan,Vietnam
+Japan,Viet Nam
 Japan,China
 Republic of Korea,Japan
 Republic of Korea,Japan
-Vietnam,Japan
+Viet Nam,Japan
+Viet Nam,Japan
+Viet Nam,Japan
+Viet Nam,Japan
 Finland,Japan
 Japan,China
 Japan,Thailand
@@ -13567,7 +13704,7 @@ Japan,United States of America
 Japan,The United Kingdom
 Japan,China
 Japan,United States of America
-Japan,Vietnam
+Japan,Viet Nam
 Japan,China
 Japan,Singapore
 United States of America,Japan
@@ -13583,7 +13720,7 @@ Republic of Korea,Japan
 Republic of Korea,Japan
 Republic of Korea,Japan
 United States of America,Japan
-Russia,Japan
+Russian Federation,Japan
 Japan,Republic of Korea
 Japan,China
 Japan,Thailand
@@ -13593,7 +13730,7 @@ Japan,Australia
 Japan,Qatar
 Japan,United Arab Emirates
 Japan,Republic of Korea
-Japan,Vietnam
+Japan,Viet Nam
 Japan,Finland
 Japan,United States of America
 Japan,Republic of Korea
@@ -13602,7 +13739,7 @@ Japan,China
 Japan,Australia
 Japan,Republic of Korea
 Japan,China
-Japan,Vietnam
+Japan,Viet Nam
 Japan,China
 Japan,Republic of Korea
 Japan,China
@@ -13618,7 +13755,7 @@ Peru,Chile
 Philippines,Japan
 Japan,China
 Japan,Thailand
-Japan,Vietnam
+Japan,Viet Nam
 Japan,Finland
 Japan,United States of America
 Japan,Republic of Korea
@@ -13636,16 +13773,16 @@ Japan,Australia
 Japan,India
 Japan,United States of America
 Japan,China
-Japan,Russia
+Japan,Russian Federation
 Japan,Qatar
 Japan,United Arab Emirates
 Japan,Germany
-Japan,Vietnam
+Japan,Viet Nam
 Japan,Finland
 Japan,United States of America
 Japan,Republic of Korea
 Japan,United States of America
-Japan,Russia
+Japan,Russian Federation
 Japan,Malaysia
 Japan,United States of America
 Japan,The United Kingdom
@@ -13658,11 +13795,11 @@ Japan,Republic of Korea
 Japan,China
 Japan,Palau
 Japan,United States of America
-Japan,Vietnam
+Japan,Viet Nam
 Japan,China
 Japan,Singapore
 Japan,Australia
-Japan,Russia
+Japan,Russian Federation
 Japan,Canada
 Japan,China
 Australia,Japan
@@ -13676,12 +13813,15 @@ Palau,Japan
 United States of America,Japan
 Chile,Peru
 United States of America,Japan
-Vietnam,Japan
+Viet Nam,Japan
+Viet Nam,Japan
+Viet Nam,Japan
+Viet Nam,Japan
 China,Japan
 Singapore,Japan
 Australia,Japan
 China,Japan
-Russia,Japan
+Russian Federation,Japan
 China,Japan
 Canada,Japan
 Italy,Albania
@@ -13706,7 +13846,7 @@ Slovenia,Czech Republic
 Slovenia,Serbia
 Slovenia,Bosnia and Herzegovina
 Slovenia,Macedonia
-Slovenia,Russia
+Slovenia,Russian Federation
 Slovenia,Montenegro
 Slovenia,Albania
 Slovenia,Austria
@@ -13720,7 +13860,7 @@ Serbia,Slovenia
 Serbia,Germany
 Bosnia and Herzegovina,Slovenia
 Macedonia,Slovenia
-Russia,Slovenia
+Russian Federation,Slovenia
 Montenegro,Slovenia
 Albania,Germany
 Albania,Slovenia
@@ -13772,20 +13912,20 @@ New Zealand,Australia
 Democratic People's Republic of Korea,Malaysia
 Democratic People's Republic of Korea,China
 Democratic People's Republic of Korea,China
-Democratic People's Republic of Korea,Russia
+Democratic People's Republic of Korea,Russian Federation
 Malaysia,Democratic People's Republic of Korea
 China,Democratic People's Republic of Korea
 China,Democratic People's Republic of Korea
-Russia,Democratic People's Republic of Korea
+Russian Federation,Democratic People's Republic of Korea
 Indonesia,Malaysia
 Indonesia,Saudi Arabia
 Indonesia,Malaysia
 Indonesia,Singapore
 Saudi Arabia,Indonesia
 Malaysia,Indonesia
-Vietnam,Singapore
+Viet Nam,Singapore
 Singapore,Indonesia
-Singapore,Vietnam
+Singapore,Viet Nam
 Netherlands,Serbia
 Sweden,Serbia
 Greece,Serbia
@@ -13815,7 +13955,7 @@ Serbia,Greece
 Serbia,Macedonia
 Serbia,Bulgaria
 Serbia,Germany
-Serbia,Russia
+Serbia,Russian Federation
 Serbia,Montenegro
 Serbia,Israel
 Serbia,Germany
@@ -13846,7 +13986,7 @@ Greece,Serbia
 Macedonia,Serbia
 Bulgaria,Serbia
 Germany,Serbia
-Russia,Serbia
+Russian Federation,Serbia
 Montenegro,Serbia
 Israel,Serbia
 Germany,Serbia
@@ -13883,18 +14023,20 @@ Croatia,Poland
 Switzerland,Poland
 Thailand,Cambodia
 China,Cambodia
-Vietnam,Cambodia
+Viet Nam,Cambodia
+Viet Nam,Cambodia
 Cambodia,Thailand
-Cambodia,Vietnam
+Cambodia,Viet Nam
 Cambodia,China
-Cambodia,Vietnam
+Cambodia,Viet Nam
 China,Cambodia
 Cambodia,Thailand
 Cambodia,China
-Cambodia,Vietnam
+Cambodia,Viet Nam
 Cambodia,China
-Cambodia,Vietnam
-Vietnam,Cambodia
+Cambodia,Viet Nam
+Viet Nam,Cambodia
+Viet Nam,Cambodia
 Bangladesh,Nepal
 Nepal,Bangladesh
 Thailand,Bangladesh
@@ -13924,13 +14066,14 @@ Kazakhstan,Azerbaijan
 Kazakhstan,Republic of Korea
 Kazakhstan,Turkiye
 Kazakhstan,Ukraine
-Kazakhstan,Russia
+Kazakhstan,Russian Federation
 Kazakhstan,Malaysia
-Kazakhstan,Russia
+Kazakhstan,Russian Federation
+Kazakhstan,Russian Federation
 Kazakhstan,The United Kingdom
 Kazakhstan,China
-Kazakhstan,Vietnam
-Kazakhstan,Russia
+Kazakhstan,Viet Nam
+Kazakhstan,Russian Federation
 Kazakhstan,Uzbekistan
 Kazakhstan,Georgia
 Kazakhstan,China
@@ -13950,16 +14093,21 @@ Turkiye,Kazakhstan
 Turkiye,Kazakhstan
 Turkiye,Kazakhstan
 Ukraine,Kazakhstan
-Russia,Kazakhstan
+Russian Federation,Kazakhstan
 Malaysia,Kazakhstan
-Russia,Kazakhstan
+Russian Federation,Kazakhstan
+Russian Federation,Kazakhstan
+Russian Federation,Kazakhstan
 The United Kingdom,Kazakhstan
 The United Kingdom,Kazakhstan
-Russia,Kazakhstan
+Russian Federation,Kazakhstan
+Russian Federation,Kazakhstan
 China,Kazakhstan
 Kazakhstan,Turkiye
-Vietnam,Kazakhstan
-Russia,Kazakhstan
+Viet Nam,Kazakhstan
+Russian Federation,Kazakhstan
+Russian Federation,Kazakhstan
+Russian Federation,Kazakhstan
 Uzbekistan,Kazakhstan
 Georgia,Kazakhstan
 Kazakhstan,United Arab Emirates
@@ -13968,11 +14116,13 @@ Kazakhstan,Kyrgyzstan
 Kazakhstan,Azerbaijan
 Kazakhstan,Turkiye
 Kazakhstan,Ukraine
-Kazakhstan,Russia
+Kazakhstan,Russian Federation
 Kazakhstan,The United Kingdom
-Kazakhstan,Russia
+Kazakhstan,Russian Federation
+Kazakhstan,Russian Federation
 Kazakhstan,China
-Kazakhstan,Russia
+Kazakhstan,Russian Federation
+Kazakhstan,Russian Federation
 Kazakhstan,Uzbekistan
 Kazakhstan,China
 Kazakhstan,Austria
@@ -14008,7 +14158,7 @@ Thailand,Republic of Korea
 China,Republic of Korea
 Japan,Republic of Korea
 Japan,Republic of Korea
-Vietnam,Republic of Korea
+Viet Nam,Republic of Korea
 United States of America,Republic of Korea
 China,Republic of Korea
 Indonesia,Republic of Korea
@@ -14023,8 +14173,8 @@ Republic of Korea,Japan
 Republic of Korea,China
 Republic of Korea,China
 Brazil,United States of America
-Vietnam,Republic of Korea
-Vietnam,Republic of Korea
+Viet Nam,Republic of Korea
+Viet Nam,Republic of Korea
 China,Republic of Korea
 Thailand,Republic of Korea
 Japan,Republic of Korea
@@ -14052,14 +14202,14 @@ Republic of Korea,Sri Lanka
 Republic of Korea,Thailand
 Republic of Korea,China
 Republic of Korea,Japan
-Republic of Korea,Vietnam
+Republic of Korea,Viet Nam
 Republic of Korea,United States of America
 Republic of Korea,China
 Republic of Korea,Indonesia
 Republic of Korea,United Arab Emirates
 Republic of Korea,Germany
 Republic of Korea,Japan
-Republic of Korea,Vietnam
+Republic of Korea,Viet Nam
 Republic of Korea,Thailand
 Republic of Korea,Japan
 Republic of Korea,United States of America
@@ -14076,7 +14226,7 @@ Republic of Korea,Nepal
 Republic of Korea,Malaysia
 Republic of Korea,United States of America
 Republic of Korea,United States of America
-Republic of Korea,Russia
+Republic of Korea,Russian Federation
 Republic of Korea,The United Kingdom
 Republic of Korea,Spain
 Republic of Korea,China
@@ -14099,10 +14249,10 @@ Republic of Korea,Palau
 Republic of Korea,Saudi Arabia
 Republic of Korea,United States of America
 Republic of Korea,United States of America
-Republic of Korea,Vietnam
+Republic of Korea,Viet Nam
 Republic of Korea,China
 Republic of Korea,Singapore
-Republic of Korea,Russia
+Republic of Korea,Russian Federation
 Republic of Korea,Australia
 Republic of Korea,China
 Republic of Korea,China
@@ -14113,7 +14263,7 @@ Republic of Korea,China
 Republic of Korea,China
 Republic of Korea,Mongolia
 Republic of Korea,Austria
-Republic of Korea,Russia
+Republic of Korea,Russian Federation
 Republic of Korea,China
 Republic of Korea,China
 Republic of Korea,China
@@ -14137,7 +14287,7 @@ United States of America,Republic of Korea
 United States of America,Brazil
 United States of America,Republic of Korea
 United States of America,Peru
-Russia,Republic of Korea
+Russian Federation,Republic of Korea
 The United Kingdom,Republic of Korea
 Peru,United States of America
 Peru,Chile
@@ -14169,7 +14319,7 @@ Republic of Korea,Thailand
 Republic of Korea,Philippines
 Republic of Korea,Japan
 Republic of Korea,Japan
-Republic of Korea,Vietnam
+Republic of Korea,Viet Nam
 Republic of Korea,Japan
 Republic of Korea,Japan
 Republic of Korea,China
@@ -14177,7 +14327,7 @@ Republic of Korea,Japan
 Republic of Korea,China
 Republic of Korea,China
 Republic of Korea,Cambodia
-Republic of Korea,Vietnam
+Republic of Korea,Viet Nam
 Republic of Korea,China
 China,Republic of Korea
 China,Republic of Korea
@@ -14190,12 +14340,12 @@ Chile,United States of America
 Chile,Peru
 United States of America,Republic of Korea
 United States of America,Republic of Korea
-Vietnam,Republic of Korea
-Vietnam,Republic of Korea
+Viet Nam,Republic of Korea
+Viet Nam,Republic of Korea
 China,Republic of Korea
 China,Republic of Korea
 Singapore,Republic of Korea
-Russia,Republic of Korea
+Russian Federation,Republic of Korea
 Australia,Republic of Korea
 China,Republic of Korea
 China,Republic of Korea
@@ -14208,7 +14358,7 @@ China,Republic of Korea
 China,Republic of Korea
 Mongolia,Republic of Korea
 Austria,Switzerland
-Russia,Republic of Korea
+Russian Federation,Republic of Korea
 China,Republic of Korea
 China,Republic of Korea
 China,Republic of Korea
@@ -14233,11 +14383,11 @@ Turkiye,Cyprus
 Turkiye,Iran (Islamic Republic of)
 Turkiye,Iraq
 Turkiye,The United Kingdom
-Turkiye,Russia
+Turkiye,Russian Federation
 Turkiye,Georgia
 Iraq,Turkiye
 The United Kingdom,Turkiye
-Russia,Turkiye
+Russian Federation,Turkiye
 Georgia,Turkiye
 Denmark,Netherlands
 Nigeria,France
@@ -14321,7 +14471,7 @@ Netherlands,United States of America
 Netherlands,The United Kingdom
 Netherlands,Cyprus
 Netherlands,The United Kingdom
-Netherlands,Russia
+Netherlands,Russian Federation
 Netherlands,The United Kingdom
 Netherlands,Peru
 Netherlands,Italy
@@ -14359,7 +14509,7 @@ Netherlands,United States of America
 Netherlands,Singapore
 Netherlands,Germany
 Netherlands,Norway
-Netherlands,Russia
+Netherlands,Russian Federation
 Netherlands,France
 Netherlands,Georgia
 Netherlands,Estonia
@@ -14529,7 +14679,7 @@ The United Kingdom,Netherlands
 Cyprus,Netherlands
 The United Kingdom,Netherlands
 The United Kingdom,Netherlands
-Russia,Netherlands
+Russian Federation,Netherlands
 Pakistan,United Arab Emirates
 The United Kingdom,Netherlands
 The United Kingdom,United States of America
@@ -14620,7 +14770,7 @@ Germany,Netherlands
 Germany,United States of America
 Virgin Islands,United States of America
 Norway,Netherlands
-Russia,Netherlands
+Russian Federation,Netherlands
 France,Netherlands
 Georgia,Netherlands
 Georgia,Ukraine
@@ -14651,7 +14801,7 @@ Italy,Belgium
 Italy,Malta
 Italy,Germany
 The United Kingdom,Malta
-Russia,Malta
+Russian Federation,Malta
 Germany,Malta
 The United Kingdom,Malta
 Italy,Malta
@@ -14661,7 +14811,7 @@ Switzerland,Malta
 Germany,Malta
 Turkiye,Malta
 Cyprus,Malta
-Russia,Malta
+Russian Federation,Malta
 The United Kingdom,Malta
 The United Kingdom,Malta
 Italy,Malta
@@ -14678,7 +14828,7 @@ Malta,Hungary
 Malta,France
 Malta,Italy
 Malta,The United Kingdom
-Malta,Russia
+Malta,Russian Federation
 Malta,Germany
 Malta,The United Kingdom
 Malta,Italy
@@ -14688,7 +14838,7 @@ Malta,Switzerland
 Malta,Germany
 Malta,Turkiye
 Malta,Cyprus
-Malta,Russia
+Malta,Russian Federation
 Malta,The United Kingdom
 Malta,The United Kingdom
 Malta,Italy
@@ -14701,7 +14851,7 @@ Malta,The United Kingdom
 Malta,France
 Malta,Czech Republic
 Malta,Turkiye
-Malta,Russia
+Malta,Russian Federation
 Malta,Libya
 Malta,Germany
 Malta,Austria
@@ -14715,7 +14865,7 @@ France,Malta
 Czech Republic,Malta
 Turkiye,Malta
 Bulgaria,Greece
-Russia,Malta
+Russian Federation,Malta
 Libya,Malta
 Germany,Malta
 Austria,Malta
@@ -14751,7 +14901,7 @@ Senegal,Ghana
 Senegal,Mali
 Cameroon,Kenya
 United Arab Emirates,Kenya
-United Arab Emirates,Russia
+United Arab Emirates,Russian Federation
 Uganda,Kenya
 The United Kingdom,France
 Congo (Kinshasa),Kenya
@@ -14837,17 +14987,32 @@ Cameroon,Kenya
 Mozambique,Kenya
 Liberia,Ghana
 Seychelles,Kenya
-Russia,United Arab Emirates
+Russian Federation,United Arab Emirates
 Madagascar,Kenya
 Namibia,South Africa
 Namibia,Zambia
 United Republic of Tanzania,Kenya
-Russia,Kyrgyzstan
-Kyrgyzstan,Russia
+Russian Federation,Kyrgyzstan
+Russian Federation,Kyrgyzstan
+Russian Federation,Kyrgyzstan
+Kyrgyzstan,Russian Federation
+Kyrgyzstan,Russian Federation
+Kyrgyzstan,Russian Federation
+Kyrgyzstan,Russian Federation
+Kyrgyzstan,Russian Federation
+Kyrgyzstan,Russian Federation
 Kyrgyzstan,China
-Russia,Kyrgyzstan
-Kyrgyzstan,Russia
-Russia,Kyrgyzstan
+Russian Federation,Kyrgyzstan
+Russian Federation,Kyrgyzstan
+Kyrgyzstan,Russian Federation
+Kyrgyzstan,Russian Federation
+Kyrgyzstan,Russian Federation
+Kyrgyzstan,Russian Federation
+Russian Federation,Kyrgyzstan
+Russian Federation,Kyrgyzstan
+Russian Federation,Kyrgyzstan
+Russian Federation,Kyrgyzstan
+Russian Federation,Kyrgyzstan
 China,Kyrgyzstan
 Ethiopia,Kuwait
 Jordan,Kuwait
@@ -14991,7 +15156,8 @@ Ecuador,Spain
 Ecuador,Chile
 Cuba,Peru
 Brazil,Peru
-Chile,Bolivia
+Chile,Bolivia (Plurinational State of)
+Chile,Bolivia (Plurinational State of)
 United States of America,Peru
 United States of America,Chile
 United States of America,Peru
@@ -15007,16 +15173,16 @@ Peru,Cuba
 Peru,Brazil
 Peru,United States of America
 Peru,United States of America
-Peru,Bolivia
+Peru,Bolivia (Plurinational State of)
 Peru,Spain
 Peru,Mexico
 Peru,United States of America
 Peru,Dominican Republic
 Peru,Chile
 Peru,Ecuador
-Peru,Bolivia
-Bolivia,Chile
-Bolivia,Peru
+Peru,Bolivia (Plurinational State of)
+Bolivia (Plurinational State of),Chile
+Bolivia (Plurinational State of),Peru
 Spain,Germany
 Spain,Brazil
 Spain,Ecuador
@@ -15071,8 +15237,8 @@ Ecuador,Colombia
 Ecuador,Peru
 Ecuador,Spain
 Ecuador,Colombia
-Bolivia,Chile
-Bolivia,Peru
+Bolivia (Plurinational State of),Chile
+Bolivia (Plurinational State of),Peru
 Congo (Brazzaville),France
 Congo (Brazzaville),Benin
 Congo (Brazzaville),Cameroon
@@ -15128,7 +15294,7 @@ Luxembourg,Sweden
 Luxembourg,Turkiye
 Luxembourg,Spain
 Luxembourg,France
-Luxembourg,Cape Verde
+Luxembourg,Cabo Verde
 Luxembourg,Italy
 Luxembourg,France
 Luxembourg,Greece
@@ -15177,7 +15343,7 @@ Spain,Luxembourg
 Morocco,Luxembourg
 Greece,Luxembourg
 Germany,Luxembourg
-Cape Verde,Luxembourg
+Cabo Verde,Luxembourg
 Spain,Luxembourg
 Germany,Luxembourg
 Bulgaria,Luxembourg
@@ -15293,7 +15459,8 @@ Senegal,Belgium
 Senegal,Guinea
 Cameroon,Belgium
 Cameroon,Congo (Kinshasa)
-Russia,Germany
+Russian Federation,Germany
+Russian Federation,Germany
 Saudi Arabia,Germany
 Saudi Arabia,Kuwait
 Qatar,Bahrain
@@ -15316,7 +15483,7 @@ Germany,Italy
 Germany,The United Kingdom
 Germany,Sweden
 Germany,Austria
-Germany,Russia
+Germany,Russian Federation
 Germany,The United Kingdom
 Germany,Austria
 Germany,The United Kingdom
@@ -15332,7 +15499,7 @@ Germany,China
 Germany,Greece
 Germany,Croatia
 Germany,Austria
-Germany,Russia
+Germany,Russian Federation
 Germany,Spain
 Germany,Poland
 Germany,Switzerland
@@ -15414,7 +15581,7 @@ Germany,Croatia
 Germany,India
 Germany,United States of America
 Germany,United States of America
-Germany,Russia
+Germany,Russian Federation
 Germany,Saudi Arabia
 Germany,Qatar
 Germany,United States of America
@@ -15428,7 +15595,7 @@ Germany,Portugal
 Germany,Italy
 Germany,Poland
 Germany,Brazil
-Germany,Russia
+Germany,Russian Federation
 Germany,Sweden
 Germany,Brazil
 Germany,Austria
@@ -15450,14 +15617,14 @@ Germany,South Africa
 Germany,Ukraine
 Germany,Japan
 Germany,Poland
-Germany,Russia
+Germany,Russian Federation
 Germany,Malaysia
 Germany,Kuwait
 Germany,Angola
 Germany,United States of America
 Germany,Cyprus
 Germany,The United Kingdom
-Germany,Russia
+Germany,Russian Federation
 Germany,The United Kingdom
 Germany,Italy
 Germany,Portugal
@@ -15513,7 +15680,7 @@ Germany,Kazakhstan
 Germany,Tunisia
 Germany,Italy
 Germany,Austria
-Germany,Russia
+Germany,Russian Federation
 Germany,Spain
 Germany,Lithuania
 Germany,Italy
@@ -15526,7 +15693,7 @@ Brazil,Germany
 The United Kingdom,Germany
 The United Kingdom,United States of America
 Italy,Germany
-Russia,Germany
+Russian Federation,Germany
 Sweden,Germany
 Brazil,Germany
 Austria,Germany
@@ -15578,7 +15745,7 @@ Republic of Moldova,Germany
 Japan,Germany
 Greece,Germany
 Poland,Germany
-Russia,Germany
+Russian Federation,Germany
 Malaysia,Germany
 Kuwait,Saudi Arabia
 Kuwait,Germany
@@ -15589,7 +15756,9 @@ United States of America,The United Kingdom
 United States of America,Germany
 Cyprus,Germany
 The United Kingdom,Germany
-Russia,Germany
+Russian Federation,Germany
+Russian Federation,Germany
+Russian Federation,Germany
 Germany,Austria
 Togo,Belgium
 The United Kingdom,Germany
@@ -15663,7 +15832,7 @@ Germany,Denmark
 Germany,Italy
 Germany,Croatia
 Germany,India
-Germany,Russia
+Germany,Russian Federation
 Germany,Ukraine
 Germany,Ireland
 Germany,United Arab Emirates
@@ -15691,7 +15860,7 @@ Germany,Greece
 Germany,Poland
 Germany,United States of America
 Germany,Cyprus
-Germany,Russia
+Germany,Russian Federation
 Germany,The United Kingdom
 Germany,Portugal
 Germany,Slovenia
@@ -15822,13 +15991,15 @@ Germany,United States of America
 Germany,Luxembourg
 Germany,Israel
 Germany,Austria
-Germany,Russia
+Germany,Russian Federation
 Germany,Croatia
 Germany,Switzerland
 Italy,Germany
 Austria,Germany
 Austria,Canada
-Russia,Germany
+Russian Federation,Germany
+Russian Federation,Germany
+Russian Federation,Germany
 Spain,Germany
 Lithuania,Belgium
 Lithuania,Germany
@@ -15965,7 +16136,7 @@ Poland,Germany
 Poland,Austria
 Poland,Germany
 Cyprus,Poland
-Russia,Poland
+Russian Federation,Poland
 The United Kingdom,Poland
 Portugal,Poland
 Slovenia,Poland
@@ -15983,7 +16154,7 @@ Poland,Germany
 Czech Republic,Poland
 Latvia,Poland
 Bulgaria,Poland
-Russia,Poland
+Russian Federation,Poland
 Georgia,Poland
 Estonia,Poland
 Israel,Poland
@@ -16007,7 +16178,7 @@ Poland,Turkiye
 Poland,United States of America
 Poland,Ukraine
 Poland,Cyprus
-Poland,Russia
+Poland,Russian Federation
 Poland,The United Kingdom
 Poland,Portugal
 Poland,Slovenia
@@ -16024,7 +16195,7 @@ Poland,China
 Poland,Czech Republic
 Poland,Latvia
 Poland,Bulgaria
-Poland,Russia
+Poland,Russian Federation
 Poland,Georgia
 Poland,Estonia
 Poland,Israel
@@ -16388,7 +16559,8 @@ United Republic of Tanzania,Kenya
 Croatia,Switzerland
 India,Switzerland
 Cameroon,Belgium
-Russia,Switzerland
+Russian Federation,Switzerland
+Russian Federation,Switzerland
 Qatar,Bahrain
 Qatar,Germany
 Ireland,Switzerland
@@ -16414,7 +16586,7 @@ Switzerland,Egypt
 Switzerland,France
 Switzerland,Denmark
 Switzerland,Italy
-Switzerland,Russia
+Switzerland,Russian Federation
 Switzerland,United States of America
 Switzerland,Italy
 Switzerland,Germany
@@ -16422,7 +16594,7 @@ Switzerland,Greece
 Switzerland,United States of America
 Switzerland,United States of America
 Switzerland,The United Kingdom
-Switzerland,Russia
+Switzerland,Russian Federation
 Switzerland,The United Kingdom
 Switzerland,Portugal
 Switzerland,Spain
@@ -16457,7 +16629,8 @@ Cyprus,Switzerland
 The United Kingdom,France
 The United Kingdom,Switzerland
 The United Kingdom,Switzerland
-Russia,Switzerland
+Russian Federation,Switzerland
+Russian Federation,Switzerland
 The United Kingdom,Switzerland
 The United Kingdom,Switzerland
 Italy,Belgium
@@ -16529,7 +16702,7 @@ Switzerland,Denmark
 Switzerland,Italy
 Switzerland,Croatia
 Switzerland,India
-Switzerland,Russia
+Switzerland,Russian Federation
 Switzerland,Ireland
 Switzerland,Germany
 Switzerland,United Arab Emirates
@@ -16552,7 +16725,7 @@ Switzerland,United States of America
 Switzerland,United States of America
 Switzerland,Cyprus
 Switzerland,The United Kingdom
-Switzerland,Russia
+Switzerland,Russian Federation
 Switzerland,The United Kingdom
 Switzerland,Portugal
 Switzerland,Slovenia
@@ -16604,7 +16777,7 @@ India,Israel
 Belgium,Israel
 Hungary,Israel
 France,Israel
-Russia,Israel
+Russian Federation,Israel
 United States of America,Israel
 Italy,Israel
 Germany,Israel
@@ -16614,7 +16787,7 @@ South Africa,Israel
 Ukraine,Israel
 United States of America,Israel
 Cyprus,Israel
-Russia,Israel
+Russian Federation,Israel
 The United Kingdom,Israel
 The United Kingdom,Israel
 Spain,Israel
@@ -16635,7 +16808,7 @@ Israel,India
 Israel,Belgium
 Israel,Hungary
 Israel,France
-Israel,Russia
+Israel,Russian Federation
 Israel,United States of America
 Israel,Italy
 Israel,Germany
@@ -16645,7 +16818,7 @@ Israel,South Africa
 Israel,Ukraine
 Israel,United States of America
 Israel,Cyprus
-Israel,Russia
+Israel,Russian Federation
 Israel,The United Kingdom
 Israel,The United Kingdom
 Israel,Spain
@@ -16671,8 +16844,8 @@ Denmark,Norway
 Norway,Denmark
 Egypt,Saudi Arabia
 Saudi Arabia,Egypt
-Ukraine,Russia
-Russia,Ukraine
+Ukraine,Russian Federation
+Russian Federation,Ukraine
 Thailand,China
 Thailand,Malaysia
 Thailand,Singapore
@@ -16731,7 +16904,7 @@ Lebanon,Italy
 Lebanon,Iraq
 Lebanon,Romania
 Lebanon,Saudi Arabia
-Lebanon,Russia
+Lebanon,Russian Federation
 Lebanon,Tunisia
 Iraq,Lebanon
 Belgium,Lebanon
@@ -16758,7 +16931,7 @@ Italy,Lebanon
 Iraq,Lebanon
 Romania,Lebanon
 Saudi Arabia,Lebanon
-Russia,Lebanon
+Russian Federation,Lebanon
 Tunisia,Lebanon
 Thailand,China
 Indonesia,China
@@ -16834,7 +17007,7 @@ Italy,Sri Lanka
 China,Malaysia
 Germany,United States of America
 Germany,Malaysia
-Vietnam,Malaysia
+Viet Nam,Malaysia
 Finland,France
 Finland,The United Kingdom
 Thailand,Malaysia
@@ -16875,7 +17048,7 @@ Malaysia,Australia
 Malaysia,United Arab Emirates
 Malaysia,China
 Malaysia,Germany
-Malaysia,Vietnam
+Malaysia,Viet Nam
 Malaysia,Thailand
 Malaysia,India
 Malaysia,Republic of Korea
@@ -16899,7 +17072,7 @@ Malaysia,Cambodia
 Malaysia,China
 Malaysia,Cambodia
 Malaysia,Burma
-Malaysia,Vietnam
+Malaysia,Viet Nam
 Malaysia,Singapore
 Malaysia,Australia
 Malaysia,Uzbekistan
@@ -16945,7 +17118,7 @@ Cambodia,Malaysia
 Burma,Malaysia
 Saudi Arabia,Qatar
 United States of America,Japan
-Vietnam,Malaysia
+Viet Nam,Malaysia
 Singapore,Malaysia
 Singapore,Uzbekistan
 Australia,Malaysia
@@ -16969,12 +17142,12 @@ China,Singapore
 Thailand,Singapore
 India,Singapore
 China,Singapore
-Vietnam,Cambodia
-Vietnam,Singapore
+Viet Nam,Cambodia
+Viet Nam,Singapore
 East Timor,Singapore
 Australia,Singapore
 Philippines,Singapore
-Vietnam,Singapore
+Viet Nam,Singapore
 Thailand,Singapore
 India,Singapore
 Indonesia,Singapore
@@ -16988,7 +17161,7 @@ Indonesia,Singapore
 Malaysia,Singapore
 Indonesia,Singapore
 Cambodia,Singapore
-Cambodia,Vietnam
+Cambodia,Viet Nam
 Cambodia,Singapore
 Burma,Singapore
 Singapore,Indonesia
@@ -17002,11 +17175,11 @@ Singapore,China
 Singapore,Thailand
 Singapore,India
 Singapore,China
-Singapore,Vietnam
+Singapore,Viet Nam
 Singapore,East Timor
 Singapore,Australia
 Singapore,Philippines
-Singapore,Vietnam
+Singapore,Viet Nam
 Singapore,Thailand
 Singapore,India
 Singapore,Indonesia
@@ -17174,7 +17347,7 @@ Egypt,Indonesia
 Egypt,Morocco
 Egypt,Denmark
 Egypt,United Republic of Tanzania
-Egypt,Russia
+Egypt,Russian Federation
 Egypt,Saudi Arabia
 Egypt,Qatar
 Egypt,United Arab Emirates
@@ -17219,7 +17392,7 @@ Morocco,Egypt
 Denmark,Egypt
 United Republic of Tanzania,Egypt
 United Republic of Tanzania,Zimbabwe
-Russia,Egypt
+Russian Federation,Egypt
 Saudi Arabia,Egypt
 Qatar,Egypt
 United Arab Emirates,Egypt
@@ -17322,7 +17495,7 @@ China,Republic of Korea
 Japan,China
 China,Thailand
 Bangladesh,China
-Vietnam,China
+Viet Nam,China
 India,China
 China,Japan
 Indonesia,China
@@ -17335,7 +17508,8 @@ Germany,Netherlands
 Germany,China
 Japan,China
 Republic of Korea,China
-Vietnam,China
+Viet Nam,China
+Viet Nam,China
 China,Republic of Korea
 China,Thailand
 Japan,China
@@ -17359,7 +17533,7 @@ China,Thailand
 China,Sri Lanka
 China,Thailand
 China,Bangladesh
-China,Vietnam
+China,Viet Nam
 China,United Arab Emirates
 China,Thailand
 China,Republic of Korea
@@ -17392,7 +17566,7 @@ China,Republic of Korea
 China,Japan
 China,Republic of Korea
 China,Australia
-China,Vietnam
+China,Viet Nam
 China,Cambodia
 China,Burma
 China,Singapore
@@ -17424,7 +17598,7 @@ China,United States of America
 China,Italy
 China,Germany
 China,Japan
-China,Vietnam
+China,Viet Nam
 China,Japan
 China,Thailand
 China,United States of America
@@ -17443,9 +17617,9 @@ China,Republic of Korea
 China,Cambodia
 China,United States of America
 China,United States of America
-China,Vietnam
+China,Viet Nam
 China,Singapore
-China,Russia
+China,Russian Federation
 China,Australia
 China,Republic of Korea
 China,Japan
@@ -17455,7 +17629,7 @@ Burma,China
 United States of America,China
 United States of America,China
 United States of America,China
-Vietnam,China
+Viet Nam,China
 China,Republic of Korea
 China,Japan
 Singapore,Australia
@@ -17465,7 +17639,7 @@ Singapore,China
 Singapore,Australia
 Singapore,China
 Northern Mariana Islands,China
-Russia,China
+Russian Federation,China
 Australia,New Zealand
 Australia,China
 Australia,Singapore
@@ -17527,7 +17701,7 @@ Japan,Republic of Korea
 Japan,Singapore
 Republic of Korea,Japan
 Republic of Korea,Japan
-Vietnam,Japan
+Viet Nam,Japan
 China,Japan
 Japan,China
 Japan,Republic of Korea
@@ -17536,7 +17710,7 @@ Japan,France
 Japan,Indonesia
 Japan,Germany
 Japan,Republic of Korea
-Japan,Vietnam
+Japan,Viet Nam
 Japan,United States of America
 Japan,Republic of Korea
 Japan,United States of America
@@ -17629,7 +17803,7 @@ Japan,China
 Japan,Burma
 Japan,United States of America
 Japan,United States of America
-Japan,Vietnam
+Japan,Viet Nam
 Japan,China
 Japan,Singapore
 Japan,United States of America
@@ -17650,7 +17824,7 @@ Japan,China
 United States of America,Japan
 United States of America,Japan
 United States of America,Japan
-Vietnam,Japan
+Viet Nam,Japan
 China,Japan
 Singapore,Japan
 United States of America,Japan
@@ -17763,9 +17937,9 @@ Spain,Morocco
 Spain,Senegal
 Spain,Western Sahara
 Spain,Portugal
-Spain,Cape Verde
+Spain,Cabo Verde
 Spain,Morocco
-Cape Verde,Spain
+Cabo Verde,Spain
 Morocco,Spain
 Spain,Senegal
 Australia,New Zealand
@@ -17862,12 +18036,13 @@ Italy,Greece
 Romania,Greece
 Bulgaria,Greece
 Albania,Greece
-Argentina,Bolivia
-Brazil,Bolivia
-Spain,Bolivia
-Bolivia,Argentina
-Bolivia,Brazil
-Bolivia,Spain
+Argentina,Bolivia (Plurinational State of)
+Brazil,Bolivia (Plurinational State of)
+Brazil,Bolivia (Plurinational State of)
+Spain,Bolivia (Plurinational State of)
+Bolivia (Plurinational State of),Argentina
+Bolivia (Plurinational State of),Brazil
+Bolivia (Plurinational State of),Spain
 India,Malaysia
 Indonesia,Malaysia
 Bangladesh,Malaysia
@@ -17903,30 +18078,33 @@ Belgium,Czech Republic
 Slovakia,Czech Republic
 Hungary,Czech Republic
 France,Czech Republic
-Russia,Czech Republic
+Russian Federation,Czech Republic
 Romania,Czech Republic
 Denmark,Czech Republic
 Germany,Czech Republic
 Armenia,Czech Republic
 Italy,Czech Republic
 Germany,Czech Republic
-Russia,Czech Republic
+Russian Federation,Czech Republic
 Azerbaijan,Czech Republic
 Germany,Czech Republic
 Finland,Czech Republic
 Greece,Czech Republic
 Republic of Korea,Czech Republic
 Ukraine,Czech Republic
-Czech Republic,Russia
+Czech Republic,Russian Federation
+Czech Republic,Russian Federation
 Slovakia,Czech Republic
-Russia,Czech Republic
+Russian Federation,Czech Republic
+Russian Federation,Czech Republic
+Russian Federation,Czech Republic
 Spain,Czech Republic
 Malta,Czech Republic
 Belarus,Czech Republic
 Italy,Czech Republic
 France,Czech Republic
 Romania,Czech Republic
-Russia,Czech Republic
+Russian Federation,Czech Republic
 Spain,Czech Republic
 Czech Republic,Spain
 Czech Republic,Kazakhstan
@@ -17937,14 +18115,14 @@ Czech Republic,Belgium
 Czech Republic,Slovakia
 Czech Republic,Hungary
 Czech Republic,France
-Czech Republic,Russia
+Czech Republic,Russian Federation
 Czech Republic,Romania
 Czech Republic,Denmark
 Czech Republic,Germany
 Czech Republic,Armenia
 Czech Republic,Italy
 Czech Republic,Germany
-Czech Republic,Russia
+Czech Republic,Russian Federation
 Czech Republic,Azerbaijan
 Czech Republic,Germany
 Czech Republic,Finland
@@ -17952,52 +18130,56 @@ Czech Republic,Greece
 Czech Republic,Republic of Korea
 Czech Republic,Ukraine
 Czech Republic,Slovakia
-Czech Republic,Russia
+Czech Republic,Russian Federation
+Czech Republic,Russian Federation
 Czech Republic,Spain
 Czech Republic,Malta
 Czech Republic,Belarus
 Czech Republic,Italy
 Czech Republic,France
 Czech Republic,Romania
-Czech Republic,Russia
+Czech Republic,Russian Federation
 Czech Republic,Spain
 Czech Republic,Greece
 Czech Republic,Latvia
-Czech Republic,Russia
+Czech Republic,Russian Federation
 Czech Republic,Bulgaria
-Czech Republic,Russia
+Czech Republic,Russian Federation
+Czech Republic,Russian Federation
 Czech Republic,France
 Czech Republic,Uzbekistan
 Czech Republic,Israel
 Czech Republic,Germany
-Czech Republic,Russia
+Czech Republic,Russian Federation
 Czech Republic,Spain
 Czech Republic,Poland
 Czech Republic,Switzerland
 Greece,Czech Republic
 Latvia,Czech Republic
-Russia,Czech Republic
+Russian Federation,Czech Republic
 Bulgaria,Czech Republic
 Croatia,Czech Republic
-Russia,Czech Republic
+Russian Federation,Czech Republic
+Russian Federation,Czech Republic
+Russian Federation,Czech Republic
 France,Czech Republic
 Uzbekistan,Czech Republic
 Israel,Czech Republic
 Germany,Czech Republic
-Russia,Czech Republic
+Russian Federation,Czech Republic
 Spain,Czech Republic
 Poland,Czech Republic
 Switzerland,Czech Republic
 Republic of Korea,Mongolia
 Japan,Mongolia
 China,Mongolia
-Russia,Germany
-Russia,Mongolia
-Germany,Russia
+Russian Federation,Germany
+Russian Federation,Mongolia
+Germany,Russian Federation
 Mongolia,Republic of Korea
 Mongolia,Japan
 Mongolia,China
-Mongolia,Russia
+Mongolia,Russian Federation
 Australia,Nauru
 Nauru,Australia
 Nauru,Marshall Islands
@@ -18039,7 +18221,7 @@ Italy,Austria
 Croatia,Austria
 India,Austria
 Turkiye,Austria
-Russia,Austria
+Russian Federation,Austria
 Ukraine,Austria
 Germany,Austria
 United Arab Emirates,Austria
@@ -18066,10 +18248,10 @@ Ukraine,Austria
 Republic of Moldova,Austria
 Austria,Germany
 Poland,Austria
-Russia,Austria
+Russian Federation,Austria
 Slovakia,Austria
 Cyprus,Austria
-Russia,Austria
+Russian Federation,Austria
 Germany,Austria
 The United Kingdom,Austria
 Portugal,Austria
@@ -18097,7 +18279,7 @@ Czech Republic,Austria
 Serbia,Austria
 Greece,Austria
 Latvia,Austria
-Russia,Austria
+Russian Federation,Austria
 Romania,Austria
 Bosnia and Herzegovina,Austria
 Greece,Austria
@@ -18138,7 +18320,7 @@ Austria,Italy
 Austria,Croatia
 Austria,India
 Austria,Turkiye
-Austria,Russia
+Austria,Russian Federation
 Austria,Ukraine
 Austria,Germany
 Austria,United Arab Emirates
@@ -18162,10 +18344,10 @@ Austria,Greece
 Austria,Ukraine
 Austria,Republic of Moldova
 Austria,Poland
-Austria,Russia
+Austria,Russian Federation
 Austria,Slovakia
 Austria,Cyprus
-Austria,Russia
+Austria,Russian Federation
 Austria,Germany
 Austria,The United Kingdom
 Austria,Portugal
@@ -18192,7 +18374,7 @@ Austria,Czech Republic
 Austria,Serbia
 Austria,Greece
 Austria,Latvia
-Austria,Russia
+Austria,Russian Federation
 Austria,Romania
 Austria,Bosnia and Herzegovina
 Austria,Greece
@@ -18210,13 +18392,13 @@ Austria,Kazakhstan
 Austria,Germany
 Austria,Bulgaria
 Austria,Italy
-Austria,Russia
+Austria,Russian Federation
 Austria,Lithuania
 Austria,Poland
 Austria,Canada
 Austria,Croatia
 Austria,Switzerland
-Russia,Austria
+Russian Federation,Austria
 Lithuania,Austria
 Poland,Austria
 Canada,Austria
@@ -18295,21 +18477,21 @@ Sweden,Estonia
 Belgium,Estonia
 Denmark,Estonia
 Ukraine,Estonia
-Russia,Estonia
+Russian Federation,Estonia
 France,Estonia
 Norway,Estonia
 Croatia,Estonia
-Russia,Estonia
+Russian Federation,Estonia
 Estonia,Netherlands
 Estonia,Sweden
 Estonia,Belgium
 Estonia,Denmark
 Estonia,Ukraine
-Estonia,Russia
+Estonia,Russian Federation
 Estonia,France
 Estonia,Norway
 Estonia,Croatia
-Estonia,Russia
+Estonia,Russian Federation
 Estonia,Norway
 Estonia,Lithuania
 Norway,Estonia
@@ -18336,7 +18518,7 @@ China,Republic of Korea
 Philippines,Republic of Korea
 China,Republic of Korea
 China,Republic of Korea
-Vietnam,Republic of Korea
+Viet Nam,Republic of Korea
 India,Republic of Korea
 China,Republic of Korea
 Qatar,Republic of Korea
@@ -18349,7 +18531,7 @@ Republic of Korea,Japan
 Republic of Korea,Japan
 Republic of Korea,China
 Republic of Korea,China
-Vietnam,Republic of Korea
+Viet Nam,Republic of Korea
 China,Republic of Korea
 China,Republic of Korea
 China,Republic of Korea
@@ -18372,14 +18554,14 @@ Republic of Korea,China
 Republic of Korea,Philippines
 Republic of Korea,China
 Republic of Korea,China
-Republic of Korea,Vietnam
+Republic of Korea,Viet Nam
 Republic of Korea,India
 Republic of Korea,China
 Republic of Korea,Qatar
 Republic of Korea,Indonesia
 Republic of Korea,Germany
 Republic of Korea,Japan
-Republic of Korea,Vietnam
+Republic of Korea,Viet Nam
 Republic of Korea,China
 Republic of Korea,Japan
 Republic of Korea,Thailand
@@ -18389,7 +18571,7 @@ Republic of Korea,China
 Republic of Korea,Turkiye
 Republic of Korea,United States of America
 Republic of Korea,China
-Republic of Korea,Russia
+Republic of Korea,Russian Federation
 Republic of Korea,Japan
 Republic of Korea,Japan
 Republic of Korea,Japan
@@ -18414,7 +18596,7 @@ Republic of Korea,Palau
 Republic of Korea,Japan
 Republic of Korea,United States of America
 Republic of Korea,United States of America
-Republic of Korea,Vietnam
+Republic of Korea,Viet Nam
 Republic of Korea,Singapore
 Republic of Korea,Northern Mariana Islands
 Republic of Korea,Australia
@@ -18427,8 +18609,8 @@ Republic of Korea,Japan
 Republic of Korea,China
 Republic of Korea,China
 Republic of Korea,Japan
-Republic of Korea,Russia
-Republic of Korea,Russia
+Republic of Korea,Russian Federation
+Republic of Korea,Russian Federation
 Republic of Korea,China
 Republic of Korea,Japan
 Republic of Korea,China
@@ -18442,7 +18624,7 @@ Turkiye,Switzerland
 United States of America,Republic of Korea
 South Africa,Singapore
 China,Republic of Korea
-Russia,Republic of Korea
+Russian Federation,Republic of Korea
 Japan,Republic of Korea
 Japan,Republic of Korea
 Japan,Republic of Korea
@@ -18499,7 +18681,7 @@ Palau,Republic of Korea
 Japan,Republic of Korea
 United States of America,Republic of Korea
 United States of America,Republic of Korea
-Vietnam,Republic of Korea
+Viet Nam,Republic of Korea
 China,Republic of Korea
 China,Republic of Korea
 Singapore,Republic of Korea
@@ -18519,9 +18701,9 @@ China,Republic of Korea
 China,Republic of Korea
 China,Republic of Korea
 Japan,Republic of Korea
-Russia,Republic of Korea
+Russian Federation,Republic of Korea
 Austria,Turkiye
-Russia,Republic of Korea
+Russian Federation,Republic of Korea
 China,Republic of Korea
 Japan,Republic of Korea
 China,Republic of Korea
@@ -18543,7 +18725,7 @@ Turkiye,Germany
 Turkiye,Cyprus
 Turkiye,The United Kingdom
 Turkiye,Germany
-Russia,Turkiye
+Russian Federation,Turkiye
 Kazakhstan,Turkiye
 Netherlands,Turkiye
 Netherlands,Turkiye
@@ -18578,7 +18760,7 @@ Germany,Turkiye
 Denmark,Turkiye
 Denmark,Turkiye
 Belgium,Turkiye
-Russia,Turkiye
+Russian Federation,Turkiye
 Qatar,Turkiye
 Ukraine,Turkiye
 Germany,Turkiye
@@ -18610,14 +18792,14 @@ Turkiye,Cyprus
 Ukraine,Turkiye
 Turkiye,Cyprus
 Iran (Islamic Republic of),Turkiye
-Russia,Turkiye
+Russian Federation,Turkiye
 Kuwait,Turkiye
 Ukraine,Turkiye
 Spain,Turkiye
 France,Turkiye
 Germany,Turkiye
 Germany,Turkiye
-Russia,Turkiye
+Russian Federation,Turkiye
 France,Turkiye
 Romania,Turkiye
 Serbia,Turkiye
@@ -18634,7 +18816,7 @@ Turkiye,France
 Turkiye,Germany
 Turkiye,Denmark
 Turkiye,Belgium
-Turkiye,Russia
+Turkiye,Russian Federation
 Turkiye,Qatar
 Turkiye,Ukraine
 Turkiye,Germany
@@ -18647,14 +18829,14 @@ Turkiye,Kyrgyzstan
 Turkiye,Azerbaijan
 Turkiye,Ukraine
 Turkiye,Iran (Islamic Republic of)
-Turkiye,Russia
+Turkiye,Russian Federation
 Turkiye,Kuwait
 Turkiye,Ukraine
 Turkiye,Spain
 Turkiye,France
 Turkiye,Germany
 Turkiye,Germany
-Turkiye,Russia
+Turkiye,Russian Federation
 Turkiye,France
 Turkiye,Romania
 Turkiye,Serbia
@@ -18679,7 +18861,7 @@ Germany,Turkiye
 Georgia,Turkiye
 Albania,Turkiye
 Israel,Turkiye
-Turkiye,Russia
+Turkiye,Russian Federation
 Austria,Turkiye
 Austria,Turkiye
 Austria,Turkiye
@@ -18898,7 +19080,7 @@ Philippines,Republic of Korea
 Philippines,China
 Philippines,Saudi Arabia
 Philippines,United States of America
-Philippines,Vietnam
+Philippines,Viet Nam
 Philippines,Singapore
 Philippines,Australia
 Philippines,China
@@ -18910,7 +19092,7 @@ Republic of Korea,Philippines
 China,Philippines
 Saudi Arabia,Philippines
 United States of America,Philippines
-Vietnam,Philippines
+Viet Nam,Philippines
 Singapore,Philippines
 Australia,Philippines
 China,Philippines
@@ -18922,7 +19104,8 @@ Spain,Ukraine
 Thailand,Ukraine
 Belgium,Ukraine
 France,Ukraine
-Russia,Ukraine
+Russian Federation,Ukraine
+Russian Federation,Ukraine
 Ukraine,Turkiye
 Ukraine,Israel
 Ukraine,Turkiye
@@ -18950,7 +19133,7 @@ Ukraine,Spain
 Ukraine,Thailand
 Ukraine,Belgium
 Ukraine,France
-Ukraine,Russia
+Ukraine,Russian Federation
 Ukraine,United Arab Emirates
 Ukraine,Armenia
 Ukraine,Italy
@@ -18961,9 +19144,9 @@ Ukraine,Finland
 Ukraine,Greece
 Ukraine,Turkiye
 Ukraine,United States of America
-Ukraine,Russia
+Ukraine,Russian Federation
 Ukraine,Cyprus
-Ukraine,Russia
+Ukraine,Russian Federation
 Ukraine,The United Kingdom
 Ukraine,Portugal
 Ukraine,Spain
@@ -18971,13 +19154,13 @@ Ukraine,Belarus
 Ukraine,Germany
 Ukraine,Italy
 Ukraine,France
-Ukraine,Russia
+Ukraine,Russian Federation
 Ukraine,Czech Republic
 Ukraine,Greece
 Ukraine,Latvia
-Ukraine,Russia
+Ukraine,Russian Federation
 Ukraine,Turkiye
-Ukraine,Russia
+Ukraine,Russian Federation
 Ukraine,Georgia
 Ukraine,Spain
 Ukraine,Israel
@@ -18987,9 +19170,9 @@ Ukraine,Austria
 Ukraine,Lithuania
 Ukraine,Poland
 Ukraine,Switzerland
-Russia,Ukraine
+Russian Federation,Ukraine
 Cyprus,Ukraine
-Russia,Ukraine
+Russian Federation,Ukraine
 The United Kingdom,Ukraine
 Portugal,Ukraine
 Ukraine,Cyprus
@@ -18999,18 +19182,18 @@ Belarus,Ukraine
 Germany,Ukraine
 Italy,Ukraine
 France,Ukraine
-Ukraine,Russia
+Ukraine,Russian Federation
 Ukraine,Turkiye
 Ukraine,Cyprus
 Ukraine,Israel
 Ukraine,Austria
-Russia,Ukraine
+Russian Federation,Ukraine
 Czech Republic,Ukraine
 Greece,Ukraine
 Latvia,Ukraine
-Russia,Ukraine
+Russian Federation,Ukraine
 Turkiye,Ukraine
-Russia,Ukraine
+Russian Federation,Ukraine
 Georgia,Ukraine
 Spain,Ukraine
 Israel,Ukraine
@@ -19072,7 +19255,7 @@ Paraguay,Brazil
 Paraguay,Argentina
 Paraguay,Brazil
 Paraguay,Chile
-Paraguay,Bolivia
+Paraguay,Bolivia (Plurinational State of)
 Argentina,Paraguay
 Argentina,Brazil
 Brazil,Argentina
@@ -19081,7 +19264,7 @@ Brazil,Argentina
 Brazil,Uruguay
 Uruguay,Brazil
 Chile,Paraguay
-Bolivia,Paraguay
+Bolivia (Plurinational State of),Paraguay
 Sri Lanka,Maldives
 Bangladesh,India
 Maldives,Sri Lanka
@@ -19219,7 +19402,7 @@ Australia,Malaysia
 Australia,United States of America
 Australia,Fiji
 Australia,China
-Australia,Vietnam
+Australia,Viet Nam
 Australia,Singapore
 Australia,New Zealand
 Philippines,Australia
@@ -19246,7 +19429,8 @@ China,Australia
 Saudi Arabia,United Arab Emirates
 Chile,New Zealand
 Chile,Australia
-Vietnam,Australia
+Viet Nam,Australia
+Viet Nam,Australia
 Singapore,Australia
 Singapore,Indonesia
 Singapore,United Arab Emirates
@@ -19272,7 +19456,7 @@ Australia,Japan
 Australia,Papua New Guinea
 Australia,China
 Australia,Chile
-Australia,Vietnam
+Australia,Viet Nam
 Australia,Singapore
 Australia,Vanuatu
 Australia,New Zealand
@@ -19283,30 +19467,53 @@ New Zealand,Australia
 Switzerland,United Arab Emirates
 Malaysia,Indonesia
 Indonesia,Malaysia
-Russia,Kyrgyzstan
-Kyrgyzstan,Russia
+Russian Federation,Kyrgyzstan
+Russian Federation,Kyrgyzstan
+Russian Federation,Kyrgyzstan
+Russian Federation,Kyrgyzstan
+Kyrgyzstan,Russian Federation
+Kyrgyzstan,Russian Federation
 Kyrgyzstan,Turkiye
-Kyrgyzstan,Russia
+Kyrgyzstan,Russian Federation
+Kyrgyzstan,Russian Federation
+Kyrgyzstan,Russian Federation
+Kyrgyzstan,Russian Federation
 Kyrgyzstan,Uzbekistan
 Kyrgyzstan,China
 Turkiye,Kyrgyzstan
 Turkiye,Kyrgyzstan
-Russia,Kyrgyzstan
-Kyrgyzstan,Russia
+Russian Federation,Kyrgyzstan
+Russian Federation,Kyrgyzstan
+Russian Federation,Kyrgyzstan
+Kyrgyzstan,Russian Federation
+Kyrgyzstan,Russian Federation
 Kyrgyzstan,Turkiye
-Kyrgyzstan,Russia
+Kyrgyzstan,Russian Federation
+Kyrgyzstan,Russian Federation
+Kyrgyzstan,Russian Federation
 Kyrgyzstan,China
-Russia,Kyrgyzstan
+Russian Federation,Kyrgyzstan
+Russian Federation,Kyrgyzstan
+Russian Federation,Kyrgyzstan
+Russian Federation,Kyrgyzstan
 Uzbekistan,Kyrgyzstan
 China,Kyrgyzstan
-Russia,Armenia
+Russian Federation,Armenia
 Greece,Armenia
 France,Armenia
-Armenia,Russia
+Armenia,Russian Federation
 Armenia,Greece
 Armenia,France
-Armenia,Russia
-Russia,Armenia
+Armenia,Russian Federation
+Armenia,Russian Federation
+Armenia,Russian Federation
+Armenia,Russian Federation
+Armenia,Russian Federation
+Russian Federation,Armenia
+Russian Federation,Armenia
+Russian Federation,Armenia
+Russian Federation,Armenia
+Russian Federation,Armenia
 Ethiopia,Qatar
 Algeria,Qatar
 India,Qatar
@@ -19322,7 +19529,7 @@ Serbia,Turkiye
 Lebanon,Qatar
 Iraq,Qatar
 Thailand,Qatar
-Thailand,Vietnam
+Thailand,Viet Nam
 Thailand,Burma
 India,Qatar
 Belgium,Qatar
@@ -19346,7 +19553,7 @@ China,Qatar
 Bangladesh,Qatar
 United Republic of Tanzania,Qatar
 India,Qatar
-Russia,Qatar
+Russian Federation,Qatar
 Saudi Arabia,Qatar
 Qatar,Ethiopia
 Qatar,Algeria
@@ -19380,7 +19587,7 @@ Qatar,China
 Qatar,Bangladesh
 Qatar,United Republic of Tanzania
 Qatar,India
-Qatar,Russia
+Qatar,Russian Federation
 Qatar,Saudi Arabia
 Qatar,United Arab Emirates
 Qatar,Uganda
@@ -19442,7 +19649,7 @@ Qatar,China
 Qatar,Burma
 Qatar,Saudi Arabia
 Qatar,Yemen
-Qatar,Vietnam
+Qatar,Viet Nam
 Qatar,United Arab Emirates
 Qatar,Singapore
 Qatar,Oman
@@ -19473,7 +19680,7 @@ Brazil,Argentina
 Switzerland,Qatar
 Azerbaijan,Qatar
 Azerbaijan,Georgia
-Vietnam,Thailand
+Viet Nam,Thailand
 Egypt,Qatar
 China,Qatar
 Thailand,Malaysia
@@ -19531,13 +19738,13 @@ China,Qatar
 Australia,Qatar
 Pakistan,Qatar
 United States of America,Qatar
-Cambodia,Vietnam
+Cambodia,Viet Nam
 China,Qatar
 Burma,Qatar
 Saudi Arabia,Qatar
 Yemen,Qatar
-Vietnam,Qatar
-Vietnam,Cambodia
+Viet Nam,Qatar
+Viet Nam,Cambodia
 United Arab Emirates,Qatar
 Singapore,Qatar
 Singapore,Indonesia
@@ -19615,33 +19822,35 @@ Germany,Czech Republic
 Spain,Czech Republic
 Poland,Czech Republic
 Switzerland,Czech Republic
-Ukraine,Russia
-Russia,Ukraine
+Ukraine,Russian Federation
+Ukraine,Russian Federation
+Russian Federation,Ukraine
+Russian Federation,Ukraine
 Thailand,Lao People's Democratic Republic
 Thailand,Lao People's Democratic Republic
 Thailand,Lao People's Democratic Republic
 China,Lao People's Democratic Republic
 Thailand,Lao People's Democratic Republic
-Vietnam,Lao People's Democratic Republic
-Vietnam,Lao People's Democratic Republic
+Viet Nam,Lao People's Democratic Republic
+Viet Nam,Lao People's Democratic Republic
 Republic of Korea,Lao People's Democratic Republic
 China,Lao People's Democratic Republic
 China,Lao People's Democratic Republic
 Lao People's Democratic Republic,Thailand
 Lao People's Democratic Republic,Thailand
-Lao People's Democratic Republic,Vietnam
+Lao People's Democratic Republic,Viet Nam
 Lao People's Democratic Republic,China
 Lao People's Democratic Republic,Cambodia
 Lao People's Democratic Republic,Cambodia
-Lao People's Democratic Republic,Vietnam
+Lao People's Democratic Republic,Viet Nam
 Cambodia,Lao People's Democratic Republic
 Cambodia,Lao People's Democratic Republic
 Cambodia,Lao People's Democratic Republic
-Vietnam,Lao People's Democratic Republic
+Viet Nam,Lao People's Democratic Republic
 Singapore,Lao People's Democratic Republic
 Lao People's Democratic Republic,Thailand
 Lao People's Democratic Republic,China
-Lao People's Democratic Republic,Vietnam
+Lao People's Democratic Republic,Viet Nam
 Lao People's Democratic Republic,Republic of Korea
 Lao People's Democratic Republic,China
 Lao People's Democratic Republic,Cambodia
@@ -19670,29 +19879,34 @@ Indonesia,Singapore
 Indonesia,Thailand
 Indonesia,Malaysia
 Indonesia,Singapore
-Tajikistan,Russia
-Russia,Tajikistan
-Tajikistan,Russia
-Uzbekistan,Russia
-China,Russia
-Russia,Tajikistan
-Russia,Uzbekistan
-Russia,Tajikistan
-Russia,Uzbekistan
-Russia,Turkiye
-Russia,Cyprus
-Russia,Czech Republic
-Russia,Italy
-Russia,Uzbekistan
-Russia,Israel
-Cyprus,Russia
-Russia,Israel
-China,Russia
-Czech Republic,Russia
-Italy,Russia
-Uzbekistan,Russia
-Israel,Russia
-Russia,China
+Tajikistan,Russian Federation
+Russian Federation,Tajikistan
+Russian Federation,Tajikistan
+Tajikistan,Russian Federation
+Tajikistan,Russian Federation
+Uzbekistan,Russian Federation
+China,Russian Federation
+Russian Federation,Tajikistan
+Russian Federation,Uzbekistan
+Russian Federation,Tajikistan
+Russian Federation,Uzbekistan
+Russian Federation,Turkiye
+Russian Federation,Cyprus
+Russian Federation,Czech Republic
+Russian Federation,Italy
+Russian Federation,Uzbekistan
+Russian Federation,Israel
+Cyprus,Russian Federation
+Russian Federation,Israel
+China,Russian Federation
+Czech Republic,Russian Federation
+Italy,Russian Federation
+Uzbekistan,Russian Federation
+Uzbekistan,Russian Federation
+Israel,Russian Federation
+Israel,Russian Federation
+Russian Federation,China
+Russian Federation,China
 Thailand,Nepal
 Qatar,Nepal
 Nepal,Thailand
@@ -19721,7 +19935,7 @@ Jordan,Iraq
 Jordan,Egypt
 Jordan,France
 Jordan,India
-Jordan,Russia
+Jordan,Russian Federation
 Jordan,Saudi Arabia
 Jordan,Qatar
 Jordan,United Arab Emirates
@@ -19772,7 +19986,7 @@ Egypt,Jordan
 France,Jordan
 Denmark,Austria
 India,Jordan
-Russia,Jordan
+Russian Federation,Jordan
 Saudi Arabia,Jordan
 Qatar,Jordan
 United States of America,Canada
@@ -19881,7 +20095,7 @@ Romania,France
 Romania,Czech Republic
 Romania,Greece
 Romania,Bulgaria
-Romania,Russia
+Romania,Russian Federation
 Romania,Israel
 Romania,Austria
 Romania,Poland
@@ -19890,7 +20104,7 @@ Romania,Germany
 Romania,Austria
 Greece,Romania
 Bulgaria,Romania
-Russia,Romania
+Russian Federation,Romania
 Israel,Romania
 Italy,Romania
 Austria,Romania
@@ -19958,141 +20172,173 @@ Canada,Portugal
 Switzerland,Portugal
 Dominican Republic,Haiti
 Haiti,Dominican Republic
-Kazakhstan,Russia
-Spain,Russia
-Jordan,Russia
-Turkmenistan,Russia
-Greece,Russia
-United Arab Emirates,Russia
-Thailand,Russia
-Bulgaria,Russia
-Georgia,Russia
-Russia,Tajikistan
-Russia,Armenia
-Russia,Tajikistan
-Kazakhstan,Russia
-Russia,Spain
-Russia,Jordan
-Russia,Turkmenistan
-Russia,Greece
-Russia,United Arab Emirates
-Russia,Bulgaria
-Russia,Georgia
-Russia,Germany
-Russia,Armenia
-Russia,Germany
-Russia,Italy
-Russia,Azerbaijan
-Russia,Finland
-Russia,Greece
-Russia,Ukraine
-Russia,Republic of Moldova
-Russia,Tajikistan
-Russia,Cyprus
-Russia,Portugal
-Russia,Spain
-Russia,Belarus
-Russia,Germany
-Russia,Japan
-Russia,Ukraine
-Russia,Kyrgyzstan
-Russia,Cyprus
-Russia,Croatia
-Russia,Kazakhstan
-Russia,Greece
-Russia,Ukraine
-Russia,Greece
-Russia,Georgia
-Russia,Montenegro
-Russia,Tajikistan
-Russia,Uzbekistan
-Russia,Kazakhstan
-Russia,Bulgaria
-Russia,Austria
-Russia,Spain
-Russia,Italy
-Germany,Russia
-United Arab Emirates,Russia
-Tajikistan,Russia
-Armenia,Russia
-Uzbekistan,Russia
-Germany,Russia
-Kyrgyzstan,Russia
-Italy,Russia
-Azerbaijan,Russia
-Finland,Russia
-Greece,Russia
-Republic of Korea,Russia
-Russia,Thailand
-Russia,China
-Ukraine,Russia
-Russia,Ukraine
-Russia,Germany
-Russia,Japan
-Russia,China
-Republic of Moldova,Russia
-Russia,China
-Tajikistan,Russia
-Cyprus,Russia
-Russia,Azerbaijan
-Russia,Finland
-Russia,Ukraine
-Russia,Belarus
-Russia,China
-Russia,Greece
-Portugal,Russia
-Spain,Russia
-Belarus,Russia
-Germany,Russia
-Japan,Russia
-Ukraine,Russia
-Kyrgyzstan,Russia
-Russia,Kazakhstan
-Russia,Thailand
-Russia,Kazakhstan
-Russia,United Arab Emirates
-Russia,Tajikistan
-Russia,Armenia
-Russia,Uzbekistan
-Russia,Germany
-Russia,Kyrgyzstan
-Russia,Azerbaijan
-Russia,Tajikistan
-Russia,Germany
-Russia,Kyrgyzstan
-Russia,China
-Russia,Czech Republic
-Russia,Uzbekistan
-Russia,China
-China,Russia
-Cyprus,Russia
-Czech Republic,Russia
-Croatia,Russia
-Kazakhstan,Russia
-Greece,Russia
-Russia,Ukraine
-Ukraine,Russia
-Greece,Russia
-Russia,China
-Russia,Finland
-Russia,Ukraine
-Russia,China
-Uzbekistan,Russia
-Georgia,Russia
-Montenegro,Russia
-Tajikistan,Russia
-Germany,Russia
-Uzbekistan,Russia
-Kazakhstan,Russia
-China,Russia
-Russia,China
-Bulgaria,Russia
-Austria,Russia
-Spain,Russia
-Italy,Russia
-Russia,Republic of Korea
-Russia,Japan
-Russia,China
+Kazakhstan,Russian Federation
+Spain,Russian Federation
+Jordan,Russian Federation
+Turkmenistan,Russian Federation
+Greece,Russian Federation
+United Arab Emirates,Russian Federation
+Thailand,Russian Federation
+Thailand,Russian Federation
+Bulgaria,Russian Federation
+Georgia,Russian Federation
+Russian Federation,Tajikistan
+Russian Federation,Armenia
+Russian Federation,Tajikistan
+Kazakhstan,Russian Federation
+Russian Federation,Spain
+Russian Federation,Jordan
+Russian Federation,Turkmenistan
+Russian Federation,Greece
+Russian Federation,United Arab Emirates
+Russian Federation,Bulgaria
+Russian Federation,Georgia
+Russian Federation,Germany
+Russian Federation,Armenia
+Russian Federation,Germany
+Russian Federation,Italy
+Russian Federation,Azerbaijan
+Russian Federation,Finland
+Russian Federation,Greece
+Russian Federation,Ukraine
+Russian Federation,Republic of Moldova
+Russian Federation,Tajikistan
+Russian Federation,Cyprus
+Russian Federation,Portugal
+Russian Federation,Spain
+Russian Federation,Belarus
+Russian Federation,Germany
+Russian Federation,Japan
+Russian Federation,Ukraine
+Russian Federation,Kyrgyzstan
+Russian Federation,Cyprus
+Russian Federation,Croatia
+Russian Federation,Kazakhstan
+Russian Federation,Greece
+Russian Federation,Ukraine
+Russian Federation,Greece
+Russian Federation,Georgia
+Russian Federation,Montenegro
+Russian Federation,Tajikistan
+Russian Federation,Uzbekistan
+Russian Federation,Kazakhstan
+Russian Federation,Bulgaria
+Russian Federation,Austria
+Russian Federation,Spain
+Russian Federation,Italy
+Germany,Russian Federation
+United Arab Emirates,Russian Federation
+Tajikistan,Russian Federation
+Tajikistan,Russian Federation
+Armenia,Russian Federation
+Armenia,Russian Federation
+Armenia,Russian Federation
+Uzbekistan,Russian Federation
+Germany,Russian Federation
+Germany,Russian Federation
+Kyrgyzstan,Russian Federation
+Italy,Russian Federation
+Azerbaijan,Russian Federation
+Azerbaijan,Russian Federation
+Azerbaijan,Russian Federation
+Finland,Russian Federation
+Finland,Russian Federation
+Finland,Russian Federation
+Greece,Russian Federation
+Republic of Korea,Russian Federation
+Russian Federation,Thailand
+Russian Federation,China
+Ukraine,Russian Federation
+Ukraine,Russian Federation
+Ukraine,Russian Federation
+Ukraine,Russian Federation
+Ukraine,Russian Federation
+Ukraine,Russian Federation
+Russian Federation,Ukraine
+Russian Federation,Germany
+Russian Federation,Japan
+Russian Federation,China
+Republic of Moldova,Russian Federation
+Russian Federation,China
+Tajikistan,Russian Federation
+Tajikistan,Russian Federation
+Tajikistan,Russian Federation
+Cyprus,Russian Federation
+Russian Federation,Azerbaijan
+Russian Federation,Finland
+Russian Federation,Ukraine
+Russian Federation,Belarus
+Russian Federation,China
+Russian Federation,Greece
+Portugal,Russian Federation
+Spain,Russian Federation
+Belarus,Russian Federation
+Belarus,Russian Federation
+Germany,Russian Federation
+Germany,Russian Federation
+Japan,Russian Federation
+Japan,Russian Federation
+Japan,Russian Federation
+Ukraine,Russian Federation
+Kyrgyzstan,Russian Federation
+Kyrgyzstan,Russian Federation
+Russian Federation,Kazakhstan
+Russian Federation,Thailand
+Russian Federation,Kazakhstan
+Russian Federation,United Arab Emirates
+Russian Federation,Tajikistan
+Russian Federation,Armenia
+Russian Federation,Uzbekistan
+Russian Federation,Germany
+Russian Federation,Kyrgyzstan
+Russian Federation,Azerbaijan
+Russian Federation,Tajikistan
+Russian Federation,Germany
+Russian Federation,Kyrgyzstan
+Russian Federation,China
+Russian Federation,Czech Republic
+Russian Federation,Uzbekistan
+Russian Federation,China
+China,Russian Federation
+China,Russian Federation
+China,Russian Federation
+China,Russian Federation
+China,Russian Federation
+China,Russian Federation
+China,Russian Federation
+China,Russian Federation
+China,Russian Federation
+China,Russian Federation
+Cyprus,Russian Federation
+Czech Republic,Russian Federation
+Croatia,Russian Federation
+Kazakhstan,Russian Federation
+Greece,Russian Federation
+Russian Federation,Ukraine
+Ukraine,Russian Federation
+Greece,Russian Federation
+Greece,Russian Federation
+Russian Federation,China
+Russian Federation,Finland
+Russian Federation,Ukraine
+Russian Federation,China
+Uzbekistan,Russian Federation
+Georgia,Russian Federation
+Montenegro,Russian Federation
+Tajikistan,Russian Federation
+Germany,Russian Federation
+Uzbekistan,Russian Federation
+Kazakhstan,Russian Federation
+China,Russian Federation
+Russian Federation,China
+Bulgaria,Russian Federation
+Austria,Russian Federation
+Spain,Russian Federation
+Italy,Russian Federation
+Russian Federation,Republic of Korea
+Russian Federation,Japan
+Russian Federation,China
+Russian Federation,China
 Cote d'Ivoire,Ghana
 Ghana,Cote d'Ivoire
 Cote d'Ivoire,Ghana
@@ -20254,13 +20500,13 @@ Chad,Nigeria
 Sudan,Egypt
 Sudan,Saudi Arabia
 Saudi Arabia,Sudan
-France,Cape Verde
+France,Cabo Verde
 France,Mexico
 France,United States of America
 France,Spain
 France,Italy
 France,Dominican Republic
-France,Cape Verde
+France,Cabo Verde
 Mexico,France
 United States of America,France
 Spain,France
@@ -20268,7 +20514,7 @@ France,Reunion
 Italy,France
 Dominican Republic,France
 Reunion,France
-Cape Verde,France
+Cabo Verde,France
 India,United Arab Emirates
 India,Oman
 Sri Lanka,India
@@ -20332,7 +20578,7 @@ Sweden,Germany
 Sweden,Finland
 Sweden,Turkiye
 Sweden,Greece
-Sweden,Russia
+Sweden,Russian Federation
 Sweden,The United Kingdom
 Sweden,Italy
 Sweden,Spain
@@ -20351,7 +20597,7 @@ Sweden,Latvia
 Sweden,Greece
 Sweden,Croatia
 Sweden,Norway
-Sweden,Russia
+Sweden,Russian Federation
 Sweden,Finland
 Sweden,Estonia
 Sweden,Finland
@@ -20431,7 +20677,7 @@ Denmark,United States of America
 Denmark,Turkiye
 Denmark,Norway
 Denmark,The United Kingdom
-Denmark,Russia
+Denmark,Russian Federation
 Denmark,The United Kingdom
 Denmark,Italy
 Denmark,Slovenia
@@ -20461,7 +20707,7 @@ Denmark,Greece
 Denmark,Croatia
 Denmark,Germany
 Denmark,Norway
-Denmark,Russia
+Denmark,Russian Federation
 Denmark,Finland
 Denmark,Estonia
 Denmark,Israel
@@ -20539,8 +20785,8 @@ Greece,Sweden
 Norway,Spain
 Norway,Denmark
 The United Kingdom,Denmark
-Russia,Sweden
-Russia,Denmark
+Russian Federation,Sweden
+Russian Federation,Denmark
 The United Kingdom,Sweden
 The United Kingdom,Denmark
 The United Kingdom,Sweden
@@ -20612,7 +20858,7 @@ Norway,France
 Norway,Spain
 Norway,Czech Republic
 Norway,Latvia
-Norway,Russia
+Norway,Russian Federation
 Norway,Estonia
 Norway,Germany
 Norway,Switzerland
@@ -20651,9 +20897,9 @@ Norway,The United Kingdom
 Norway,Germany
 Norway,The United Kingdom
 Norway,The United Kingdom
-Russia,Sweden
-Russia,Denmark
-Russia,Norway
+Russian Federation,Sweden
+Russian Federation,Denmark
+Russian Federation,Norway
 Finland,Sweden
 Finland,Denmark
 Estonia,Sweden
@@ -20724,7 +20970,7 @@ Belgium,Italy
 Belgium,India
 Belgium,Senegal
 Belgium,Cameroon
-Belgium,Russia
+Belgium,Russian Federation
 Belgium,The United Kingdom
 Belgium,United States of America
 Belgium,Portugal
@@ -20794,7 +21040,7 @@ Senegal,Belgium
 Senegal,Guinea
 Cameroon,Belgium
 Cameroon,Congo (Kinshasa)
-Russia,Belgium
+Russian Federation,Belgium
 Uganda,Belgium
 The United Kingdom,Belgium
 United States of America,Belgium
@@ -20893,11 +21139,11 @@ India,Singapore
 Denmark,Singapore
 China,Singapore
 Bangladesh,Singapore
-Vietnam,Cambodia
-Vietnam,Singapore
+Viet Nam,Cambodia
+Viet Nam,Singapore
 India,Singapore
-Russia,United States of America
-Russia,Singapore
+Russian Federation,United States of America
+Russian Federation,Singapore
 Indonesia,Singapore
 Australia,Singapore
 Philippines,Singapore
@@ -20909,11 +21155,11 @@ Germany,France
 Germany,Singapore
 Japan,Singapore
 Brazil,Spain
-Vietnam,Singapore
+Viet Nam,Singapore
 Thailand,Singapore
 Japan,Singapore
 India,Singapore
-United States of America,Russia
+United States of America,Russian Federation
 Republic of Korea,United States of America
 Republic of Korea,Singapore
 Turkiye,Singapore
@@ -20949,12 +21195,12 @@ Australia,Singapore
 Indonesia,Singapore
 Cambodia,Singapore
 China,Singapore
-Cambodia,Vietnam
+Cambodia,Viet Nam
 Cambodia,Singapore
 Burma,Singapore
 Saudi Arabia,Singapore
 United States of America,Republic of Korea
-Vietnam,Singapore
+Viet Nam,Singapore
 Singapore,Australia
 Singapore,New Zealand
 Singapore,India
@@ -20982,9 +21228,9 @@ Singapore,India
 Singapore,Denmark
 Singapore,China
 Singapore,Bangladesh
-Singapore,Vietnam
+Singapore,Viet Nam
 Singapore,India
-Singapore,Russia
+Singapore,Russian Federation
 Singapore,Indonesia
 Singapore,Australia
 Singapore,Philippines
@@ -20992,7 +21238,7 @@ Singapore,United Arab Emirates
 Singapore,Italy
 Singapore,Germany
 Singapore,Japan
-Singapore,Vietnam
+Singapore,Viet Nam
 Singapore,Thailand
 Singapore,Japan
 Singapore,India
@@ -21024,7 +21270,7 @@ Singapore,China
 Singapore,Cambodia
 Singapore,Burma
 Singapore,Saudi Arabia
-Singapore,Vietnam
+Singapore,Viet Nam
 Singapore,Indonesia
 Singapore,Australia
 Singapore,China
@@ -21078,7 +21324,8 @@ Germany,Spain
 Germany,Austria
 The United Kingdom,France
 The United Kingdom,France
-Russia,Germany
+Russian Federation,Germany
+Russian Federation,Germany
 Germany,Turkiye
 Germany,Turkiye
 Germany,Iraq
@@ -21094,7 +21341,7 @@ Germany,The United Kingdom
 Germany,Spain
 Germany,Turkiye
 Germany,Spain
-Germany,Russia
+Germany,Russian Federation
 Portugal,Germany
 Germany,Turkiye
 Spain,Germany
@@ -21105,7 +21352,7 @@ Iraq,Germany
 Germany,Turkiye
 Germany,Spain
 Germany,Turkiye
-Germany,Russia
+Germany,Russian Federation
 The United Kingdom,Germany
 The United Kingdom,Serbia
 Spain,Germany
@@ -21130,259 +21377,306 @@ France,Germany
 Germany,Turkiye
 Austria,Germany
 Germany,France
-Russia,Armenia
-Russia,Turkiye
-Russia,Uzbekistan
-Spain,Russia
-Kazakhstan,Russia
+Russian Federation,Armenia
+Russian Federation,Turkiye
+Russian Federation,Uzbekistan
+Spain,Russian Federation
+Kazakhstan,Russian Federation
 Algeria,France
-Netherlands,Russia
-Sweden,Russia
-Greece,Russia
-Turkiye,Russia
-Turkiye,Russia
-Turkiye,Russia
-Spain,Russia
-Serbia,Russia
-Lebanon,Russia
-Uzbekistan,Russia
-Thailand,Russia
-Italy,Russia
-Bulgaria,Russia
-Belgium,Russia
-Hungary,Russia
-Egypt,Russia
-China,Russia
+Netherlands,Russian Federation
+Netherlands,Russian Federation
+Sweden,Russian Federation
+Sweden,Russian Federation
+Greece,Russian Federation
+Turkiye,Russian Federation
+Turkiye,Russian Federation
+Turkiye,Russian Federation
+Spain,Russian Federation
+Spain,Russian Federation
+Serbia,Russian Federation
+Lebanon,Russian Federation
+Uzbekistan,Russian Federation
+Thailand,Russian Federation
+Italy,Russian Federation
+Bulgaria,Russian Federation
+Belgium,Russian Federation
+Hungary,Russian Federation
+Egypt,Russian Federation
+China,Russian Federation
 France,Algeria
 France,Morocco
-France,Russia
+France,Russian Federation
+France,Russian Federation
 Morocco,France
-Morocco,Russia
-Denmark,Russia
-India,Russia
-Russia,France
-Ukraine,Russia
-Germany,Russia
-United Arab Emirates,Russia
-Tajikistan,Russia
-Armenia,Russia
-Italy,Russia
-Germany,Russia
-Kyrgyzstan,Russia
-Switzerland,Russia
-Azerbaijan,Russia
-Germany,Russia
-Vietnam,Russia
-Cuba,Russia
-Finland,Russia
-Greece,Russia
-China,Russia
-Ukraine,Russia
-United States of America,Russia
-Republic of Korea,Russia
-Republic of Korea,Russia
-Republic of Korea,Russia
-Republic of Korea,Russia
-Iran (Islamic Republic of),Russia
-Turkiye,Russia
-Turkiye,Russia
-Turkiye,Russia
-Turkiye,Russia
-United States of America,Russia
-Ukraine,Russia
-Kazakhstan,Russia
-Russia,China
-Russia,Republic of Korea
-Russia,China
-Czech Republic,Russia
-Poland,Russia
-Russia,Armenia
-Uzbekistan,Russia
-United States of America,Russia
-Tajikistan,Russia
-Cyprus,Russia
-Russia,Kazakhstan
-Russia,Netherlands
-Russia,Sweden
-Russia,Turkiye
-Russia,Spain
-Russia,Uzbekistan
-Russia,Bulgaria
-Russia,France
-Russia,Germany
-Russia,Tajikistan
-Russia,Armenia
-Russia,Italy
-Russia,Germany
-Russia,Kyrgyzstan
-Russia,Azerbaijan
-Russia,Germany
-Russia,Greece
-Russia,Turkiye
-Russia,Ukraine
-Russia,Kazakhstan
-Russia,Czech Republic
-Russia,Uzbekistan
-Russia,Tajikistan
-Russia,Cyprus
-Russia,Germany
-Russia,Italy
-Russia,France
-Russia,Uzbekistan
-Russia,Kyrgyzstan
-Russia,Czech Republic
-Russia,Greece
-Russia,Ukraine
-Russia,Uzbekistan
-Russia,Germany
-Russia,Uzbekistan
-Russia,Spain
-Russia,Israel
-Russia,Kazakhstan
-Russia,Uzbekistan
-Russia,Austria
-The United Kingdom,Russia
-Slovenia,Russia
-Spain,Russia
-United States of America,Russia
-Malta,Russia
-Maldives,Russia
-Russia,Armenia
-Russia,Uzbekistan
-Belarus,Russia
-Germany,Russia
-Italy,Russia
-France,Russia
-Uzbekistan,Russia
-Japan,Russia
-Uzbekistan,Russia
-Ukraine,Russia
-Norway,Russia
-Kyrgyzstan,Russia
-Romania,Russia
-China,Russia
-Czech Republic,Russia
-Dominican Republic,Russia
-Republic of Korea,Russia
-China,Russia
-Greece,Russia
-Latvia,Russia
-Russia,Turkiye
-Russia,Armenia
-Russia,Turkiye
-Russia,Tajikistan
-Russia,Ukraine
-Russia,Uzbekistan
-Russia,Israel
-Vietnam,Russia
-Ukraine,Russia
-Uzbekistan,Russia
-Greece,Russia
-Bulgaria,Russia
-Germany,Russia
-Russia,Spain
-Russia,Netherlands
-Russia,Sweden
-Russia,Greece
-Russia,Turkiye
-Russia,Spain
-Russia,Serbia
-Russia,Lebanon
-Russia,Thailand
-Russia,Italy
-Russia,Belgium
-Russia,Hungary
-Russia,Egypt
-Russia,China
-Russia,France
-Russia,Morocco
-Russia,Denmark
-Russia,India
-Russia,Ukraine
-Russia,Germany
-Russia,United Arab Emirates
-Russia,Armenia
-Russia,Italy
-Russia,Germany
-Russia,Kyrgyzstan
-Russia,Switzerland
-Russia,Azerbaijan
-Russia,Germany
-Russia,Vietnam
-Russia,Cuba
-Russia,Finland
-Russia,Greece
-Russia,Ukraine
-Russia,United States of America
-Russia,Republic of Korea
-Russia,Iran (Islamic Republic of)
-Russia,Turkiye
-Russia,United States of America
-Russia,Ukraine
-Russia,Kazakhstan
-Russia,Czech Republic
-Russia,Poland
-Russia,United States of America
-Russia,Cyprus
-Russia,The United Kingdom
-Russia,Slovenia
-Russia,Spain
-Russia,United States of America
-Russia,Malta
-Russia,Maldives
-Russia,Belarus
-Russia,Germany
-Russia,Italy
-Russia,France
-Russia,Japan
-Russia,Ukraine
-Russia,Norway
-Russia,Romania
-Russia,China
-Russia,Czech Republic
-Russia,Dominican Republic
-Russia,China
-Russia,Latvia
-Russia,Vietnam
-Russia,Ukraine
-Russia,Greece
-Russia,Bulgaria
-Russia,Germany
-Russia,Uzbekistan
-Russia,Spain
-Russia,Estonia
-Russia,Israel
-Russia,Germany
-Russia,Mongolia
-Russia,China
-Russia,Italy
-Russia,Austria
-Russia,Lithuania
-Russia,Poland
-Russia,Canada
-Russia,Croatia
-Russia,Switzerland
-Germany,Russia
-Uzbekistan,Russia
-Spain,Russia
-Estonia,Russia
-Israel,Russia
-Kazakhstan,Russia
-Germany,Russia
-Uzbekistan,Russia
-Mongolia,Russia
-China,Russia
-Russia,China
-Russia,Republic of Korea
-Italy,Russia
-Austria,Russia
-Lithuania,Russia
-Russia,Republic of Korea
-Russia,Republic of Korea
-Poland,Russia
-Canada,Russia
-Croatia,Russia
-Switzerland,Russia
+Morocco,Russian Federation
+Denmark,Russian Federation
+India,Russian Federation
+Russian Federation,France
+Ukraine,Russian Federation
+Ukraine,Russian Federation
+Germany,Russian Federation
+Germany,Russian Federation
+Germany,Russian Federation
+United Arab Emirates,Russian Federation
+Tajikistan,Russian Federation
+Armenia,Russian Federation
+Armenia,Russian Federation
+Armenia,Russian Federation
+Armenia,Russian Federation
+Armenia,Russian Federation
+Armenia,Russian Federation
+Italy,Russian Federation
+Italy,Russian Federation
+Germany,Russian Federation
+Germany,Russian Federation
+Kyrgyzstan,Russian Federation
+Kyrgyzstan,Russian Federation
+Switzerland,Russian Federation
+Azerbaijan,Russian Federation
+Azerbaijan,Russian Federation
+Germany,Russian Federation
+Germany,Russian Federation
+Germany,Russian Federation
+Viet Nam,Russian Federation
+Cuba,Russian Federation
+Finland,Russian Federation
+Greece,Russian Federation
+Greece,Russian Federation
+China,Russian Federation
+China,Russian Federation
+Ukraine,Russian Federation
+United States of America,Russian Federation
+Republic of Korea,Russian Federation
+Republic of Korea,Russian Federation
+Republic of Korea,Russian Federation
+Republic of Korea,Russian Federation
+Iran (Islamic Republic of),Russian Federation
+Turkiye,Russian Federation
+Turkiye,Russian Federation
+Turkiye,Russian Federation
+Turkiye,Russian Federation
+United States of America,Russian Federation
+Ukraine,Russian Federation
+Ukraine,Russian Federation
+Kazakhstan,Russian Federation
+Kazakhstan,Russian Federation
+Russian Federation,China
+Russian Federation,Republic of Korea
+Russian Federation,China
+Czech Republic,Russian Federation
+Czech Republic,Russian Federation
+Poland,Russian Federation
+Russian Federation,Armenia
+Uzbekistan,Russian Federation
+United States of America,Russian Federation
+Tajikistan,Russian Federation
+Tajikistan,Russian Federation
+Cyprus,Russian Federation
+Cyprus,Russian Federation
+Russian Federation,Kazakhstan
+Russian Federation,Netherlands
+Russian Federation,Sweden
+Russian Federation,Turkiye
+Russian Federation,Spain
+Russian Federation,Uzbekistan
+Russian Federation,Bulgaria
+Russian Federation,France
+Russian Federation,Germany
+Russian Federation,Tajikistan
+Russian Federation,Armenia
+Russian Federation,Italy
+Russian Federation,Germany
+Russian Federation,Kyrgyzstan
+Russian Federation,Azerbaijan
+Russian Federation,Germany
+Russian Federation,Greece
+Russian Federation,Turkiye
+Russian Federation,Ukraine
+Russian Federation,Kazakhstan
+Russian Federation,Czech Republic
+Russian Federation,Uzbekistan
+Russian Federation,Tajikistan
+Russian Federation,Cyprus
+Russian Federation,Germany
+Russian Federation,Italy
+Russian Federation,France
+Russian Federation,Uzbekistan
+Russian Federation,Uzbekistan
+Russian Federation,Kyrgyzstan
+Russian Federation,Czech Republic
+Russian Federation,Greece
+Russian Federation,Ukraine
+Russian Federation,Uzbekistan
+Russian Federation,Germany
+Russian Federation,Uzbekistan
+Russian Federation,Spain
+Russian Federation,Israel
+Russian Federation,Kazakhstan
+Russian Federation,Uzbekistan
+Russian Federation,Austria
+The United Kingdom,Russian Federation
+Slovenia,Russian Federation
+Spain,Russian Federation
+United States of America,Russian Federation
+Malta,Russian Federation
+Maldives,Russian Federation
+Russian Federation,Armenia
+Russian Federation,Uzbekistan
+Belarus,Russian Federation
+Germany,Russian Federation
+Germany,Russian Federation
+Italy,Russian Federation
+Italy,Russian Federation
+France,Russian Federation
+France,Russian Federation
+France,Russian Federation
+Uzbekistan,Russian Federation
+Japan,Russian Federation
+Uzbekistan,Russian Federation
+Ukraine,Russian Federation
+Norway,Russian Federation
+Kyrgyzstan,Russian Federation
+Romania,Russian Federation
+China,Russian Federation
+China,Russian Federation
+Czech Republic,Russian Federation
+Czech Republic,Russian Federation
+Dominican Republic,Russian Federation
+Republic of Korea,Russian Federation
+China,Russian Federation
+Greece,Russian Federation
+Latvia,Russian Federation
+Russian Federation,Turkiye
+Russian Federation,Armenia
+Russian Federation,Turkiye
+Russian Federation,Tajikistan
+Russian Federation,Ukraine
+Russian Federation,Uzbekistan
+Russian Federation,Israel
+Viet Nam,Russian Federation
+Ukraine,Russian Federation
+Ukraine,Russian Federation
+Ukraine,Russian Federation
+Uzbekistan,Russian Federation
+Greece,Russian Federation
+Bulgaria,Russian Federation
+Germany,Russian Federation
+Russian Federation,Spain
+Russian Federation,Netherlands
+Russian Federation,Sweden
+Russian Federation,Greece
+Russian Federation,Turkiye
+Russian Federation,Spain
+Russian Federation,Serbia
+Russian Federation,Lebanon
+Russian Federation,Thailand
+Russian Federation,Italy
+Russian Federation,Belgium
+Russian Federation,Hungary
+Russian Federation,Egypt
+Russian Federation,China
+Russian Federation,France
+Russian Federation,Morocco
+Russian Federation,Denmark
+Russian Federation,India
+Russian Federation,Ukraine
+Russian Federation,Ukraine
+Russian Federation,Germany
+Russian Federation,Germany
+Russian Federation,United Arab Emirates
+Russian Federation,Armenia
+Russian Federation,Italy
+Russian Federation,Germany
+Russian Federation,Kyrgyzstan
+Russian Federation,Switzerland
+Russian Federation,Azerbaijan
+Russian Federation,Germany
+Russian Federation,Germany
+Russian Federation,Viet Nam
+Russian Federation,Cuba
+Russian Federation,Finland
+Russian Federation,Greece
+Russian Federation,Ukraine
+Russian Federation,United States of America
+Russian Federation,Republic of Korea
+Russian Federation,Iran (Islamic Republic of)
+Russian Federation,Turkiye
+Russian Federation,United States of America
+Russian Federation,Ukraine
+Russian Federation,Kazakhstan
+Russian Federation,Czech Republic
+Russian Federation,Poland
+Russian Federation,United States of America
+Russian Federation,Cyprus
+Russian Federation,The United Kingdom
+Russian Federation,Slovenia
+Russian Federation,Spain
+Russian Federation,United States of America
+Russian Federation,Malta
+Russian Federation,Maldives
+Russian Federation,Belarus
+Russian Federation,Germany
+Russian Federation,Italy
+Russian Federation,France
+Russian Federation,Japan
+Russian Federation,Ukraine
+Russian Federation,Norway
+Russian Federation,Romania
+Russian Federation,China
+Russian Federation,Czech Republic
+Russian Federation,Dominican Republic
+Russian Federation,China
+Russian Federation,Latvia
+Russian Federation,Viet Nam
+Russian Federation,Ukraine
+Russian Federation,Greece
+Russian Federation,Bulgaria
+Russian Federation,Germany
+Russian Federation,Germany
+Russian Federation,Uzbekistan
+Russian Federation,Spain
+Russian Federation,Estonia
+Russian Federation,Israel
+Russian Federation,Germany
+Russian Federation,Mongolia
+Russian Federation,China
+Russian Federation,Italy
+Russian Federation,Austria
+Russian Federation,Lithuania
+Russian Federation,Poland
+Russian Federation,Canada
+Russian Federation,Croatia
+Russian Federation,Switzerland
+Germany,Russian Federation
+Germany,Russian Federation
+Uzbekistan,Russian Federation
+Uzbekistan,Russian Federation
+Uzbekistan,Russian Federation
+Uzbekistan,Russian Federation
+Uzbekistan,Russian Federation
+Spain,Russian Federation
+Spain,Russian Federation
+Estonia,Russian Federation
+Israel,Russian Federation
+Israel,Russian Federation
+Israel,Russian Federation
+Kazakhstan,Russian Federation
+Germany,Russian Federation
+Uzbekistan,Russian Federation
+Mongolia,Russian Federation
+China,Russian Federation
+Russian Federation,China
+Russian Federation,Republic of Korea
+Italy,Russian Federation
+Austria,Russian Federation
+Austria,Russian Federation
+Lithuania,Russian Federation
+Russian Federation,Republic of Korea
+Russian Federation,Republic of Korea
+Poland,Russian Federation
+Canada,Russian Federation
+Croatia,Russian Federation
+Switzerland,Russian Federation
 Ethiopia,Saudi Arabia
 Yemen,Saudi Arabia
 Saudi Arabia,Egypt
@@ -21627,24 +21921,53 @@ United States of America,Mexico
 United States of America,Mexico
 United States of America,Dominican Republic
 Dominican Republic,United States of America
-Russia,Tajikistan
+Russian Federation,Tajikistan
 Kazakhstan,Tajikistan
-Russia,Tajikistan
+Russian Federation,Tajikistan
 United Arab Emirates,Tajikistan
 Tajikistan,Kazakhstan
-Tajikistan,Russia
+Tajikistan,Russian Federation
 Tajikistan,United Arab Emirates
 Tajikistan,Germany
-Tajikistan,Russia
+Tajikistan,Russian Federation
 Tajikistan,Turkiye
-Tajikistan,Russia
+Tajikistan,Russian Federation
+Tajikistan,Russian Federation
+Tajikistan,Russian Federation
+Tajikistan,Russian Federation
+Tajikistan,Russian Federation
+Tajikistan,Russian Federation
 Tajikistan,China
 Germany,Tajikistan
-Russia,Tajikistan
+Russian Federation,Tajikistan
+Russian Federation,Tajikistan
 Turkiye,Tajikistan
-Russia,Tajikistan
-Tajikistan,Russia
-Russia,Tajikistan
+Russian Federation,Tajikistan
+Russian Federation,Tajikistan
+Russian Federation,Tajikistan
+Russian Federation,Tajikistan
+Russian Federation,Tajikistan
+Russian Federation,Tajikistan
+Tajikistan,Russian Federation
+Tajikistan,Russian Federation
+Tajikistan,Russian Federation
+Tajikistan,Russian Federation
+Tajikistan,Russian Federation
+Tajikistan,Russian Federation
+Tajikistan,Russian Federation
+Tajikistan,Russian Federation
+Tajikistan,Russian Federation
+Tajikistan,Russian Federation
+Tajikistan,Russian Federation
+Russian Federation,Tajikistan
+Russian Federation,Tajikistan
+Russian Federation,Tajikistan
+Russian Federation,Tajikistan
+Russian Federation,Tajikistan
+Russian Federation,Tajikistan
+Russian Federation,Tajikistan
+Russian Federation,Tajikistan
+Russian Federation,Tajikistan
 China,Tajikistan
 The United Kingdom,Norway
 The United Kingdom,Norway
@@ -21653,7 +21976,7 @@ Norway,The United Kingdom
 Turkmenistan,India
 Turkmenistan,The United Kingdom
 Turkmenistan,India
-Turkmenistan,Russia
+Turkmenistan,Russian Federation
 Turkmenistan,United Arab Emirates
 Turkmenistan,Germany
 Turkmenistan,Turkiye
@@ -21661,7 +21984,7 @@ Turkmenistan,The United Kingdom
 India,Turkmenistan
 The United Kingdom,Turkmenistan
 India,Turkmenistan
-Russia,Turkmenistan
+Russian Federation,Turkmenistan
 United Arab Emirates,Turkmenistan
 Germany,Turkmenistan
 Turkiye,Turkmenistan
@@ -21848,13 +22171,13 @@ Thailand,Japan
 Thailand,China
 Thailand,Bangladesh
 Thailand,India
-Thailand,Russia
+Thailand,Russian Federation
 Thailand,Indonesia
 Thailand,United Arab Emirates
 Thailand,Italy
 Thailand,Germany
 Thailand,Japan
-Thailand,Vietnam
+Thailand,Viet Nam
 Thailand,Japan
 Thailand,India
 Thailand,Republic of Korea
@@ -21883,7 +22206,7 @@ Thailand,Cambodia
 Thailand,Republic of Korea
 Thailand,China
 Thailand,Burma
-Thailand,Vietnam
+Thailand,Viet Nam
 Thailand,Singapore
 Thailand,Australia
 Thailand,Israel
@@ -21912,13 +22235,13 @@ Japan,Thailand
 China,Thailand
 Bangladesh,Thailand
 India,Thailand
-Russia,Thailand
+Russian Federation,Thailand
 Indonesia,Thailand
 United Arab Emirates,Thailand
 Italy,Thailand
 Germany,Thailand
 Japan,Thailand
-Vietnam,Thailand
+Viet Nam,Thailand
 Thailand,Republic of Korea
 Thailand,Malaysia
 Japan,Thailand
@@ -21960,7 +22283,7 @@ Cambodia,Thailand
 Republic of Korea,Thailand
 China,Thailand
 Burma,Thailand
-Vietnam,Thailand
+Viet Nam,Thailand
 Singapore,Thailand
 Australia,Thailand
 Finland,Sweden
@@ -21988,7 +22311,7 @@ Ethiopia,Turkiye
 Ethiopia,South Sudan
 Ethiopia,Equatorial Guinea
 Yemen,Turkiye
-Russia,Turkiye
+Russian Federation,Turkiye
 Spain,Turkiye
 New Zealand,Thailand
 Kazakhstan,Turkiye
@@ -22000,14 +22323,14 @@ Turkiye,Belgium
 Jordan,Turkiye
 Sweden,Turkiye
 Turkmenistan,Turkiye
-Russia,Turkiye
+Russian Federation,Turkiye
 Greece,Turkiye
 United States of America,Canada
 United Arab Emirates,Turkiye
 Turkiye,Iraq
 Turkiye,Iraq
 Turkiye,Germany
-Turkiye,Russia
+Turkiye,Russian Federation
 Bahrain,Turkiye
 Bahrain,Oman
 Spain,Turkiye
@@ -22024,7 +22347,7 @@ Thailand,Australia
 Thailand,Turkiye
 Thailand,Malaysia
 Thailand,Australia
-Thailand,Vietnam
+Thailand,Viet Nam
 Thailand,Australia
 Denmark,Turkiye
 Italy,Turkiye
@@ -22078,7 +22401,7 @@ Turkiye,Iraq
 Turkiye,Cyprus
 Turkiye,Germany
 Turkiye,Austria
-Turkiye,Russia
+Turkiye,Russian Federation
 Argentina,Brazil
 Italy,Turkiye
 Germany,Turkiye
@@ -22111,7 +22434,7 @@ Republic of Korea,Japan
 Republic of Korea,Turkiye
 Republic of Korea,Japan
 Republic of Korea,Australia
-Republic of Korea,Russia
+Republic of Korea,Russian Federation
 Iran (Islamic Republic of),Turkiye
 Iran (Islamic Republic of),Turkiye
 Iran (Islamic Republic of),Turkiye
@@ -22119,7 +22442,7 @@ Pakistan,Turkiye
 Turkiye,Denmark
 Turkiye,Ghana
 Turkiye,Ethiopia
-Turkiye,Russia
+Turkiye,Russian Federation
 Turkiye,Spain
 Turkiye,Kazakhstan
 Turkiye,Algeria
@@ -22211,9 +22534,9 @@ Turkiye,Nepal
 Turkiye,Malaysia
 Turkiye,Azerbaijan
 Turkiye,Kuwait
-Turkiye,Russia
+Turkiye,Russian Federation
 Turkiye,United States of America
-Turkiye,Russia
+Turkiye,Russian Federation
 Turkiye,Germany
 Turkiye,The United Kingdom
 Turkiye,Pakistan
@@ -22252,13 +22575,13 @@ Turkiye,Norway
 Turkiye,Iraq
 Turkiye,Kyrgyzstan
 Turkiye,Romania
-Turkiye,Russia
+Turkiye,Russian Federation
 Turkiye,China
 Turkiye,Czech Republic
 Turkiye,Serbia
 Turkiye,China
 Turkiye,Latvia
-Turkiye,Russia
+Turkiye,Russian Federation
 Turkiye,Netherlands
 Turkiye,Saudi Arabia
 Turkiye,Yemen
@@ -22269,7 +22592,7 @@ Turkiye,Macedonia
 Turkiye,Bulgaria
 Turkiye,Egypt
 Turkiye,Germany
-Turkiye,Russia
+Turkiye,Russian Federation
 Turkiye,Iran (Islamic Republic of)
 Turkiye,Austria
 Turkiye,Uzbekistan
@@ -22286,10 +22609,10 @@ Turkiye,Italy
 Turkiye,Kazakhstan
 Turkiye,Tunisia
 Turkiye,Germany
-Turkiye,Russia
+Turkiye,Russian Federation
 Turkiye,Italy
 Turkiye,Austria
-Turkiye,Russia
+Turkiye,Russian Federation
 Turkiye,Spain
 Turkiye,Lithuania
 Turkiye,Poland
@@ -22322,10 +22645,10 @@ Malaysia,Turkiye
 Azerbaijan,Turkiye
 Kuwait,Turkiye
 Kuwait,Turkiye
-Russia,Turkiye
+Russian Federation,Turkiye
 United States of America,Turkiye
 Gabon,Turkiye
-Russia,Turkiye
+Russian Federation,Turkiye
 Germany,Turkiye
 The United Kingdom,Turkiye
 The United Kingdom,Turkiye
@@ -22375,18 +22698,18 @@ Iraq,Turkiye
 Kyrgyzstan,Turkiye
 Romania,Turkiye
 Burkina Faso,Turkiye
-Russia,Turkiye
+Russian Federation,Turkiye
 China,Turkiye
 Australia,Thailand
 Czech Republic,Turkiye
 Serbia,Turkiye
 China,Turkiye
 Latvia,Turkiye
-Russia,Turkiye
+Russian Federation,Turkiye
 Netherlands,Turkiye
 Saudi Arabia,Turkiye
 Turkiye,Netherlands
-Turkiye,Russia
+Turkiye,Russian Federation
 Turkiye,Belgium
 Turkiye,France
 Turkiye,Germany
@@ -22400,11 +22723,11 @@ Turkiye,Malta
 Turkiye,Germany
 Turkiye,Italy
 Turkiye,Bosnia and Herzegovina
-Turkiye,Russia
+Turkiye,Russian Federation
 Turkiye,Georgia
 Turkiye,Israel
 Turkiye,Austria
-Vietnam,Thailand
+Viet Nam,Thailand
 Singapore,Indonesia
 Singapore,Turkiye
 Bosnia and Herzegovina,Turkiye
@@ -22416,8 +22739,8 @@ Equatorial Guinea,Ethiopia
 Equatorial Guinea,Cameroon
 Egypt,Turkiye
 Germany,Turkiye
-Russia,Turkiye
-Russia,Turkiye
+Russian Federation,Turkiye
+Russian Federation,Turkiye
 Australia,Thailand
 Australia,Republic of Korea
 Iran (Islamic Republic of),Turkiye
@@ -22440,19 +22763,19 @@ Italy,Turkiye
 Kazakhstan,Turkiye
 Tunisia,Turkiye
 Germany,Turkiye
-Russia,Turkiye
+Russian Federation,Turkiye
 Mongolia,Kyrgyzstan
 Italy,Turkiye
 Austria,Turkiye
 Austria,Turkiye
 Austria,Turkiye
-Russia,Turkiye
-Russia,Turkiye
-Russia,Turkiye
+Russian Federation,Turkiye
+Russian Federation,Turkiye
+Russian Federation,Turkiye
 Spain,Turkiye
 Lithuania,Turkiye
 Lithuania,Estonia
-Russia,Republic of Korea
+Russian Federation,Republic of Korea
 Poland,Turkiye
 Saudi Arabia,Turkiye
 Canada,United States of America
@@ -22522,7 +22845,7 @@ The United Kingdom,Turkiye
 The United Kingdom,Spain
 The United Kingdom,Turkiye
 The United Kingdom,Turkiye
-The United Kingdom,Cape Verde
+The United Kingdom,Cabo Verde
 The United Kingdom,Croatia
 The United Kingdom,Turkiye
 The United Kingdom,Portugal
@@ -22553,9 +22876,9 @@ The United Kingdom,Spain
 The United Kingdom,Spain
 The United Kingdom,Spain
 Hungary,France
-Cape Verde,The United Kingdom
-Cape Verde,The United Kingdom
-Cape Verde,The United Kingdom
+Cabo Verde,The United Kingdom
+Cabo Verde,The United Kingdom
+Cabo Verde,The United Kingdom
 Greece,The United Kingdom
 Greece,The United Kingdom
 Greece,The United Kingdom
@@ -22673,7 +22996,7 @@ The United Kingdom,Spain
 The United Kingdom,Spain
 The United Kingdom,Turkiye
 The United Kingdom,Turkiye
-The United Kingdom,Cape Verde
+The United Kingdom,Cabo Verde
 The United Kingdom,Greece
 The United Kingdom,Greece
 The United Kingdom,Italy
@@ -22702,7 +23025,7 @@ The United Kingdom,Dominican Republic
 The United Kingdom,Greece
 The United Kingdom,Morocco
 The United Kingdom,Greece
-The United Kingdom,Cape Verde
+The United Kingdom,Cabo Verde
 The United Kingdom,Greece
 The United Kingdom,Egypt
 The United Kingdom,Spain
@@ -22752,7 +23075,7 @@ The United Kingdom,Spain
 The United Kingdom,Spain
 The United Kingdom,Turkiye
 The United Kingdom,Turkiye
-The United Kingdom,Cape Verde
+The United Kingdom,Cabo Verde
 The United Kingdom,Greece
 The United Kingdom,Italy
 The United Kingdom,Mexico
@@ -22780,7 +23103,7 @@ The United Kingdom,Greece
 The United Kingdom,Morocco
 The United Kingdom,Spain
 The United Kingdom,Greece
-The United Kingdom,Cape Verde
+The United Kingdom,Cabo Verde
 The United Kingdom,Egypt
 The United Kingdom,Spain
 The United Kingdom,Italy
@@ -22897,8 +23220,8 @@ Greece,The United Kingdom
 Greece,The United Kingdom
 Greece,The United Kingdom
 Turkiye,France
-Cape Verde,The United Kingdom
-Cape Verde,The United Kingdom
+Cabo Verde,The United Kingdom
+Cabo Verde,The United Kingdom
 Egypt,The United Kingdom
 Egypt,The United Kingdom
 Egypt,The United Kingdom
@@ -22957,7 +23280,7 @@ Turkiye,The United Kingdom
 Turkiye,The United Kingdom
 The United Kingdom,Spain
 The United Kingdom,Turkiye
-The United Kingdom,Cape Verde
+The United Kingdom,Cabo Verde
 The United Kingdom,Turkiye
 The United Kingdom,Spain
 The United Kingdom,Tunisia
@@ -22966,8 +23289,8 @@ The United Kingdom,Egypt
 The United Kingdom,Spain
 The United Kingdom,Spain
 The United Kingdom,Spain
-Cape Verde,The United Kingdom
-Cape Verde,The United Kingdom
+Cabo Verde,The United Kingdom
+Cabo Verde,The United Kingdom
 Mexico,The United Kingdom
 Mexico,The United Kingdom
 The United Kingdom,Spain
@@ -23010,14 +23333,14 @@ The United Kingdom,Spain
 The United Kingdom,Greece
 The United Kingdom,Morocco
 The United Kingdom,Greece
-The United Kingdom,Cape Verde
+The United Kingdom,Cabo Verde
 The United Kingdom,Egypt
 The United Kingdom,Spain
 Spain,The United Kingdom
 Spain,The United Kingdom
 The United Kingdom,Spain
 The United Kingdom,Morocco
-The United Kingdom,Cape Verde
+The United Kingdom,Cabo Verde
 The United Kingdom,Mexico
 The United Kingdom,Turkiye
 The United Kingdom,Egypt
@@ -23031,7 +23354,7 @@ The United Kingdom,Spain
 The United Kingdom,Dominican Republic
 The United Kingdom,Morocco
 The United Kingdom,Greece
-The United Kingdom,Cape Verde
+The United Kingdom,Cabo Verde
 The United Kingdom,Egypt
 The United Kingdom,Spain
 Malta,The United Kingdom
@@ -23064,8 +23387,8 @@ Morocco,The United Kingdom
 Morocco,The United Kingdom
 Greece,The United Kingdom
 Greece,The United Kingdom
-Cape Verde,The United Kingdom
-Cape Verde,The United Kingdom
+Cabo Verde,The United Kingdom
+Cabo Verde,The United Kingdom
 Egypt,The United Kingdom
 Egypt,The United Kingdom
 Egypt,The United Kingdom
@@ -23100,7 +23423,7 @@ United States of America,Portugal
 Belgium,Portugal
 Brazil,Portugal
 Hungary,Portugal
-Cape Verde,Portugal
+Cabo Verde,Portugal
 Venezuela (Bolivarian Republic of),Portugal
 Venezuela (Bolivarian Republic of),Portugal
 Venezuela (Bolivarian Republic of),Portugal
@@ -23109,7 +23432,7 @@ Morocco,Portugal
 Brazil,Portugal
 Denmark,Portugal
 Senegal,Portugal
-Russia,Portugal
+Russian Federation,Portugal
 Germany,Portugal
 United Arab Emirates,Portugal
 United States of America,Portugal
@@ -23147,13 +23470,13 @@ Portugal,United States of America
 Portugal,Belgium
 Portugal,Brazil
 Portugal,Hungary
-Portugal,Cape Verde
+Portugal,Cabo Verde
 Portugal,Venezuela (Bolivarian Republic of)
 Portugal,Morocco
 Portugal,Brazil
 Portugal,Denmark
 Portugal,Senegal
-Portugal,Russia
+Portugal,Russian Federation
 Portugal,Germany
 Portugal,United Arab Emirates
 Portugal,United States of America
@@ -23186,10 +23509,10 @@ Portugal,Romania
 Portugal,United States of America
 Portugal,Brazil
 Portugal,Czech Republic
-Portugal,Cape Verde
+Portugal,Cabo Verde
 Portugal,Morocco
 Portugal,Brazil
-Portugal,Cape Verde
+Portugal,Cabo Verde
 Portugal,Brazil
 Portugal,Spain
 Portugal,Germany
@@ -23200,7 +23523,7 @@ Portugal,Italy
 Portugal,Brazil
 Portugal,Austria
 Portugal,Spain
-Portugal,Cape Verde
+Portugal,Cabo Verde
 Portugal,Poland
 Portugal,Canada
 Portugal,Switzerland
@@ -23239,10 +23562,10 @@ Portugal,Canada
 United States of America,Portugal
 Brazil,Portugal
 Czech Republic,Portugal
-Cape Verde,Portugal
+Cabo Verde,Portugal
 Morocco,Portugal
 Brazil,Portugal
-Cape Verde,Portugal
+Cabo Verde,Portugal
 Brazil,Portugal
 Spain,Portugal
 Germany,Portugal
@@ -23253,7 +23576,7 @@ Italy,Portugal
 Brazil,Portugal
 Austria,Portugal
 Spain,Portugal
-Cape Verde,Portugal
+Cabo Verde,Portugal
 Poland,Portugal
 Canada,Portugal
 Croatia,Italy
@@ -23270,7 +23593,7 @@ Philippines,Singapore
 Bangladesh,Singapore
 Indonesia,Singapore
 China,Singapore
-Vietnam,Singapore
+Viet Nam,Singapore
 Thailand,Singapore
 India,Singapore
 Indonesia,Singapore
@@ -23286,7 +23609,7 @@ Malaysia,Singapore
 Australia,Singapore
 Cambodia,Singapore
 Burma,Singapore
-Vietnam,Singapore
+Viet Nam,Singapore
 Singapore,Indonesia
 Singapore,Thailand
 Singapore,India
@@ -23299,7 +23622,7 @@ Singapore,Philippines
 Singapore,Bangladesh
 Singapore,Indonesia
 Singapore,China
-Singapore,Vietnam
+Singapore,Viet Nam
 Singapore,Thailand
 Singapore,India
 Singapore,Indonesia
@@ -23315,7 +23638,7 @@ Singapore,Malaysia
 Singapore,Australia
 Singapore,Cambodia
 Singapore,Burma
-Singapore,Vietnam
+Singapore,Viet Nam
 Singapore,Indonesia
 Singapore,China
 Singapore,India
@@ -23445,7 +23768,7 @@ Tunisia,France
 Tunisia,Germany
 Tunisia,Switzerland
 Senegal,Tunisia
-Russia,Tunisia
+Russian Federation,Tunisia
 Germany,Tunisia
 United Arab Emirates,Tunisia
 Italy,Tunisia
@@ -23496,7 +23819,7 @@ Tunisia,Belgium
 Tunisia,Egypt
 Tunisia,Morocco
 Tunisia,Senegal
-Tunisia,Russia
+Tunisia,Russian Federation
 Tunisia,Germany
 Tunisia,United Arab Emirates
 Tunisia,Italy
@@ -23816,8 +24139,8 @@ Turkiye,The United Kingdom
 Turkiye,The United Kingdom
 Turkiye,The United Kingdom
 Turkiye,The United Kingdom
-Russia,The United Kingdom
-Russia,The United Kingdom
+Russian Federation,The United Kingdom
+Russian Federation,The United Kingdom
 Germany,France
 Germany,The United Kingdom
 Germany,The United Kingdom
@@ -24021,7 +24344,7 @@ The United Kingdom,Denmark
 The United Kingdom,Italy
 The United Kingdom,Croatia
 The United Kingdom,Turkiye
-The United Kingdom,Russia
+The United Kingdom,Russian Federation
 The United Kingdom,Germany
 The United Kingdom,Greece
 The United Kingdom,Portugal
@@ -24196,7 +24519,7 @@ The United Kingdom,Greece
 The United Kingdom,Denmark
 The United Kingdom,Italy
 The United Kingdom,Turkiye
-The United Kingdom,Russia
+The United Kingdom,Russian Federation
 The United Kingdom,Switzerland
 The United Kingdom,Germany
 The United Kingdom,Greece
@@ -24498,111 +24821,181 @@ Croatia,The United Kingdom
 Switzerland,The United Kingdom
 Switzerland,The United Kingdom
 Greece,The United Kingdom
-Russia,Tajikistan
-Greece,Russia
-Hungary,Russia
-France,Russia
-Russia,United Arab Emirates
-Russia,Tajikistan
-Russia,Uzbekistan
-Russia,Kyrgyzstan
-Russia,Czech Republic
-Russia,Uzbekistan
-Germany,Russia
-Russia,Germany
-Russia,Kyrgyzstan
-Russia,Azerbaijan
-Russia,Armenia
-Russia,Uzbekistan
-Russia,Kyrgyzstan
-Russia,Italy
-Russia,Ukraine
-Russia,Montenegro
-Russia,Tajikistan
-United Arab Emirates,Russia
-Tajikistan,Russia
-Armenia,Russia
-Italy,Russia
-Kyrgyzstan,Russia
-Azerbaijan,Russia
-Russia,United Arab Emirates
-Russia,Tajikistan
-Russia,Armenia
-Russia,Tajikistan
-Russia,Uzbekistan
-Russia,Czech Republic
-Russia,Uzbekistan
-Azerbaijan,Russia
-China,Russia
-Russia,China
-Russia,Uzbekistan
-Russia,Tajikistan
-Russia,Uzbekistan
-Czech Republic,Russia
-Russia,Hungary
-Russia,United Arab Emirates
-Russia,Tajikistan
-Russia,Germany
-Russia,Uzbekistan
-Russia,Cyprus
-Russia,Greece
-Russia,Uzbekistan
-Russia,United Arab Emirates
-Russia,Tajikistan
-Russia,Armenia
-Russia,Tajikistan
-Russia,Kyrgyzstan
-Russia,Uzbekistan
-Azerbaijan,Russia
-Russia,Tajikistan
-Tajikistan,Russia
-Cyprus,Russia
-Russia,Tajikistan
-Russia,Armenia
-Russia,Azerbaijan
-Russia,Montenegro
-Russia,Tajikistan
-Azerbaijan,Russia
-Armenia,Russia
-Russia,United Arab Emirates
-Russia,Tajikistan
-Germany,Russia
-Russia,Tajikistan
-Uzbekistan,Russia
-Kyrgyzstan,Russia
-Russia,China
-Russia,United Arab Emirates
-China,Russia
-Cyprus,Russia
-Czech Republic,Russia
-Italy,Russia
-Russia,Hungary
-Russia,Tajikistan
-Ukraine,Russia
-Uzbekistan,Russia
-Russia,France
-Russia,United Arab Emirates
-Russia,Tajikistan
-Russia,Armenia
-Russia,Italy
-Russia,Kyrgyzstan
-Russia,Azerbaijan
-Russia,China
-Russia,Czech Republic
-Russia,Tajikistan
-Russia,Cyprus
-Russia,Germany
-Russia,Uzbekistan
-Russia,Kyrgyzstan
-Russia,China
-Russia,Czech Republic
-Russia,Uzbekistan
-Russia,Israel
-Uzbekistan,Russia
-Montenegro,Russia
-Tajikistan,Russia
-Israel,Russia
-Russia,Tajikistan
+Russian Federation,Tajikistan
+Greece,Russian Federation
+Hungary,Russian Federation
+Hungary,Russian Federation
+France,Russian Federation
+Russian Federation,United Arab Emirates
+Russian Federation,Tajikistan
+Russian Federation,Tajikistan
+Russian Federation,Uzbekistan
+Russian Federation,Kyrgyzstan
+Russian Federation,Czech Republic
+Russian Federation,Uzbekistan
+Germany,Russian Federation
+Russian Federation,Germany
+Russian Federation,Kyrgyzstan
+Russian Federation,Azerbaijan
+Russian Federation,Azerbaijan
+Russian Federation,Azerbaijan
+Russian Federation,Armenia
+Russian Federation,Uzbekistan
+Russian Federation,Uzbekistan
+Russian Federation,Kyrgyzstan
+Russian Federation,Italy
+Russian Federation,Ukraine
+Russian Federation,Montenegro
+Russian Federation,Tajikistan
+United Arab Emirates,Russian Federation
+United Arab Emirates,Russian Federation
+United Arab Emirates,Russian Federation
+United Arab Emirates,Russian Federation
+United Arab Emirates,Russian Federation
+United Arab Emirates,Russian Federation
+United Arab Emirates,Russian Federation
+United Arab Emirates,Russian Federation
+United Arab Emirates,Russian Federation
+United Arab Emirates,Russian Federation
+Tajikistan,Russian Federation
+Tajikistan,Russian Federation
+Tajikistan,Russian Federation
+Tajikistan,Russian Federation
+Tajikistan,Russian Federation
+Tajikistan,Russian Federation
+Tajikistan,Russian Federation
+Tajikistan,Russian Federation
+Tajikistan,Russian Federation
+Tajikistan,Russian Federation
+Tajikistan,Russian Federation
+Tajikistan,Russian Federation
+Armenia,Russian Federation
+Armenia,Russian Federation
+Armenia,Russian Federation
+Armenia,Russian Federation
+Italy,Russian Federation
+Kyrgyzstan,Russian Federation
+Kyrgyzstan,Russian Federation
+Azerbaijan,Russian Federation
+Russian Federation,United Arab Emirates
+Russian Federation,Tajikistan
+Russian Federation,Armenia
+Russian Federation,Tajikistan
+Russian Federation,Uzbekistan
+Russian Federation,Czech Republic
+Russian Federation,Uzbekistan
+Azerbaijan,Russian Federation
+China,Russian Federation
+China,Russian Federation
+Russian Federation,China
+Russian Federation,Uzbekistan
+Russian Federation,Tajikistan
+Russian Federation,Tajikistan
+Russian Federation,Uzbekistan
+Russian Federation,Uzbekistan
+Russian Federation,Uzbekistan
+Czech Republic,Russian Federation
+Russian Federation,Hungary
+Russian Federation,United Arab Emirates
+Russian Federation,Tajikistan
+Russian Federation,Germany
+Russian Federation,Uzbekistan
+Russian Federation,Cyprus
+Russian Federation,Greece
+Russian Federation,Uzbekistan
+Russian Federation,United Arab Emirates
+Russian Federation,United Arab Emirates
+Russian Federation,Tajikistan
+Russian Federation,Armenia
+Russian Federation,Tajikistan
+Russian Federation,Kyrgyzstan
+Russian Federation,Uzbekistan
+Azerbaijan,Russian Federation
+Russian Federation,Tajikistan
+Russian Federation,Tajikistan
+Tajikistan,Russian Federation
+Tajikistan,Russian Federation
+Tajikistan,Russian Federation
+Tajikistan,Russian Federation
+Tajikistan,Russian Federation
+Tajikistan,Russian Federation
+Tajikistan,Russian Federation
+Tajikistan,Russian Federation
+Tajikistan,Russian Federation
+Cyprus,Russian Federation
+Russian Federation,Tajikistan
+Russian Federation,Armenia
+Russian Federation,Azerbaijan
+Russian Federation,Montenegro
+Russian Federation,Tajikistan
+Azerbaijan,Russian Federation
+Azerbaijan,Russian Federation
+Armenia,Russian Federation
+Russian Federation,United Arab Emirates
+Russian Federation,United Arab Emirates
+Russian Federation,Tajikistan
+Germany,Russian Federation
+Germany,Russian Federation
+Russian Federation,Tajikistan
+Uzbekistan,Russian Federation
+Uzbekistan,Russian Federation
+Uzbekistan,Russian Federation
+Uzbekistan,Russian Federation
+Uzbekistan,Russian Federation
+Uzbekistan,Russian Federation
+Uzbekistan,Russian Federation
+Kyrgyzstan,Russian Federation
+Kyrgyzstan,Russian Federation
+Kyrgyzstan,Russian Federation
+Kyrgyzstan,Russian Federation
+Russian Federation,China
+Russian Federation,United Arab Emirates
+China,Russian Federation
+Cyprus,Russian Federation
+Czech Republic,Russian Federation
+Czech Republic,Russian Federation
+Czech Republic,Russian Federation
+Italy,Russian Federation
+Russian Federation,Hungary
+Russian Federation,Tajikistan
+Ukraine,Russian Federation
+Uzbekistan,Russian Federation
+Uzbekistan,Russian Federation
+Russian Federation,France
+Russian Federation,United Arab Emirates
+Russian Federation,United Arab Emirates
+Russian Federation,Tajikistan
+Russian Federation,Armenia
+Russian Federation,Italy
+Russian Federation,Kyrgyzstan
+Russian Federation,Azerbaijan
+Russian Federation,China
+Russian Federation,Czech Republic
+Russian Federation,Tajikistan
+Russian Federation,Cyprus
+Russian Federation,Germany
+Russian Federation,Uzbekistan
+Russian Federation,Kyrgyzstan
+Russian Federation,China
+Russian Federation,Czech Republic
+Russian Federation,Uzbekistan
+Russian Federation,Israel
+Uzbekistan,Russian Federation
+Uzbekistan,Russian Federation
+Uzbekistan,Russian Federation
+Uzbekistan,Russian Federation
+Uzbekistan,Russian Federation
+Uzbekistan,Russian Federation
+Uzbekistan,Russian Federation
+Montenegro,Russian Federation
+Montenegro,Russian Federation
+Tajikistan,Russian Federation
+Tajikistan,Russian Federation
+Tajikistan,Russian Federation
+Israel,Russian Federation
+Russian Federation,Tajikistan
+Russian Federation,Tajikistan
+Russian Federation,Tajikistan
 Burundi,Uganda
 Burundi,Rwanda
 United Republic of Tanzania,Uganda
@@ -24746,7 +25139,7 @@ Senegal,United States of America
 Senegal,South Africa
 Cameroon,Belgium
 Cameroon,Congo (Kinshasa)
-Russia,Austria
+Russian Federation,Austria
 Qatar,Bahrain
 Qatar,United Arab Emirates
 Qatar,Germany
@@ -25046,7 +25439,7 @@ United States of America,Canada
 United States of America,Canada
 United States of America,Canada
 United States of America,Switzerland
-Russia,Austria
+Russian Federation,Austria
 Togo,Belgium
 United States of America,Canada
 United States of America,Canada
@@ -25301,11 +25694,11 @@ Germany,United States of America
 Ecuador,United States of America
 Saint Lucia,United States of America
 Mexico,United States of America
-Austria,Russia
+Austria,Russian Federation
 Austria,Armenia
 Austria,United States of America
 Austria,United States of America
-Austria,Russia
+Austria,Russian Federation
 Austria,United States of America
 Mexico,United States of America
 Micronesia (Federated States of),Palau
@@ -25427,10 +25820,12 @@ Saudi Arabia,Egypt
 Ukraine,Turkiye
 Ukraine,Azerbaijan
 Ukraine,Turkiye
-Ukraine,Russia
-Russia,Ukraine
-Ukraine,Russia
-Russia,Ukraine
+Ukraine,Russian Federation
+Ukraine,Russian Federation
+Russian Federation,Ukraine
+Ukraine,Russian Federation
+Russian Federation,Ukraine
+Russian Federation,Ukraine
 Saudi Arabia,Egypt
 Jordan,United Arab Emirates
 United Arab Emirates,Jordan
@@ -25451,7 +25846,7 @@ Sri Lanka,Indonesia
 Sri Lanka,India
 Sri Lanka,Bangladesh
 Sri Lanka,India
-Sri Lanka,Russia
+Sri Lanka,Russian Federation
 Sri Lanka,Saudi Arabia
 Sri Lanka,Qatar
 Sri Lanka,United Arab Emirates
@@ -25476,7 +25871,7 @@ Sri Lanka,India
 India,Sri Lanka
 Bangladesh,Sri Lanka
 India,Sri Lanka
-Russia,Sri Lanka
+Russian Federation,Sri Lanka
 Saudi Arabia,Sri Lanka
 Qatar,Sri Lanka
 United Arab Emirates,Sri Lanka
@@ -25505,174 +25900,222 @@ Switzerland,Oman
 Zimbabwe,South Africa
 South Africa,Zimbabwe
 Zimbabwe,South Africa
-Spain,Russia
-Kazakhstan,Russia
-Spain,Russia
-Turkiye,Russia
-Spain,Russia
-Uzbekistan,Russia
-Thailand,Russia
+Spain,Russian Federation
+Kazakhstan,Russian Federation
+Kazakhstan,Russian Federation
+Spain,Russian Federation
+Turkiye,Russian Federation
+Spain,Russian Federation
+Uzbekistan,Russian Federation
+Thailand,Russian Federation
+Thailand,Russian Federation
+Thailand,Russian Federation
 United States of America,The United Kingdom
-Kazakhstan,Russia
-Mexico,Russia
-Turkiye,Russia
-Turkiye,Russia
-Russia,Kazakhstan
-Russia,Spain
-Russia,Uzbekistan
-Russia,Thailand
-Russia,Turkiye
-Russia,Ukraine
-Russia,United Arab Emirates
-Russia,Italy
-Russia,India
-Russia,Greece
-Russia,Thailand
-Russia,Egypt
-Russia,United States of America
-Russia,Ukraine
-Russia,Kazakhstan
-Russia,The United Kingdom
-Russia,Belarus
-Russia,Italy
-Russia,Tunisia
-Russia,Czech Republic
-Russia,Cyprus
-Russia,Dominican Republic
-Russia,Greece
-Russia,Latvia
-Russia,Italy
-Russia,Vietnam
-Russia,Singapore
-Russia,Ukraine
-Russia,Egypt
-Russia,China
-Russia,Spain
-Russia,Israel
-Russia,Kazakhstan
-Russia,Germany
-Russia,Austria
-Russia,Lithuania
-Russia,Cuba
-Ukraine,Russia
-United Arab Emirates,Russia
-Armenia,Russia
-Italy,Russia
-Germany,Russia
-India,Russia
-Kazakhstan,Russia
-Greece,Russia
-Thailand,Russia
-Egypt,Russia
-United States of America,Russia
-Ukraine,Russia
-Turkiye,Russia
-United States of America,Russia
+Kazakhstan,Russian Federation
+Mexico,Russian Federation
+Turkiye,Russian Federation
+Turkiye,Russian Federation
+Russian Federation,Kazakhstan
+Russian Federation,Spain
+Russian Federation,Spain
+Russian Federation,Uzbekistan
+Russian Federation,Thailand
+Russian Federation,Turkiye
+Russian Federation,Ukraine
+Russian Federation,Ukraine
+Russian Federation,United Arab Emirates
+Russian Federation,Italy
+Russian Federation,India
+Russian Federation,Greece
+Russian Federation,Thailand
+Russian Federation,Egypt
+Russian Federation,United States of America
+Russian Federation,Ukraine
+Russian Federation,Kazakhstan
+Russian Federation,Kazakhstan
+Russian Federation,The United Kingdom
+Russian Federation,Belarus
+Russian Federation,Italy
+Russian Federation,Tunisia
+Russian Federation,Czech Republic
+Russian Federation,Cyprus
+Russian Federation,Dominican Republic
+Russian Federation,Greece
+Russian Federation,Latvia
+Russian Federation,Italy
+Russian Federation,Viet Nam
+Russian Federation,Singapore
+Russian Federation,Ukraine
+Russian Federation,Egypt
+Russian Federation,China
+Russian Federation,Spain
+Russian Federation,Israel
+Russian Federation,Kazakhstan
+Russian Federation,Germany
+Russian Federation,Austria
+Russian Federation,Lithuania
+Russian Federation,Cuba
+Ukraine,Russian Federation
+Ukraine,Russian Federation
+United Arab Emirates,Russian Federation
+United Arab Emirates,Russian Federation
+United Arab Emirates,Russian Federation
+United Arab Emirates,Russian Federation
+United Arab Emirates,Russian Federation
+United Arab Emirates,Russian Federation
+United Arab Emirates,Russian Federation
+United Arab Emirates,Russian Federation
+Armenia,Russian Federation
+Italy,Russian Federation
+Italy,Russian Federation
+Italy,Russian Federation
+Germany,Russian Federation
+India,Russian Federation
+Kazakhstan,Russian Federation
+Greece,Russian Federation
+Greece,Russian Federation
+Thailand,Russian Federation
+Thailand,Russian Federation
+Thailand,Russian Federation
+Thailand,Russian Federation
+Thailand,Russian Federation
+Egypt,Russian Federation
+Egypt,Russian Federation
+Egypt,Russian Federation
+Egypt,Russian Federation
+Egypt,Russian Federation
+United States of America,Russian Federation
+Ukraine,Russian Federation
+Ukraine,Russian Federation
+Turkiye,Russian Federation
+United States of America,Russian Federation
 South Africa,The United Kingdom
-Kazakhstan,Russia
-Russia,United Arab Emirates
+Kazakhstan,Russian Federation
+Kazakhstan,Russian Federation
+Kazakhstan,Russian Federation
+Russian Federation,United Arab Emirates
 United States of America,The United Kingdom
-United States of America,Russia
-Cyprus,Russia
-Russia,Italy
-Russia,Cyprus
-Russia,Belarus
-Russia,Italy
-Russia,Tunisia
-Russia,Czech Republic
-Russia,Dominican Republic
-Russia,Greece
-The United Kingdom,Russia
+United States of America,Russian Federation
+Cyprus,Russian Federation
+Russian Federation,Italy
+Russian Federation,Cyprus
+Russian Federation,Belarus
+Russian Federation,Italy
+Russian Federation,Tunisia
+Russian Federation,Czech Republic
+Russian Federation,Dominican Republic
+Russian Federation,Greece
+The United Kingdom,Russian Federation
 The United Kingdom,United States of America
 The United Kingdom,United States of America
 The United Kingdom,South Africa
 The United Kingdom,United States of America
 The United Kingdom,United States of America
-The United Kingdom,Russia
-Spain,Russia
+The United Kingdom,Russian Federation
+Spain,Russian Federation
 United States of America,The United Kingdom
-United States of America,Russia
-Maldives,Russia
-Mauritius,Russia
-Belarus,Russia
-Italy,Russia
-Tunisia,Russia
-Ukraine,Russia
-Russia,United Arab Emirates
-France,Russia
-Russia,Thailand
-Russia,Egypt
-Czech Republic,Russia
-China,Russia
-Cyprus,Russia
-Dominican Republic,Russia
-Greece,Russia
-Latvia,Russia
-Italy,Russia
-Kazakhstan,Russia
-Seychelles,Russia
+United States of America,Russian Federation
+Maldives,Russian Federation
+Mauritius,Russian Federation
+Belarus,Russian Federation
+Belarus,Russian Federation
+Italy,Russian Federation
+Italy,Russian Federation
+Italy,Russian Federation
+Tunisia,Russian Federation
+Tunisia,Russian Federation
+Tunisia,Russian Federation
+Ukraine,Russian Federation
+Russian Federation,United Arab Emirates
+France,Russian Federation
+Russian Federation,Thailand
+Russian Federation,Egypt
+Czech Republic,Russian Federation
+Czech Republic,Russian Federation
+China,Russian Federation
+Cyprus,Russian Federation
+Cyprus,Russian Federation
+Dominican Republic,Russian Federation
+Dominican Republic,Russian Federation
+Dominican Republic,Russian Federation
+Greece,Russian Federation
+Greece,Russian Federation
+Greece,Russian Federation
+Latvia,Russian Federation
+Latvia,Russian Federation
+Italy,Russian Federation
+Kazakhstan,Russian Federation
+Seychelles,Russian Federation
 United States of America,The United Kingdom
-Vietnam,Russia
-Singapore,Russia
-Ukraine,Russia
-Egypt,Russia
-Russia,Egypt
-Russia,Tunisia
-Russia,Dominican Republic
-Russia,Greece
-Russia,Egypt
-Russia,Thailand
-Russia,Egypt
-China,Russia
-Uzbekistan,Russia
-Spain,Russia
-Israel,Russia
-Kazakhstan,Russia
-Germany,Russia
-Italy,Russia
-Austria,Russia
-Russia,Spain
-Russia,Kazakhstan
-Russia,Turkiye
-Russia,Kazakhstan
-Russia,Mexico
-Russia,Turkiye
-Russia,United Arab Emirates
-Russia,Armenia
-Russia,Italy
-Russia,Germany
-Russia,Kazakhstan
-Russia,Greece
-Russia,Thailand
-Russia,Egypt
-Russia,Ukraine
-Russia,Turkiye
-Russia,United States of America
-Russia,Kazakhstan
-Russia,United States of America
-Russia,The United Kingdom
-Russia,Spain
-Russia,United States of America
-Russia,Maldives
-Russia,Mauritius
-Russia,Italy
-Russia,Ukraine
-Russia,France
-Russia,China
-Russia,Cyprus
-Russia,Latvia
-Russia,Kazakhstan
-Russia,Seychelles
-Russia,Egypt
-Russia,Uzbekistan
-Russia,Israel
-Russia,Kazakhstan
-Russia,Italy
-Russia,Austria
-Russia,Canada
-Lithuania,Russia
-Cuba,Russia
-Canada,Russia
+Viet Nam,Russian Federation
+Singapore,Russian Federation
+Ukraine,Russian Federation
+Egypt,Russian Federation
+Egypt,Russian Federation
+Egypt,Russian Federation
+Egypt,Russian Federation
+Russian Federation,Egypt
+Russian Federation,Tunisia
+Russian Federation,Dominican Republic
+Russian Federation,Greece
+Russian Federation,Egypt
+Russian Federation,Thailand
+Russian Federation,Thailand
+Russian Federation,Egypt
+Russian Federation,Egypt
+China,Russian Federation
+Uzbekistan,Russian Federation
+Spain,Russian Federation
+Israel,Russian Federation
+Israel,Russian Federation
+Kazakhstan,Russian Federation
+Kazakhstan,Russian Federation
+Germany,Russian Federation
+Italy,Russian Federation
+Austria,Russian Federation
+Austria,Russian Federation
+Russian Federation,Spain
+Russian Federation,Kazakhstan
+Russian Federation,Turkiye
+Russian Federation,Kazakhstan
+Russian Federation,Mexico
+Russian Federation,Turkiye
+Russian Federation,United Arab Emirates
+Russian Federation,Armenia
+Russian Federation,Italy
+Russian Federation,Germany
+Russian Federation,Kazakhstan
+Russian Federation,Greece
+Russian Federation,Thailand
+Russian Federation,Egypt
+Russian Federation,Ukraine
+Russian Federation,Turkiye
+Russian Federation,United States of America
+Russian Federation,Kazakhstan
+Russian Federation,United States of America
+Russian Federation,The United Kingdom
+Russian Federation,Spain
+Russian Federation,United States of America
+Russian Federation,Maldives
+Russian Federation,Mauritius
+Russian Federation,Italy
+Russian Federation,Ukraine
+Russian Federation,France
+Russian Federation,China
+Russian Federation,Cyprus
+Russian Federation,Latvia
+Russian Federation,Kazakhstan
+Russian Federation,Seychelles
+Russian Federation,Egypt
+Russian Federation,Uzbekistan
+Russian Federation,Israel
+Russian Federation,Kazakhstan
+Russian Federation,Italy
+Russian Federation,Austria
+Russian Federation,Canada
+Lithuania,Russian Federation
+Cuba,Russian Federation
+Canada,Russian Federation
 United States of America,Bahamas
 United States of America,Bahamas
 United States of America,Bahamas
@@ -25699,8 +26142,8 @@ United States of America,Bahamas
 United States of America,Bahamas
 United States of America,Bahamas
 Saint Kitts and Nevis,Bahamas
-Russia,Lithuania
-Lithuania,Russia
+Russian Federation,Lithuania
+Lithuania,Russian Federation
 Australia,New Zealand
 Mexico,United States of America
 Jordan,United States of America
@@ -26025,7 +26468,7 @@ United States of America,Jamaica
 United States of America,The United Kingdom
 United States of America,Peru
 United States of America,Costa Rica
-United States of America,Bolivia
+United States of America,Bolivia (Plurinational State of)
 United States of America,Dominican Republic
 United States of America,Spain
 United States of America,Brazil
@@ -26221,7 +26664,7 @@ Saint Lucia,United States of America
 Saint Lucia,United States of America
 Italy,United States of America
 Spain,Portugal
-Bolivia,United States of America
+Bolivia (Plurinational State of),United States of America
 Canada,United States of America
 Canada,United States of America
 Canada,United States of America
@@ -26276,12 +26719,12 @@ Reunion,Madagascar
 Madagascar,Reunion
 Reunion,Mauritius
 Spain,France
-Spain,Russia
+Spain,Russian Federation
 Netherlands,Spain
 Spain,France
 Spain,Romania
 Spain,Czech Republic
-Spain,Russia
+Spain,Russian Federation
 Spain,France
 Belgium,Spain
 Venezuela (Bolivarian Republic of),Spain
@@ -26326,8 +26769,8 @@ Spain,Romania
 Spain,Czech Republic
 Spain,Dominican Republic
 Spain,Brazil
-Spain,Russia
-Spain,Bolivia
+Spain,Russian Federation
+Spain,Bolivia (Plurinational State of)
 Mexico,Spain
 Germany,Spain
 Uruguay,Spain
@@ -26341,9 +26784,11 @@ Chile,Brazil
 Dominican Republic,Spain
 Brazil,Spain
 Brazil,Chile
-Russia,Spain
+Russian Federation,Spain
+Russian Federation,Spain
+Russian Federation,Spain
 Spain,France
-Bolivia,Spain
+Bolivia (Plurinational State of),Spain
 Iraq,Georgia
 Georgia,Iraq
 Colombia,Venezuela (Bolivarian Republic of)
@@ -26444,8 +26889,8 @@ New Zealand,Australia
 Australia,New Zealand
 Mexico,United States of America
 Mexico,United States of America
-Vietnam,Cambodia
-Vietnam,Singapore
+Viet Nam,Cambodia
+Viet Nam,Singapore
 Indonesia,Australia
 Australia,Singapore
 Solomon Islands,Australia
@@ -26479,12 +26924,12 @@ Pakistan,United Arab Emirates
 Australia,Indonesia
 Cambodia,Singapore
 Papua New Guinea,Australia
-Cambodia,Vietnam
+Cambodia,Viet Nam
 Cambodia,Singapore
 Singapore,Australia
 Singapore,United Arab Emirates
 Singapore,Australia
-Singapore,Vietnam
+Singapore,Viet Nam
 Singapore,Australia
 Singapore,South Africa
 Singapore,Australia
@@ -26515,118 +26960,149 @@ Mexico,United States of America
 Indonesia,Singapore
 Singapore,Indonesia
 Indonesia,Singapore
-Thailand,Vietnam
-Vietnam,Thailand
+Thailand,Viet Nam
+Thailand,Viet Nam
+Viet Nam,Thailand
+Viet Nam,Thailand
 United Arab Emirates,Malaysia
-United Arab Emirates,Vietnam
-Thailand,Vietnam
+United Arab Emirates,Viet Nam
+Thailand,Viet Nam
 Thailand,Kenya
 Thailand,Cambodia
-Thailand,Vietnam
-China,Vietnam
-France,Vietnam
-Indonesia,Vietnam
-China,Vietnam
-Vietnam,Russia
-Vietnam,China
-Vietnam,Republic of Korea
-Vietnam,China
-Vietnam,Cambodia
-Vietnam,China
-Russia,Vietnam
-China,Vietnam
-Germany,Vietnam
+Thailand,Viet Nam
+China,Viet Nam
+China,Viet Nam
+China,Viet Nam
+France,Viet Nam
+France,Viet Nam
+Indonesia,Viet Nam
+China,Viet Nam
+China,Viet Nam
+Viet Nam,Russian Federation
+Viet Nam,China
+Viet Nam,China
+Viet Nam,China
+Viet Nam,Republic of Korea
+Viet Nam,China
+Viet Nam,Cambodia
+Viet Nam,China
+Viet Nam,China
+Russian Federation,Viet Nam
+Russian Federation,Viet Nam
+Russian Federation,Viet Nam
+China,Viet Nam
+Germany,Viet Nam
 Germany,Spain
-Germany,Vietnam
-Japan,Vietnam
-Vietnam,Thailand
-Vietnam,China
-Vietnam,France
-Vietnam,China
-Vietnam,Russia
-Vietnam,Germany
-Vietnam,Japan
-Vietnam,Republic of Korea
-Vietnam,Japan
-Vietnam,Malaysia
-Vietnam,Lao People's Democratic Republic
-Vietnam,Japan
-Vietnam,China
-Vietnam,Cambodia
-Vietnam,Republic of Korea
-Vietnam,China
-Vietnam,Cambodia
-Vietnam,Burma
-Vietnam,Singapore
-Vietnam,Lao People's Democratic Republic
-China,Vietnam
-Republic of Korea,Vietnam
-Republic of Korea,Vietnam
-Republic of Korea,Vietnam
-Japan,Vietnam
-Malaysia,Vietnam
-Lao People's Democratic Republic,Vietnam
+Germany,Viet Nam
+Japan,Viet Nam
+Japan,Viet Nam
+Viet Nam,Thailand
+Viet Nam,China
+Viet Nam,France
+Viet Nam,China
+Viet Nam,Russian Federation
+Viet Nam,Germany
+Viet Nam,Japan
+Viet Nam,Republic of Korea
+Viet Nam,Japan
+Viet Nam,Malaysia
+Viet Nam,Lao People's Democratic Republic
+Viet Nam,Japan
+Viet Nam,Japan
+Viet Nam,China
+Viet Nam,Cambodia
+Viet Nam,Republic of Korea
+Viet Nam,China
+Viet Nam,Cambodia
+Viet Nam,Burma
+Viet Nam,Singapore
+Viet Nam,Lao People's Democratic Republic
+China,Viet Nam
+Republic of Korea,Viet Nam
+Republic of Korea,Viet Nam
+Republic of Korea,Viet Nam
+Japan,Viet Nam
+Japan,Viet Nam
+Malaysia,Viet Nam
+Malaysia,Viet Nam
+Lao People's Democratic Republic,Viet Nam
 Lao People's Democratic Republic,Cambodia
 Spain,Germany
-Australia,Vietnam
-Philippines,Vietnam
+Australia,Viet Nam
+Philippines,Viet Nam
 Kenya,Thailand
-Japan,Vietnam
-China,Vietnam
+Japan,Viet Nam
+Japan,Viet Nam
+Japan,Viet Nam
+Japan,Viet Nam
+China,Viet Nam
 Cambodia,Thailand
-Cambodia,Vietnam
+Cambodia,Viet Nam
+Cambodia,Viet Nam
 Cambodia,Lao People's Democratic Republic
-Republic of Korea,Vietnam
-Republic of Korea,Vietnam
-China,Vietnam
-Cambodia,Vietnam
+Republic of Korea,Viet Nam
+Republic of Korea,Viet Nam
+China,Viet Nam
+China,Viet Nam
+China,Viet Nam
+Cambodia,Viet Nam
+Cambodia,Viet Nam
 Cambodia,Lao People's Democratic Republic
-Cambodia,Vietnam
-Burma,Vietnam
-Vietnam,United Arab Emirates
-Vietnam,Thailand
-Vietnam,China
-Vietnam,France
-Vietnam,Indonesia
-Vietnam,Russia
-Vietnam,China
-Vietnam,Germany
-Vietnam,Japan
-Vietnam,Republic of Korea
-Vietnam,Japan
-Vietnam,Malaysia
-Vietnam,Australia
-Vietnam,Philippines
-Vietnam,Japan
-Vietnam,Cambodia
-Vietnam,Republic of Korea
-Vietnam,China
-Vietnam,Cambodia
-Vietnam,Burma
-Vietnam,Singapore
-Vietnam,Australia
-Singapore,Vietnam
-Australia,Vietnam
-Vietnam,Lao People's Democratic Republic
-Lao People's Democratic Republic,Vietnam
+Cambodia,Viet Nam
+Burma,Viet Nam
+Burma,Viet Nam
+Viet Nam,United Arab Emirates
+Viet Nam,Thailand
+Viet Nam,China
+Viet Nam,France
+Viet Nam,Indonesia
+Viet Nam,Russian Federation
+Viet Nam,China
+Viet Nam,Germany
+Viet Nam,Japan
+Viet Nam,Republic of Korea
+Viet Nam,Japan
+Viet Nam,Malaysia
+Viet Nam,Australia
+Viet Nam,Philippines
+Viet Nam,Japan
+Viet Nam,Japan
+Viet Nam,Cambodia
+Viet Nam,Republic of Korea
+Viet Nam,China
+Viet Nam,Cambodia
+Viet Nam,Burma
+Viet Nam,Singapore
+Viet Nam,Australia
+Singapore,Viet Nam
+Singapore,Viet Nam
+Australia,Viet Nam
+Viet Nam,Lao People's Democratic Republic
+Lao People's Democratic Republic,Viet Nam
 Lao People's Democratic Republic,Cambodia
-Lao People's Democratic Republic,Vietnam
-China,Vietnam
-Netherlands,Cape Verde
-United States of America,Cape Verde
-Cape Verde,Portugal
-France,Cape Verde
-Senegal,Cape Verde
-Brazil,Cape Verde
-Portugal,Cape Verde
-Cape Verde,United States of America
-Cape Verde,France
-Cape Verde,Senegal
-Cape Verde,Brazil
-Cape Verde,Portugal
-Cape Verde,Netherlands
-Cape Verde,France
-Cape Verde,Portugal
+Lao People's Democratic Republic,Viet Nam
+China,Viet Nam
+China,Viet Nam
+Netherlands,Cabo Verde
+United States of America,Cabo Verde
+Cabo Verde,Portugal
+France,Cabo Verde
+France,Cabo Verde
+Senegal,Cabo Verde
+Brazil,Cabo Verde
+Portugal,Cabo Verde
+Portugal,Cabo Verde
+Portugal,Cabo Verde
+Portugal,Cabo Verde
+Cabo Verde,United States of America
+Cabo Verde,France
+Cabo Verde,Senegal
+Cabo Verde,Brazil
+Cabo Verde,Portugal
+Cabo Verde,Netherlands
+Cabo Verde,France
+Cabo Verde,Portugal
+Cabo Verde,Portugal
 Antigua and Barbuda,The United Kingdom
 Antigua and Barbuda,Saint Lucia
 United States of America,Mexico
@@ -26687,7 +27163,7 @@ The United Kingdom,China
 The United Kingdom,United States of America
 The United Kingdom,United States of America
 The United Kingdom,Singapore
-The United Kingdom,Russia
+The United Kingdom,Russian Federation
 Nigeria,The United Kingdom
 The United Kingdom,United States of America
 The United Kingdom,Barbados
@@ -26716,7 +27192,7 @@ Singapore,Germany
 Saint Lucia,Antigua and Barbuda
 Saint Lucia,Grenada
 Saint Lucia,The United Kingdom
-Russia,The United Kingdom
+Russian Federation,The United Kingdom
 United States of America,Mexico
 Mexico,United States of America
 Mexico,United States of America
@@ -26736,7 +27212,7 @@ Spain,Netherlands
 Spain,Belgium
 Spain,Denmark
 Spain,The United Kingdom
-Spain,Russia
+Spain,Russian Federation
 Spain,Italy
 Spain,Germany
 Spain,France
@@ -26746,7 +27222,7 @@ Spain,Netherlands
 Spain,Belgium
 Spain,Denmark
 Spain,The United Kingdom
-Spain,Russia
+Spain,Russian Federation
 Spain,Italy
 Spain,Algeria
 Spain,France
@@ -26773,7 +27249,7 @@ Spain,Italy
 Spain,The United Kingdom
 Spain,Croatia
 Spain,Senegal
-Spain,Russia
+Spain,Russian Federation
 Spain,Germany
 Spain,The United Kingdom
 Spain,Italy
@@ -26785,7 +27261,7 @@ Spain,Sweden
 Spain,Germany
 Spain,Finland
 Spain,Ukraine
-Spain,Russia
+Spain,Russian Federation
 Spain,Germany
 Spain,The United Kingdom
 Spain,France
@@ -26851,7 +27327,10 @@ The United Kingdom,Spain
 The United Kingdom,Spain
 Croatia,Spain
 Senegal,Spain
-Russia,Spain
+Russian Federation,Spain
+Russian Federation,Spain
+Russian Federation,Spain
+Russian Federation,Spain
 Germany,Spain
 The United Kingdom,Spain
 Italy,Spain
@@ -26876,7 +27355,7 @@ Spain,Belgium
 Spain,France
 Ukraine,Spain
 Spain,The United Kingdom
-Russia,Spain
+Russian Federation,Spain
 Germany,Spain
 The United Kingdom,Spain
 The United Kingdom,Italy
@@ -26920,7 +27399,7 @@ Spain,France
 Spain,Netherlands
 Spain,France
 Spain,Belgium
-Spain,Russia
+Spain,Russian Federation
 Spain,France
 Italy,Spain
 Czech Republic,Spain
@@ -27097,7 +27576,7 @@ Hungary,Sweden
 Hungary,Turkiye
 Hungary,Greece
 Hungary,Israel
-Hungary,Russia
+Hungary,Russian Federation
 Hungary,Poland
 France,Serbia
 France,Romania
@@ -27400,7 +27879,7 @@ Romania,Italy
 Romania,Spain
 Bosnia and Herzegovina,Sweden
 Bulgaria,The United Kingdom
-Russia,Hungary
+Russian Federation,Hungary
 Spain,Romania
 Spain,Bulgaria
 Spain,Romania
@@ -27826,7 +28305,7 @@ France,Spain
 France,Germany
 Greece,Germany
 Germany,Turkiye
-Germany,Cape Verde
+Germany,Cabo Verde
 Germany,Portugal
 Germany,Spain
 Germany,Greece
@@ -27855,7 +28334,7 @@ Portugal,France
 Portugal,Germany
 Germany,Spain
 Germany,Turkiye
-Germany,Cape Verde
+Germany,Cabo Verde
 Germany,Greece
 Germany,Turkiye
 Germany,Portugal
@@ -27869,7 +28348,7 @@ Spain,Germany
 Greece,Germany
 Germany,Spain
 Germany,Turkiye
-Germany,Cape Verde
+Germany,Cabo Verde
 Germany,Greece
 Germany,Turkiye
 Germany,Portugal
@@ -27890,7 +28369,7 @@ Germany,Greece
 Spain,France
 Spain,Germany
 Germany,Turkiye
-Germany,Cape Verde
+Germany,Cabo Verde
 Germany,Greece
 Germany,Turkiye
 Germany,Portugal
@@ -27908,10 +28387,14 @@ Spain,France
 Spain,Germany
 Greece,France
 Greece,Germany
-Cape Verde,Germany
+Cabo Verde,Germany
+Cabo Verde,Germany
+Cabo Verde,Germany
+Cabo Verde,Germany
+Cabo Verde,Germany
 Germany,Spain
 Germany,Turkiye
-Germany,Cape Verde
+Germany,Cabo Verde
 Germany,Greece
 Germany,Turkiye
 Germany,Portugal
@@ -28135,45 +28618,70 @@ Thailand,Burma
 Burma,Thailand
 Burma,Singapore
 Singapore,Burma
-United Arab Emirates,Russia
-Tajikistan,Russia
-Armenia,Russia
-Azerbaijan,Russia
-Russia,United Arab Emirates
-Russia,Tajikistan
-Russia,Armenia
-Russia,Azerbaijan
-Russia,Tajikistan
-Russia,China
-Tajikistan,Russia
-Russia,Tajikistan
-China,Russia
-Russia,Azerbaijan
+United Arab Emirates,Russian Federation
+Tajikistan,Russian Federation
+Armenia,Russian Federation
+Azerbaijan,Russian Federation
+Azerbaijan,Russian Federation
+Russian Federation,United Arab Emirates
+Russian Federation,Tajikistan
+Russian Federation,Armenia
+Russian Federation,Azerbaijan
+Russian Federation,Tajikistan
+Russian Federation,China
+Tajikistan,Russian Federation
+Tajikistan,Russian Federation
+Russian Federation,Tajikistan
+China,Russian Federation
+Russian Federation,Azerbaijan
 United Arab Emirates,Iran (Islamic Republic of)
 United Arab Emirates,Iran (Islamic Republic of)
 Iran (Islamic Republic of),United Arab Emirates
 Iran (Islamic Republic of),United Arab Emirates
-Russia,Montenegro
-Armenia,Russia
-Montenegro,Russia
-Russia,Armenia
+Russian Federation,Montenegro
+Armenia,Russian Federation
+Montenegro,Russian Federation
+Russian Federation,Armenia
 Dominica,Virgin Islands
 Saint Kitts and Nevis,Virgin Islands
 Virgin Islands,Dominica
 Virgin Islands,Saint Kitts and Nevis
 Kazakhstan,Kyrgyzstan
-Russia,Kyrgyzstan
+Russian Federation,Kyrgyzstan
+Russian Federation,Kyrgyzstan
 Tajikistan,Kyrgyzstan
 Kyrgyzstan,Kazakhstan
-Kyrgyzstan,Russia
+Kyrgyzstan,Russian Federation
 Kyrgyzstan,Tajikistan
-Kyrgyzstan,Russia
-Russia,Kyrgyzstan
-Kyrgyzstan,Russia
-Russia,Kyrgyzstan
+Kyrgyzstan,Russian Federation
+Kyrgyzstan,Russian Federation
+Kyrgyzstan,Russian Federation
+Kyrgyzstan,Russian Federation
+Kyrgyzstan,Russian Federation
+Kyrgyzstan,Russian Federation
+Russian Federation,Kyrgyzstan
+Russian Federation,Kyrgyzstan
+Russian Federation,Kyrgyzstan
+Russian Federation,Kyrgyzstan
+Russian Federation,Kyrgyzstan
+Kyrgyzstan,Russian Federation
+Kyrgyzstan,Russian Federation
+Kyrgyzstan,Russian Federation
+Kyrgyzstan,Russian Federation
+Kyrgyzstan,Russian Federation
+Kyrgyzstan,Russian Federation
+Kyrgyzstan,Russian Federation
+Kyrgyzstan,Russian Federation
+Russian Federation,Kyrgyzstan
+Russian Federation,Kyrgyzstan
+Russian Federation,Kyrgyzstan
+Russian Federation,Kyrgyzstan
+Russian Federation,Kyrgyzstan
+Russian Federation,Kyrgyzstan
 Serbia,Montenegro
 France,Montenegro
-Russia,Montenegro
+Russian Federation,Montenegro
+Russian Federation,Montenegro
 Germany,Montenegro
 Italy,Montenegro
 Germany,Montenegro
@@ -28181,7 +28689,7 @@ The United Kingdom,Montenegro
 Slovenia,Montenegro
 Montenegro,Serbia
 Montenegro,France
-Montenegro,Russia
+Montenegro,Russian Federation
 Montenegro,Germany
 Montenegro,Italy
 Montenegro,Germany
@@ -28190,18 +28698,18 @@ Montenegro,Austria
 Montenegro,Switzerland
 Montenegro,Serbia
 Montenegro,France
-Montenegro,Russia
+Montenegro,Russian Federation
 Montenegro,The United Kingdom
 Austria,Montenegro
 Switzerland,Montenegro
 Algeria,The United Kingdom
 The United Kingdom,Algeria
-Armenia,Russia
-Russia,Lithuania
-Germany,Russia
-Lithuania,Russia
-Russia,Armenia
-Russia,Germany
+Armenia,Russian Federation
+Russian Federation,Lithuania
+Germany,Russian Federation
+Lithuania,Russian Federation
+Russian Federation,Armenia
+Russian Federation,Germany
 Malaysia,Philippines
 Philippines,Republic of Korea
 Philippines,Malaysia
@@ -28229,9 +28737,10 @@ Iraq,Lebanon
 Iraq,Turkiye
 Turkiye,Iraq
 Georgia,Ukraine
-Russia,Ukraine
+Russian Federation,Ukraine
+Russian Federation,Ukraine
 Ukraine,Georgia
-Ukraine,Russia
+Ukraine,Russian Federation
 Ukraine,Armenia
 Ukraine,Turkiye
 Ukraine,Georgia
@@ -28239,13 +28748,14 @@ Ukraine,Austria
 Armenia,Ukraine
 Turkiye,Ukraine
 Georgia,Ukraine
-Ukraine,Russia
+Ukraine,Russian Federation
 Austria,Ukraine
-Peru,Bolivia
-Paraguay,Bolivia
-Peru,Bolivia
-Bolivia,Peru
-Bolivia,Paraguay
+Peru,Bolivia (Plurinational State of)
+Paraguay,Bolivia (Plurinational State of)
+Peru,Bolivia (Plurinational State of)
+Bolivia (Plurinational State of),Peru
+Bolivia (Plurinational State of),Peru
+Bolivia (Plurinational State of),Paraguay
 Spain,The United Kingdom
 Spain,The United Kingdom
 Spain,The United Kingdom
@@ -28493,9 +29003,9 @@ France,Algeria
 France,Tunisia
 France,Portugal
 France,Algeria
-France,Russia
+France,Russian Federation
 Algeria,France
 France,Algeria
-Russia,France
-Russia,Kyrgyzstan
-Kyrgyzstan,Russia
+Russian Federation,France
+Russian Federation,Kyrgyzstan
+Kyrgyzstan,Russian Federation

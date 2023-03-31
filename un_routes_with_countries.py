@@ -80,6 +80,18 @@ def filter_csv_file(filename: str, output_file='data/new_routes_2.0'):
                         row[0] = 'Iran (Islamic Republic of)'
                     if row[1] == 'Iran':
                         row[1] = 'Iran (Islamic Republic of)'
+                    if row[0] == 'Vietnam':
+                        row[0] = 'Viet Nam'
+                    if row[1] == 'Vietnam':
+                        row[1] = 'Viet Nam'
+                    if row[0] == 'Russia':
+                        row[0] = 'Russian Federation'
+                    if row[1] == 'Russia':
+                        row[1] = 'Russian Federation'
+                    if row[0] == 'Bolivia':
+                        row[0] = 'Bolivia (Plurinational State of)'
+                    if row[1] == 'Bolivia':
+                        row[1] = 'Bolivia (Plurinational State of)'
 
                     writer.writerow(row)
                     curr_row = row

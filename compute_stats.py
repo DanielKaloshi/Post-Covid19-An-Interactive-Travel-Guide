@@ -51,6 +51,7 @@ def compute_population(country_name: str) -> int:
         for row in reader:
             if row[0] == country_name:
                 population = int(row[1])
+                assert population > 0
                 break
 
     return population
@@ -107,6 +108,15 @@ def compute_infection_rate_per_1000_people(country_name: str) -> float:
 
     return (cases / population) * 1000
 
+def test_2() -> bool:
+    """"""
+    with open('data/COVID-19-data-from-2023-02-01.csv') as csv_file:
+        reader = csv.reader(csv_file)
+        next(reader)
+        for row in reader:
+            if compute_population(row[2]) == 0:
+                return True
+    return False
 
 def compute_death_rate_per_100_cases(country_name: str) -> float:
     """ Computes the death rate per 1000 people for each country.
@@ -136,22 +146,22 @@ def compute_death_rate_per_100_cases(country_name: str) -> float:
         return (deaths / cases) * 100
 
 
-def compute_safety_index(country_name: str) -> float:
-    """ Computes the 'safety index' for each country by averaging out the infection rate and the death rate.
+def compute_danger_index(country_name: str) -> float:
+    """ Computes the 'danger index' for each country by averaging out the infection rate and the death rate.
 
-    >>> compute_safety_index('France')
+    >>> compute_danger_index('France')
     1.6331883860004732
 
-    >>> compute_safety_index('Canada')
+    >>> compute_danger_index('Canada')
     1.666108304345192
 
-    >>> compute_safety_index('Japan')
+    >>> compute_danger_index('Japan')
     3.7524031194829
 
-    >>> compute_safety_index('Bangladesh')
+    >>> compute_danger_index('Bangladesh')
     0.38477374371612644
 
-    >>> compute_safety_index('Albania')
+    >>> compute_danger_index('Albania')
     0.5714422494026575
     """
 
@@ -161,9 +171,9 @@ def compute_safety_index(country_name: str) -> float:
     return (infection_rate + death_rate) / 2
 
 
-def compute_safest_neighbour(neighbours: set[str]) -> list[(str, float)]:
-    """ Computes the safety index for each country in the set of neighbours returned by find_paths and returns
-     a dictionary containing the Top 3 'safest' neighbours and their associated safety indexes.
+def compute_safest_neighbour(neighbours: set[_Country]) -> list[(str, float)]:
+    """ Computes the danger index for each country in the set of neighbours returned by find_paths and returns
+     a dictionary containing the Top 3 'safest' neighbours and their associated danger indexes.
 
     >>> compute_safest_neighbour({'Canada', 'France', 'Japan'})
     [('France', 1.6331883860004732), ('Canada', 1.666108304345192), ('Japan', 3.7524031194829)]
@@ -185,12 +195,12 @@ def compute_safest_neighbour(neighbours: set[str]) -> list[(str, float)]:
 
     while len(top_three_so_far) < 3 and set_neighbours != set():
         for neighbour in set_neighbours:
-            neighbour_index = compute_safety_index(neighbour)
+            neighbour_index = compute_danger_index(neighbour.name)
             if neighbour_index < lowest_index_so_far:
                 lowest_index_so_far = neighbour_index
                 neighbour_so_far = neighbour
 
-        top_three_so_far.append((neighbour_so_far, lowest_index_so_far))
+        top_three_so_far.append((neighbour_so_far.name, lowest_index_so_far))
         set.remove(set_neighbours, neighbour_so_far)
         lowest_index_so_far = math.inf
         neighbour_so_far = ''
@@ -198,8 +208,8 @@ def compute_safest_neighbour(neighbours: set[str]) -> list[(str, float)]:
     return top_three_so_far
 
 
-def write_safety_index(output_file='data/country-safety-index.csv') -> None:
-    """Compute the safety_index for each country in filter_un_populations.csv and write each country
+def write_danger_index(output_file='data/country-danger-index.csv') -> None:
+    """Compute the danger_index for each country in filter_un_populations.csv and write each country
     and its corresponding index in the given output_file."""
     with open('data/filter_un_populations.csv') as main_file:
         reader = csv.reader(main_file)
@@ -209,9 +219,9 @@ def write_safety_index(output_file='data/country-safety-index.csv') -> None:
             writer = csv.writer(file, delimiter=',', lineterminator="\n")
             for row in reader:
                 country = row[0]
-                safety_index = compute_safety_index(country)
-                writer.writerow([country, safety_index])
+                danger_index = compute_danger_index(country)
+                writer.writerow([country, danger_index])
 
 
 if __name__ == '__main__':
-    write_safety_index()
+    write_danger_index()

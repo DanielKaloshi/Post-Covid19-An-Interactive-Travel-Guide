@@ -14,8 +14,8 @@ class _Country:
         is a direct flight between self and that country.
         Each key in the mapping is the name of a neighbouring country, and the corresponding
         value is the vertex associated with that country.
-    - safety_index:
-        The calculated safety index for this country.
+    - danger_index:
+        The calculated danger index for this country.
     - region:
         The WHO region this country is located in.
 
@@ -32,7 +32,11 @@ class _Country:
         """Initialize this country with the given name, region, and neighbours."""
         self.name = name
         self.neighbours = {}
+<<<<<<< HEAD
         self.danger_index = compute_stats.compute_safety_index(name)
+=======
+        self.danger_index = compute_stats.compute_danger_index(name)
+>>>>>>> eb6968ba4c64e6b9568e5c769cd51919d1ecfc0a
         self.add_region()
 
     def add_region(self) -> None:
@@ -61,7 +65,7 @@ class _Country:
                         return True
             return False
 
-    def find_flights(self, destination: _Country, visited: set[_Country]) -> set[str]:
+    def find_flights(self, destination: _Country, visited: set[_Country]) -> set[_Country]:
 
         """Return a set containing all the possible country paths from this country that do NOT use any countries in
         visited.
@@ -73,7 +77,7 @@ class _Country:
         country_set = set()
 
         if self.name == destination.name:
-            return {destination.name}
+            return {destination}
         else:
             visited.add(self)
             for neighbour in self.neighbours:
