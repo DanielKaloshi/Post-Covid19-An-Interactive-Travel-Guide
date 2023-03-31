@@ -146,6 +146,11 @@ def compute_safety_index(country_name: str) -> float:
     >>> compute_safety_index('Japan')
     3.7524031194829
 
+    >>> compute_safety_index('Bangladesh')
+    0.38477374371612644
+
+    >>> compute_safety_index('Albania')
+    0.5714422494026575
     """
 
     infection_rate = compute_infection_rate_per_1000_people(country_name)
