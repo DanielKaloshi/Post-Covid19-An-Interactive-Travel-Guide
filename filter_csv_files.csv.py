@@ -87,6 +87,15 @@ def new_csv(file: str, country_dict: dict[str, list[tuple[str, str]]], output_fi
                     row_to_write = [source_country, dest_country]
                     writer.writerow(row_to_write)
 
+def country_list_who(file: str) -> None:
+    """"""
+    with open(file) as csv_file:
+        reader = csv.reader(csv_file, delimiter=',')
+        next(reader)
+
+
+
+
 
 def filter_csv_file(filename: str, output_file='data/COVID-19-data-from-2023-02-01.csv'):
     """Read the data in filename, and write the data - filtered by the starting date of
