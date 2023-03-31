@@ -261,8 +261,8 @@ def check_inputs():
         error_message(False, False, True)
 
     else:
-        display_results(curr_location, dest_location)
-
+        # display_results(curr_location, dest_location)
+        display_layover_countries([('ITALY', 3.0), ('POLAND', 2.0), ('UNITED STATES', 1.0)])
 
 # Create a submit button
 sub_button = Button(root, text='Submit', font=WINDOW_FONT_SIZE, bg=WINDOW_COLOUR, fg='black',
