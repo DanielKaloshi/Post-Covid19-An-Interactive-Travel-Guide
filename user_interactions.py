@@ -102,7 +102,7 @@ def display_layover_countries(top3_flights: list[tuple]):
     first, second, third = top3_flights
 
     result_root = Toplevel()
-    result_root.title('Top 3 layover flights')
+    result_root.title('Top 3 layover countries')
     result_root.config(bg=WINDOW_COLOUR)
     w = root.winfo_screenwidth()
     h = root.winfo_screenheight()
@@ -113,27 +113,27 @@ def display_layover_countries(top3_flights: list[tuple]):
                                text=f"Hi {user_name}, we found you the top three safest layover countries for your "
                                     f"destination", font=('Helvetica', 15), bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
     communicate_label1.pack(pady=(75, 5))
-    communicate_label2 = Label(result_root, text=f"Your best choice is {first[0]} with the safety index of {first[1]}.",
+    communicate_label2 = Label(result_root, text=f"Your best choice is {first[0]} with the danger index of {first[1]}.",
                                font=('Helvetica', 15), bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
     communicate_label2.pack(pady=5)
 
     # Display 1st country, bold and with the text '(recommended)' below the country name
     first_label = Label(result_root, text='1. ' + first[0], font=('Helvetica', 15, 'bold'),
                         bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
-    first_label.place(x=675, y=750)
+    first_label.place(x=175, y=200)
     recomended_label = Label(result_root, text='(recommended)', font=('Helvetica', 13, 'italic'),
                              bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
-    recomended_label.place(x=670, y=775)
+    recomended_label.place(x=175, y=225)
 
     # Display 2nd country
     second_label = Label(result_root, text='2. ' + second[0], font=('Helvetica', 15),
                          bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
-    second_label.place(x=175, y=750)
+    second_label.place(x=670, y=200)
 
     # Display 3rd country
     third_label = Label(result_root, text='3. ' + third[0], font=('Helvetica', 15),
                         bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
-    third_label.place(x=1175, y=750)
+    third_label.place(x=1175, y=200)
 
     # Display three graphs corresponding to three layover countries
 
@@ -262,7 +262,7 @@ def check_inputs():
 
     else:
         # display_results(curr_location, dest_location)
-        display_layover_countries([('ITALY', 3.0), ('POLAND', 2.0), ('UNITED STATES', 1.0)])
+        display_layover_countries([('ITALY', 1.0), ('POLAND', 2.0), ('UNITED STATES', 3.0)])
 
 # Create a submit button
 sub_button = Button(root, text='Submit', font=WINDOW_FONT_SIZE, bg=WINDOW_COLOUR, fg='black',
