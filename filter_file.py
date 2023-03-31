@@ -171,76 +171,77 @@ def filter_routes(filename: str, output_file='data/new_routes_2.0'):
             rows_so_far = []
 
             for row in reader:
-                if row[0] not in non_un_list and row[1] not in non_un_list and row not in rows_so_far:
-                    if row[0] == 'United Kingdom':
-                        row[0] = 'The United Kingdom'
-                    if row[1] == 'United Kingdom':
-                        row[1] = 'The United Kingdom'
-                    if row[0] == 'Turkey':
-                        row[0] = 'Turkiye'
-                    if row[1] == 'Turkey':
-                        row[1] = 'Turkiye'
-                    if row[0] == 'United States':
-                        row[0] = 'United States of America'
-                    if row[1] == 'United States':
-                        row[1] = 'United States of America'
-                    if row[0] == 'Venezuela':
-                        row[0] = 'Venezuela (Bolivarian Republic of)'
-                    if row[1] == 'Venezuela':
-                        row[1] = 'Venezuela (Bolivarian Republic of)'
-                    if row[0] == 'Tanzania':
-                        row[0] = 'United Republic of Tanzania'
-                    if row[1] == 'Tanzania':
-                        row[1] = 'United Republic of Tanzania'
-                    if row[0] == 'Syria':
-                        row[0] = 'Syrian Arab Republic'
-                    if row[1] == 'Syria':
-                        row[1] = 'Syrian Arab Republic'
-                    if row[0] == 'South Korea':
-                        row[0] = 'Republic of Korea'
-                    if row[1] == 'South Korea':
-                        row[1] = 'Republic of Korea'
-                    if row[0] == 'North Korea':
-                        row[0] = 'Democratic People\'s Republic of Korea'
-                    if row[1] == 'North Korea':
-                        row[1] = 'Democratic People\'s Republic of Korea'
-                    if row[0] == 'Moldova':
-                        row[0] = 'Republic of Moldova'
-                    if row[1] == 'Moldova':
-                        row[1] = 'Republic of Moldova'
-                    if row[0] == 'Micronesia':
-                        row[0] = 'Micronesia (Federated States of)'
-                    if row[1] == 'Micronesia':
-                        row[1] = 'Micronesia (Federated States of)'
-                    if row[0] == 'Laos':
-                        row[0] = 'Lao People\'s Democratic Republic'
-                    if row[1] == 'Laos':
-                        row[1] = 'Lao People\'s Democratic Republic'
-                    if row[0] == 'Iran':
-                        row[0] = 'Iran (Islamic Republic of)'
-                    if row[1] == 'Iran':
-                        row[1] = 'Iran (Islamic Republic of)'
-                    if row[0] == 'Vietnam':
-                        row[0] = 'Viet Nam'
-                    if row[1] == 'Vietnam':
-                        row[1] = 'Viet Nam'
-                    if row[0] == 'Russia':
-                        row[0] = 'Russian Federation'
-                    if row[1] == 'Russia':
-                        row[1] = 'Russian Federation'
-                    if row[0] == 'Bolivia':
-                        row[0] = 'Bolivia (Plurinational State of)'
-                    if row[1] == 'Bolivia':
-                        row[1] = 'Bolivia (Plurinational State of)'
-                    if row[0] == 'Cape Verde':
-                        row[0] = 'Cabo Verde'
-                    if row[1] == 'Cape Verde':
-                        row[1] = 'Cabo Verde'
-                    if row[0] == 'Congo (Brazzaville)':
-                        row[0] = 'Congo'
-                    if row[1] == 'Congo (Brazzaville)':
-                        row[1] = 'Congo'
 
+                if row[0] == 'United Kingdom':
+                    row[0] = 'The United Kingdom'
+                if row[1] == 'United Kingdom':
+                    row[1] = 'The United Kingdom'
+                if row[0] == 'Turkey':
+                    row[0] = 'Turkiye'
+                if row[1] == 'Turkey':
+                    row[1] = 'Turkiye'
+                if row[0] == 'United States':
+                    row[0] = 'United States of America'
+                if row[1] == 'United States':
+                    row[1] = 'United States of America'
+                if row[0] == 'Venezuela':
+                    row[0] = 'Venezuela (Bolivarian Republic of)'
+                if row[1] == 'Venezuela':
+                    row[1] = 'Venezuela (Bolivarian Republic of)'
+                if row[0] == 'Tanzania':
+                    row[0] = 'United Republic of Tanzania'
+                if row[1] == 'Tanzania':
+                    row[1] = 'United Republic of Tanzania'
+                if row[0] == 'Syria':
+                    row[0] = 'Syrian Arab Republic'
+                if row[1] == 'Syria':
+                    row[1] = 'Syrian Arab Republic'
+                if row[0] == 'South Korea':
+                    row[0] = 'Republic of Korea'
+                if row[1] == 'South Korea':
+                    row[1] = 'Republic of Korea'
+                if row[0] == 'North Korea':
+                    row[0] = 'Democratic People\'s Republic of Korea'
+                if row[1] == 'North Korea':
+                    row[1] = 'Democratic People\'s Republic of Korea'
+                if row[0] == 'Moldova':
+                    row[0] = 'Republic of Moldova'
+                if row[1] == 'Moldova':
+                    row[1] = 'Republic of Moldova'
+                if row[0] == 'Micronesia':
+                    row[0] = 'Micronesia (Federated States of)'
+                if row[1] == 'Micronesia':
+                    row[1] = 'Micronesia (Federated States of)'
+                if row[0] == 'Laos':
+                    row[0] = 'Lao People\'s Democratic Republic'
+                if row[1] == 'Laos':
+                    row[1] = 'Lao People\'s Democratic Republic'
+                if row[0] == 'Iran':
+                    row[0] = 'Iran (Islamic Republic of)'
+                if row[1] == 'Iran':
+                    row[1] = 'Iran (Islamic Republic of)'
+                if row[0] == 'Vietnam':
+                    row[0] = 'Viet Nam'
+                if row[1] == 'Vietnam':
+                    row[1] = 'Viet Nam'
+                if row[0] == 'Russia':
+                    row[0] = 'Russian Federation'
+                if row[1] == 'Russia':
+                    row[1] = 'Russian Federation'
+                if row[0] == 'Bolivia':
+                    row[0] = 'Bolivia (Plurinational State of)'
+                if row[1] == 'Bolivia':
+                    row[1] = 'Bolivia (Plurinational State of)'
+                if row[0] == 'Cape Verde':
+                    row[0] = 'Cabo Verde'
+                if row[1] == 'Cape Verde':
+                    row[1] = 'Cabo Verde'
+                if row[0] == 'Congo (Brazzaville)':
+                    row[0] = 'Congo'
+                if row[1] == 'Congo (Brazzaville)':
+                    row[1] = 'Congo'
+
+                if row[0] not in non_un_list and row[1] not in non_un_list and row not in rows_so_far:
                     writer.writerow(row)
                     rows_so_far.append(row)
 
