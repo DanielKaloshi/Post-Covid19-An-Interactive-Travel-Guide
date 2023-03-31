@@ -3941,7 +3941,7 @@ Lebanon,Morocco
 Central African Republic,Morocco
 Gambia,Morocco
 Gambia,Guinea-Bissau
-Gambia,Cape Verde
+Gambia,Cabo Verde
 Mali,Morocco
 Italy,Morocco
 France,Morocco
@@ -3999,7 +3999,7 @@ Morocco,France
 Morocco,Burkina Faso
 Morocco,Guinea-Bissau
 Morocco,Congo (Brazzaville)
-Morocco,Cape Verde
+Morocco,Cabo Verde
 Morocco,Liberia
 Morocco,Equatorial Guinea
 Morocco,Russian Federation
@@ -4063,12 +4063,12 @@ Morocco,Belgium
 Morocco,France
 Guinea-Bissau,Gambia
 Guinea-Bissau,Morocco
-Guinea-Bissau,Cape Verde
+Guinea-Bissau,Cabo Verde
 Morocco,France
 Congo (Brazzaville),Morocco
-Cape Verde,Gambia
-Cape Verde,Morocco
-Cape Verde,Guinea-Bissau
+Cabo Verde,Gambia
+Cabo Verde,Morocco
+Cabo Verde,Guinea-Bissau
 Morocco,France
 Morocco,Belgium
 Morocco,The United Kingdom
@@ -7676,7 +7676,7 @@ Senegal,Guinea
 Senegal,Benin
 Senegal,Mauritania
 Senegal,Guinea-Bissau
-Senegal,Cape Verde
+Senegal,Cabo Verde
 Cameroon,Benin
 Gabon,Benin
 Niger,Burkina Faso
@@ -7684,7 +7684,7 @@ Mauritania,Senegal
 Burkina Faso,Mali
 Burkina Faso,Niger
 Guinea-Bissau,Senegal
-Cape Verde,Senegal
+Cabo Verde,Senegal
 Congo (Brazzaville),Angola
 South Africa,Angola
 United Arab Emirates,Angola
@@ -7707,10 +7707,10 @@ Portugal,Angola
 Zambia,Angola
 Portugal,Angola
 China,Angola
-Cape Verde,Sao Tome and Principe
+Cabo Verde,Sao Tome and Principe
 Angola,Namibia
 Sao Tome and Principe,Angola
-Sao Tome and Principe,Cape Verde
+Sao Tome and Principe,Cabo Verde
 Namibia,Angola
 Kazakhstan,Russian Federation
 Russian Federation,Kazakhstan
@@ -12483,7 +12483,7 @@ Netherlands,Germany
 Netherlands,Italy
 Netherlands,Spain
 Portugal,Netherlands
-Portugal,Cape Verde
+Portugal,Cabo Verde
 Italy,Netherlands
 Portugal,Netherlands
 Spain,Netherlands
@@ -12538,7 +12538,7 @@ Netherlands,Spain
 Turkiye,Netherlands
 Turkiye,Netherlands
 Turkiye,Netherlands
-Cape Verde,Netherlands
+Cabo Verde,Netherlands
 Greece,Netherlands
 Spain,Netherlands
 Croatia,Netherlands
@@ -15294,7 +15294,7 @@ Luxembourg,Sweden
 Luxembourg,Turkiye
 Luxembourg,Spain
 Luxembourg,France
-Luxembourg,Cape Verde
+Luxembourg,Cabo Verde
 Luxembourg,Italy
 Luxembourg,France
 Luxembourg,Greece
@@ -15343,7 +15343,7 @@ Spain,Luxembourg
 Morocco,Luxembourg
 Greece,Luxembourg
 Germany,Luxembourg
-Cape Verde,Luxembourg
+Cabo Verde,Luxembourg
 Spain,Luxembourg
 Germany,Luxembourg
 Bulgaria,Luxembourg
@@ -17937,9 +17937,9 @@ Spain,Morocco
 Spain,Senegal
 Spain,Western Sahara
 Spain,Portugal
-Spain,Cape Verde
+Spain,Cabo Verde
 Spain,Morocco
-Cape Verde,Spain
+Cabo Verde,Spain
 Morocco,Spain
 Spain,Senegal
 Australia,New Zealand
@@ -20500,13 +20500,13 @@ Chad,Nigeria
 Sudan,Egypt
 Sudan,Saudi Arabia
 Saudi Arabia,Sudan
-France,Cape Verde
+France,Cabo Verde
 France,Mexico
 France,United States of America
 France,Spain
 France,Italy
 France,Dominican Republic
-France,Cape Verde
+France,Cabo Verde
 Mexico,France
 United States of America,France
 Spain,France
@@ -20514,7 +20514,7 @@ France,Reunion
 Italy,France
 Dominican Republic,France
 Reunion,France
-Cape Verde,France
+Cabo Verde,France
 India,United Arab Emirates
 India,Oman
 Sri Lanka,India
@@ -22845,7 +22845,7 @@ The United Kingdom,Turkiye
 The United Kingdom,Spain
 The United Kingdom,Turkiye
 The United Kingdom,Turkiye
-The United Kingdom,Cape Verde
+The United Kingdom,Cabo Verde
 The United Kingdom,Croatia
 The United Kingdom,Turkiye
 The United Kingdom,Portugal
@@ -22876,9 +22876,9 @@ The United Kingdom,Spain
 The United Kingdom,Spain
 The United Kingdom,Spain
 Hungary,France
-Cape Verde,The United Kingdom
-Cape Verde,The United Kingdom
-Cape Verde,The United Kingdom
+Cabo Verde,The United Kingdom
+Cabo Verde,The United Kingdom
+Cabo Verde,The United Kingdom
 Greece,The United Kingdom
 Greece,The United Kingdom
 Greece,The United Kingdom
@@ -22996,7 +22996,7 @@ The United Kingdom,Spain
 The United Kingdom,Spain
 The United Kingdom,Turkiye
 The United Kingdom,Turkiye
-The United Kingdom,Cape Verde
+The United Kingdom,Cabo Verde
 The United Kingdom,Greece
 The United Kingdom,Greece
 The United Kingdom,Italy
@@ -23025,7 +23025,7 @@ The United Kingdom,Dominican Republic
 The United Kingdom,Greece
 The United Kingdom,Morocco
 The United Kingdom,Greece
-The United Kingdom,Cape Verde
+The United Kingdom,Cabo Verde
 The United Kingdom,Greece
 The United Kingdom,Egypt
 The United Kingdom,Spain
@@ -23075,7 +23075,7 @@ The United Kingdom,Spain
 The United Kingdom,Spain
 The United Kingdom,Turkiye
 The United Kingdom,Turkiye
-The United Kingdom,Cape Verde
+The United Kingdom,Cabo Verde
 The United Kingdom,Greece
 The United Kingdom,Italy
 The United Kingdom,Mexico
@@ -23103,7 +23103,7 @@ The United Kingdom,Greece
 The United Kingdom,Morocco
 The United Kingdom,Spain
 The United Kingdom,Greece
-The United Kingdom,Cape Verde
+The United Kingdom,Cabo Verde
 The United Kingdom,Egypt
 The United Kingdom,Spain
 The United Kingdom,Italy
@@ -23220,8 +23220,8 @@ Greece,The United Kingdom
 Greece,The United Kingdom
 Greece,The United Kingdom
 Turkiye,France
-Cape Verde,The United Kingdom
-Cape Verde,The United Kingdom
+Cabo Verde,The United Kingdom
+Cabo Verde,The United Kingdom
 Egypt,The United Kingdom
 Egypt,The United Kingdom
 Egypt,The United Kingdom
@@ -23280,7 +23280,7 @@ Turkiye,The United Kingdom
 Turkiye,The United Kingdom
 The United Kingdom,Spain
 The United Kingdom,Turkiye
-The United Kingdom,Cape Verde
+The United Kingdom,Cabo Verde
 The United Kingdom,Turkiye
 The United Kingdom,Spain
 The United Kingdom,Tunisia
@@ -23289,8 +23289,8 @@ The United Kingdom,Egypt
 The United Kingdom,Spain
 The United Kingdom,Spain
 The United Kingdom,Spain
-Cape Verde,The United Kingdom
-Cape Verde,The United Kingdom
+Cabo Verde,The United Kingdom
+Cabo Verde,The United Kingdom
 Mexico,The United Kingdom
 Mexico,The United Kingdom
 The United Kingdom,Spain
@@ -23333,14 +23333,14 @@ The United Kingdom,Spain
 The United Kingdom,Greece
 The United Kingdom,Morocco
 The United Kingdom,Greece
-The United Kingdom,Cape Verde
+The United Kingdom,Cabo Verde
 The United Kingdom,Egypt
 The United Kingdom,Spain
 Spain,The United Kingdom
 Spain,The United Kingdom
 The United Kingdom,Spain
 The United Kingdom,Morocco
-The United Kingdom,Cape Verde
+The United Kingdom,Cabo Verde
 The United Kingdom,Mexico
 The United Kingdom,Turkiye
 The United Kingdom,Egypt
@@ -23354,7 +23354,7 @@ The United Kingdom,Spain
 The United Kingdom,Dominican Republic
 The United Kingdom,Morocco
 The United Kingdom,Greece
-The United Kingdom,Cape Verde
+The United Kingdom,Cabo Verde
 The United Kingdom,Egypt
 The United Kingdom,Spain
 Malta,The United Kingdom
@@ -23387,8 +23387,8 @@ Morocco,The United Kingdom
 Morocco,The United Kingdom
 Greece,The United Kingdom
 Greece,The United Kingdom
-Cape Verde,The United Kingdom
-Cape Verde,The United Kingdom
+Cabo Verde,The United Kingdom
+Cabo Verde,The United Kingdom
 Egypt,The United Kingdom
 Egypt,The United Kingdom
 Egypt,The United Kingdom
@@ -23423,7 +23423,7 @@ United States of America,Portugal
 Belgium,Portugal
 Brazil,Portugal
 Hungary,Portugal
-Cape Verde,Portugal
+Cabo Verde,Portugal
 Venezuela (Bolivarian Republic of),Portugal
 Venezuela (Bolivarian Republic of),Portugal
 Venezuela (Bolivarian Republic of),Portugal
@@ -23470,7 +23470,7 @@ Portugal,United States of America
 Portugal,Belgium
 Portugal,Brazil
 Portugal,Hungary
-Portugal,Cape Verde
+Portugal,Cabo Verde
 Portugal,Venezuela (Bolivarian Republic of)
 Portugal,Morocco
 Portugal,Brazil
@@ -23509,10 +23509,10 @@ Portugal,Romania
 Portugal,United States of America
 Portugal,Brazil
 Portugal,Czech Republic
-Portugal,Cape Verde
+Portugal,Cabo Verde
 Portugal,Morocco
 Portugal,Brazil
-Portugal,Cape Verde
+Portugal,Cabo Verde
 Portugal,Brazil
 Portugal,Spain
 Portugal,Germany
@@ -23523,7 +23523,7 @@ Portugal,Italy
 Portugal,Brazil
 Portugal,Austria
 Portugal,Spain
-Portugal,Cape Verde
+Portugal,Cabo Verde
 Portugal,Poland
 Portugal,Canada
 Portugal,Switzerland
@@ -23562,10 +23562,10 @@ Portugal,Canada
 United States of America,Portugal
 Brazil,Portugal
 Czech Republic,Portugal
-Cape Verde,Portugal
+Cabo Verde,Portugal
 Morocco,Portugal
 Brazil,Portugal
-Cape Verde,Portugal
+Cabo Verde,Portugal
 Brazil,Portugal
 Spain,Portugal
 Germany,Portugal
@@ -23576,7 +23576,7 @@ Italy,Portugal
 Brazil,Portugal
 Austria,Portugal
 Spain,Portugal
-Cape Verde,Portugal
+Cabo Verde,Portugal
 Poland,Portugal
 Canada,Portugal
 Croatia,Italy
@@ -27083,21 +27083,26 @@ Lao People's Democratic Republic,Cambodia
 Lao People's Democratic Republic,Viet Nam
 China,Viet Nam
 China,Viet Nam
-Netherlands,Cape Verde
-United States of America,Cape Verde
-Cape Verde,Portugal
-France,Cape Verde
-Senegal,Cape Verde
-Brazil,Cape Verde
-Portugal,Cape Verde
-Cape Verde,United States of America
-Cape Verde,France
-Cape Verde,Senegal
-Cape Verde,Brazil
-Cape Verde,Portugal
-Cape Verde,Netherlands
-Cape Verde,France
-Cape Verde,Portugal
+Netherlands,Cabo Verde
+United States of America,Cabo Verde
+Cabo Verde,Portugal
+France,Cabo Verde
+France,Cabo Verde
+Senegal,Cabo Verde
+Brazil,Cabo Verde
+Portugal,Cabo Verde
+Portugal,Cabo Verde
+Portugal,Cabo Verde
+Portugal,Cabo Verde
+Cabo Verde,United States of America
+Cabo Verde,France
+Cabo Verde,Senegal
+Cabo Verde,Brazil
+Cabo Verde,Portugal
+Cabo Verde,Netherlands
+Cabo Verde,France
+Cabo Verde,Portugal
+Cabo Verde,Portugal
 Antigua and Barbuda,The United Kingdom
 Antigua and Barbuda,Saint Lucia
 United States of America,Mexico
@@ -28300,7 +28305,7 @@ France,Spain
 France,Germany
 Greece,Germany
 Germany,Turkiye
-Germany,Cape Verde
+Germany,Cabo Verde
 Germany,Portugal
 Germany,Spain
 Germany,Greece
@@ -28329,7 +28334,7 @@ Portugal,France
 Portugal,Germany
 Germany,Spain
 Germany,Turkiye
-Germany,Cape Verde
+Germany,Cabo Verde
 Germany,Greece
 Germany,Turkiye
 Germany,Portugal
@@ -28343,7 +28348,7 @@ Spain,Germany
 Greece,Germany
 Germany,Spain
 Germany,Turkiye
-Germany,Cape Verde
+Germany,Cabo Verde
 Germany,Greece
 Germany,Turkiye
 Germany,Portugal
@@ -28364,7 +28369,7 @@ Germany,Greece
 Spain,France
 Spain,Germany
 Germany,Turkiye
-Germany,Cape Verde
+Germany,Cabo Verde
 Germany,Greece
 Germany,Turkiye
 Germany,Portugal
@@ -28382,10 +28387,14 @@ Spain,France
 Spain,Germany
 Greece,France
 Greece,Germany
-Cape Verde,Germany
+Cabo Verde,Germany
+Cabo Verde,Germany
+Cabo Verde,Germany
+Cabo Verde,Germany
+Cabo Verde,Germany
 Germany,Spain
 Germany,Turkiye
-Germany,Cape Verde
+Germany,Cabo Verde
 Germany,Greece
 Germany,Turkiye
 Germany,Portugal

@@ -232,6 +232,10 @@ def filter_routes(filename: str, output_file='data/new_routes_2.0'):
                         row[0] = 'Bolivia (Plurinational State of)'
                     if row[1] == 'Bolivia':
                         row[1] = 'Bolivia (Plurinational State of)'
+                    if row[0] == 'Cape Verde':
+                        row[0] = 'Cabo Verde'
+                    if row[1] == 'Cape Verde':
+                        row[1] = 'Cabo Verde'
 
                     writer.writerow(row)
                     curr_row = row
