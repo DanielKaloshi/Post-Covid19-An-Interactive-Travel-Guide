@@ -32,7 +32,7 @@ class _Country:
         """Initialize this country with the given name, region, and neighbours."""
         self.name = name
         self.neighbours = {}
-        self.safety_index = compute_stats.compute_safety_index(name)
+        self.danger_index = compute_stats.compute_safety_index(name)
         self.add_region()
 
     def add_region(self) -> None:
