@@ -175,8 +175,12 @@ def compute_safest_neighbour(neighbours: set[_Country]) -> list[(str, float)]:
     """ Computes the danger index for each country in the set of neighbours returned by find_paths and returns
      a dictionary containing the Top 3 'safest' neighbours and their associated danger indexes.
 
-    >>> compute_safest_neighbour({'Canada', 'France', 'Japan'})
+    >>> c = _Country('Canada')
+    >>> f = _Country('France')
+    >>> j = _Country('Japan')
+    >>> compute_safest_neighbour({c, f, j})
     [('France', 1.6331883860004732), ('Canada', 1.666108304345192), ('Japan', 3.7524031194829)]
+
 
     >>> compute_safest_neighbour({'Canada', 'Japan'})
     [('Canada', 1.666108304345192), ('Japan', 3.7524031194829)]
