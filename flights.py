@@ -32,6 +32,7 @@ class _Country:
         """Initialize this country with the given name, region, and neighbours."""
         self.name = name
         self.neighbours = {}
+
         self.danger_index = compute_stats.compute_danger_index(name)
         self.add_region()
 
@@ -76,7 +77,7 @@ class _Country:
             return {destination}
         else:
             visited.add(self)
-            for neighbour in self.neighbours:
+            for neighbour in self.neighbours.values():
                 if neighbour not in visited:
                     country_set.union(neighbour.find_flights(destination, visited))
 

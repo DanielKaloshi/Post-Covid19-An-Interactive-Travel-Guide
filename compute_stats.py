@@ -1,6 +1,6 @@
 import csv
 import math
-# from flights import Country
+import flights
 
 
 def compute_num_infections(country_name: str) -> int:
@@ -171,7 +171,7 @@ def compute_danger_index(country_name: str) -> float:
     return (infection_rate + death_rate) / 2
 
 
-def compute_safest_neighbour(neighbours: set[_Country]) -> list[(str, float)]:
+def compute_safest_neighbour(neighbours: set[flights._Country]) -> list[(str, float)]:
     """ Computes the danger index for each country in the set of neighbours returned by find_paths and returns
      a dictionary containing the Top 3 'safest' neighbours and their associated danger indexes.
 
