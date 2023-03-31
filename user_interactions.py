@@ -10,7 +10,11 @@ and 'DC' is short for 'destination country'
 # Contributor: Alex
 from tkinter import *
 from tkinter import messagebox
+
 from PIL import ImageTk, Image
+from matplotlib.backends.backend_tkagg import NavigationToolbar2Tk
+from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
+from matplotlib.figure import Figure
 
 from display_plots import plot_map
 from flights import *
@@ -82,20 +86,54 @@ def display_direct_flight():
 
     # User's name
     user_name = name_entry.get()
-    dest_country = dest_entry.get().upper()
-    flight_network = Flights()
-    dest_vertex = flight_network.countries[dest_country]
-    dest_name = dest_vertex.name
-    dest_index = dest_vertex.safety_index
+    # dest_country = dest_entry.get().upper()
+    # flight_network = Flights()
+    # dest_vertex = flight_network.countries[dest_country]
+    dest_name = 'ITALY'
+    dest_index = '1.0'
 
     # Display text on the right-hand side of the screen
     communicate_label1 = Label(result_root,
                                text=f"Hi {user_name}, we found you a direct flight to your destination",
                                font=WINDOW_FONT_SIZE, bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
-    communicate_label1.pack(pady=(75, 5))
+    communicate_label1.pack(pady=(100, 5))
 
+    communicate_label2 = Label(result_root, text=f"Your destination {dest_name} has a danger index of {dest_index}.",
+                               font=('Helvetica', 18), bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
+    communicate_label2.pack(pady=5)
 
     # Display graph on the left-hand side of the screen
+
+def plot_graph():
+    # the figure that will contain the plot
+    fig = Figure(figsize=(5, 5),
+                 dpi=100)
+
+    # list of squares
+    y = [i ** 2 for i in range(101)]
+
+    # adding the subplot
+    plot1 = fig.add_subplot(111)
+
+    # plotting the graph
+    plot1.plot(y)
+
+    # creating the Tkinter canvas
+    # containing the Matplotlib figure
+    canvas = FigureCanvasTkAgg(fig,
+                               master=window)
+    canvas.draw()
+
+    # placing the canvas on the Tkinter window
+    canvas.get_tk_widget().pack()
+
+    # creating the Matplotlib toolbar
+    toolbar = NavigationToolbar2Tk(canvas, root)
+    toolbar.update()
+
+    # placing the toolbar on the Tkinter window
+    canvas.get_tk_widget().pack()
+
 
 
 def display_layover_countries(top3_flights: list[tuple]):
@@ -127,6 +165,14 @@ def display_layover_countries(top3_flights: list[tuple]):
                                font=('Helvetica', 18), bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
     communicate_label2.pack(pady=5)
 
+    index_frame = Frame(result_root)
+    index_frame.place(x=450, y=700)
+
+    index_def_label = Label(result_root, text='danger index: the average of infection rate per 1000 people '
+                                              'and death rate per 100 recorded cases',
+                            font=('Helvetica', 14, 'italic'), bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
+    index_def_label.place(x=450, y=800)
+
     # Display 1st country, bold and with the text '(recommended)' below the country name
     first_label = Label(result_root, text='1. ' + first[0], font=('Helvetica', 20, 'bold'),
                         bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
@@ -146,6 +192,7 @@ def display_layover_countries(top3_flights: list[tuple]):
     third_label.place(x=1175, y=200)
 
     # Display three graphs corresponding to three layover countries
+    plot_graph()
 
 
 def display_no_result():
@@ -273,6 +320,8 @@ def check_inputs():
     else:
         # display_results(curr_location, dest_location)
         display_layover_countries([('ITALY', 1.0), ('POLAND', 2.0), ('UNITED STATES', 3.0)])
+        # display_direct_flight()
+
 
 # Create a submit button
 sub_button = Button(root, text='Submit', font=WINDOW_FONT_SIZE, bg=WINDOW_COLOUR, fg='black',
