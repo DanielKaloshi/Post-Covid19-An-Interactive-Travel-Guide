@@ -29,16 +29,16 @@ height = root.winfo_screenheight()
 root.geometry("%dx%d" % (width, height))
 
 # Create text asking for user's name
-name_label = Label(root, text="What's your name?", font=WINDOW_FONT_SIZE, bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
+name_label = Label(root, text="What's your name?", font=('Helvetica', 16), bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
 name_label.place(x=600, y=375)
 
 # Create text asking for user's current location
 curr_locat_label = Label(root, text="What's your current country?",
-                         font=WINDOW_FONT_SIZE, bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
+                         font=('Helvetica', 16), bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
 curr_locat_label.place(x=600, y=450)
 
 # Create text asking for user's destination location
-dest_locat_label = Label(root, text="What country do you plan to visit?", font=WINDOW_FONT_SIZE,
+dest_locat_label = Label(root, text="What country do you plan to visit?", font=('Helvetica', 16),
                          bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
 dest_locat_label.place(x=600, y=525)
 
@@ -82,12 +82,18 @@ def display_direct_flight():
 
     # User's name
     user_name = name_entry.get()
+    dest_country = dest_entry.get().upper()
+    flight_network = Flights()
+    dest_vertex = flight_network.countries[dest_country]
+    dest_name = dest_vertex.name
+    dest_index = dest_vertex.safety_index
 
     # Display text on the right-hand side of the screen
     communicate_label1 = Label(result_root,
-                               text=f"Hi {user_name}, we found you the top three safest layover countries for your "
-                                    f"destination", font=('Helvetica', 18), bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
+                               text=f"Hi {user_name}, we found you a direct flight to your destination",
+                               font=WINDOW_FONT_SIZE, bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
     communicate_label1.pack(pady=(75, 5))
+
 
     # Display graph on the left-hand side of the screen
 
