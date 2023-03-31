@@ -108,6 +108,15 @@ def compute_infection_rate_per_1000_people(country_name: str) -> float:
 
     return (cases / population) * 1000
 
+def test_2() -> bool:
+    """"""
+    with open('data/COVID-19-data-from-2023-02-01.csv') as csv_file:
+        reader = csv.reader(csv_file)
+        next(reader)
+        for row in reader:
+            if compute_population(row[2]) == 0:
+                return True
+    return False
 
 def compute_death_rate_per_100_cases(country_name: str) -> float:
     """ Computes the death rate per 1000 people for each country.
