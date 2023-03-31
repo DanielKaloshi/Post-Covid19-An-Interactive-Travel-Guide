@@ -44,7 +44,7 @@ def compute_population(country_name: str) -> int:
 
     population = 0
 
-    with open('data/filter_un_population.csv') as csv_file:
+    with open('data/filter_un_populations.csv') as csv_file:
         reader = csv.reader(csv_file)
         next(reader)
 
