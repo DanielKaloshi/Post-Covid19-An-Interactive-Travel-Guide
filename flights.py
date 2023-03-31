@@ -3,7 +3,7 @@ import csv
 import compute_stats
 
 
-class _Country:
+class Country:
     """A vertex that represents a country in the flights network.
 
     Instance Attributes:
