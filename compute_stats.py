@@ -1,6 +1,6 @@
 import csv
 import math
-# from flights import Country
+from flights import _Country
 
 
 def compute_num_infections(country_name: str) -> int:
