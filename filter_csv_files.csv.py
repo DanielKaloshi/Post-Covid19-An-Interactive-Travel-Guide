@@ -2,7 +2,6 @@
 This file is for filtering the four datasets, WHO-COVID-19-global-data, COVID-19-data-from-2023-02-01.csv, routes.csv
 and airports.csv
 """
-
 import csv
 from datetime import datetime
 
@@ -93,10 +92,6 @@ def country_list_who(file: str) -> None:
         reader = csv.reader(csv_file, delimiter=',')
         next(reader)
 
-
-
-
-
 def filter_csv_file(filename: str, output_file='data/COVID-19-data-from-2023-02-01.csv'):
     """Read the data in filename, and write the data - filtered by the starting date of
     2023-02-01 up to the latest date - onto the output_file.
@@ -124,9 +119,15 @@ def filter_csv_file(filename: str, output_file='data/COVID-19-data-from-2023-02-
 
             special_codes = ['CW', 'BL', 'RE']
 
-            first_date = datetime(2023, 2, 1).date()
-            writer.writerows(row for row in reader if datetime.strptime(row[0], '%Y-%m-%d').date() >= first_date and
-                             row[2] not in non_un_list and row[1] not in special_codes)
+            for row in reader:
+                first_date = datetime(2023, 2, 1).date()
+                if datetime.strptime(row[0], '%Y-%m-%d').date() >= first_date and row[2] not in non_un_list and row[1] not in special_codes:
+                    if row[1] == 'TR':
+                        row[2] = 'Turkiye'
+                    elif row[1] == 'CI':
+                        row[2] = 'Cote d\'Ivoire'
+
+                    writer.writerow(row)
 
 
 if __name__ == '__main__':
