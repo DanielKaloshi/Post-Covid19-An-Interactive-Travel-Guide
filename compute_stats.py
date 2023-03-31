@@ -103,6 +103,8 @@ def compute_infection_rate_per_1000_people(country_name: str) -> float:
     cases = compute_num_infections(country_name)
     population = compute_population(country_name)
 
+    assert population > 0
+
     return (cases / population) * 1000
 
 
@@ -194,3 +196,22 @@ def compute_safest_neighbour(neighbours: set[str]) -> list[(str, float)]:
         neighbour_so_far = ''
 
     return top_three_so_far
+
+
+def write_safety_index(output_file='data/country-safety-index.csv') -> None:
+    """Compute the safety_index for each country in filter_un_populations.csv and write each country
+    and its corresponding index in the given output_file."""
+    with open('data/filter_un_populations.csv') as main_file:
+        reader = csv.reader(main_file)
+        next(reader)
+
+        with open(output_file, mode='w') as file:
+            writer = csv.writer(file, delimiter=',', lineterminator="\n")
+            for row in reader:
+                country = row[0]
+                safety_index = compute_safety_index(country)
+                writer.writerow([country, safety_index])
+
+
+if __name__ == '__main__':
+    write_safety_index()
