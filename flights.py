@@ -25,7 +25,7 @@ class _Country:
     """
     name: str
     neighbours: dict[str, _Country]
-    safety_index: float
+    danger_index: float
     region: str
 
     def __init__(self, name: str) -> None:
