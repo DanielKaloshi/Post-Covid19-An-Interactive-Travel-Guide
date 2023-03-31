@@ -79,6 +79,7 @@ class _Country:
             for neighbour in self.neighbours.values():
                 if neighbour not in visited:
                     country_set.union(neighbour.find_flights(destination, visited))
+
         return country_set
 
 
