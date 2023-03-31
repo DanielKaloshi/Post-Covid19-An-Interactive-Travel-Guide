@@ -168,10 +168,10 @@ def filter_routes(filename: str, output_file='data/new_routes_2.0'):
                            'Sint Eustatius', 'Sint Maarten', 'Taiwan', 'Tokelau', 'Turks and Caicos Islands',
                            'United States Virgin Islands', 'Wallis and Futuna']
 
-            curr_row = '', ''
+            rows_so_far = []
 
             for row in reader:
-                if row[0] not in non_un_list and row[1] not in non_un_list and curr_row != row:
+                if row[0] not in non_un_list and row[1] not in non_un_list and row not in rows_so_far:
                     if row[0] == 'United Kingdom':
                         row[0] = 'The United Kingdom'
                     if row[1] == 'United Kingdom':
@@ -236,9 +236,13 @@ def filter_routes(filename: str, output_file='data/new_routes_2.0'):
                         row[0] = 'Cabo Verde'
                     if row[1] == 'Cape Verde':
                         row[1] = 'Cabo Verde'
+                    if row[0] == 'Congo (Brazzaville)':
+                        row[0] = 'Congo'
+                    if row[1] == 'Congo (Brazzaville)':
+                        row[1] = 'Congo'
 
                     writer.writerow(row)
-                    curr_row = row
+                    rows_so_far.append(row)
 
 
 if __name__ == '__main__':
