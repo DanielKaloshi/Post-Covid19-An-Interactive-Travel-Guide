@@ -14,8 +14,8 @@ class _Country:
         is a direct flight between self and that country.
         Each key in the mapping is the name of a neighbouring country, and the corresponding
         value is the vertex associated with that country.
-    - safety_index:
-        The calculated safety index for this country.
+    - danger_index:
+        The calculated danger index for this country.
     - region:
         The WHO region this country is located in.
 
@@ -32,7 +32,7 @@ class _Country:
         """Initialize this country with the given name, region, and neighbours."""
         self.name = name
         self.neighbours = {}
-        self.safety_index = compute_stats.compute_safety_index(name)
+        self.danger_index = compute_stats.compute_danger_index(name)
         self.add_region()
 
     def add_region(self) -> None:
