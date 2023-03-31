@@ -86,19 +86,18 @@ def new_csv(file: str, country_dict: dict[str, list[tuple[str, str]]], output_fi
                     row_to_write = [source_country, dest_country]
                     writer.writerow(row_to_write)
 
-<<<<<<< HEAD
-def country_list_UN(file: str) -> list:
-=======
 
-def country_list_who(file: str) -> None:
->>>>>>> bb8b469e347a7df39238244633a9da8b845be0ad
+def country_list_UN() -> list[str]:
+
     """"""
     lst_so_far = []
     with open('data/filter_un_populations.csv') as csv_file:
         reader = csv.reader(csv_file, delimiter=',')
         next(reader)
         for row in reader:
-            if
+            if row[0] not in lst_so_far:
+                lst_so_far.append(row[0])
+    return lst_so_far
 
 
 def filter_covid(filename: str, output_file='data/COVID-19-data-from-2023-02-01.csv'):
