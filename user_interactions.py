@@ -17,7 +17,7 @@ from flights import *
 
 # Create the main window
 WINDOW_COLOUR = '#E4DCCF'
-WINDOW_FONT_SIZE = ('Helvetica', 15)
+WINDOW_FONT_SIZE = ('Helvetica', 18)
 TEXT_COLOUR = 'black'
 root = Tk()
 root.title('Post Covid-19: Where to Travel?')
@@ -55,15 +55,15 @@ dest_entry = Entry(root, width=30, borderwidth=2)
 dest_entry.place(x=600, y=550)
 
 # Create an introduction text
-welcome_label = Label(root, text='Welcome!', font=('Helvetica', 25), bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
-welcome_label.place(x=680, y=180)
+welcome_label = Label(root, text='Welcome!', font=('Helvetica', 30), bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
+welcome_label.place(x=680, y=170)
 
 intro_label = Label(root, text="Let's help you find the safest post-pandemic international flight across the globe",
                     font=WINDOW_FONT_SIZE, bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
-intro_label.place(x=490, y=250)
+intro_label.place(x=425, y=250)
 
 view_map_label = Label(root, text="Click here to view our Safety Choropleth map for reference",
-                       font=('Helvetica', 15, 'italic', 'underline'), bg=WINDOW_COLOUR, fg=TEXT_COLOUR, cursor='hand2')
+                       font=('Helvetica', 16, 'italic', 'underline'), bg=WINDOW_COLOUR, fg=TEXT_COLOUR, cursor='hand2')
 view_map_label.place(x=550, y=280)
 view_map_label.bind('<Button-1>', lambda x: plot_map('data/sample_data_map.csv'))
 
@@ -81,9 +81,13 @@ def display_direct_flight():
     result_root.geometry("%dx%d" % (w, h))
 
     # User's name
-    user_answer = name_entry.get()
+    user_name = name_entry.get()
 
     # Display text on the right-hand side of the screen
+    communicate_label1 = Label(result_root,
+                               text=f"Hi {user_name}, we found you the top three safest layover countries for your "
+                                    f"destination", font=('Helvetica', 18), bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
+    communicate_label1.pack(pady=(75, 5))
 
     # Display graph on the left-hand side of the screen
 
@@ -111,27 +115,27 @@ def display_layover_countries(top3_flights: list[tuple]):
     # Display communication text
     communicate_label1 = Label(result_root,
                                text=f"Hi {user_name}, we found you the top three safest layover countries for your "
-                                    f"destination", font=('Helvetica', 15), bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
+                                    f"destination", font=('Helvetica', 18), bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
     communicate_label1.pack(pady=(75, 5))
     communicate_label2 = Label(result_root, text=f"Your best choice is {first[0]} with the danger index of {first[1]}.",
-                               font=('Helvetica', 15), bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
+                               font=('Helvetica', 18), bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
     communicate_label2.pack(pady=5)
 
     # Display 1st country, bold and with the text '(recommended)' below the country name
-    first_label = Label(result_root, text='1. ' + first[0], font=('Helvetica', 15, 'bold'),
+    first_label = Label(result_root, text='1. ' + first[0], font=('Helvetica', 20, 'bold'),
                         bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
     first_label.place(x=175, y=200)
-    recomended_label = Label(result_root, text='(recommended)', font=('Helvetica', 13, 'italic'),
+    recomended_label = Label(result_root, text='(recommended)', font=('Helvetica', 14, 'italic'),
                              bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
     recomended_label.place(x=175, y=225)
 
     # Display 2nd country
-    second_label = Label(result_root, text='2. ' + second[0], font=('Helvetica', 15),
+    second_label = Label(result_root, text='2. ' + second[0], font=('Helvetica', 20),
                          bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
     second_label.place(x=670, y=200)
 
     # Display 3rd country
-    third_label = Label(result_root, text='3. ' + third[0], font=('Helvetica', 15),
+    third_label = Label(result_root, text='3. ' + third[0], font=('Helvetica', 20),
                         bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
     third_label.place(x=1175, y=200)
 
