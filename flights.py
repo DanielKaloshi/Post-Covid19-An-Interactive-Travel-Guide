@@ -67,6 +67,27 @@ class Country:
 
         return country_set
 
+    def check_connected(self, target_item: str, visited: set[Country]) -> bool:
+        """Return whether this vertex is connected to a vertex
+        corresponding to the target_item, WITHOUT using any the vertices in visited,
+
+        Precondition:
+          - self not in visited
+
+        """
+        if self.name == target_item:  # Base case
+            return True
+
+        else:
+            visited.add(self)
+
+            for u in self.neighbours:
+                if self.neighbours[u] not in visited:  # Check to make sure that we've not visited u already.
+                    if self.neighbours[u].check_connected(target_item, visited):
+                        return True
+
+            return False
+
 
 class Flights:
     """A network representing the available flight paths around the world.

@@ -294,9 +294,9 @@ def display_results(source_country: str, dest_country: str):
         possible_flights = source_vertex.find_flights(dest_vertex, set())
         # For testing purpose, ('ITALY', 3.0), ('POLAND', 2.0), ('UNITED STATES', 1.0)]
 
-        top3_flights = compute_stats.compute_safest_neighbour(possible_flights)
+        # top3_flights = compute_stats.compute_safest_neighbour(possible_flights)
 
-        display_layover_countries(top3_flights)
+        # display_layover_countries(top3_flights)
 
     else:
         display_no_result()
