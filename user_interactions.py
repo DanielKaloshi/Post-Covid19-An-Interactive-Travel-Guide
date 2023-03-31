@@ -11,11 +11,13 @@ and 'DC' is short for 'destination country'
 from tkinter import *
 from tkinter import messagebox
 
+import numpy
 from PIL import ImageTk, Image
 from matplotlib.backends.backend_tkagg import NavigationToolbar2Tk
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 from matplotlib.figure import Figure
 
+import display_plots
 from display_plots import plot_map
 from flights import *
 
@@ -106,13 +108,12 @@ def display_direct_flight():
 
 def plot_graph():
     # the figure that will contain the plot
-    fig = Figure(figsize=(5, 5),
-                 dpi=100)
+    fig = Figure(figsize=(5, 5), dpi=100)
 
-    # list of squares
+    # List of squares
     y = [i ** 2 for i in range(101)]
 
-    # adding the subplot
+    # Adding the subplot
     plot1 = fig.add_subplot(111)
 
     # plotting the graph
@@ -134,6 +135,21 @@ def plot_graph():
     # placing the toolbar on the Tkinter window
     canvas.get_tk_widget().pack()
 
+
+    data = (20, 35, 30, 35, 27)
+
+    ind = numpy.arange(5)  # the x locations for the groups
+    w = .5
+
+    rects1 = ax.bar(ind, data, width)
+
+    canvas = FigureCanvasTkAgg(fig, master=root)
+    canvas.draw()
+    canvas.get_tk_widget().pack(side=Tk.TOP, fill=Tk.BOTH, expand=1)
+
+
+def plot_graph_sample():
+    display_plots.plot_bar_graph('data/country-danger-index.csv', ['ITALY', 'POLAND' 'UNITED STATES'])
 
 
 def display_layover_countries(top3_flights: list[tuple]):
@@ -192,7 +208,7 @@ def display_layover_countries(top3_flights: list[tuple]):
     third_label.place(x=1175, y=200)
 
     # Display three graphs corresponding to three layover countries
-    plot_graph()
+    plot_graph_sample()
 
 
 def display_no_result():
