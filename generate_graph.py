@@ -13,7 +13,7 @@ def generate_flight_network(file: str) -> f.Flights():
         for row in reader:
             source = row[0]
             dest = row[1]
-            if source or dest not in filter_file:
+            if source or dest not in lst_of_countries:
                 pass
             else:
                 flight.add_flight(source, dest)
