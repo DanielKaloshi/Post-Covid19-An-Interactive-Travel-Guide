@@ -1,6 +1,7 @@
 from __future__ import annotations
 import csv
-# import compute_stats
+import math
+import compute_stats
 
 
 class Country:
@@ -32,9 +33,9 @@ class Country:
         """Initialize this country with the given name, region, and neighbours."""
         self.name = name
         self.neighbours = {}
-        # self.danger_index = compute_stats.compute_danger_index(name)
-        # self.danger_index = compute_stats.compute_danger_index(name)
-        # self.danger_index = compute_stats.compute_danger_index(name)
+        self.danger_index = compute_stats.compute_danger_index(name)
+        self.danger_index = compute_stats.compute_danger_index(name)
+        self.danger_index = compute_stats.compute_danger_index(name)
         self.add_region()
 
     def add_region(self) -> None:
@@ -82,7 +83,7 @@ class Country:
             visited.add(self)
 
             for u in self.neighbours:
-                if self.neighbours[u] not in visited:  # Check to make sure that we've not visited u already.
+                if self.neighbours[u] not in visited:
                     if self.neighbours[u].check_connected(target_item, visited):
                         return True
 
@@ -149,7 +150,7 @@ class Flights:
         """
         if country1 in self.countries and country2 in self.countries:
             v1 = self.countries[country1]
-            return any(neighbour == country2 for neighbour in v1.neighbours)  # v1.neighbours are a dict of vertices of v1
+            return any(neighbour == country2 for neighbour in v1.neighbours)
         else:
             # We didn't find an existing vertex for both items.
             return False
@@ -183,7 +184,7 @@ def compute_safest_neighbour(neighbours: set[Country]) -> list[(str, float)]:
 
     while len(top_three_so_far) < 3 and set_neighbours != set():
         for neighbour in set_neighbours:
-            neighbour_index = compute_danger_index(neighbour.name)
+            neighbour_index = compute_stats.compute_danger_index(neighbour.name)
             if neighbour_index < lowest_index_so_far:
                 lowest_index_so_far = neighbour_index
                 neighbour_so_far = neighbour
