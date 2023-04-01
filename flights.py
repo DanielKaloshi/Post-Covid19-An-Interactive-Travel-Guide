@@ -1,5 +1,6 @@
 from __future__ import annotations
 import csv
+import math
 import compute_stats
 
 
@@ -24,7 +25,7 @@ class Country:
     - all(self.name in country.neighbours for country in self.neighbours.values())
     """
     name: str
-    neighbours: dict[str, _Country]
+    neighbours: dict[str, Country]
     danger_index: float
     region: str
 
@@ -32,7 +33,8 @@ class Country:
         """Initialize this country with the given name, region, and neighbours."""
         self.name = name
         self.neighbours = {}
-
+        self.danger_index = compute_stats.compute_danger_index(name)
+        self.danger_index = compute_stats.compute_danger_index(name)
         self.danger_index = compute_stats.compute_danger_index(name)
         self.add_region()
 
@@ -45,24 +47,7 @@ class Country:
                     self.region = row[3]
                     break
 
-    def check_connected(self, target_country: str, visited: set[_Country]) -> bool:
-        """Return whether this country is connected to a country corresponding to the target_country,
-        WITHOUT using any of the countries in visited.
-
-        Preconditions:
-            - self not in visited
-        """
-        if self.name == target_country:
-            return True
-        else:
-            visited.add(self)
-            for neighbour in self.neighbours.values():
-                if neighbour not in visited:
-                    if neighbour.check_connected(target_country, visited):
-                        return True
-            return False
-
-    def find_flights(self, destination: _Country, visited: set[_Country]) -> set[_Country]:
+    def find_flights(self, destination: Country, visited: set[Country]) -> set[Country]:
 
         """Return a set containing all the possible country paths from this country that do NOT use any countries in
         visited.
@@ -83,6 +68,27 @@ class Country:
 
         return country_set
 
+    def check_connected(self, target_item: str, visited: set[Country]) -> bool:
+        """Return whether this vertex is connected to a vertex
+        corresponding to the target_item, WITHOUT using any the vertices in visited,
+
+        Precondition:
+          - self not in visited
+
+        """
+        if self.name == target_item:  # Base case
+            return True
+
+        else:
+            visited.add(self)
+
+            for u in self.neighbours:
+                if self.neighbours[u] not in visited:
+                    if self.neighbours[u].check_connected(target_item, visited):
+                        return True
+
+            return False
+
 
 class Flights:
     """A network representing the available flight paths around the world.
@@ -95,7 +101,7 @@ class Flights:
     Representation Invariants:
     - all(country == self.countries[country].name for country in self.countries)
     """
-    countries: dict[str, _Country]
+    countries: dict[str, Country]
 
     def __init__(self) -> None:
         """Initialize an empty flight network."""
@@ -106,7 +112,7 @@ class Flights:
 
         The new country is not connected by a flight to any other countries.
         """
-        self.countries[name] = _Country(name)
+        self.countries[name] = Country(name)
 
     def add_flight(self, country1: str, country2: str) -> None:
         """Add a flight between the two countries with the given names in this flight network.
@@ -144,7 +150,53 @@ class Flights:
         """
         if country1 in self.countries and country2 in self.countries:
             v1 = self.countries[country1]
-            return any(neighbour == country2 for neighbour in v1.neighbours)  # v1.neighbours are a dict of vertices of v1
+            return any(neighbour == country2 for neighbour in v1.neighbours)
         else:
             # We didn't find an existing vertex for both items.
             return False
+
+
+def compute_safest_neighbour(neighbours: set[Country]) -> list[(str, float)]:
+    """ Computes the danger index for each country in the set of neighbours returned by find_paths and returns
+     a list of tuples containing the country names of the Top 3 'safest' neighbours and their associated danger indexes
+     (or Top 2 if neighbours is a set of length 2, Top 1 if neighbours has length 1, empty list if neighbours is an
+     empty set).
+
+    >>> c = Country('Canada')
+    >>> f = Country('France')
+    >>> j = Country('Japan')
+    >>> compute_safest_neighbour({c, f, j})
+    [('France', 1.6331883860004732), ('Canada', 1.666108304345192), ('Japan', 3.7524031194829)]
+
+    >>> al = Country('Albania')
+    >>> af = Country('Afghanistan')
+    >>> i = Country('Italy')
+    >>> c = Country('Canada')
+    >>> m = Country('Morocco')
+    >>> compute_safest_neighbour({al, af, i, c, m})
+    [('Morocco', 0.003964443242267447), ('Albania', 0.5714422494026575), ('Afghanistan', 0.5924590111707589)]
+
+    >>> b = Country('Belarus')
+    >>> uk = Country('The United Kingdom')
+    >>> compute_safest_neighbour({b, uk})
+    [('Belarus', 0.0), ('The United Kingdom', 2.237682350179056)]
+    """
+
+    top_three_so_far = []
+    lowest_index_so_far = math.inf
+    neighbour_so_far = ''
+    set_neighbours = neighbours
+
+    while len(top_three_so_far) < 3 and set_neighbours != set():
+        for neighbour in set_neighbours:
+            neighbour_index = compute_stats.compute_danger_index(neighbour.name)
+            if neighbour_index < lowest_index_so_far:
+                lowest_index_so_far = neighbour_index
+                neighbour_so_far = neighbour
+
+        top_three_so_far.append((neighbour_so_far.name, lowest_index_so_far))
+        set.remove(set_neighbours, neighbour_so_far)
+        lowest_index_so_far = math.inf
+        neighbour_so_far = ''
+
+    return top_three_so_far

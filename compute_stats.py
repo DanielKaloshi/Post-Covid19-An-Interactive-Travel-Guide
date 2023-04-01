@@ -1,6 +1,5 @@
 import csv
 import math
-import flights
 
 
 def compute_num_infections(country_name: str) -> int:
@@ -108,6 +107,7 @@ def compute_infection_rate_per_1000_people(country_name: str) -> float:
 
     return (cases / population) * 1000
 
+
 def test_2() -> bool:
     """"""
     with open('data/COVID-19-data-from-2023-02-01.csv') as csv_file:
@@ -117,6 +117,7 @@ def test_2() -> bool:
             if compute_population(row[2]) == 0:
                 return True
     return False
+
 
 def compute_death_rate_per_100_cases(country_name: str) -> float:
     """ Computes the death rate per 1000 people for each country.
@@ -171,6 +172,7 @@ def compute_danger_index(country_name: str) -> float:
     return (infection_rate + death_rate) / 2
 
 
+<<<<<<< HEAD
 def compute_safest_neighbour(neighbours: set[Country]) -> list[(str, float)]:
     """ Computes the danger index for each country in the set of neighbours returned by find_paths and returns
      a dictionary containing the Top 3 'safest' neighbours and their associated danger indexes.
@@ -212,6 +214,8 @@ def compute_safest_neighbour(neighbours: set[Country]) -> list[(str, float)]:
     return top_three_so_far
 
 
+=======
+>>>>>>> 19c6d850224027e12db071248b99cc1ffb916399
 def write_danger_index(output_file='data/country-danger-index.csv') -> None:
     """Compute the danger_index for each country in filter_un_populations.csv and write each country
     and its corresponding index in the given output_file."""
