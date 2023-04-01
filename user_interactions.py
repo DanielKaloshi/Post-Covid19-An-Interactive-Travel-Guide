@@ -19,6 +19,7 @@ import pandas as pd
 from display_plots import plot_map
 
 from flights import *
+from generate_graph import *
 
 # Create the main window
 WINDOW_COLOUR = '#E4DCCF'
@@ -265,9 +266,8 @@ def display_results(source_country: str, dest_country: str):
     :param dest_country:
     :return:
     """
-    # Generate a complete graph of flights
-    flight_network = Flights()  # For testing purpose only
-    # generate_complete_flight_network() # Return a complete graph of flights from the database
+    # Generate a complete graph of flights from the database
+    flight_network = generate_flight_network() # For testing purpose only
 
     # Two objects of source country and destination country
     source_vertex = flight_network.countries[source_country]
