@@ -1,6 +1,5 @@
 import csv
 import math
-import flights
 
 
 def compute_num_infections(country_name: str) -> int:
@@ -108,6 +107,7 @@ def compute_infection_rate_per_1000_people(country_name: str) -> float:
 
     return (cases / population) * 1000
 
+
 def test_2() -> bool:
     """"""
     with open('data/COVID-19-data-from-2023-02-01.csv') as csv_file:
@@ -117,6 +117,7 @@ def test_2() -> bool:
             if compute_population(row[2]) == 0:
                 return True
     return False
+
 
 def compute_death_rate_per_100_cases(country_name: str) -> float:
     """ Computes the death rate per 1000 people for each country.
@@ -169,47 +170,6 @@ def compute_danger_index(country_name: str) -> float:
     death_rate = compute_death_rate_per_100_cases(country_name)
 
     return (infection_rate + death_rate) / 2
-
-
-def compute_safest_neighbour(neighbours: set[flights.Country]) -> list[(str, float)]:
-    """ Computes the danger index for each country in the set of neighbours returned by find_paths and returns
-     a dictionary containing the Top 3 'safest' neighbours and their associated danger indexes.
-
-    >>> c = Country('Canada')
-    >>> f = Country('France')
-    >>> j = Country('Japan')
-    >>> compute_safest_neighbour({c, f, j})
-    [('France', 1.6331883860004732), ('Canada', 1.666108304345192), ('Japan', 3.7524031194829)]
-
-
-    >>> compute_safest_neighbour({'Canada', 'Japan'})
-    [('Canada', 1.666108304345192), ('Japan', 3.7524031194829)]
-
-    >>> compute_safest_neighbour({'Albania', 'Afghanistan', 'Italy', 'Canada', 'Morocco'})
-    [('Morocco', 0.003964443242267447), ('Albania', 0.5714422494026575), ('Afghanistan', 0.5924590111707589)]
-
-    >>> compute_safest_neighbour({'Algeria', 'Belarus', 'Burundi', 'The United Kingdom', 'Uruguay'})
-    [('Belarus', 0.0), ('Algeria', 0.0016257184200021268), ('Burundi', 0.006555684996930854)]
-    """
-
-    top_three_so_far = []
-    lowest_index_so_far = math.inf
-    neighbour_so_far = ''
-    set_neighbours = neighbours
-
-    while len(top_three_so_far) < 3 and set_neighbours != set():
-        for neighbour in set_neighbours:
-            neighbour_index = compute_danger_index(neighbour.name)
-            if neighbour_index < lowest_index_so_far:
-                lowest_index_so_far = neighbour_index
-                neighbour_so_far = neighbour
-
-        top_three_so_far.append((neighbour_so_far.name, lowest_index_so_far))
-        set.remove(set_neighbours, neighbour_so_far)
-        lowest_index_so_far = math.inf
-        neighbour_so_far = ''
-
-    return top_three_so_far
 
 
 def write_danger_index(output_file='data/country-danger-index.csv') -> None:

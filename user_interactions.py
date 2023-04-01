@@ -10,14 +10,16 @@ and 'DC' is short for 'destination country'
 # Contributor: Alex
 from tkinter import *
 from tkinter import messagebox
-
 from PIL import ImageTk, Image
-from matplotlib.backends.backend_tkagg import NavigationToolbar2Tk
-from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
-from matplotlib.figure import Figure
 
+import matplotlib.pyplot as plt
+from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
+
+import pandas as pd
 from display_plots import plot_map
+
 from flights import *
+from generate_graph import *
 
 # Create the main window
 WINDOW_COLOUR = '#E4DCCF'
@@ -69,10 +71,10 @@ intro_label.place(x=425, y=250)
 view_map_label = Label(root, text="Click here to view our Safety Choropleth map for reference",
                        font=('Helvetica', 16, 'italic', 'underline'), bg=WINDOW_COLOUR, fg=TEXT_COLOUR, cursor='hand2')
 view_map_label.place(x=550, y=280)
-view_map_label.bind('<Button-1>', lambda x: plot_map('data/sample_data_map.csv'))
+view_map_label.bind('<Button-1>', lambda x: plot_map('...'))
 
 
-def display_direct_flight():
+def display_direct_flight(flights: list[tuple]):
     """Display onto a new tkinter window a safety graph of the destination country, and text explaning that
     the system has found a direct flight between the user's current country and their destination country
 
@@ -86,68 +88,56 @@ def display_direct_flight():
 
     # User's name
     user_name = name_entry.get()
-    # dest_country = dest_entry.get().upper()
-    # flight_network = Flights()
-    # dest_vertex = flight_network.countries[dest_country]
-    dest_name = 'ITALY'
-    dest_index = '1.0'
+    country = [tup[0] for tup in flights]
+    danger_index = [tup[1] for tup in flights]
 
     # Display text on the right-hand side of the screen
     communicate_label1 = Label(result_root,
                                text=f"Hi {user_name}, we found you a direct flight to your destination",
-                               font=WINDOW_FONT_SIZE, bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
-    communicate_label1.pack(pady=(100, 5))
+                               font=('Helvetica', 20), bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
+    communicate_label1.pack(pady=(100, 10))
 
-    communicate_label2 = Label(result_root, text=f"Your destination {dest_name} has a danger index of {dest_index}.",
+    communicate_label2 = Label(result_root, text=f"Your current country {country[0]} has a danger index of {danger_index[0]}.",
                                font=('Helvetica', 18), bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
     communicate_label2.pack(pady=5)
+    communicate_label3 = Label(result_root, text=f"Your destination {country[1]} has a danger index of {danger_index[1]}.",
+                               font=('Helvetica', 18), bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
+    communicate_label3.pack(pady=5)
+    index_def_label = Label(result_root, text='danger index: the average of infection rate per 1000 people '
+                                              'and death rate per 100 recorded cases',
+                            font=('Helvetica', 15, 'italic'), bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
+    index_def_label.place(x=450, y=810)
 
     # Display graph on the left-hand side of the screen
+    data = {'Country': country,
+            'Danger Index': danger_index}
+    df = pd.DataFrame(data)
 
-def plot_graph():
-    # the figure that will contain the plot
-    fig = Figure(figsize=(5, 5),
-                 dpi=100)
+    fig = plt.Figure(figsize=(12, 5), dpi=100)
+    ax = fig.add_subplot(111)
 
-    # list of squares
-    y = [i ** 2 for i in range(101)]
+    bar = FigureCanvasTkAgg(fig, result_root)
+    bar.get_tk_widget().place(x=150, y=265)
+    df.plot.bar(x='Country', y='Danger Index', legend=True, ax=ax)
 
-    # adding the subplot
-    plot1 = fig.add_subplot(111)
-
-    # plotting the graph
-    plot1.plot(y)
-
-    # creating the Tkinter canvas
-    # containing the Matplotlib figure
-    canvas = FigureCanvasTkAgg(fig,
-                               master=window)
-    canvas.draw()
-
-    # placing the canvas on the Tkinter window
-    canvas.get_tk_widget().pack()
-
-    # creating the Matplotlib toolbar
-    toolbar = NavigationToolbar2Tk(canvas, root)
-    toolbar.update()
-
-    # placing the toolbar on the Tkinter window
-    canvas.get_tk_widget().pack()
+    ax.set_title('Danger index of your current country, and your destination country')
+    ax.set_xticklabels(country, rotation=0)
 
 
-
-def display_layover_countries(top3_flights: list[tuple]):
-    """Display onto a new tkinter window the graphs of the top three safest layover countries based on
-    the user's input of current country and destination country.
+def display_layover_countries(flights: list[tuple]):
+    """Display onto a new tkinter window the graphs of the danger index of the source country,
+    the top three safest layover countries, and the destination country based onthe user's input.
 
     Also, display text explaning that the system has found top three safest layover countries,
-    and display a ranking from safest to least safe with a bold highlight on the safest layover country.
+    and display a ranking of top three safest layover countries with an emphasis on the safest country.
 
     """
     # user's name
     user_name = name_entry.get()
 
-    first, second, third = top3_flights
+    first, second, third = flights[1], flights[2], flights[3]
+    country = [tup[0] for tup in flights]
+    danger_index = [tup[1] for tup in flights]
 
     result_root = Toplevel()
     result_root.title('Top 3 layover countries')
@@ -170,29 +160,45 @@ def display_layover_countries(top3_flights: list[tuple]):
 
     index_def_label = Label(result_root, text='danger index: the average of infection rate per 1000 people '
                                               'and death rate per 100 recorded cases',
-                            font=('Helvetica', 14, 'italic'), bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
-    index_def_label.place(x=450, y=800)
+                            font=('Helvetica', 15, 'italic'), bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
+    index_def_label.place(x=450, y=810)
 
     # Display 1st country, bold and with the text '(recommended)' below the country name
     first_label = Label(result_root, text='1. ' + first[0], font=('Helvetica', 20, 'bold'),
                         bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
-    first_label.place(x=175, y=200)
-    recomended_label = Label(result_root, text='(recommended)', font=('Helvetica', 14, 'italic'),
-                             bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
-    recomended_label.place(x=175, y=225)
+    first_label.place(x=325, y=190)
+    recomended_label = Label(result_root, text='(recommended)', font=('Helvetica', 14, 'bold', 'italic'),
+                             bg=WINDOW_COLOUR, fg='blue')
+    recomended_label.place(x=325, y=215)
 
     # Display 2nd country
     second_label = Label(result_root, text='2. ' + second[0], font=('Helvetica', 20),
                          bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
-    second_label.place(x=670, y=200)
+    second_label.pack(pady=(50, 10))
 
     # Display 3rd country
     third_label = Label(result_root, text='3. ' + third[0], font=('Helvetica', 20),
                         bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
-    third_label.place(x=1175, y=200)
+    third_label.place(x=1050, y=190)
 
     # Display three graphs corresponding to three layover countries
-    plot_graph()
+    data = {'Country': country,
+            'Danger Index': danger_index}
+    df = pd.DataFrame(data)
+
+    fig = plt.Figure(figsize=(12, 5), dpi=100)
+    ax = fig.add_subplot(111)
+
+    bar = FigureCanvasTkAgg(fig, result_root)
+    bar.get_tk_widget().place(x=150, y=265)
+    # df = df[['Country', 'Danger Index']].groupby('Country')
+    # df.plot(kind='bar', legend=True, ax=ax)
+
+    df.plot.bar(x='Country', y='Danger Index', legend=True, ax=ax)
+
+    ax.set_title('Danger index of your current country, top three safest layover countries '
+                 'and your destination country')
+    ax.set_xticklabels(country, rotation=0)
 
 
 def display_no_result():
@@ -225,7 +231,6 @@ def display_no_result():
     apology_label = Label(result_root, text="We're sorry but we can't find any flight for your destination",
                           font=WINDOW_FONT_SIZE, bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
     apology_label.pack()
-
     suggest_label = Label(result_root, text="Please try searching again",
                           font=WINDOW_FONT_SIZE, bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
     suggest_label.pack()
@@ -234,10 +239,16 @@ def display_no_result():
 
 
 def error_message(box_empty: bool = False, both_incorrect: bool = False, same_location: bool = False):
-    """Display a message box if
+    """Display an error message box when users' input to the system is invalid.
 
-    :param box_empty:
-    :return:
+        - If box_empty is True, that means users do not enter the expected input but still click submit.
+        - If both incorrect is True, that means both of users' inputs are not in the database.
+        - If same_location is True, that means users enter the same country for the current country, and
+        destination country.
+
+        In all invalid cases, the system briefly explains what information is missing/incorrect, and request users
+        to try again.
+
     """
     if not box_empty:
         if both_incorrect:
@@ -260,9 +271,8 @@ def display_results(source_country: str, dest_country: str):
     :param dest_country:
     :return:
     """
-    # A complete graph of flights
-    flight_network = Flights()  # For testing purpose only
-    # generate_complete_flight_network() # Return a complete graph of flights from the database
+    # Generate a complete graph of flights from the database
+    flight_network = generate_flight_network() # For testing purpose only
 
     # Two objects of source country and destination country
     source_vertex = flight_network.countries[source_country]
@@ -271,16 +281,26 @@ def display_results(source_country: str, dest_country: str):
     # Check for a direct flight
     check_direct_flight = flight_network.adjacent(source_country, dest_country)
 
+    # Compute danger_index for source country and destination country
+    source_index_tup = compute_safest_neighbour({source_vertex})
+    dest_index_tup = compute_safest_neighbour({dest_vertex})
+
     if check_direct_flight:  # Direct flight
-        display_direct_flight()
+        flights = []
+        flights.extend(source_index_tup)
+        flights.extend(dest_index_tup)
+        display_direct_flight(flights)
 
     elif source_vertex.check_connected(dest_country, set()):  # Case 2: Two countries are connected
         possible_flights = source_vertex.find_flights(dest_vertex, set())
         # For testing purpose, ('ITALY', 3.0), ('POLAND', 2.0), ('UNITED STATES', 1.0)]
 
-        top3_flights = compute_stats.compute_safest_neighbour(possible_flights)
+        flights = compute_safest_neighbour(possible_flights)
 
-        display_layover_countries(top3_flights)
+        flights.insert(0, source_index_tup[0])
+        flights.extend(dest_index_tup)
+
+        display_layover_countries(flights)
 
     else:
         display_no_result()
@@ -319,8 +339,8 @@ def check_inputs():
 
     else:
         # display_results(curr_location, dest_location)
-        display_layover_countries([('ITALY', 1.0), ('POLAND', 2.0), ('UNITED STATES', 3.0)])
-        # display_direct_flight()
+        # display_layover_countries([('FRANCE', 2.0), ('ITALY', 1.0), ('POLAND', ), ('UNITED STATES', 3.0), ('GERMANY',4.5)])
+        display_direct_flight([('FRANCE', 2.0), ('ITALY', 1.0)])
 
 
 # Create a submit button
