@@ -13,13 +13,10 @@ def generate_flight_network(file: str) -> f.Flights():
         for row in reader:
             source = row[0]
             dest = row[1]
-<<<<<<< HEAD
             if source or dest not in filter_file:
                 pass
             else:
                 flight.add_flight(source, dest)
-=======
 
             flight.add_flight(source, dest)
->>>>>>> 4cd55be7fa7410fc8c45c15a6506e7b254ba23bb
     return flight
