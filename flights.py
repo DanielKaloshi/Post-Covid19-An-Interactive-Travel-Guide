@@ -34,8 +34,6 @@ class Country:
         self.name = name
         self.neighbours = {}
         self.danger_index = compute_stats.compute_danger_index(name)
-        self.danger_index = compute_stats.compute_danger_index(name)
-        self.danger_index = compute_stats.compute_danger_index(name)
         self.add_region()
 
     def add_region(self) -> None:
