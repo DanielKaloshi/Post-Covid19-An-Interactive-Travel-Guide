@@ -231,7 +231,6 @@ def display_no_result():
     apology_label = Label(result_root, text="We're sorry but we can't find any flight for your destination",
                           font=WINDOW_FONT_SIZE, bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
     apology_label.pack()
-
     suggest_label = Label(result_root, text="Please try searching again",
                           font=WINDOW_FONT_SIZE, bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
     suggest_label.pack()
@@ -240,10 +239,16 @@ def display_no_result():
 
 
 def error_message(box_empty: bool = False, both_incorrect: bool = False, same_location: bool = False):
-    """Display a message box if
+    """Display an error message box when users' input to the system is invalid.
 
-    :param box_empty:
-    :return:
+        - If box_empty is True, that means users do not enter the expected input but still click submit.
+        - If both incorrect is True, that means both of users' inputs are not in the database.
+        - If same_location is True, that means users enter the same country for the current country, and
+        destination country.
+
+        In all invalid cases, the system briefly explains what information is missing/incorrect, and request users
+        to try again.
+
     """
     if not box_empty:
         if both_incorrect:
