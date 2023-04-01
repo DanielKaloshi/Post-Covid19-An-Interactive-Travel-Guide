@@ -10,19 +10,15 @@ and 'DC' is short for 'destination country'
 # Contributor: Alex
 from tkinter import *
 from tkinter import messagebox
-
-import numpy
 from PIL import ImageTk, Image
-from matplotlib.backends.backend_tkagg import NavigationToolbar2Tk
-# from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
-from matplotlib.figure import Figure
 
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 
 import pandas as pd
 from display_plots import plot_map
-# from flights import *
+
+from flights import *
 
 # Create the main window
 WINDOW_COLOUR = '#E4DCCF'
@@ -74,10 +70,10 @@ intro_label.place(x=425, y=250)
 view_map_label = Label(root, text="Click here to view our Safety Choropleth map for reference",
                        font=('Helvetica', 16, 'italic', 'underline'), bg=WINDOW_COLOUR, fg=TEXT_COLOUR, cursor='hand2')
 view_map_label.place(x=550, y=280)
-view_map_label.bind('<Button-1>', lambda x: plot_map('data/sample_data_map.csv'))
+view_map_label.bind('<Button-1>', lambda x: plot_map('...'))
 
 
-def display_direct_flight():
+def display_direct_flight(flights: list[tuple]):
     """Display onto a new tkinter window a safety graph of the destination country, and text explaning that
     the system has found a direct flight between the user's current country and their destination country
 
@@ -109,75 +105,19 @@ def display_direct_flight():
 
     # Display graph on the left-hand side of the screen
 
-def plot_graph():
-    # the figure that will contain the plot
-    fig = Figure(figsize=(5, 5), dpi=100)
 
-    # List of squares
-    y = [i ** 2 for i in range(101)]
-
-    # Adding the subplot
-    plot1 = fig.add_subplot(111)
-
-    # plotting the graph
-    plot1.plot(y)
-
-    # creating the Tkinter canvas
-    # containing the Matplotlib figure
-    canvas = FigureCanvasTkAgg(fig,
-                               master=window)
-    canvas.draw()
-
-    # placing the canvas on the Tkinter window
-    canvas.get_tk_widget().pack()
-
-    # creating the Matplotlib toolbar
-    toolbar = NavigationToolbar2Tk(canvas, root)
-    toolbar.update()
-
-    # placing the toolbar on the Tkinter window
-    canvas.get_tk_widget().pack()
-
-
-    data = (20, 35, 30, 35, 27)
-
-    ind = numpy.arange(5)  # the x locations for the groups
-    w = .5
-
-    rects1 = ax.bar(ind, data, width)
-
-    canvas = FigureCanvasTkAgg(fig, master=root)
-    canvas.draw()
-    canvas.get_tk_widget().pack(side=Tk.TOP, fill=Tk.BOTH, expand=1)
-
-
-def plot_graph_sample():
-    data1 = {'country': ['A', 'B', 'C', 'D', 'E'],
-             'gdp_per_capita': [45000, 42000, 52000, 49000, 47000]
-             }
-    df1 = pd.DataFrame(data1)
-
-    figure1 = plt.Figure(figsize=(6, 5), dpi=100)
-    ax1 = figure1.add_subplot(111)
-    bar1 = FigureCanvasTkAgg(figure1, root)
-    bar1.get_tk_widget().pack(side=LEFT, fill=BOTH)
-    df1 = df1[['country', 'gdp_per_capita']].groupby('country').sum()
-    df1.plot(kind='bar', legend=True, ax=ax1)
-    ax1.set_title('Country Vs. GDP Per Capita')
-
-
-def display_layover_countries(top3_flights: list[tuple]):
-    """Display onto a new tkinter window the graphs of the top three safest layover countries based on
-    the user's input of current country and destination country.
+def display_layover_countries(flights: list[tuple]):
+    """Display onto a new tkinter window the graphs of the danger index of the source country,
+    the top three safest layover countries, and the destination country based onthe user's input.
 
     Also, display text explaning that the system has found top three safest layover countries,
-    and display a ranking from safest to least safe with a bold highlight on the safest layover country.
+    and display a ranking of top three safest layover countries with an emphasis on the safest country.
 
     """
     # user's name
     user_name = name_entry.get()
 
-    first, second, third = top3_flights
+    first, second, third = flights[1], flights[2], flights[3]
 
     result_root = Toplevel()
     result_root.title('Top 3 layover countries')
@@ -201,15 +141,15 @@ def display_layover_countries(top3_flights: list[tuple]):
     index_def_label = Label(result_root, text='danger index: the average of infection rate per 1000 people '
                                               'and death rate per 100 recorded cases',
                             font=('Helvetica', 14, 'italic'), bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
-    index_def_label.place(x=450, y=800)
+    index_def_label.place(x=450, y=810)
 
     # Display 1st country, bold and with the text '(recommended)' below the country name
     first_label = Label(result_root, text='1. ' + first[0], font=('Helvetica', 20, 'bold'),
                         bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
-    first_label.pack(padx=(10, 10))
-    recomended_label = Label(result_root, text='(recommended)', font=('Helvetica', 14, 'italic'),
-                             bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
-    recomended_label.place(x=175, y=225)
+    first_label.place(x=325, y=190)
+    recomended_label = Label(result_root, text='(recommended)', font=('Helvetica', 14, 'bold', 'italic'),
+                             bg=WINDOW_COLOUR, fg='blue')
+    recomended_label.place(x=325, y=215)
 
     # Display 2nd country
     second_label = Label(result_root, text='2. ' + second[0], font=('Helvetica', 20),
@@ -219,21 +159,26 @@ def display_layover_countries(top3_flights: list[tuple]):
     # Display 3rd country
     third_label = Label(result_root, text='3. ' + third[0], font=('Helvetica', 20),
                         bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
-    third_label.place(x=1170, y=200)
+    third_label.place(x=1050, y=190)
 
     # Display three graphs corresponding to three layover countries
-    data1 = {'country': ['A', 'B', 'C', 'D', 'E'],
-             'gdp_per_capita': [45000, 42000, 52000, 49000, 47000]
-             }
-    df1 = pd.DataFrame(data1)
+    data = {'Country': [tup[0] for tup in flights],
+            'Danger Index': [tup[1] for tup in flights]}
+    df = pd.DataFrame(data)
 
     fig = plt.Figure(figsize=(12, 5), dpi=100)
     ax = fig.add_subplot(111)
+
     bar = FigureCanvasTkAgg(fig, result_root)
     bar.get_tk_widget().place(x=150, y=265)
-    df = df1[['country', 'gdp_per_capita']].groupby('country').sum()
-    df.plot(kind='bar', legend=True, ax=ax)
-    ax.set_title('Country Vs. GDP Per Capita')
+    # df = df[['Country', 'Danger Index']].groupby('Country')
+    # df.plot(kind='bar', legend=True, ax=ax)
+
+    df.plot.bar(x='Country', y='Danger Index', legend=True, ax=ax)
+
+    ax.set_title('Danger index of your current country, top three safest layover countries '
+                 'and your destination country')
+    ax.set_xticklabels([tup[0] for tup in flights], rotation=0)
 
 
 def display_no_result():
@@ -319,9 +264,13 @@ def display_results(source_country: str, dest_country: str):
         possible_flights = source_vertex.find_flights(dest_vertex, set())
         # For testing purpose, ('ITALY', 3.0), ('POLAND', 2.0), ('UNITED STATES', 1.0)]
 
-        # top3_flights = compute_stats.compute_safest_neighbour(possible_flights)
+        flights = compute_safest_neighbour(possible_flights)
 
-        # display_layover_countries(top3_flights)
+        flights.extend(compute_safest_neighbour({dest_vertex}))
+
+        flights.insert(0, compute_safest_neighbour({source_vertex})[0])
+
+        display_layover_countries(flights)
 
     else:
         display_no_result()
@@ -360,7 +309,7 @@ def check_inputs():
 
     else:
         # display_results(curr_location, dest_location)
-        display_layover_countries([('ITALY', 1.0), ('POLAND', 2.0), ('UNITED STATES', 3.0)])
+        display_layover_countries([('FRANCE', 2.0), ('ITALY', 1.0), ('POLAND', ), ('UNITED STATES', 3.0), ('GERMANY',4.5)])
         # display_direct_flight()
 
 
