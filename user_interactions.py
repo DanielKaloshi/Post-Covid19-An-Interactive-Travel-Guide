@@ -71,7 +71,7 @@ intro_label.place(x=425, y=250)
 view_map_label = Label(root, text="Click here to view our Safety Choropleth map for reference",
                        font=('Helvetica', 16, 'italic', 'underline'), bg=WINDOW_COLOUR, fg=TEXT_COLOUR, cursor='hand2')
 view_map_label.place(x=550, y=280)
-view_map_label.bind('<Button-1>', lambda x: plot_map('...'))
+view_map_label.bind('<Button-1>', lambda x: plot_map('data/country-danger-index.csv'))
 
 
 def display_direct_flight(flights: list[tuple]):
