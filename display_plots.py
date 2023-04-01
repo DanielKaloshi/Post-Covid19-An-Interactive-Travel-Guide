@@ -43,15 +43,6 @@ def plot_bar_graph(file: str, paths: list[str]) -> None:
     df = df.loc[df['country'].isin(paths)]
     country = df['country']
     danger_index = df['danger_index']
-    #
-    # colours = []
-    # for index in [x for x in danger_index]:
-    #     if index <= 1:
-    #         colours.append('green')
-    #     elif index <= 2:
-    #         colours.append('yellow')
-    #     else:
-    #         colours.append('red')
 
     fig = plt.figure(figsize=(10, 5))
     plt.bar(country, danger_index)
