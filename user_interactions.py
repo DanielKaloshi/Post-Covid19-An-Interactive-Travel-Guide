@@ -87,23 +87,40 @@ def display_direct_flight(flights: list[tuple]):
 
     # User's name
     user_name = name_entry.get()
-    # dest_country = dest_entry.get().upper()
-    # flight_network = Flights()
-    # dest_vertex = flight_network.countries[dest_country]
-    dest_name = 'ITALY'
-    dest_index = '1.0'
+    country = [tup[0] for tup in flights]
+    danger_index = [tup[1] for tup in flights]
 
     # Display text on the right-hand side of the screen
     communicate_label1 = Label(result_root,
                                text=f"Hi {user_name}, we found you a direct flight to your destination",
-                               font=WINDOW_FONT_SIZE, bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
-    communicate_label1.pack(pady=(100, 5))
+                               font=('Helvetica', 20), bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
+    communicate_label1.pack(pady=(100, 10))
 
-    communicate_label2 = Label(result_root, text=f"Your destination {dest_name} has a danger index of {dest_index}.",
+    communicate_label2 = Label(result_root, text=f"Your current country {country[0]} has a danger index of {danger_index[0]}.",
                                font=('Helvetica', 18), bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
     communicate_label2.pack(pady=5)
+    communicate_label3 = Label(result_root, text=f"Your destination {country[1]} has a danger index of {danger_index[1]}.",
+                               font=('Helvetica', 18), bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
+    communicate_label3.pack(pady=5)
+    index_def_label = Label(result_root, text='danger index: the average of infection rate per 1000 people '
+                                              'and death rate per 100 recorded cases',
+                            font=('Helvetica', 15, 'italic'), bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
+    index_def_label.place(x=450, y=810)
 
     # Display graph on the left-hand side of the screen
+    data = {'Country': country,
+            'Danger Index': danger_index}
+    df = pd.DataFrame(data)
+
+    fig = plt.Figure(figsize=(12, 5), dpi=100)
+    ax = fig.add_subplot(111)
+
+    bar = FigureCanvasTkAgg(fig, result_root)
+    bar.get_tk_widget().place(x=150, y=265)
+    df.plot.bar(x='Country', y='Danger Index', legend=True, ax=ax)
+
+    ax.set_title('Danger index of your current country, and your destination country')
+    ax.set_xticklabels(country, rotation=0)
 
 
 def display_layover_countries(flights: list[tuple]):
@@ -118,6 +135,8 @@ def display_layover_countries(flights: list[tuple]):
     user_name = name_entry.get()
 
     first, second, third = flights[1], flights[2], flights[3]
+    country = [tup[0] for tup in flights]
+    danger_index = [tup[1] for tup in flights]
 
     result_root = Toplevel()
     result_root.title('Top 3 layover countries')
@@ -140,7 +159,7 @@ def display_layover_countries(flights: list[tuple]):
 
     index_def_label = Label(result_root, text='danger index: the average of infection rate per 1000 people '
                                               'and death rate per 100 recorded cases',
-                            font=('Helvetica', 14, 'italic'), bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
+                            font=('Helvetica', 15, 'italic'), bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
     index_def_label.place(x=450, y=810)
 
     # Display 1st country, bold and with the text '(recommended)' below the country name
@@ -162,8 +181,8 @@ def display_layover_countries(flights: list[tuple]):
     third_label.place(x=1050, y=190)
 
     # Display three graphs corresponding to three layover countries
-    data = {'Country': [tup[0] for tup in flights],
-            'Danger Index': [tup[1] for tup in flights]}
+    data = {'Country': country,
+            'Danger Index': danger_index}
     df = pd.DataFrame(data)
 
     fig = plt.Figure(figsize=(12, 5), dpi=100)
@@ -178,7 +197,7 @@ def display_layover_countries(flights: list[tuple]):
 
     ax.set_title('Danger index of your current country, top three safest layover countries '
                  'and your destination country')
-    ax.set_xticklabels([tup[0] for tup in flights], rotation=0)
+    ax.set_xticklabels(country, rotation=0)
 
 
 def display_no_result():
@@ -246,7 +265,7 @@ def display_results(source_country: str, dest_country: str):
     :param dest_country:
     :return:
     """
-    # A complete graph of flights
+    # Generate a complete graph of flights
     flight_network = Flights()  # For testing purpose only
     # generate_complete_flight_network() # Return a complete graph of flights from the database
 
@@ -257,8 +276,15 @@ def display_results(source_country: str, dest_country: str):
     # Check for a direct flight
     check_direct_flight = flight_network.adjacent(source_country, dest_country)
 
+    # Compute danger_index for source country and destination country
+    source_index_tup = compute_safest_neighbour({source_vertex})
+    dest_index_tup = compute_safest_neighbour({dest_vertex})
+
     if check_direct_flight:  # Direct flight
-        display_direct_flight()
+        flights = []
+        flights.extend(source_index_tup)
+        flights.extend(dest_index_tup)
+        display_direct_flight(flights)
 
     elif source_vertex.check_connected(dest_country, set()):  # Case 2: Two countries are connected
         possible_flights = source_vertex.find_flights(dest_vertex, set())
@@ -266,9 +292,8 @@ def display_results(source_country: str, dest_country: str):
 
         flights = compute_safest_neighbour(possible_flights)
 
-        flights.extend(compute_safest_neighbour({dest_vertex}))
-
-        flights.insert(0, compute_safest_neighbour({source_vertex})[0])
+        flights.insert(0, source_index_tup[0])
+        flights.extend(dest_index_tup)
 
         display_layover_countries(flights)
 
@@ -309,8 +334,8 @@ def check_inputs():
 
     else:
         # display_results(curr_location, dest_location)
-        display_layover_countries([('FRANCE', 2.0), ('ITALY', 1.0), ('POLAND', ), ('UNITED STATES', 3.0), ('GERMANY',4.5)])
-        # display_direct_flight()
+        # display_layover_countries([('FRANCE', 2.0), ('ITALY', 1.0), ('POLAND', ), ('UNITED STATES', 3.0), ('GERMANY',4.5)])
+        display_direct_flight([('FRANCE', 2.0), ('ITALY', 1.0)])
 
 
 # Create a submit button
