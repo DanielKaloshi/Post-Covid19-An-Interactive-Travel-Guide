@@ -14,12 +14,15 @@ from tkinter import messagebox
 import numpy
 from PIL import ImageTk, Image
 from matplotlib.backends.backend_tkagg import NavigationToolbar2Tk
-from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
+# from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 from matplotlib.figure import Figure
 
-import display_plots
+import matplotlib.pyplot as plt
+from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
+
+import pandas as pd
 from display_plots import plot_map
-from flights import *
+# from flights import *
 
 # Create the main window
 WINDOW_COLOUR = '#E4DCCF'
@@ -149,7 +152,18 @@ def plot_graph():
 
 
 def plot_graph_sample():
-    display_plots.plot_bar_graph('data/country-danger-index.csv', ['ITALY', 'POLAND' 'UNITED STATES'])
+    data1 = {'country': ['A', 'B', 'C', 'D', 'E'],
+             'gdp_per_capita': [45000, 42000, 52000, 49000, 47000]
+             }
+    df1 = pd.DataFrame(data1)
+
+    figure1 = plt.Figure(figsize=(6, 5), dpi=100)
+    ax1 = figure1.add_subplot(111)
+    bar1 = FigureCanvasTkAgg(figure1, root)
+    bar1.get_tk_widget().pack(side=LEFT, fill=BOTH)
+    df1 = df1[['country', 'gdp_per_capita']].groupby('country').sum()
+    df1.plot(kind='bar', legend=True, ax=ax1)
+    ax1.set_title('Country Vs. GDP Per Capita')
 
 
 def display_layover_countries(top3_flights: list[tuple]):
@@ -192,7 +206,7 @@ def display_layover_countries(top3_flights: list[tuple]):
     # Display 1st country, bold and with the text '(recommended)' below the country name
     first_label = Label(result_root, text='1. ' + first[0], font=('Helvetica', 20, 'bold'),
                         bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
-    first_label.place(x=175, y=200)
+    first_label.pack(padx=(10, 10))
     recomended_label = Label(result_root, text='(recommended)', font=('Helvetica', 14, 'italic'),
                              bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
     recomended_label.place(x=175, y=225)
@@ -200,15 +214,26 @@ def display_layover_countries(top3_flights: list[tuple]):
     # Display 2nd country
     second_label = Label(result_root, text='2. ' + second[0], font=('Helvetica', 20),
                          bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
-    second_label.place(x=670, y=200)
+    second_label.pack(pady=(50, 10))
 
     # Display 3rd country
     third_label = Label(result_root, text='3. ' + third[0], font=('Helvetica', 20),
                         bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
-    third_label.place(x=1175, y=200)
+    third_label.place(x=1170, y=200)
 
     # Display three graphs corresponding to three layover countries
-    plot_graph_sample()
+    data1 = {'country': ['A', 'B', 'C', 'D', 'E'],
+             'gdp_per_capita': [45000, 42000, 52000, 49000, 47000]
+             }
+    df1 = pd.DataFrame(data1)
+
+    fig = plt.Figure(figsize=(12, 5), dpi=100)
+    ax = fig.add_subplot(111)
+    bar = FigureCanvasTkAgg(fig, result_root)
+    bar.get_tk_widget().place(x=150, y=265)
+    df = df1[['country', 'gdp_per_capita']].groupby('country').sum()
+    df.plot(kind='bar', legend=True, ax=ax)
+    ax.set_title('Country Vs. GDP Per Capita')
 
 
 def display_no_result():

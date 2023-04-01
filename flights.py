@@ -1,6 +1,6 @@
 from __future__ import annotations
 import csv
-import compute_stats
+# import compute_stats
 
 
 class Country:
@@ -32,9 +32,9 @@ class Country:
         """Initialize this country with the given name, region, and neighbours."""
         self.name = name
         self.neighbours = {}
-        self.danger_index = compute_stats.compute_danger_index(name)
-        self.danger_index = compute_stats.compute_danger_index(name)
-        self.danger_index = compute_stats.compute_danger_index(name)
+        # self.danger_index = compute_stats.compute_danger_index(name)
+        # self.danger_index = compute_stats.compute_danger_index(name)
+        # self.danger_index = compute_stats.compute_danger_index(name)
         self.add_region()
 
     def add_region(self) -> None:
