@@ -368,7 +368,7 @@ def display_results(flight_network: Flights, source_country: str, dest_country: 
         flights.extend(dest_index_tup)
         display_direct_flight(flights)
 
-    if source_vertex.check_connected(dest_country, set()):  # Case 2: Two countries are connected
+    elif source_vertex.check_connected(dest_country, set()):  # Case 2: Two countries are connected
         if layover_paths:
             lst_of_neighbours = compute_neighbours_from_paths(layover_paths, source_country, dest_country)
             flights = compute_safest_neighbour(lst_of_neighbours)
