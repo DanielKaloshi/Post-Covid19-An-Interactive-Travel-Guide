@@ -1,5 +1,14 @@
-""" A file dedictaed to our base Classes and methods,
-Worked on: By Anson Lau, Daniel Kaloshi, Alex Nguyen
+""" CSC111 Winter 2023 Course Project: Post COVID-19: An Interactive Travel Guide
+This module contains our base Country and Flight classes as well as their associated methods.
+
+Copyright and Usage Information
+===============================
+This file is provided solely for the personal and private use of the CSC111 instructors and
+TAs at the University of Toronto St. George campus. All forms of distribution of this code,
+whether as given or with any changes, are strictly prohibited. For more information on
+copyright for CSC111 project materials, please consult our Course Syllabus.
+
+This file is Copyright (c) 2023 Alex Nguyen, Anson Lau, Daniel Kaloshi, Dua Hussain
 """
 from __future__ import annotations
 import csv
@@ -50,29 +59,8 @@ class Country:
                     self.region = row[3]
                     break
 
-    def find_flights(self, destination: Country, visited: set[Country]) -> set[Country]:
-        """Return a set containing all the possible country paths from this country that do NOT use any countries in
-        visited.
 
-        Preconditions:
-            - self not in visited
-        """
-
-        country_set = set()
-
-        if self.name == destination.name:
-            return {destination}
-
-        else:
-            country_set = set()
-            visited.add(self)
-            for u in self.neighbours:
-                if self.neighbours[u] not in visited:
-                    country_set.union(self.neighbours[u].find_flights(destination, visited))
-
-        return country_set
-
-    def find_flights_2(self, destination: Country, visited: set[Country]) -> Optional[list[list[Country]]]:
+    def find_flights(self, destination: Country, visited: set[Country]) -> Optional[list[list[Country]]]:
         """Return a list containing all the possible flight paths from this country to the destination country
         that do NOT use any countries in visited.
 
