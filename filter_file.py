@@ -30,17 +30,6 @@ def capitalize2(file: str, output_file='data/covid19_capatalize'):
                 writer.writerow(row1)
 
 
-def capitalize3(file: str, output_file='data/new_routes_cap'):
-    """ """
-    with open(file, mode='r') as main_file:
-        reader = csv.reader(main_file)
-        with open(output_file, mode='w') as filter_data:
-            writer = csv.writer(filter_data, delimiter=',')
-            for row in reader:
-                row1 = [row[0].upper(), row[1].upper()]
-                writer.writerow(row1)
-
-
 def csv_airports_dict(file: str) -> dict[str, list[str]]:
     """
     This Takes the airports.csv and returns a dict with key values of countries in the file
@@ -300,3 +289,18 @@ def filter_routes(filename: str, output_file='data/new_routes_2.0'):
 
 if __name__ == '__main__':
     filter_routes('data/new_routes_with_countries')
+
+
+def capitalize3(file: str, output_file='data/new_routes_cap'):
+    """ """
+    with open(file, mode='r') as main_file:
+        reader = csv.reader(main_file)
+        with open(output_file, mode='w') as filter_data:
+            writer = csv.writer(filter_data, delimiter=',', lineterminator="\n")
+            for row in reader:
+                row1 = [row[0].upper(), row[1].upper()]
+                writer.writerow(row1)
+
+
+if __name__ == '__main__':
+    capitalize3('data/new_routes_2.0')
