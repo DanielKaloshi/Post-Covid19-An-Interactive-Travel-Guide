@@ -120,7 +120,6 @@ Uzbekistan,Russian Federation
 Russian Federation,Uzbekistan
 Russian Federation,Montenegro
 Montenegro,Russian Federation
-China,Northern Mariana Islands
 China,Thailand
 China,Australia
 China,Republic of Korea
@@ -130,7 +129,6 @@ Australia,China
 China,Viet Nam
 Viet Nam,China
 China,Canada
-Northern Mariana Islands,China
 Canada,China
 Egypt,Israel
 Israel,Egypt
@@ -201,7 +199,7 @@ Germany,Ireland
 Germany,The United Kingdom
 Germany,Portugal
 Germany,Austria
-Germany,Czech Republic
+Germany,Czechia
 Germany,Bosnia and Herzegovina
 Germany,Israel
 Germany,Tunisia
@@ -214,7 +212,7 @@ Germany,Norway
 Finland,Germany
 Austria,Germany
 Poland,Germany
-Czech Republic,Germany
+Czechia,Germany
 Bosnia and Herzegovina,Germany
 Germany,Belgium
 Israel,Germany
@@ -277,9 +275,9 @@ Israel,Italy
 Israel,France
 Israel,Georgia
 Armenia,Russian Federation
-Czech Republic,Russian Federation
+Czechia,Russian Federation
 Russian Federation,Armenia
-Russian Federation,Czech Republic
+Russian Federation,Czechia
 Latvia,Spain
 Spain,Latvia
 Thailand,Republic of Korea
@@ -426,7 +424,7 @@ Greece,The United Kingdom
 Greece,Norway
 Greece,Romania
 Greece,United States of America
-Greece,Czech Republic
+Greece,Czechia
 Greece,Bulgaria
 Greece,Georgia
 Greece,Albania
@@ -453,7 +451,7 @@ The United Kingdom,Greece
 Norway,Greece
 Romania,Greece
 United States of America,Greece
-Czech Republic,Greece
+Czechia,Greece
 Greece,Denmark
 Bulgaria,Greece
 Georgia,Greece
@@ -469,8 +467,8 @@ France,Netherlands
 Sweden,France
 France,Belgium
 France,Sweden
-France,Czech Republic
-Czech Republic,France
+France,Czechia
+Czechia,France
 Netherlands,Georgia
 Georgia,Russian Federation
 France,Georgia
@@ -527,7 +525,6 @@ United States of America,Germany
 United States of America,Brazil
 United States of America,Costa Rica
 United States of America,Jamaica
-United States of America,Virgin Islands
 United States of America,Saint Lucia
 United States of America,Canada
 Sri Lanka,United Arab Emirates
@@ -604,7 +601,7 @@ The United Kingdom,Portugal
 The United Kingdom,Luxembourg
 The United Kingdom,Kenya
 The United Kingdom,Romania
-The United Kingdom,Czech Republic
+The United Kingdom,Czechia
 The United Kingdom,Bulgaria
 The United Kingdom,Austria
 The United Kingdom,Poland
@@ -641,7 +638,7 @@ United States of America,Netherlands
 United States of America,Portugal
 United States of America,Israel
 Trinidad and Tobago,United States of America
-Czech Republic,The United Kingdom
+Czechia,The United Kingdom
 Panama,United States of America
 Honduras,United States of America
 El Salvador,United States of America
@@ -650,7 +647,6 @@ Chile,Peru
 Singapore,Japan
 Saint Kitts and Nevis,United States of America
 Bulgaria,The United Kingdom
-Virgin Islands,United States of America
 Israel,United States of America
 Saint Lucia,United States of America
 Austria,The United Kingdom
@@ -986,7 +982,6 @@ Chad,France
 Niger,France
 Mauritania,France
 Mauritania,Guinea
-Japan,Northern Mariana Islands
 France,Reunion
 Norway,France
 Romania,France
@@ -1128,8 +1123,8 @@ Denmark,Italy
 Italy,Netherlands
 Italy,Russian Federation
 Russian Federation,Italy
-Czech Republic,Italy
-Italy,Czech Republic
+Czechia,Italy
+Italy,Czechia
 Albania,Italy
 Italy,Denmark
 Argentina,Paraguay
@@ -1323,7 +1318,7 @@ Finland,Portugal
 Finland,Slovenia
 Finland,Belarus
 Finland,Norway
-Finland,Czech Republic
+Finland,Czechia
 Finland,Latvia
 Finland,Singapore
 Finland,Estonia
@@ -1339,7 +1334,7 @@ Portugal,Finland
 Slovenia,Finland
 Belarus,Finland
 Norway,Finland
-Czech Republic,Finland
+Czechia,Finland
 Latvia,Finland
 Singapore,Finland
 Estonia,Finland
@@ -1488,14 +1483,14 @@ Belarus,Turkiye
 Belarus,Ukraine
 Belarus,Cyprus
 Belarus,The United Kingdom
-Belarus,Czech Republic
+Belarus,Czechia
 Belarus,Latvia
 Belarus,Israel
 Belarus,Kazakhstan
 Belarus,Austria
 Belarus,Lithuania
 Belarus,Poland
-Czech Republic,Belarus
+Czechia,Belarus
 Latvia,Belarus
 Israel,Belarus
 Kazakhstan,Belarus
@@ -1642,7 +1637,7 @@ Republic of Moldova,Latvia
 Cyprus,Latvia
 Malta,Latvia
 Lithuania,Latvia
-Czech Republic,Latvia
+Czechia,Latvia
 Latvia,The United Kingdom
 Latvia,Norway
 Latvia,Netherlands
@@ -1658,7 +1653,7 @@ Latvia,Republic of Moldova
 Latvia,Cyprus
 Latvia,Malta
 Latvia,Lithuania
-Latvia,Czech Republic
+Latvia,Czechia
 Latvia,Turkiye
 Latvia,Uzbekistan
 Latvia,Estonia
@@ -1902,7 +1897,7 @@ Netherlands,India
 Netherlands,Canada
 United States of America,Nigeria
 India,Netherlands
-Slovakia,Czech Republic
+Slovakia,Czechia
 Senegal,United States of America
 Brazil,Dominican Republic
 United States of America,Russian Federation
@@ -1911,7 +1906,6 @@ United States of America,Senegal
 Nigeria,United States of America
 Japan,Palau
 Dominican Republic,Brazil
-Northern Mariana Islands,Japan
 Russian Federation,United States of America
 Canada,Netherlands
 Cote d'Ivoire,Benin
@@ -1967,7 +1961,7 @@ Sweden,Portugal
 Sweden,United States of America
 Sweden,Poland
 Sweden,Cyprus
-Sweden,Czech Republic
+Sweden,Czechia
 Sweden,Bosnia and Herzegovina
 Sweden,Israel
 Sweden,Lithuania
@@ -1981,7 +1975,7 @@ Norway,Italy
 Norway,United States of America
 Norway,Iceland
 Norway,Poland
-Norway,Czech Republic
+Norway,Czechia
 Thailand,Sweden
 Thailand,Norway
 Bulgaria,Denmark
@@ -1997,7 +1991,7 @@ Denmark,Ireland
 Denmark,Portugal
 Denmark,United States of America
 Denmark,Malta
-Denmark,Czech Republic
+Denmark,Czechia
 Denmark,Croatia
 Denmark,Israel
 Italy,Sweden
@@ -2041,9 +2035,9 @@ Norway,Morocco
 Norway,Estonia
 Norway,Austria
 Lithuania,Norway
-Czech Republic,Sweden
-Czech Republic,Norway
-Czech Republic,Denmark
+Czechia,Sweden
+Czechia,Norway
+Czechia,Denmark
 Morocco,Denmark
 Morocco,Norway
 Bosnia and Herzegovina,Sweden
@@ -2094,12 +2088,12 @@ Ireland,Hungary
 Ireland,Croatia
 Ireland,Portugal
 Ireland,Switzerland
-Ireland,Czech Republic
+Ireland,Czechia
 Ireland,Austria
 Ireland,Poland
 Portugal,Ireland
 Switzerland,Ireland
-Czech Republic,Ireland
+Czechia,Ireland
 Austria,Ireland
 Poland,Ireland
 Ghana,United Arab Emirates
@@ -2141,7 +2135,7 @@ United Arab Emirates,Nigeria
 United Arab Emirates,Zambia
 United Arab Emirates,Malta
 United Arab Emirates,Mauritius
-United Arab Emirates,Czech Republic
+United Arab Emirates,Czechia
 United Arab Emirates,Yemen
 United Arab Emirates,Viet Nam
 United Arab Emirates,Tunisia
@@ -2162,7 +2156,7 @@ Zambia,United Arab Emirates
 Malta,Cyprus
 Malta,Libya
 Mauritius,United Arab Emirates
-Czech Republic,United Arab Emirates
+Czechia,United Arab Emirates
 Yemen,United Arab Emirates
 Viet Nam,United Arab Emirates
 Australia,Thailand
@@ -2332,12 +2326,12 @@ Bulgaria,Russian Federation
 Belgium,Bulgaria
 Russian Federation,Bulgaria
 Romania,Bulgaria
-Czech Republic,Bulgaria
+Czechia,Bulgaria
 Bulgaria,Spain
 Bulgaria,Netherlands
 Bulgaria,Belgium
 Bulgaria,Romania
-Bulgaria,Czech Republic
+Bulgaria,Czechia
 Bulgaria,Israel
 Bulgaria,Austria
 Bulgaria,Poland
@@ -2600,9 +2594,9 @@ Portugal,Cabo Verde
 Austria,Netherlands
 Malta,Tunisia
 Tunisia,Netherlands
-Czech Republic,Netherlands
+Czechia,Netherlands
 Netherlands,Hungary
-Netherlands,Czech Republic
+Netherlands,Czechia
 Netherlands,Croatia
 Cabo Verde,Netherlands
 Croatia,Netherlands
@@ -2640,7 +2634,7 @@ Uzbekistan,Ukraine
 Uzbekistan,Malaysia
 Uzbekistan,The United Kingdom
 Uzbekistan,Japan
-Uzbekistan,Czech Republic
+Uzbekistan,Czechia
 Uzbekistan,Singapore
 Uzbekistan,Israel
 Israel,Uzbekistan
@@ -2656,7 +2650,7 @@ Spain,Senegal
 Spain,Ukraine
 Spain,Luxembourg
 Spain,Romania
-Spain,Czech Republic
+Spain,Czechia
 Spain,Israel
 Venezuela (Bolivarian Republic of),Spain
 Croatia,Spain
@@ -2681,7 +2675,7 @@ Spain,Costa Rica
 Spain,Equatorial Guinea
 Mauritania,Spain
 Romania,Spain
-Czech Republic,Spain
+Czechia,Spain
 Panama,Spain
 Chile,Spain
 Costa Rica,Spain
@@ -2759,12 +2753,12 @@ Azerbaijan,Qatar
 Azerbaijan,Turkiye
 Azerbaijan,Germany
 Azerbaijan,Ukraine
-Azerbaijan,Czech Republic
+Azerbaijan,Czechia
 Azerbaijan,Georgia
 Azerbaijan,Israel
 Azerbaijan,Austria
 Ukraine,Azerbaijan
-Czech Republic,Azerbaijan
+Czechia,Azerbaijan
 Georgia,Azerbaijan
 Israel,Azerbaijan
 Austria,Azerbaijan
@@ -2805,7 +2799,7 @@ Slovenia,Belgium
 Slovenia,Denmark
 Slovenia,Germany
 Slovenia,Turkiye
-Slovenia,Czech Republic
+Slovenia,Czechia
 Slovenia,Serbia
 Slovenia,Bosnia and Herzegovina
 Slovenia,Macedonia
@@ -2815,7 +2809,7 @@ Slovenia,Albania
 Slovenia,Austria
 Slovenia,Poland
 Slovenia,Switzerland
-Czech Republic,Slovenia
+Czechia,Slovenia
 Serbia,Slovenia
 Bosnia and Herzegovina,Slovenia
 Macedonia,Slovenia
@@ -2834,7 +2828,7 @@ Serbia,Belgium
 Serbia,Denmark
 Serbia,Cyprus
 Serbia,Romania
-Serbia,Czech Republic
+Serbia,Czechia
 Serbia,Turkiye
 Serbia,Macedonia
 Serbia,Bulgaria
@@ -2848,7 +2842,7 @@ Denmark,Serbia
 Cyprus,Serbia
 The United Kingdom,Serbia
 Romania,Serbia
-Czech Republic,Serbia
+Czechia,Serbia
 Turkiye,Serbia
 Macedonia,Serbia
 Bulgaria,Serbia
@@ -2908,7 +2902,7 @@ Republic of Korea,Nepal
 Republic of Korea,Spain
 Republic of Korea,Fiji
 Republic of Korea,Kenya
-Republic of Korea,Czech Republic
+Republic of Korea,Czechia
 Republic of Korea,Palau
 Republic of Korea,Saudi Arabia
 Republic of Korea,Israel
@@ -2920,7 +2914,7 @@ Russian Federation,Republic of Korea
 Spain,Republic of Korea
 Fiji,Republic of Korea
 Kenya,Republic of Korea
-Czech Republic,Republic of Korea
+Czechia,Republic of Korea
 Palau,Republic of Korea
 Saudi Arabia,Republic of Korea
 Israel,Republic of Korea
@@ -2994,8 +2988,8 @@ Malta,Russian Federation
 Malta,Germany
 Malta,Switzerland
 Malta,Turkiye
-Malta,Czech Republic
-Czech Republic,Malta
+Malta,Czechia
+Czechia,Malta
 Cote d'Ivoire,Kenya
 Ghana,Kenya
 Mozambique,Kenya
@@ -3163,7 +3157,7 @@ Poland,Austria
 Russian Federation,Poland
 Portugal,Poland
 Romania,Poland
-Czech Republic,Poland
+Czechia,Poland
 Georgia,Poland
 Estonia,Poland
 Israel,Poland
@@ -3177,16 +3171,16 @@ Poland,Ukraine
 Poland,Russian Federation
 Poland,Portugal
 Poland,Romania
-Poland,Czech Republic
+Poland,Czechia
 Poland,Georgia
 Poland,Estonia
 Poland,Israel
 Poland,Lithuania
 Nicaragua,El Salvador
 El Salvador,Nicaragua
-Czech Republic,Lithuania
+Czechia,Lithuania
 Estonia,Lithuania
-Lithuania,Czech Republic
+Lithuania,Czechia
 Lithuania,Estonia
 Thailand,Switzerland
 Hungary,Switzerland
@@ -3194,14 +3188,14 @@ Croatia,Switzerland
 Russian Federation,Switzerland
 Brazil,Switzerland
 Switzerland,Russian Federation
-Switzerland,Czech Republic
+Switzerland,Czechia
 Switzerland,Israel
 Cuba,Switzerland
 South Africa,Switzerland
 Ukraine,Switzerland
 Japan,Switzerland
 Romania,Switzerland
-Czech Republic,Switzerland
+Czechia,Switzerland
 Dominican Republic,Switzerland
 Singapore,Switzerland
 Israel,Switzerland
@@ -3224,7 +3218,7 @@ Russian Federation,Israel
 South Africa,Israel
 Ukraine,Israel
 Romania,Israel
-Czech Republic,Israel
+Czechia,Israel
 Israel,Thailand
 Israel,India
 Israel,Belgium
@@ -3233,7 +3227,7 @@ Israel,Russian Federation
 Israel,South Africa
 Israel,Ukraine
 Israel,Romania
-Israel,Czech Republic
+Israel,Czechia
 Ukraine,Russian Federation
 Russian Federation,Ukraine
 Thailand,Madagascar
@@ -3400,21 +3394,21 @@ Spain,Bolivia (Plurinational State of)
 Bolivia (Plurinational State of),Spain
 Guyana,Jamaica
 Jamaica,Guyana
-Kazakhstan,Czech Republic
-Belgium,Czech Republic
-Hungary,Czech Republic
-Romania,Czech Republic
-Armenia,Czech Republic
-Ukraine,Czech Republic
-Czech Republic,Kazakhstan
-Czech Republic,Belgium
-Czech Republic,Slovakia
-Czech Republic,Hungary
-Czech Republic,Romania
-Czech Republic,Armenia
-Czech Republic,Ukraine
-Czech Republic,Uzbekistan
-Croatia,Czech Republic
+Kazakhstan,Czechia
+Belgium,Czechia
+Hungary,Czechia
+Romania,Czechia
+Armenia,Czechia
+Ukraine,Czechia
+Czechia,Kazakhstan
+Czechia,Belgium
+Czechia,Slovakia
+Czechia,Hungary
+Czechia,Romania
+Czechia,Armenia
+Czechia,Ukraine
+Czechia,Uzbekistan
+Croatia,Czechia
 Japan,Mongolia
 Russian Federation,Mongolia
 Mongolia,Japan
@@ -3440,7 +3434,7 @@ Armenia,Austria
 United States of America,Austria
 Republic of Moldova,Austria
 Slovakia,Austria
-Czech Republic,Austria
+Czechia,Austria
 Bosnia and Herzegovina,Austria
 Macedonia,Austria
 Montenegro,Austria
@@ -3455,7 +3449,7 @@ Austria,Armenia
 Austria,United States of America
 Austria,Republic of Moldova
 Austria,Slovakia
-Austria,Czech Republic
+Austria,Czechia
 Austria,Bosnia and Herzegovina
 Austria,Macedonia
 Austria,Montenegro
@@ -3490,12 +3484,10 @@ Estonia,France
 Estonia,Croatia
 Qatar,Republic of Korea
 Republic of Korea,Qatar
-Republic of Korea,Northern Mariana Islands
 Turkiye,Kenya
 South Africa,Singapore
 Kenya,Turkiye
 Singapore,South Africa
-Northern Mariana Islands,Republic of Korea
 Sweden,Turkiye
 Turkiye,Denmark
 Spain,Turkiye
@@ -3678,11 +3670,11 @@ Austria,Qatar
 Poland,Qatar
 Canada,Qatar
 Croatia,Hungary
-Turkiye,Czech Republic
-Portugal,Czech Republic
-Czech Republic,Turkiye
-Czech Republic,Portugal
-Czech Republic,Croatia
+Turkiye,Czechia
+Portugal,Czechia
+Czechia,Turkiye
+Czechia,Portugal
+Czechia,Croatia
 Viet Nam,Lao People's Democratic Republic
 Lao People's Democratic Republic,Viet Nam
 Lao People's Democratic Republic,Cambodia
@@ -3865,8 +3857,6 @@ Thailand,Spain
 Italy,Thailand
 Turkiye,Thailand
 Spain,Thailand
-France,Virgin Islands
-Virgin Islands,France
 Cote d'Ivoire,Turkiye
 Ghana,Turkiye
 Ethiopia,Turkiye
@@ -4127,10 +4117,6 @@ Germany,Cabo Verde
 Cabo Verde,Germany
 Somalia,Yemen
 Somalia,United Arab Emirates
-Dominica,Virgin Islands
-Saint Kitts and Nevis,Virgin Islands
-Virgin Islands,Dominica
-Virgin Islands,Saint Kitts and Nevis
 France,Montenegro
 Germany,Montenegro
 Montenegro,France
