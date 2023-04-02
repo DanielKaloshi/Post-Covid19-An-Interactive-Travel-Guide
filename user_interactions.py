@@ -71,7 +71,7 @@ intro_label.place(x=425, y=250)
 view_map_label = Label(root, text="Click here to view our Safety Choropleth map for reference",
                        font=('Helvetica', 16, 'italic', 'underline'), bg=WINDOW_COLOUR, fg=TEXT_COLOUR, cursor='hand2')
 view_map_label.place(x=550, y=280)
-view_map_label.bind('<Button-1>', lambda x: plot_map('...'))
+view_map_label.bind('<Button-1>', lambda x: plot_map('data/country-danger-index.csv'))
 
 
 def display_direct_flight(flights: list[tuple]):
@@ -272,7 +272,7 @@ def display_results(source_country: str, dest_country: str):
     :return:
     """
     # Generate a complete graph of flights from the database
-    flight_network = generate_flight_network() # For testing purpose only
+    flight_network = generate_flight_network('data/new_routes_2.0.csv') # For testing purpose only
 
     # Two objects of source country and destination country
     source_vertex = flight_network.countries[source_country]
@@ -323,7 +323,7 @@ def check_inputs():
     """
     curr_location = curr_entry.get().upper()
     dest_location = dest_entry.get().upper()
-    database_countries = ['CANADA', 'FRANCE', 'GERMANY']  # For testing purposes
+    database_countries = ['RUSSIA', 'CANADA']
 
     if not curr_location or not dest_location:  # Input is empty
         error_message(True)
@@ -338,9 +338,9 @@ def check_inputs():
         error_message(False, False, True)
 
     else:
-        # display_results(curr_location, dest_location)
+        display_results(curr_location, dest_location)
         # display_layover_countries([('FRANCE', 2.0), ('ITALY', 1.0), ('POLAND', ), ('UNITED STATES', 3.0), ('GERMANY',4.5)])
-        display_direct_flight([('FRANCE', 2.0), ('ITALY', 1.0)])
+        # display_direct_flight([('FRANCE', 2.0), ('ITALY', 1.0)])
 
 
 # Create a submit button
