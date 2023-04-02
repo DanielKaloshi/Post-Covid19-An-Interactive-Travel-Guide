@@ -338,7 +338,14 @@ def display_results(flight_network: Flights, source_country: str, dest_country: 
     :param dest_country:
     :return:
     """
-    flight_network = flight_network
+    g = Flights()
+    g.add_flight('CANADA', 'BELGIUM')
+    g.add_flight('BELGIUM', 'BURUNDI')
+    g.add_flight('CANADA', 'FRANCE')
+    g.add_flight('FRANCE', 'BURUNDI')
+
+    flight_network = g
+    # flight_network
 
     # Two objects of source country and destination country
     source_vertex = flight_network.countries[source_country]
@@ -346,6 +353,14 @@ def display_results(flight_network: Flights, source_country: str, dest_country: 
 
     # Check for a direct flight
     check_direct_flight = flight_network.adjacent(source_country, dest_country)
+
+    # Check for one layover-country path
+    possible_paths = source_vertex.find_flights_2(dest_vertex, set())
+    layover_paths = []
+
+    for path in possible_paths:
+        if len(path) == 3:
+            layover_paths.append(path)
 
     # Compute danger_index for source country and destination country
     source_index_tup = compute_safest_neighbour({source_vertex})
@@ -357,17 +372,18 @@ def display_results(flight_network: Flights, source_country: str, dest_country: 
         flights.extend(dest_index_tup)
         display_direct_flight(flights)
 
-    elif source_vertex.check_connected(dest_country, set()):  # Case 2: Two countries are connected
-        possible_paths = source_vertex.find_flights_2(dest_vertex, set())
-        # For testing purpose, ('ITALY', 3.0), ('POLAND', 2.0), ('UNITED STATES', 1.0)]
+    if source_vertex.check_connected(dest_country, set()):  # Case 2: Two countries are connected
+        if layover_paths:
+            lst_of_neighbours = compute_neighbours_from_paths(layover_paths, source_country, dest_country)
+            flights = compute_safest_neighbour(lst_of_neighbours)
 
-        lst_of_neighbours = compute_neighbours_from_paths(possible_paths, source_country, dest_country)
-        flights = compute_safest_neighbour(lst_of_neighbours)
+            flights.insert(0, source_index_tup[0])
+            flights.extend(dest_index_tup)
 
-        flights.insert(0, source_index_tup[0])
-        flights.extend(dest_index_tup)
+            display_layover_countries(flights)
 
-        display_layover_countries(flights)
+        else:
+            display_no_result()
 
     else:
         display_no_result()
@@ -413,9 +429,6 @@ def check_inputs():
 
     else:
         display_results(flight_network, curr_location, dest_location)
-        # display_layover_countries([('FRANCE', 2.0), ('ITALY', 1.0), ('POLAND', ), ('UNITED STATES', 3.0),
-        # ('GERMANY',4.5)])
-        # display_direct_flight([('FRANCE', ), ('ITALY', 1.0)])
 
 
 # Create a submit button

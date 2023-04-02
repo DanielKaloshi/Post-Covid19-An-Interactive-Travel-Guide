@@ -32,6 +32,20 @@ def capitalize2(output_file='data/covid19_capatalize') -> None:
                 writer.writerow(row1)
 
 
+<<<<<<< HEAD
+=======
+def capitalize3(output_file='data/new_routes_cap') -> None:
+    """ Capatalizes file new_routes_2.0 for user interaction file """
+    with open('data/new_routes_2.0', mode='r') as main_file:
+        reader = csv.reader(main_file)
+        with open(output_file, mode='w') as filter_data:
+            writer = csv.writer(filter_data, delimiter=',')
+            for row in reader:
+                row1 = [row[0].upper(), row[1].upper()]
+                writer.writerow(row1)
+
+
+>>>>>>> dc81b739360d84c2b97d4e1570f83ec7fd2c4db4
 def csv_airports_dict(file: str) -> dict[str, list[str]]:
     """
     This Takes the airports.csv and returns a dict with key values of countries in the file
@@ -282,8 +296,23 @@ def filter_routes(filename: str, output_file='data/new_routes_2.0') -> None:
                     rows_so_far.append(row)
 
 
+<<<<<<< HEAD
 def capitalize3(file: str, output_file='data/new_routes_cap') -> None:
     """ Capatalizes file new_routes_2.0 for user interaction file """
+=======
+if __name__ == '__main__':
+    filter_routes('data/new_routes_with_countries')
+    python_ta.check_all(config={
+        'extra-imports': [],  # the names (strs) of imported modules
+        'allowed-io': [],  # the names (strs) of functions that call print/open/input
+        'max-line-length': 120,
+        'disable': ['E9999', 'E9998', 'too-many-nested-blocks', 'R0912', 'R0915', 'E9970']
+    })
+
+
+def capitalize3(file: str, output_file='data/new_routes_cap'):
+    """ """
+>>>>>>> dc81b739360d84c2b97d4e1570f83ec7fd2c4db4
     with open(file, mode='r') as main_file:
         reader = csv.reader(main_file)
         with open(output_file, mode='w') as filter_data:
@@ -293,6 +322,7 @@ def capitalize3(file: str, output_file='data/new_routes_cap') -> None:
                 writer.writerow(row1)
 
 if __name__ == '__main__':
+<<<<<<< HEAD
     filter_routes('data/new_routes_with_countries')
 
     python_ta.check_all(config={
@@ -301,3 +331,6 @@ if __name__ == '__main__':
         'max-line-length': 120,
         'disable': ['E9999', 'E9998', 'too-many-nested-blocks', 'R0912', 'R0915', 'E9970']
     })
+=======
+    capitalize3('data/new_routes_2.0')
+>>>>>>> dc81b739360d84c2b97d4e1570f83ec7fd2c4db4
