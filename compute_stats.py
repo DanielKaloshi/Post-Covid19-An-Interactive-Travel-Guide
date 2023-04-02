@@ -18,7 +18,7 @@ def compute_num_infections(country_name: str) -> int:
 
     cases_so_far = 0
 
-    with open('data/COVID-19-data-from-2023-02-01.csv') as csv_file:
+    with open('data/covid19_capatalize') as csv_file:
         reader = csv.reader(csv_file)
 
         for row in reader:
@@ -71,7 +71,7 @@ def compute_num_deaths(country_name: str) -> int:
 
     deaths_so_far = 0
 
-    with open('data/COVID-19-data-from-2023-02-01.csv') as csv_file:
+    with open('data/covid19_capatalize') as csv_file:
         reader = csv.reader(csv_file)
 
         for row in reader:
