@@ -153,6 +153,16 @@ class Flights:
             # We didn't find an existing vertex for both items.
             return False
 
+    def generate_countries(self) -> list[str]:
+        """Return a list of all countries in this flight network.
+
+        """
+        countries_so_far = []
+        for country in self.countries:
+            countries_so_far.append(country)
+
+        return countries_so_far
+
 
 def compute_safest_neighbour(neighbours: set[Country]) -> list[(str, float)]:
     """ Computes the danger index for each country in the set of neighbours returned by find_paths and returns

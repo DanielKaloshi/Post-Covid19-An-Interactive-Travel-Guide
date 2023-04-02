@@ -5,6 +5,17 @@ and airports.csv
 import csv
 from datetime import datetime
 
+def capitalize(file: str, output_file='data/new_filter_un_pop'):
+    """"""
+    with open(file, mode='r') as main_file:
+        reader = csv.reader(main_file)
+        with open(output_file, mode='w') as filter_data:
+            writer = csv.writer(filter_data, delimiter=',')
+            for row in reader:
+                row1 = row[0].upper()
+                row2 = row[1]
+                row3 = [row1, row2]
+                writer.writerow(row3)
 
 def csv_airports_dict(file: str) -> dict[str, list[str]]:
     """
