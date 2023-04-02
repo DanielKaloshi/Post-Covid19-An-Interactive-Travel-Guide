@@ -1,0 +1,12 @@
+# CSC111 Winter 2023: Post COVID-19: An Interactive Travel Guide
+
+# Testing and code checking
+hypothesis
+pytest
+python-ta~=2.4.2
+
+# Graphics and data visualization
+plotly>=5.8,<5.9
+pandas==1.5.3
+matplotlib==3.7.1
+Pillow~=9.5.0
