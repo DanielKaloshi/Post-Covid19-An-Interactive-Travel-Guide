@@ -136,6 +136,7 @@ def display_layover_countries(flights: list[tuple]):
     user_name = name_entry.get()
 
     first, second, third = flights[1], flights[2], flights[3]
+
     country = [tup[0] for tup in flights]
     danger_index = [tup[1] for tup in flights]
 
@@ -325,7 +326,7 @@ def check_inputs():
     dest_location = dest_entry.get().upper()
 
     # Generate a complete graph of flights from the database
-    flight_network = generate_flight_network('data/new_routes_2.0')
+    flight_network = generate_flight_network('data/new_routes_cap')
 
     # Compute a list of all countries in the flight network.
     database_countries = flight_network.generate_countries()

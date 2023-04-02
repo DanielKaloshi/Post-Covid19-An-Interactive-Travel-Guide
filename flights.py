@@ -46,7 +46,6 @@ class Country:
                     break
 
     def find_flights(self, destination: Country, visited: set[Country]) -> set[Country]:
-
         """Return a set containing all the possible country paths from this country that do NOT use any countries in
         visited.
 
@@ -58,15 +57,39 @@ class Country:
 
         if self.name == destination.name:
             return {destination}
+
         else:
+            country_set = set()
             visited.add(self)
-            for neighbour in self.neighbours.values():
-                if neighbour not in visited:
-                    country_set.union(neighbour.find_flights(destination, visited))
+            for u in self.neighbours:
+                if self.neighbours[u] not in visited:
+                    country_set.union(self.neighbours[u].find_flights(destination, visited))
 
         return country_set
 
-    def check_connected(self, target_item: str, visited: set[Country]) -> bool:
+    def find_flights_2(self, destination: Country, visited: set[Country]) -> set[Country]:
+        """Return a set containing all the possible country paths from this country that do NOT use any countries in
+        visited.
+
+        Preconditions:
+            - self not in visited
+        """
+
+        if self.name == destination.name:
+            return {destination}
+
+        else:
+            country_set = set()
+            visited.add(self)
+            for neighbour in self.neighbours.values():
+                if neighbour not in visited:
+                    p = neighbour.find_flights(destination, visited)
+                    if p is not None:
+                        country_set |= p
+
+        return country_set
+
+    def check_connected(self, target_vertex: Country, visited: set[Country]) -> bool:
         """Return whether this vertex is connected to a vertex
         corresponding to the target_item, WITHOUT using any the vertices in visited,
 
@@ -74,7 +97,7 @@ class Country:
           - self not in visited
 
         """
-        if self.name == target_item:  # Base case
+        if self.name == target_vertex.name:  # Base case
             return True
 
         else:
@@ -82,7 +105,7 @@ class Country:
 
             for u in self.neighbours:
                 if self.neighbours[u] not in visited:
-                    if self.neighbours[u].check_connected(target_item, visited):
+                    if self.neighbours[u].check_connected(target_vertex, visited):
                         return True
 
             return False
