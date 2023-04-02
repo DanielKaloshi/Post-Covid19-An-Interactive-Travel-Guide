@@ -43,7 +43,7 @@ def compute_population(country_name: str) -> int:
 
     population = 1
 
-    with open('data/filter_un_populations.csv') as csv_file:
+    with open('data/new_filter_un_pop') as csv_file:
         reader = csv.reader(csv_file)
         next(reader)
 
@@ -170,22 +170,3 @@ def compute_danger_index(country_name: str) -> float:
     death_rate = compute_death_rate_per_100_cases(country_name)
 
     return (infection_rate + death_rate) / 2
-
-
-def write_danger_index(output_file='data/country-danger-index.csv') -> None:
-    """Compute the danger_index for each country in filter_un_populations.csv and write each country
-    and its corresponding index in the given output_file."""
-    with open('data/filter_un_populations.csv') as main_file:
-        reader = csv.reader(main_file)
-        next(reader)
-
-        with open(output_file, mode='w') as file:
-            writer = csv.writer(file, delimiter=',', lineterminator="\n")
-            for row in reader:
-                country = row[0]
-                danger_index = compute_danger_index(country)
-                writer.writerow([country, danger_index])
-
-
-if __name__ == '__main__':
-    write_danger_index()
