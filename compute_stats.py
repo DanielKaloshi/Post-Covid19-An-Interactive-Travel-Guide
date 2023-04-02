@@ -2,7 +2,7 @@
 Worked on By: Daniel Kaloshi
 """
 import csv
-import math
+
 import python_ta
 
 
