@@ -20,10 +20,4 @@ def generate_flight_network(file: str) -> f.Flights():
                 flight.add_flight(source, dest)
 
             flight.add_flight(source, dest)
-
-            if source not in lst_of_countries or dest not in lst_of_countries:
-                pass
-            else:
-                flight.add_flight(source.upper(), dest.upper())
-
     return flight
