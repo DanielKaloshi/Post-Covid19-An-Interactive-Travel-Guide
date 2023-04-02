@@ -10,7 +10,6 @@ and 'DC' is short for 'destination country'
 # Contributor: Alex
 from tkinter import *
 from tkinter import messagebox
-from typing import Any
 
 from PIL import ImageTk, Image
 
@@ -136,10 +135,10 @@ def one_layover_country(result_root: Toplevel, flights: list[tuple]):
     # Display 1st country, bold and with the text '(recommended)' below the country name
     first_label = Label(result_root, text='1. ' + first[0], font=('Helvetica', 20, 'bold'),
                         bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
-    first_label.place(x=325, y=190)
+    first_label.place(x=700, y=190)
     recomended_label = Label(result_root, text='(recommended)', font=('Helvetica', 14, 'bold', 'italic'),
                              bg=WINDOW_COLOUR, fg='blue')
-    recomended_label.place(x=325, y=215)
+    recomended_label.place(x=705, y=215)
 
 
 def two_layover_country(result_root: Toplevel, flights: list[tuple]):
@@ -152,15 +151,15 @@ def two_layover_country(result_root: Toplevel, flights: list[tuple]):
     # Display 1st country, bold and with the text '(recommended)' below the country name
     first_label = Label(result_root, text='1. ' + first[0], font=('Helvetica', 20, 'bold'),
                         bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
-    first_label.place(x=325, y=190)
+    first_label.place(x=580, y=190)
     recomended_label = Label(result_root, text='(recommended)', font=('Helvetica', 14, 'bold', 'italic'),
                              bg=WINDOW_COLOUR, fg='blue')
-    recomended_label.place(x=325, y=215)
+    recomended_label.place(x=580, y=215)
 
     # Display 2nd country
     second_label = Label(result_root, text='2. ' + second[0], font=('Helvetica', 20),
                          bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
-    second_label.pack(pady=(50, 10))
+    second_label.pack(pady=(50, 10), padx=(300, 10))
 
 
 def three_layover_country(result_root: Toplevel, flights: list[tuple]):
@@ -219,13 +218,12 @@ def display_layover_countries(flights: list[tuple]):
     country = [tup[0] for tup in flights]
     danger_index = [tup[1] for tup in flights]
 
-
     # Display communication text
     communicate_label1 = Label(result_root,
                                text=f"Hi {user_name}, we found you the top safest layover countries for your "
                                     f"destination", font=('Helvetica', 18), bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
     communicate_label1.pack(pady=(75, 5))
-    communicate_label2 = Label(result_root, text=f"Your best choice is {first[0]} with the danger index of {first[1]}.",
+    communicate_label2 = Label(result_root, text=f"We recommend {first[0]} with the danger index of {first[1]}.",
                                font=('Helvetica', 18), bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
     communicate_label2.pack(pady=5)
 
@@ -237,7 +235,6 @@ def display_layover_countries(flights: list[tuple]):
                                               'and death rate per 100 recorded cases',
                             font=('Helvetica', 15, 'italic'), bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
     index_def_label.place(x=450, y=810)
-
 
     # Check for numbers of layover countries
     if len(flights) == 5:  # There are 3 layover countries in this case
@@ -338,14 +335,13 @@ def display_results(flight_network: Flights, source_country: str, dest_country: 
     :param dest_country:
     :return:
     """
-    g = Flights()
-    g.add_flight('CANADA', 'BELGIUM')
-    g.add_flight('BELGIUM', 'BURUNDI')
-    g.add_flight('CANADA', 'FRANCE')
-    g.add_flight('FRANCE', 'BURUNDI')
+    # g = Flights()
+    # g.add_flight('CANADA', 'BELGIUM')
+    # g.add_flight('BELGIUM', 'BURUNDI')
+    # g.add_flight('CANADA', 'FRANCE')
+    # g.add_flight('FRANCE', 'BURUNDI')
 
-    flight_network = g
-    # flight_network
+    flight_network = flight_network
 
     # Two objects of source country and destination country
     source_vertex = flight_network.countries[source_country]
@@ -410,7 +406,6 @@ def check_inputs():
 
     # Generate a complete graph of flights from the database
     flight_network = generate_flight_network('data/new_routes_cap')
-    # generate_flight_network('data/new_routes_cap')
 
     # Compute a list of all countries in the flight network.
     database_countries = flight_network.generate_countries()
