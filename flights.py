@@ -153,18 +153,28 @@ class Flights:
             # We didn't find an existing vertex for both items.
             return False
 
+    def generate_countries(self) -> list[str]:
+        """Return a list of all countries in this flight network.
+
+        """
+        countries_so_far = []
+        for country in self.countries:
+            countries_so_far.append(country)
+
+        return countries_so_far
+
 
 def compute_safest_neighbour(neighbours: set[Country]) -> list[(str, float)]:
     """ Computes the danger index for each country in the set of neighbours returned by find_paths and returns
-     a list of tuples containing the country names of the Top 3 'safest' neighbours and their associated danger indexes
-     (or Top 2 if neighbours is a set of length 2, Top 1 if neighbours has length 1, empty list if neighbours is an
-     empty set).
+     a list of tuples containing the capitalzied country names of the Top 3 'safest' neighbours and their associated
+     danger indexes (or Top 2 if neighbours is a set of length 2, Top 1 if neighbours has length 1, empty list if
+     neighbours is an empty set).
 
     >>> c = Country('Canada')
     >>> f = Country('France')
     >>> j = Country('Japan')
     >>> compute_safest_neighbour({c, f, j})
-    [('France', 1.6331883860004732), ('Canada', 1.666108304345192), ('Japan', 3.7524031194829)]
+    [('FRANCE', 1.6331883860004732), ('CANADA', 1.666108304345192), ('JAPAN', 3.7524031194829)]
 
     >>> al = Country('Albania')
     >>> af = Country('Afghanistan')
@@ -172,12 +182,12 @@ def compute_safest_neighbour(neighbours: set[Country]) -> list[(str, float)]:
     >>> c = Country('Canada')
     >>> m = Country('Morocco')
     >>> compute_safest_neighbour({al, af, i, c, m})
-    [('Morocco', 0.003964443242267447), ('Albania', 0.5714422494026575), ('Afghanistan', 0.5924590111707589)]
+    [('MOROCCO', 0.003964443242267447), ('ALBANIA', 0.5714422494026575), ('AFGHANISTAN', 0.5924590111707589)]
 
     >>> b = Country('Belarus')
     >>> uk = Country('The United Kingdom')
     >>> compute_safest_neighbour({b, uk})
-    [('Belarus', 0.0), ('The United Kingdom', 2.237682350179056)]
+    [('BELARUS', 0.0), ('THE UNITED KINGDOM', 2.237682350179056)]
     """
 
     top_three_so_far = []
@@ -192,7 +202,7 @@ def compute_safest_neighbour(neighbours: set[Country]) -> list[(str, float)]:
                 lowest_index_so_far = neighbour_index
                 neighbour_so_far = neighbour
 
-        top_three_so_far.append((neighbour_so_far.name, lowest_index_so_far))
+        top_three_so_far.append((str.upper(neighbour_so_far.name), lowest_index_so_far))
         set.remove(set_neighbours, neighbour_so_far)
         lowest_index_so_far = math.inf
         neighbour_so_far = ''
