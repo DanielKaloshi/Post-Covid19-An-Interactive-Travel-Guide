@@ -1,8 +1,11 @@
+""" A file dedictaed to our base Classes and methods,
+Worked on: By Anson Lau, Daniel Kaloshi, Alex Nguyen
+"""
 from __future__ import annotations
 import csv
 import math
 from typing import Optional
-
+import python_ta
 import compute_stats
 
 
@@ -201,7 +204,7 @@ def compute_neighbours_from_paths(paths: list[list[Country]], source: str, desti
 
     for path in copy_paths:
         for country in path:
-            if country.name != source and country.name != destination:
+            if country.name not in source and country.name not in destination:
                 neighbour_so_far.add(country)
 
     return neighbour_so_far
@@ -251,3 +254,12 @@ def compute_safest_neighbour(neighbours: set[Country]) -> list[(str, float)]:
         neighbour_so_far = ''
 
     return top_three_so_far
+
+
+if __name__ == '__main__':
+    python_ta.check_all(config={
+        'extra-imports': [],  # the names (strs) of imported modules
+        'allowed-io': [],  # the names (strs) of functions that call print/open/input
+        'max-line-length': 120,
+        'disable': ['E9999', 'E9998', 'too-many-nested-blocks']
+    })
