@@ -20,7 +20,7 @@ def generate_flight_network(file: str) -> f.Flights():
     return flight
 
 if __name__ == '__main__':
-    g = generate_flight_network('data/new_routes_cap')
-    c = g.countries['CANADA']
-    b = g.countries['BURUNDI']
-    bel = g.countries['BELGIUM']
+    # g = generate_flight_network('data/new_routes_cap')
+    # c = g.countries['CANADA']
+    # b = g.countries['BURUNDI']
+    # bel = g.countries['BELGIUM']
