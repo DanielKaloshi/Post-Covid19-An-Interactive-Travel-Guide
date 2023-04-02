@@ -113,7 +113,7 @@ def compute_infection_rate_per_1000_people(country_name: str) -> float:
 
 
 def compute_death_rate_per_100_cases(country_name: str) -> float:
-    """ Computes the death rate per 1000 people for each country.
+    """ Computes the death rate per 100 cases for each country.
 
     >>> compute_death_rate_per_100_cases('France')
     0.6204859791221966
