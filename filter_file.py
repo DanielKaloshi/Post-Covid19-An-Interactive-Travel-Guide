@@ -127,7 +127,7 @@ def country_list_UN() -> list[str]:
         next(reader)
         for row in reader:
             if row[0] not in lst_so_far:
-                lst_so_far.append(row[0])
+                lst_so_far.append(row[0].upper())
     return lst_so_far
 
 
