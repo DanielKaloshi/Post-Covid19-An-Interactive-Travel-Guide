@@ -126,7 +126,7 @@ def display_direct_flight(flights: list[tuple]):
     ax.set_xticklabels(country, rotation=0)
 
 
-def one_layover_country(result_root: Any, flights: list[tuple]):
+def one_layover_country(result_root: Toplevel, flights: list[tuple]):
     """
 
     :return:
@@ -142,7 +142,7 @@ def one_layover_country(result_root: Any, flights: list[tuple]):
     recomended_label.place(x=325, y=215)
 
 
-def two_layover_country(result_root: Any, flights: list[tuple]):
+def two_layover_country(result_root: Toplevel, flights: list[tuple]):
     """
 
     :return:
@@ -163,7 +163,7 @@ def two_layover_country(result_root: Any, flights: list[tuple]):
     second_label.pack(pady=(50, 10))
 
 
-def three_layover_country(result_root: Any, flights: list[tuple]):
+def three_layover_country(result_root: Toplevel, flights: list[tuple]):
     """
 
     - Preconditions:
@@ -201,20 +201,24 @@ def display_layover_countries(flights: list[tuple]):
     and display a ranking of top three safest layover countries with an emphasis on the safest country.
 
     """
-    # user's name
-    user_name = name_entry.get()
-
-    first = flights[1]
-
-    country = [tup[0] for tup in flights]
-    danger_index = [tup[1] for tup in flights]
-
+    # Window layout
     result_root = Toplevel()
     result_root.title('Top layover countries')
     result_root.config(bg=WINDOW_COLOUR)
     w = root.winfo_screenwidth()
     h = root.winfo_screenheight()
     result_root.geometry("%dx%d" % (w, h))
+
+    # user's name
+    user_name = name_entry.get()
+
+    # Top 1 country
+    first = flights[1]
+
+    # Creating a list of data for graphing
+    country = [tup[0] for tup in flights]
+    danger_index = [tup[1] for tup in flights]
+
 
     # Display communication text
     communicate_label1 = Label(result_root,
@@ -234,6 +238,8 @@ def display_layover_countries(flights: list[tuple]):
                             font=('Helvetica', 15, 'italic'), bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
     index_def_label.place(x=450, y=810)
 
+
+    # Check for numbers of layover countries
     if len(flights) == 5:  # There are 3 layover countries in this case
         three_layover_country(result_root, flights)
 
@@ -388,6 +394,7 @@ def check_inputs():
 
     # Generate a complete graph of flights from the database
     flight_network = generate_flight_network('data/new_routes_cap')
+    # generate_flight_network('data/new_routes_cap')
 
     # Compute a list of all countries in the flight network.
     database_countries = flight_network.generate_countries()
@@ -406,7 +413,8 @@ def check_inputs():
 
     else:
         display_results(flight_network, curr_location, dest_location)
-        # display_layover_countries([('FRANCE', 2.0), ('ITALY', 1.0), ('POLAND', ), ('UNITED STATES', 3.0), ('GERMANY',4.5)])
+        # display_layover_countries([('FRANCE', 2.0), ('ITALY', 1.0), ('POLAND', ), ('UNITED STATES', 3.0),
+        # ('GERMANY',4.5)])
         # display_direct_flight([('FRANCE', ), ('ITALY', 1.0)])
 
 
@@ -418,24 +426,23 @@ sub_button.place(x=700, y=600)
 root.mainloop()
 
 
-if __name__ == '__main__':
-    # f = Flights()
-    # f.add_country('Canada')
-    # f.add_country('Belgium')
-    # f.add_country('France')
-    # f.add_country('Australia')
-    # f.add_country('Burundi')
-    #
-    # f.add_flight('Canada', 'Belgium')
-    # f.add_flight('Belgium', 'Burundi')
-    #
-    # f.add_flight('Canada', 'France')
-    # f.add_flight('France', 'Burundi')
-    #
-    # f.add_flight('Canada', 'Australia')
-    # f.add_flight('Australia', 'Burundi')
-    #
-    # c = f.countries['Canada']
-    # b = f.countries['Burundi']
-    # bel = f.countries['Belgium']
-    # fr = f.countries['France']
+# f = Flights()
+# f.add_country('Canada')
+# f.add_country('Belgium')
+# f.add_country('France')
+# f.add_country('Australia')
+# f.add_country('Burundi')
+#
+# f.add_flight('Canada', 'Belgium')
+# f.add_flight('Belgium', 'Burundi')
+#
+# f.add_flight('Canada', 'France')
+# f.add_flight('France', 'Burundi')
+
+# f.add_flight('Canada', 'Australia')
+# f.add_flight('Australia', 'Burundi')
+#
+# c = f.countries['Canada']
+# b = f.countries['Burundi']
+# bel = f.countries['Belgium']
+# fr = f.countries['France']
