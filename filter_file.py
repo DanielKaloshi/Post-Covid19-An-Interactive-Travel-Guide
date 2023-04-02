@@ -1,14 +1,16 @@
 """
 This file is for filtering the four datasets, WHO-COVID-19-global-data, COVID-19-data-from-2023-02-01.csv, routes.csv
 and airports.csv
+Worked on by Dua Hussain and Daniel Kaloshi
 """
 import csv
 from datetime import datetime
+import python_ta
 
 
-def capitalize(file: str, output_file='data/new_filter_un_pop'):
-    """ """
-    with open(file, mode='r') as main_file:
+def capitalize(output_file='data/new_filter_un_pop') -> None:
+    """ Capatalizes file filter_un_populations for user interaction file """
+    with open('data/filter_un_populations.csv', mode='r') as main_file:
         reader = csv.reader(main_file)
         with open(output_file, mode='w') as filter_data:
             writer = csv.writer(filter_data, delimiter=',')
@@ -19,9 +21,9 @@ def capitalize(file: str, output_file='data/new_filter_un_pop'):
                 writer.writerow(row3)
 
 
-def capitalize2(file: str, output_file='data/covid19_capatalize'):
-    """ """
-    with open(file, mode='r') as main_file:
+def capitalize2(output_file='data/covid19_capatalize') -> None:
+    """ Capatalizes file COVID 19 for user interaction file """
+    with open('data/COVID-19-data-from-2023-02-01.csv', mode='r') as main_file:
         reader = csv.reader(main_file)
         with open(output_file, mode='w') as filter_data:
             writer = csv.writer(filter_data, delimiter=',')
@@ -30,9 +32,9 @@ def capitalize2(file: str, output_file='data/covid19_capatalize'):
                 writer.writerow(row1)
 
 
-def capitalize3(file: str, output_file='data/new_routes_cap'):
-    """ """
-    with open(file, mode='r') as main_file:
+def capitalize3(output_file='data/new_routes_cap') -> None:
+    """ Capatalizes file new_routes_2.0 for user interaction file """
+    with open('data/new_routes_2.0', mode='r') as main_file:
         reader = csv.reader(main_file)
         with open(output_file, mode='w') as filter_data:
             writer = csv.writer(filter_data, delimiter=',')
@@ -45,6 +47,8 @@ def csv_airports_dict(file: str) -> dict[str, list[str]]:
     """
     This Takes the airports.csv and returns a dict with key values of countries in the file
     and then the associated value is the airports within that country
+
+    This dict will be used in new_csv function
 
     :param file:
     :return:
@@ -73,30 +77,19 @@ def csv_airports_dict(file: str) -> dict[str, list[str]]:
     return dict_so_far
 
 
-def test(file: str) -> None:
+def new_csv(country_dict: dict[str, list[tuple[str, str]]], output_file='data/new_routes_with_countries') -> None:
     """
-
-    :param file:
-    :return:
-    """
-    with open(file) as csv_file:
-        reader = csv.reader(csv_file, delimiter=',')
-        next(reader)
-        for row in reader:
-            assert len(row[2]) == 3 and len(row[4]) == 3
-
-
-def new_csv(file: str, country_dict: dict[str, list[tuple[str, str]]], output_file='data/new_routes_with_countries'):
-    """
-
-    :param aiports:
+    Outputs a new file by reading airports.csv, so instead of routes being in terms of airport codes it is in
+    terms of countries
+    :param country_dict:
     :param output_file:
     :return:
     """
-    with open(file, mode='r') as main_file:
+    # Opens file to read
+    with open('data/airports.csv', mode='r') as main_file:
         reader = csv.reader(main_file)
         next(reader)
-
+        # opens output file to write in
         with open(output_file, mode='w') as filter_data:
             writer = csv.writer(filter_data, delimiter=',')
             for row in reader:
@@ -104,6 +97,7 @@ def new_csv(file: str, country_dict: dict[str, list[tuple[str, str]]], output_fi
                 dest = row[4]
                 source_country = ''
                 dest_country = ''
+                # iterates through the dictionary to assign values to source and dest only if they are in the input dict
                 for k, v_list in country_dict.items():
                     for airport in v_list:
                         if airport == source:
@@ -111,6 +105,7 @@ def new_csv(file: str, country_dict: dict[str, list[tuple[str, str]]], output_fi
                         elif airport == dest:
                             dest_country = k
 
+                # Only allows rows that consist of both source and dest and thatg they are not the same
                 if source_country == dest_country:
                     pass
                 elif source_country == '' and dest_country != '':
@@ -122,8 +117,9 @@ def new_csv(file: str, country_dict: dict[str, list[tuple[str, str]]], output_fi
                     writer.writerow(row_to_write)
 
 
-def country_list_UN() -> list[str]:
-    """"""
+def country_list_un() -> list[str]:
+    """ A Function to output all countries in data_file un_populations"""
+    # Accumalator
     lst_so_far = []
     with open('data/filter_un_populations.csv') as csv_file:
         reader = csv.reader(csv_file, delimiter=',')
@@ -134,7 +130,7 @@ def country_list_UN() -> list[str]:
     return lst_so_far
 
 
-def filter_covid(filename: str, output_file='data/COVID-19-data-from-2023-02-01.csv'):
+def filter_covid(filename: str, output_file='data/COVID-19-data-from-2023-02-01.csv') -> None:
     """Read the data in filename, and write the data - filtered by the starting date of
     2023-02-01 up to the latest date - onto the output_file.
 
@@ -163,8 +159,8 @@ def filter_covid(filename: str, output_file='data/COVID-19-data-from-2023-02-01.
 
             for row in reader:
                 first_date = datetime(2023, 2, 1).date()
-                if datetime.strptime(row[0], '%Y-%m-%d').date() >= first_date and row[2] not in non_un_list and row[
-                    1] not in special_codes:
+                if datetime.strptime(row[0], '%Y-%m-%d').date() >= first_date and row[2] \
+                        not in non_un_list and row[1] not in special_codes:
                     if row[1] == 'TR':
                         row[2] = 'Turkiye'
                     elif row[1] == 'CI':
@@ -173,13 +169,12 @@ def filter_covid(filename: str, output_file='data/COVID-19-data-from-2023-02-01.
                     writer.writerow(row)
 
 
-if __name__ == '__main__':
-    filter_covid('data/WHO-COVID-19-global-data.csv')
-
-
-def filter_routes(filename: str, output_file='data/new_routes_2.0'):
+def filter_routes(filename: str, output_file='data/new_routes_2.0') -> None:
     """Read the data in filename, and write the data - filtered by the starting date of
     2023-02-01 up to the latest date - onto the output_file.
+
+    This function is used to correct naming convention for all files to follow one single convention since the datasets
+    all follow different naming style
     """
     with open(filename, mode='r') as main_file:
         reader = csv.reader(main_file)
@@ -300,3 +295,9 @@ def filter_routes(filename: str, output_file='data/new_routes_2.0'):
 
 if __name__ == '__main__':
     filter_routes('data/new_routes_with_countries')
+    python_ta.check_all(config={
+        'extra-imports': [],  # the names (strs) of imported modules
+        'allowed-io': [],  # the names (strs) of functions that call print/open/input
+        'max-line-length': 120,
+        'disable': ['E9999', 'E9998', 'too-many-nested-blocks', 'R0912', 'R0915', 'E9970']
+    })

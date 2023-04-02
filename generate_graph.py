@@ -1,4 +1,6 @@
-""" A File dedicated to generating a complete flight network of all routes"""
+""" A File dedicated to generating a complete flight network of all routes
+Worked on by Dua Hussain
+"""
 import csv
 import python_ta
 import flights as f
@@ -15,7 +17,7 @@ def generate_flight_network(file: str) -> f.Flights():
     # Creates an empty flight network
     flight = f.Flights()
     # Creates list of UN countries to make sure countries not in UN that are in new_routes_cap
-    lst_of_countries = filter_file.country_list_UN()
+    lst_of_countries = filter_file.country_list_un()
     with open(file) as csv_file:
         reader = csv.reader(csv_file, delimiter=',')
         for row in reader:
@@ -28,11 +30,11 @@ def generate_flight_network(file: str) -> f.Flights():
                 flight.add_flight(source, dest)
     return flight
 
-
-if __name__ == '__main__':
-    python_ta.check_all(config={
-        'extra-imports': [],  # the names (strs) of imported modules
-        'allowed-io': [],  # the names (strs) of functions that call print/open/input
-        'max-line-length': 120,
-        'disable': ['E9999', 'E9998']
-    })
+#
+# if __name__ == '__main__':
+#     # python_ta.check_all(config={
+#     #     'extra-imports': [],  # the names (strs) of imported modules
+#     #     'allowed-io': [],  # the names (strs) of functions that call print/open/input
+#     #     'max-line-length': 120,
+#     #     'disable': ['E9999', 'E9998']
+#     # })

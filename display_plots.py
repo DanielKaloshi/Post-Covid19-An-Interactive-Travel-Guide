@@ -1,3 +1,6 @@
+""" A file dedicated to plotting the plotly map
+Worked on by Anson Lau
+"""
 import json
 import pandas as pd
 import plotly.express as px

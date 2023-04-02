@@ -1,5 +1,9 @@
+"""A file Dedicated to Computing statics for plotting the map aswell as well as computing the danger index
+Worked on By: Daniel Kaloshi
+"""
 import csv
 import math
+import python_ta
 
 
 def compute_num_infections(country_name: str) -> int:
@@ -108,17 +112,6 @@ def compute_infection_rate_per_1000_people(country_name: str) -> float:
     return (cases / population) * 1000
 
 
-def test_2() -> bool:
-    """"""
-    with open('data/COVID-19-data-from-2023-02-01.csv') as csv_file:
-        reader = csv.reader(csv_file)
-        next(reader)
-        for row in reader:
-            if compute_population(row[2]) == 0:
-                return True
-    return False
-
-
 def compute_death_rate_per_100_cases(country_name: str) -> float:
     """ Computes the death rate per 1000 people for each country.
 
@@ -170,3 +163,12 @@ def compute_danger_index(country_name: str) -> float:
     death_rate = compute_death_rate_per_100_cases(country_name)
 
     return (infection_rate + death_rate) / 2
+
+
+if __name__ == '__main__':
+    python_ta.check_all(config={
+        'extra-imports': [],  # the names (strs) of imported modules
+        'allowed-io': [],  # the names (strs) of functions that call print/open/input
+        'max-line-length': 120,
+        'disable': ['E9999', 'E9998', 'too-many-nested-blocks', 'R0912', 'R0915', 'E9970']
+    })
