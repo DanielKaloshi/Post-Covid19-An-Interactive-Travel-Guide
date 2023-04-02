@@ -18,7 +18,7 @@ def compute_num_infections(country_name: str) -> int:
 
     cases_so_far = 0
 
-    with open('data/COVID-19-data-from-2023-02-01.csv') as csv_file:
+    with open('data/covid19_capatalize') as csv_file:
         reader = csv.reader(csv_file)
 
         for row in reader:
@@ -71,7 +71,7 @@ def compute_num_deaths(country_name: str) -> int:
 
     deaths_so_far = 0
 
-    with open('data/COVID-19-data-from-2023-02-01.csv') as csv_file:
+    with open('data/covid19_capatalize') as csv_file:
         reader = csv.reader(csv_file)
 
         for row in reader:
@@ -175,7 +175,7 @@ def compute_danger_index(country_name: str) -> float:
 def write_danger_index(output_file='data/country-danger-index.csv') -> None:
     """Compute the danger_index for each country in filter_un_populations.csv and write each country
     and its corresponding index in the given output_file."""
-    with open('data/filter_un_populations.csv') as main_file:
+    with open('data/new_filter_un_pop') as main_file:
         reader = csv.reader(main_file)
         next(reader)
 

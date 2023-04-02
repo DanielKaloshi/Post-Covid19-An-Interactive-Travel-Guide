@@ -17,6 +17,16 @@ def capitalize(file: str, output_file='data/new_filter_un_pop'):
                 row3 = [row1, row2]
                 writer.writerow(row3)
 
+def capitalize2(file: str, output_file='data/covid19_capatalize'):
+    """ """
+    with open(file, mode='r') as main_file:
+        reader = csv.reader(main_file)
+        with open(output_file, mode='w') as filter_data:
+            writer = csv.writer(filter_data, delimiter=',')
+            for row in reader:
+                row1 = [row[0], row[1], row[2].upper(), row[3], row[4], row[5], row[6], row[7]]
+                writer.writerow(row1)
+
 def csv_airports_dict(file: str) -> dict[str, list[str]]:
     """
     This Takes the airports.csv and returns a dict with key values of countries in the file
