@@ -230,7 +230,7 @@ Kenya,South Sudan
 United Republic of Tanzania,Kenya
 Malaysia,Philippines
 Thailand,Philippines
-Brunei,Philippines
+Brunei Darussalam,Philippines
 China,Philippines
 Philippines,Republic of Korea
 Indonesia,Philippines
@@ -238,7 +238,7 @@ Viet Nam,Philippines
 Republic of Korea,Philippines
 Philippines,Malaysia
 Philippines,Thailand
-Philippines,Brunei
+Philippines,Brunei Darussalam
 Philippines,China
 Philippines,Indonesia
 Philippines,Viet Nam
@@ -750,14 +750,14 @@ Mexico,Canada
 Senegal,Belgium
 Senegal,Guinea
 Cameroon,Belgium
-Cameroon,Congo (Kinshasa)
+Cameroon,Democratic Republic of the Congo
 Qatar,Germany
 Ireland,Canada
 Uganda,Belgium
 Argentina,Chile
 Italy,Canada
-Congo (Kinshasa),Belgium
-Congo (Kinshasa),Cameroon
+Democratic Republic of the Congo,Belgium
+Democratic Republic of the Congo,Cameroon
 Germany,Qatar
 Germany,Saudi Arabia
 Germany,Cyprus
@@ -776,7 +776,7 @@ Saudi Arabia,Turkiye
 Rwanda,Uganda
 Rwanda,Kenya
 Jamaica,Canada
-Angola,Congo (Kinshasa)
+Angola,Democratic Republic of the Congo
 Cyprus,Germany
 Peru,Canada
 Costa Rica,Canada
@@ -877,7 +877,7 @@ France,Cameroon
 France,Ireland
 France,Armenia
 France,Argentina
-France,Congo (Kinshasa)
+France,Democratic Republic of the Congo
 France,Azerbaijan
 France,Viet Nam
 France,Cuba
@@ -934,7 +934,7 @@ Ireland,France
 Uganda,Netherlands
 Armenia,France
 Argentina,France
-Congo (Kinshasa),France
+Democratic Republic of the Congo,France
 Sierra Leone,France
 Azerbaijan,France
 Ecuador,Netherlands
@@ -1080,9 +1080,9 @@ Singapore,Republic of Korea
 India,Maldives
 Austria,India
 Switzerland,India
-Brunei,Malaysia
+Brunei Darussalam,Malaysia
 Viet Nam,Malaysia
-Malaysia,Brunei
+Malaysia,Brunei Darussalam
 Malaysia,Viet Nam
 Malaysia,Cambodia
 Malaysia,Lao People's Democratic Republic
@@ -1175,7 +1175,7 @@ Morocco,Guinea
 Morocco,Benin
 Morocco,Senegal
 Morocco,Cameroon
-Morocco,Congo (Kinshasa)
+Morocco,Democratic Republic of the Congo
 Morocco,Sierra Leone
 Morocco,Brazil
 Morocco,Switzerland
@@ -1201,7 +1201,7 @@ Senegal,Morocco
 Cameroon,Central African Republic
 Cameroon,Morocco
 Western Sahara,Morocco
-Congo (Kinshasa),Congo
+Democratic Republic of the Congo,Congo
 Sierra Leone,Morocco
 Brazil,Morocco
 Switzerland,Morocco
@@ -1598,20 +1598,20 @@ Kuwait,Bangladesh
 The United Kingdom,Bangladesh
 Burma,Bangladesh
 Singapore,Bangladesh
-Thailand,Brunei
-Brunei,Thailand
-Brunei,Indonesia
-Brunei,United Arab Emirates
-Brunei,Saudi Arabia
-Brunei,Australia
-Brunei,China
-Brunei,Singapore
-Indonesia,Brunei
-United Arab Emirates,Brunei
-Saudi Arabia,Brunei
-Australia,Brunei
-China,Brunei
-Singapore,Brunei
+Thailand,Brunei Darussalam
+Brunei Darussalam,Thailand
+Brunei Darussalam,Indonesia
+Brunei Darussalam,United Arab Emirates
+Brunei Darussalam,Saudi Arabia
+Brunei Darussalam,Australia
+Brunei Darussalam,China
+Brunei Darussalam,Singapore
+Indonesia,Brunei Darussalam
+United Arab Emirates,Brunei Darussalam
+Saudi Arabia,Brunei Darussalam
+Australia,Brunei Darussalam
+China,Brunei Darussalam
+Singapore,Brunei Darussalam
 Russian Federation,Tunisia
 Tunisia,Russian Federation
 Botswana,South Africa
@@ -1674,8 +1674,8 @@ Austria,Latvia
 Lithuania,Belgium
 Poland,Latvia
 Switzerland,Latvia
-Congo (Kinshasa),South Africa
-South Africa,Congo (Kinshasa)
+Democratic Republic of the Congo,South Africa
+South Africa,Democratic Republic of the Congo
 Mexico,Italy
 Cuba,Italy
 Italy,Cuba
@@ -2209,7 +2209,7 @@ Ethiopia,Benin
 Ethiopia,United Republic of Tanzania
 Ethiopia,Cameroon
 Ethiopia,Uganda
-Ethiopia,Congo (Kinshasa)
+Ethiopia,Democratic Republic of the Congo
 Ethiopia,Italy
 Ethiopia,Germany
 Ethiopia,Somalia
@@ -2261,9 +2261,9 @@ Cameroon,Togo
 Cameroon,Chad
 Uganda,Ethiopia
 Uganda,Rwanda
-Congo (Kinshasa),Zambia
+Democratic Republic of the Congo,Zambia
 Italy,Ethiopia
-Congo (Kinshasa),Gabon
+Democratic Republic of the Congo,Gabon
 Germany,Ethiopia
 Brazil,Togo
 Somalia,Ethiopia
@@ -2279,7 +2279,7 @@ Sudan,Ethiopia
 Kuwait,Ethiopia
 Angola,Ethiopia
 Gabon,Ethiopia
-Gabon,Congo (Kinshasa)
+Gabon,Democratic Republic of the Congo
 Gabon,Togo
 Gabon,Cameroon
 Cyprus,Egypt
@@ -2950,11 +2950,11 @@ Netherlands,Suriname
 Netherlands,Singapore
 Netherlands,Estonia
 Belgium,Netherlands
-Congo,Congo (Kinshasa)
+Congo,Democratic Republic of the Congo
 Congo,Kenya
 Egypt,Netherlands
 Argentina,Netherlands
-Congo (Kinshasa),Kenya
+Democratic Republic of the Congo,Kenya
 Japan,Netherlands
 Brazil,Netherlands
 Switzerland,Netherlands
@@ -2969,9 +2969,9 @@ Luxembourg,Netherlands
 Mexico,Netherlands
 Kenya,Burundi
 Kenya,Congo
-Kenya,Congo (Kinshasa)
+Kenya,Democratic Republic of the Congo
 Kenya,Djibouti
-Zambia,Congo (Kinshasa)
+Zambia,Democratic Republic of the Congo
 Romania,Netherlands
 Suriname,Netherlands
 Singapore,Netherlands
@@ -3781,7 +3781,7 @@ Singapore,Denmark
 Thailand,Belgium
 Belgium,Thailand
 Belgium,Russian Federation
-Belgium,Congo (Kinshasa)
+Belgium,Democratic Republic of the Congo
 Russian Federation,Belgium
 Spain,Singapore
 Russian Federation,Singapore
@@ -3877,7 +3877,7 @@ United Republic of Tanzania,Turkiye
 Senegal,Turkiye
 Cameroon,Turkiye
 Uganda,Turkiye
-Congo (Kinshasa),Turkiye
+Democratic Republic of the Congo,Turkiye
 Kyrgyzstan,Mongolia
 Brazil,Turkiye
 United States of America,Turkiye
@@ -3888,7 +3888,7 @@ Turkiye,Hungary
 Turkiye,Bangladesh
 Turkiye,United Republic of Tanzania
 Turkiye,Cameroon
-Turkiye,Congo (Kinshasa)
+Turkiye,Democratic Republic of the Congo
 Turkiye,Brazil
 Turkiye,United States of America
 Turkiye,Pakistan

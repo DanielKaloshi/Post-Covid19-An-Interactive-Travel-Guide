@@ -240,6 +240,14 @@ def filter_routes(filename: str, output_file='data/new_routes_2.0'):
                     row[0] = 'Congo'
                 if row[1] == 'Congo (Brazzaville)':
                     row[1] = 'Congo'
+                if row[0] == 'Congo (Kinshasa)':
+                    row[0] = 'Democratic Republic of the Congo'
+                if row[1] == 'Congo (Kinshasa)':
+                    row[1] = 'Democratic Republic of the Congo'
+                if row[0] == 'Brunei':
+                    row[0] = 'Brunei Darussalam'
+                if row[1] == 'Brunei':
+                    row[1] = 'Brunei Darussalam'
 
                 if row[0] not in non_un_list and row[1] not in non_un_list and row not in rows_so_far:
                     writer.writerow(row)
