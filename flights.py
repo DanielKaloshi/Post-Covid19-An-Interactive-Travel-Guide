@@ -251,18 +251,3 @@ def compute_safest_neighbour(neighbours: set[Country]) -> list[(str, float)]:
         neighbour_so_far = ''
 
     return top_three_so_far
-
-if __name__ == '__main__':
-    f = Flights()
-    f.add_country('Canada')
-    f.add_country('Belgium')
-    f.add_country('Burundi')
-    f.add_country('France')
-    f.add_flight('Canada', 'Belgium')
-    f.add_flight('Belgium', 'Burundi')
-    f.add_flight('Canada', 'France')
-    f.add_flight('France', 'Burundi')
-    c = f.countries['Canada']
-    b = f.countries['Burundi']
-    bel = f.countries['Belgium']
-    fr = f.countries['France']
