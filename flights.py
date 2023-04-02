@@ -69,26 +69,28 @@ class Country:
 
         return country_set
 
-    def find_flights_2(self, destination: Country, visited: set[Country]) -> Optional[list[Country]]:
-        """Return a set containing all the possible country paths from this country that do NOT use any countries in
-        visited.
+    def find_flights_2(self, destination: Country, visited: set[Country]) -> Optional[list[list[Country]]]:
+        """Return a list containing all the possible flight paths from this country to the destination country
+        that do NOT use any countries in visited.
 
         Preconditions:
             - self not in visited
         """
 
         if self.name == destination.name:
-            return [destination]
+            return [[destination]]
 
-        else:
-            visited.add(self)
-            for u in self.neighbours:
-                if self.neighbours[u] not in visited:
-                    p = self.neighbours[u].find_flights_2(destination, visited)
-                    if p is not None:
-                        return [self] + p
-                    else:
-                        return None
+        visited.add(self)
+        flights_so_far = []
+
+        for u in self.neighbours:
+            if self.neighbours[u] not in visited:
+                paths = self.neighbours[u].find_flights_2(destination, visited)
+                for p in paths:
+                    p.append(self)
+                flights_so_far.extend(paths)
+
+        return flights_so_far
 
     def check_connected(self, target_item: str, visited: set[Country]) -> bool:
         """Return whether this vertex is connected to a vertex
@@ -188,6 +190,23 @@ class Flights:
         return countries_so_far
 
 
+def compute_neighbours_from_paths(paths: list[list[Country]], source: str, destination: str) -> set[Country]:
+    """
+
+    :param paths:
+    :return:
+    """
+    neighbour_so_far = set()
+    copy_paths = paths.copy()
+
+    for path in copy_paths:
+        for country in path:
+            if country.name != source and country.name != destination:
+                neighbour_so_far.add(country)
+
+    return neighbour_so_far
+
+
 def compute_safest_neighbour(neighbours: set[Country]) -> list[(str, float)]:
     """ Computes the danger index for each country in the set of neighbours returned by find_paths and returns
      a list of tuples containing the capitalzied country names of the Top 3 'safest' neighbours and their associated
@@ -238,7 +257,12 @@ if __name__ == '__main__':
     f.add_country('Canada')
     f.add_country('Belgium')
     f.add_country('Burundi')
+    f.add_country('France')
     f.add_flight('Canada', 'Belgium')
     f.add_flight('Belgium', 'Burundi')
+    f.add_flight('Canada', 'France')
+    f.add_flight('France', 'Burundi')
     c = f.countries['Canada']
     b = f.countries['Burundi']
+    bel = f.countries['Belgium']
+    fr = f.countries['France']

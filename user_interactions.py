@@ -10,6 +10,8 @@ and 'DC' is short for 'destination country'
 # Contributor: Alex
 from tkinter import *
 from tkinter import messagebox
+from typing import Any
+
 from PIL import ImageTk, Image
 
 import matplotlib.pyplot as plt
@@ -124,45 +126,53 @@ def display_direct_flight(flights: list[tuple]):
     ax.set_xticklabels(country, rotation=0)
 
 
-def display_layover_countries(flights: list[tuple]):
-    """Display onto a new tkinter window the graphs of the danger index of the source country,
-    the top three safest layover countries, and the destination country based onthe user's input.
-
-    Also, display text explaning that the system has found top three safest layover countries,
-    and display a ranking of top three safest layover countries with an emphasis on the safest country.
-
+def one_layover_country(result_root: Any, flights: list[tuple]):
     """
-    # user's name
-    user_name = name_entry.get()
 
+    :return:
+    """
+    first = flights[1]
+
+    # Display 1st country, bold and with the text '(recommended)' below the country name
+    first_label = Label(result_root, text='1. ' + first[0], font=('Helvetica', 20, 'bold'),
+                        bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
+    first_label.place(x=325, y=190)
+    recomended_label = Label(result_root, text='(recommended)', font=('Helvetica', 14, 'bold', 'italic'),
+                             bg=WINDOW_COLOUR, fg='blue')
+    recomended_label.place(x=325, y=215)
+
+
+def two_layover_country(result_root: Any, flights: list[tuple]):
+    """
+
+    :return:
+    """
+    first, second = flights[1], flights[2]
+
+    # Display 1st country, bold and with the text '(recommended)' below the country name
+    first_label = Label(result_root, text='1. ' + first[0], font=('Helvetica', 20, 'bold'),
+                        bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
+    first_label.place(x=325, y=190)
+    recomended_label = Label(result_root, text='(recommended)', font=('Helvetica', 14, 'bold', 'italic'),
+                             bg=WINDOW_COLOUR, fg='blue')
+    recomended_label.place(x=325, y=215)
+
+    # Display 2nd country
+    second_label = Label(result_root, text='2. ' + second[0], font=('Helvetica', 20),
+                         bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
+    second_label.pack(pady=(50, 10))
+
+
+def three_layover_country(result_root: Any, flights: list[tuple]):
+    """
+
+    - Preconditions:
+        len(flights) == 5
+
+    :param flights:
+    :return:
+    """
     first, second, third = flights[1], flights[2], flights[3]
-
-    country = [tup[0] for tup in flights]
-    danger_index = [tup[1] for tup in flights]
-
-    result_root = Toplevel()
-    result_root.title('Top 3 layover countries')
-    result_root.config(bg=WINDOW_COLOUR)
-    w = root.winfo_screenwidth()
-    h = root.winfo_screenheight()
-    result_root.geometry("%dx%d" % (w, h))
-
-    # Display communication text
-    communicate_label1 = Label(result_root,
-                               text=f"Hi {user_name}, we found you the top three safest layover countries for your "
-                                    f"destination", font=('Helvetica', 18), bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
-    communicate_label1.pack(pady=(75, 5))
-    communicate_label2 = Label(result_root, text=f"Your best choice is {first[0]} with the danger index of {first[1]}.",
-                               font=('Helvetica', 18), bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
-    communicate_label2.pack(pady=5)
-
-    index_frame = Frame(result_root)
-    index_frame.place(x=450, y=700)
-
-    index_def_label = Label(result_root, text='danger index: the average of infection rate per 1000 people '
-                                              'and death rate per 100 recorded cases',
-                            font=('Helvetica', 15, 'italic'), bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
-    index_def_label.place(x=450, y=810)
 
     # Display 1st country, bold and with the text '(recommended)' below the country name
     first_label = Label(result_root, text='1. ' + first[0], font=('Helvetica', 20, 'bold'),
@@ -182,6 +192,57 @@ def display_layover_countries(flights: list[tuple]):
                         bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
     third_label.place(x=1050, y=190)
 
+
+def display_layover_countries(flights: list[tuple]):
+    """Display onto a new tkinter window the graphs of the danger index of the source country,
+    the top three safest layover countries, and the destination country based onthe user's input.
+
+    Also, display text explaning that the system has found top three safest layover countries,
+    and display a ranking of top three safest layover countries with an emphasis on the safest country.
+
+    """
+    # user's name
+    user_name = name_entry.get()
+
+    first = flights[1]
+
+    country = [tup[0] for tup in flights]
+    danger_index = [tup[1] for tup in flights]
+
+    result_root = Toplevel()
+    result_root.title('Top layover countries')
+    result_root.config(bg=WINDOW_COLOUR)
+    w = root.winfo_screenwidth()
+    h = root.winfo_screenheight()
+    result_root.geometry("%dx%d" % (w, h))
+
+    # Display communication text
+    communicate_label1 = Label(result_root,
+                               text=f"Hi {user_name}, we found you the top safest layover countries for your "
+                                    f"destination", font=('Helvetica', 18), bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
+    communicate_label1.pack(pady=(75, 5))
+    communicate_label2 = Label(result_root, text=f"Your best choice is {first[0]} with the danger index of {first[1]}.",
+                               font=('Helvetica', 18), bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
+    communicate_label2.pack(pady=5)
+
+    index_frame = Frame(result_root)
+    index_frame.place(x=450, y=700)
+
+    # Display danger_index definition
+    index_def_label = Label(result_root, text='danger index: the average of infection rate per 1000 people '
+                                              'and death rate per 100 recorded cases',
+                            font=('Helvetica', 15, 'italic'), bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
+    index_def_label.place(x=450, y=810)
+
+    if len(flights) == 5:  # There are 3 layover countries in this case
+        three_layover_country(result_root, flights)
+
+    elif len(flights) == 4:
+        two_layover_country(result_root, flights)
+
+    else:  # len(flights) == 3
+        one_layover_country(result_root, flights)
+
     # Display three graphs corresponding to three layover countries
     data = {'Country': country,
             'Danger Index': danger_index}
@@ -197,8 +258,7 @@ def display_layover_countries(flights: list[tuple]):
 
     df.plot.bar(x='Country', y='Danger Index', legend=True, ax=ax)
 
-    ax.set_title('Danger index of your current country, top three safest layover countries '
-                 'and your destination country')
+    ax.set_title('Danger index of the countries in your best interest')
     ax.set_xticklabels(country, rotation=0)
 
 
@@ -292,10 +352,11 @@ def display_results(flight_network: Flights, source_country: str, dest_country: 
         display_direct_flight(flights)
 
     elif source_vertex.check_connected(dest_country, set()):  # Case 2: Two countries are connected
-        possible_flights = source_vertex.find_flights(dest_vertex, set())
+        possible_paths = source_vertex.find_flights_2(dest_vertex, set())
         # For testing purpose, ('ITALY', 3.0), ('POLAND', 2.0), ('UNITED STATES', 1.0)]
 
-        flights = compute_safest_neighbour(possible_flights)
+        lst_of_neighbours = compute_neighbours_from_paths(possible_paths, source_country, dest_country)
+        flights = compute_safest_neighbour(lst_of_neighbours)
 
         flights.insert(0, source_index_tup[0])
         flights.extend(dest_index_tup)
@@ -355,3 +416,26 @@ sub_button = Button(root, text='Submit', font=WINDOW_FONT_SIZE, bg=WINDOW_COLOUR
 sub_button.place(x=700, y=600)
 
 root.mainloop()
+
+
+if __name__ == '__main__':
+    f = Flights()
+    f.add_country('Canada')
+    f.add_country('Belgium')
+    f.add_country('France')
+    f.add_country('Australia')
+    f.add_country('Burundi')
+
+    f.add_flight('Canada', 'Belgium')
+    f.add_flight('Belgium', 'Burundi')
+
+    f.add_flight('Canada', 'France')
+    f.add_flight('France', 'Burundi')
+
+    f.add_flight('Canada', 'Australia')
+    f.add_flight('Australia', 'Burundi')
+
+    c = f.countries['Canada']
+    b = f.countries['Burundi']
+    bel = f.countries['Belgium']
+    fr = f.countries['France']
