@@ -6,7 +6,7 @@ import csv
 from datetime import datetime
 
 def capitalize(file: str, output_file='data/new_filter_un_pop'):
-    """"""
+    """ """
     with open(file, mode='r') as main_file:
         reader = csv.reader(main_file)
         with open(output_file, mode='w') as filter_data:

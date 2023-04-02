@@ -2,7 +2,7 @@
 import csv
 import flights as f
 import filter_file
-
+import python_ta
 
 def generate_flight_network(file: str) -> f.Flights():
     """ """
@@ -13,11 +13,8 @@ def generate_flight_network(file: str) -> f.Flights():
         for row in reader:
             source = row[0]
             dest = row[1]
-
-            if source or dest not in filter_file:
+            if source not in lst_of_countries or dest not in filter_file:
                 pass
             else:
-                flight.add_flight(source, dest)
-
-            flight.add_flight(source, dest)
+                flight.add_flight(source.upper(), dest.upper())
     return flight
