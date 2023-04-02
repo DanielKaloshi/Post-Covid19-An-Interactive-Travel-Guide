@@ -31,29 +31,5 @@ def plot_map(file: str) -> None:
     fig.show()
 
 
-def plot_bar_graph(file: str, paths: list[str]) -> None:
-    """Plot a bar graph using the given file and countries in the given path. The graph compares the danger indexes of
-    the countries in the path.
-
-    Preconditions:
-    - len(path) > 1
-    - Each country in paths is a country in the given file
-    """
-    df = pd.read_csv(file)
-    df = df.loc[df['country'].isin(paths)]
-    country = df['country']
-    danger_index = df['danger_index']
-
-    fig = plt.figure(figsize=(10, 5))
-    plt.bar(country, danger_index)
-    index = range(len(country))
-    plt.xticks(index, country)
-
-    plt.title('Comparison of Danger Indexes')
-    plt.xlabel('Countries')
-    plt.ylabel('Danger Index')
-    plt.show()
-
-
 if __name__ == '__main__':
     plot_map(data)
