@@ -264,15 +264,14 @@ def error_message(box_empty: bool = False, both_incorrect: bool = False, same_lo
         messagebox.showinfo('Error', 'Sorry, your input is incomplete. Please try again')
 
 
-def display_results(source_country: str, dest_country: str):
+def display_results(flight_network: Flights, source_country: str, dest_country: str):
     """
 
     :param source_country:
     :param dest_country:
     :return:
     """
-    # Generate a complete graph of flights from the database
-    flight_network = generate_flight_network('data/new_routes_2.0.csv') # For testing purpose only
+    flight_network = flight_network
 
     # Two objects of source country and destination country
     source_vertex = flight_network.countries[source_country]
@@ -321,9 +320,15 @@ def check_inputs():
         - No result founded: The vertices representing two input countries are not connected in the graph
 
     """
+    # Get the user's inputs
     curr_location = curr_entry.get().upper()
     dest_location = dest_entry.get().upper()
-    database_countries = ['RUSSIA', 'CANADA']
+
+    # Generate a complete graph of flights from the database
+    flight_network = generate_flight_network('data/new_routes_2.0')
+
+    # Compute a list of all countries in the flight network.
+    database_countries = flight_network.generate_countries()
 
     if not curr_location or not dest_location:  # Input is empty
         error_message(True)
@@ -338,9 +343,9 @@ def check_inputs():
         error_message(False, False, True)
 
     else:
-        display_results(curr_location, dest_location)
+        display_results(flight_network, curr_location, dest_location)
         # display_layover_countries([('FRANCE', 2.0), ('ITALY', 1.0), ('POLAND', ), ('UNITED STATES', 3.0), ('GERMANY',4.5)])
-        # display_direct_flight([('FRANCE', 2.0), ('ITALY', 1.0)])
+        # display_direct_flight([('FRANCE', ), ('ITALY', 1.0)])
 
 
 # Create a submit button
