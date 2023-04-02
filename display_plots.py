@@ -64,5 +64,5 @@ def plot_bar_graph(file: str, paths: list[str]) -> None:
     plt.show()
 
 
-# if __name__ == '__main__':
-#     plot_map(data)
+if __name__ == '__main__':
+    plot_map(data)
