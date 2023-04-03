@@ -25,7 +25,8 @@ from user_interactions import *
 # 1. ENTER SOURCE: VANUATU
 # 2. ENTER DEST: BELIZE
 
-# Links to obtain data file from U of T OneNote: https://tinyurl.com/53m4uzht
+# Here is the link to obtain data file from U of T OneNote: https://tinyurl.com/y9szsb7f
+# The file name is called 'data'.
 
 
 def runner():
