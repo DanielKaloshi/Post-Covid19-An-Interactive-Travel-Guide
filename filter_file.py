@@ -167,6 +167,10 @@ def filter_covid(filename: str, output_file='data/COVID-19-data-from-2023-02-01.
                     writer.writerow(row)
 
 
+if __name__ == '__main__':
+    filter_covid('data/WHO-COVID-19-global-data.csv')
+
+
 def filter_routes(filename: str, output_file='data/new_routes_2.0') -> None:
     """Read the data in filename, and write the data - filtered by the starting date of
     2023-02-01 up to the latest date - onto the output_file.
