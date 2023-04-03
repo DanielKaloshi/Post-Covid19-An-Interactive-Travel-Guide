@@ -17,7 +17,7 @@ import doctest
 import python_ta
 
 
-def capitalize(output_file='data/new_filter_un_pop') -> None:
+def capitalize(output_file='data/un_population_capitalized') -> None:
     """ Capatalizes file filter_un_populations for user interaction file """
     with open('data/filter_un_populations.csv', mode='r') as main_file:
         reader = csv.reader(main_file)
@@ -30,7 +30,7 @@ def capitalize(output_file='data/new_filter_un_pop') -> None:
                 writer.writerow(row3)
 
 
-def capitalize2(output_file='data/covid19_capatalize') -> None:
+def capitalize2(output_file='data/covid19_capitalized') -> None:
     """ Capatalizes file COVID 19 for user interaction file """
     with open('data/COVID-19-data-from-2023-02-01.csv', mode='r') as main_file:
         reader = csv.reader(main_file)
@@ -165,6 +165,10 @@ def filter_covid(filename: str, output_file='data/COVID-19-data-from-2023-02-01.
                         row[2] = 'Cote d\'Ivoire'
 
                     writer.writerow(row)
+
+
+if __name__ == '__main__':
+    filter_covid('data/WHO-COVID-19-global-data.csv')
 
 
 def filter_routes(filename: str, output_file='data/new_routes_2.0') -> None:
@@ -303,7 +307,7 @@ if __name__ == '__main__':
     filter_routes('data/new_routes_with_countries')
 
 
-def capitalize3(file: str, output_file='data/new_routes_cap') -> None:
+def capitalize3(file: str, output_file='data/new_routes_capitalized') -> None:
     """ Capatalizes file new_routes_2.0 for user interaction file """
     with open(file, mode='r') as main_file:
         reader = csv.reader(main_file)
