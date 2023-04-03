@@ -11,8 +11,10 @@ copyright for CSC111 project materials, please consult our Course Syllabus.
 This file is Copyright (c) 2023 Alex Nguyen, Anson Lau, Daniel Kaloshi, Dua Hussain
 """
 import json
+import doctest
 import pandas as pd
 import plotly.express as px
+import python_ta
 
 
 def plot_map(file: str) -> None:
@@ -43,3 +45,10 @@ def plot_map(file: str) -> None:
 
 if __name__ == '__main__':
     plot_map('data/country-danger-index.csv')
+    doctest.testmod()
+    python_ta.check_all(config={
+        'extra-imports': [],  # the names (strs) of imported modules
+        'allowed-io': [],  # the names (strs) of functions that call print/open/input
+        'max-line-length': 120,
+        'disable': ['E9999', 'E9998', 'too-many-nested-blocks', 'R0912', 'R0915', 'E9970', 'R1732']
+    })

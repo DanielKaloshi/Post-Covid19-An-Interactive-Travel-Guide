@@ -11,7 +11,6 @@ copyright for CSC111 project materials, please consult our Course Syllabus.
 This file is Copyright (c) 2023 Alex Nguyen, Anson Lau, Daniel Kaloshi, Dua Hussain
 """
 import csv
-
 import python_ta
 
 
@@ -94,22 +93,22 @@ def compute_num_deaths(country_name: str) -> int:
     return deaths_so_far
 
 
-def compute_infection_rate_per_1000_people(country_name: str) -> float:
+def compute_infection_rate_per(country_name: str) -> float:
     """ Computes the infection rate per 1000 people for each country.
 
-    >>> compute_infection_rate_per_1000_people('France')
+    >>> compute_infection_rate_per('France')
     2.64589079287875
 
-    >>> compute_infection_rate_per_1000_people('Canada')
+    >>> compute_infection_rate_per('Canada')
     1.5268242764981947
 
-    >>> compute_infection_rate_per_1000_people('Japan')
+    >>> compute_infection_rate_per('Japan')
     6.86711077731799
 
-    >>> compute_infection_rate_per_1000_people('Bangladesh')
+    >>> compute_infection_rate_per('Bangladesh')
     0.002284060322278458
 
-    >>> compute_infection_rate_per_1000_people('Albania')
+    >>> compute_infection_rate_per('Albania')
     0.14037823314115472
     """
 
@@ -121,22 +120,22 @@ def compute_infection_rate_per_1000_people(country_name: str) -> float:
     return (cases / population) * 1000
 
 
-def compute_death_rate_per_100_cases(country_name: str) -> float:
+def compute_death_rate_per(country_name: str) -> float:
     """ Computes the death rate per 100 cases for each country.
 
-    >>> compute_death_rate_per_100_cases('France')
+    >>> compute_death_rate_per('France')
     0.6204859791221966
 
-    >>> compute_death_rate_per_100_cases('Canada')
+    >>> compute_death_rate_per('Canada')
     1.8053923321921892
 
-    >>> compute_death_rate_per_100_cases('Japan')
+    >>> compute_death_rate_per('Japan')
     0.6376954616478107
 
-    >>> compute_death_rate_per_100_cases('Bangladesh')
+    >>> compute_death_rate_per('Bangladesh')
     0.7672634271099744
 
-    >>> compute_death_rate_per_100_cases('Albania')
+    >>> compute_death_rate_per('Albania')
     1.0025062656641603
     """
 
@@ -168,8 +167,8 @@ def compute_danger_index(country_name: str) -> float:
     0.5714422494026575
     """
 
-    infection_rate = compute_infection_rate_per_1000_people(country_name)
-    death_rate = compute_death_rate_per_100_cases(country_name)
+    infection_rate = compute_infection_rate_per(country_name)
+    death_rate = compute_death_rate_per(country_name)
 
     return (infection_rate + death_rate) / 2
 

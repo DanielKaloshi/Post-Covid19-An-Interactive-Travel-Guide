@@ -13,6 +13,7 @@ This file is Copyright (c) 2023 Alex Nguyen, Anson Lau, Daniel Kaloshi, Dua Huss
 """
 import csv
 from datetime import datetime
+import doctest
 import python_ta
 
 
@@ -317,6 +318,7 @@ if __name__ == '__main__':
     capitalize3('data/new_routes_2.0')
 
 if __name__ == '__main__':
+    doctest.testmod()
     python_ta.check_all(config={
         'extra-imports': [],  # the names (strs) of imported modules
         'allowed-io': [],  # the names (strs) of functions that call print/open/input

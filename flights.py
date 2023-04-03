@@ -13,7 +13,7 @@ This file is Copyright (c) 2023 Alex Nguyen, Anson Lau, Daniel Kaloshi, Dua Huss
 from __future__ import annotations
 import csv
 import math
-from typing import Optional
+import doctest
 import python_ta
 import compute_stats
 
@@ -204,6 +204,7 @@ def compute_safest_neighbour(neighbours: set[Country]) -> list[(str, float)]:
 
 
 if __name__ == '__main__':
+    doctest.testmod()
     python_ta.check_all(config={
         'extra-imports': [],  # the names (strs) of imported modules
         'allowed-io': [],  # the names (strs) of functions that call print/open/input
