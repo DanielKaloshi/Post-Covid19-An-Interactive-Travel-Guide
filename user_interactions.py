@@ -360,7 +360,7 @@ def display_results(flight_network: Flights, source_country: str, dest_country: 
     check_direct_flight = flight_network.adjacent(source_country, dest_country)
 
     # Check for one layover-country path
-    possible_paths = source_vertex.find_flights_2(dest_vertex, set())
+    possible_paths = source_vertex.find_flights(dest_vertex, set())
     layover_paths = []
 
     for path in possible_paths:
@@ -378,15 +378,18 @@ def display_results(flight_network: Flights, source_country: str, dest_country: 
         display_direct_flight(flights)
 
     elif source_vertex.check_connected(dest_country, set()):  # Case 2: Two countries are connected
-        if layover_paths:
-            lst_of_neighbours = compute_neighbours_from_paths(layover_paths, source_country, dest_country)
-            flights = compute_safest_neighbour(lst_of_neighbours)
+        neighbour_so_far = set()
 
+        for neighbour in dest_vertex.neighbours:
+            if flight_network.adjacent(neighbour, source_country):
+                neighbour_so_far.add(dest_vertex.neighbours[neighbour])
+
+        if neighbour_so_far:  # not empty
+            flights = compute_safest_neighbour(neighbour_so_far)
             flights.insert(0, source_index_tup[0])
             flights.extend(dest_index_tup)
 
             display_layover_countries(flights)
-
         else:
             display_no_result()
 

@@ -59,30 +59,6 @@ class Country:
                     self.region = row[3]
                     break
 
-
-    def find_flights(self, destination: Country, visited: set[Country]) -> Optional[list[list[Country]]]:
-        """Return a list containing all the possible flight paths from this country to the destination country
-        that do NOT use any countries in visited.
-
-        Preconditions:
-            - self not in visited
-        """
-
-        if self.name == destination.name:
-            return [[destination]]
-
-        visited.add(self)
-        flights_so_far = []
-
-        for u in self.neighbours:
-            if self.neighbours[u] not in visited:
-                paths = self.neighbours[u].find_flights_2(destination, visited)
-                for p in paths:
-                    p.append(self)
-                flights_so_far.extend(paths)
-
-        return flights_so_far
-
     def check_connected(self, target_item: str, visited: set[Country]) -> bool:
         """Return whether this vertex is connected to a vertex
         corresponding to the target_item, WITHOUT using any the vertices in visited,
@@ -179,23 +155,6 @@ class Flights:
             countries_so_far.append(country)
 
         return countries_so_far
-
-
-def compute_neighbours_from_paths(paths: list[list[Country]], source: str, destination: str) -> set[Country]:
-    """
-
-    :param paths:
-    :return:
-    """
-    neighbour_so_far = set()
-    copy_paths = paths.copy()
-
-    for path in copy_paths:
-        for country in path:
-            if country.name not in source and country.name not in destination:
-                neighbour_so_far.add(country)
-
-    return neighbour_so_far
 
 
 def compute_safest_neighbour(neighbours: set[Country]) -> list[(str, float)]:
