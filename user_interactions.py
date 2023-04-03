@@ -359,14 +359,6 @@ def display_results(flight_network: Flights, source_country: str, dest_country: 
     # Check for a direct flight
     check_direct_flight = flight_network.adjacent(source_country, dest_country)
 
-    # Check for one layover-country path
-    possible_paths = source_vertex.find_flights(dest_vertex, set())
-    layover_paths = []
-
-    for path in possible_paths:
-        if len(path) == 3:
-            layover_paths.append(path)
-
     # Compute danger_index for source country and destination country
     source_index_tup = compute_safest_neighbour({source_vertex})
     dest_index_tup = compute_safest_neighbour({dest_vertex})
@@ -444,25 +436,3 @@ sub_button = Button(root, text='Submit', font=WINDOW_FONT_SIZE, bg=WINDOW_COLOUR
 sub_button.place(x=700, y=600)
 
 root.mainloop()
-
-
-# f = Flights()
-# f.add_country('Canada')
-# f.add_country('Belgium')
-# f.add_country('France')
-# f.add_country('Australia')
-# f.add_country('Burundi')
-#
-# f.add_flight('Canada', 'Belgium')
-# f.add_flight('Belgium', 'Burundi')
-#
-# f.add_flight('Canada', 'France')
-# f.add_flight('France', 'Burundi')
-
-# f.add_flight('Canada', 'Australia')
-# f.add_flight('Australia', 'Burundi')
-#
-# c = f.countries['Canada']
-# b = f.countries['Burundi']
-# bel = f.countries['Belgium']
-# fr = f.countries['France']
