@@ -303,6 +303,7 @@ def display_no_result():
     suggest_label = Label(result_root, text="Please try searching again",
                           font=WINDOW_FONT_SIZE, bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
     suggest_label.pack()
+    result_root.mainloop()
 
 
 def error_message(box_empty: bool = False, both_incorrect: bool = False, same_location: bool = False):
