@@ -4,7 +4,7 @@ based on our safest flight algorithm and graph data type.
 
 All UI windows are shown using Tkinter library.
 
-Note: For simplicity, in all the docstrings, 'CC' is short for 'current country',
+Note: For simplicity, in all the docstrings, 'SC' is short for 'source country',
 and 'DC' is short for 'destination country'
 
 Copyright and Usage Information
@@ -36,7 +36,7 @@ WINDOW_COLOUR = '#E4DCCF'
 WINDOW_FONT_SIZE = ('Helvetica', 18)
 TEXT_COLOUR = 'black'
 root = Tk()
-root.title('Post Covid-19: Where to Travel?')
+root.title('Post-Covid 19: An Interactive Travel Guide')
 root.config(bg=WINDOW_COLOUR)
 
 # Zoom out the window to the fullscreen size
@@ -92,8 +92,8 @@ def display_direct_flight(flights: list[tuple]):
     result_root = Toplevel()
     result_root.title('Direct flight')
     result_root.config(bg=WINDOW_COLOUR)
-    w = root.winfo_screenwidth()
-    h = root.winfo_screenheight()
+    w = result_root.winfo_screenwidth()
+    h = result_root.winfo_screenheight()
     result_root.geometry("%dx%d" % (w, h))
 
     # User's name
@@ -213,8 +213,8 @@ def display_layover_countries(flights: list[tuple]):
     result_root = Toplevel()
     result_root.title('Top layover countries')
     result_root.config(bg=WINDOW_COLOUR)
-    w = root.winfo_screenwidth()
-    h = root.winfo_screenheight()
+    w = result_root.winfo_screenwidth()
+    h = result_root.winfo_screenheight()
     result_root.geometry("%dx%d" % (w, h))
 
     # user's name
@@ -282,8 +282,8 @@ def display_no_result():
     result_root = Toplevel()
     result_root.title('No flight')
     result_root.config(bg=WINDOW_COLOUR)
-    w = root.winfo_screenwidth()
-    h = root.winfo_screenheight()
+    w = result_root.winfo_screenwidth()
+    h = result_root.winfo_screenheight()
     result_root.geometry("%dx%d" % (w, h))
 
     # Load and resize image
@@ -307,8 +307,6 @@ def display_no_result():
     suggest_label = Label(result_root, text="Please try searching again",
                           font=WINDOW_FONT_SIZE, bg=WINDOW_COLOUR, fg=TEXT_COLOUR)
     suggest_label.pack()
-
-    result_root.mainloop()
 
 
 def error_message(box_empty: bool = False, both_incorrect: bool = False, same_location: bool = False):
