@@ -1,4 +1,5 @@
-# CSC111-New-2.0-Project
+# CSC111 - Post Covid-19:An Interactive Travel Guide
+
 
 Contributors: Alex Nguyen, Anson Lau, Daniel Kaloshi, Dua Hussain
 
