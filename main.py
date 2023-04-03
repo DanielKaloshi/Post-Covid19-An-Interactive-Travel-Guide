@@ -1,36 +1,26 @@
-<<<<<<< HEAD
-""" A runner file to output our Interactive User Module"""
-# import execfile
+""" A runner file to run user_interaction.py to output our Interactive User Module.
+ This file was not able to call user_interation in a single runner function since user_interatcion uses the
+ library tkinter which layers each function """
+
+# INSTRUCTIONS FOR TA
+
+# -------TO RUN FILE-------
+# 1. PLEASE GO INTO USER_INTERACTIONS.PY RUN AND RUN IN CONSOLE. IT SHOULD AUTOMATICALLY OUTPUT THE INTERACTIVE MODULE
+# 2. ENTER NAME, ORIGIN COUNTRY AND DESTINATION COUNTRY (VISIT LIMITATIONS)
+# 3. TO VIEW MAP, PRESS LINK ABOVE
+
+# NOTE: THERE ARE THREE OUTPUT PAGES, DIRECT FLIGHT, LAYOVER FLIGHT, NO FLIGHT FOUND
+#       WE HAVE PROVIDED SAMPLE INPUTS FOR EACH PAGE
+#       TO VIEW EACH PAGE FOLLOW INSTRUCTIONS BELOW
 #
-# #!/usr/bin/python
-# import user_interactions
-# # def runner() -> None:
-# #     """ Runner to run file user_interactions.py"""
-# #     with open("user_interactions.py") as f:
-# #         exec(f.read())
-# execfile('user_interactions')
-import os
-os.system("python user_interactions.py")
-=======
-"""CSC111 Winter 2023 Course Project: Post COVID-19: An Interactive Travel Guide
-This module runs and outputs our interactive user module.
+# ------TO VIEW DIRECT FLIGHT PAGE-----
+# 1. ENTER SOURCE COUNTRY: CANADA
+# 2. ENTER DESTINATION COUNTRY: FRANCE
+#
+# ------TO VIEW LAYOVER PAGE-----
+# 1. ENTER SOURCE COUNTRY: CANADA
+# 2. ENTER DESTINATION COUNTRY: INDIA
 
-Copyright and Usage Information
-===============================
-This file is provided solely for the personal and private use of the CSC111 instructors and
-TAs at the University of Toronto St. George campus. All forms of distribution of this code,
-whether as given or with any changes, are strictly prohibited. For more information on
-copyright for CSC111 project materials, please consult our Course Syllabus.
-
-This file is Copyright (c) 2023 Alex Nguyen, Anson Lau, Daniel Kaloshi, Dua Hussain
-"""
-
-
-def runner() -> None:
-    """ Runner to run file user_interactions.py"""
-    with open("user_interactions.py") as f:
-        exec(f.read())
-
-
-if __name__ == '__main__':
->>>>>>> 6cd703f83243277ff278b8a088392f6913cbb584
+# ------TO VIEW NO DIRECT FLIGHT-----
+# 1. ENTER SOURCE: VANATU
+# 2. ENTER DEST: BELIZE

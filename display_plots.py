@@ -21,7 +21,6 @@ def plot_map(file: str) -> None:
     """Plot a choropleth map of the countries in the world using the danger indexes from
     the given file.
     """
-    # world_countries = json.load(open('data/world.geo.json'))
     with open('data/world.geo.json', encoding='utf-8') as data:
         world_countries = json.load(data)
     df = pd.read_csv(file)
