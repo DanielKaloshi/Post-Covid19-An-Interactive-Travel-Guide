@@ -2,6 +2,8 @@
 To run please run function runner()"""
 
 from user_interactions import *
+
+
 # INSTRUCTIONS FOR TA
 
 # -------TO RUN FILE-------
@@ -33,3 +35,7 @@ def runner():
     """Runner to run the entire module.
     """
     check_inputs()
+
+
+if __name__ == '__main__':
+    runner()
