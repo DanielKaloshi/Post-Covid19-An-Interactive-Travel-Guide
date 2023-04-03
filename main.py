@@ -1,12 +1,11 @@
-""" A runner file to run user_interaction.py to output our Interactive User Module.
- This file was not able to call user_interation in a single runner function since user_interatcion uses the
- library tkinter which layers each function """
+""" A runner file to run user_interaction.py which runs the entire project module.
+To run please run function runner()"""
 
 from user_interactions import *
 # INSTRUCTIONS FOR TA
 
 # -------TO RUN FILE-------
-# 1. PLEASE GO INTO USER_INTERACTIONS.PY RUN AND RUN IN CONSOLE. IT SHOULD AUTOMATICALLY OUTPUT THE INTERACTIVE MODULE
+# 1. PLEASE RUN runner() IN CONSOLE
 # 2. ENTER NAME, ORIGIN COUNTRY AND DESTINATION COUNTRY (VISIT LIMITATIONS)
 # 3. TO VIEW MAP, PRESS LINK ABOVE
 
