@@ -80,7 +80,7 @@ Malaysia,Singapore
 Philippines,Japan
 Philippines,Singapore
 Cambodia,Singapore
-Burma,Singapore
+Myanmar,Singapore
 Viet Nam,Singapore
 Singapore,Thailand
 Singapore,Australia
@@ -88,7 +88,7 @@ Singapore,China
 Singapore,Malaysia
 Singapore,Philippines
 Singapore,Cambodia
-Singapore,Burma
+Singapore,Myanmar
 Singapore,Viet Nam
 Germany,Switzerland
 Italy,Germany
@@ -306,16 +306,16 @@ Kazakhstan,Russian Federation
 Russian Federation,Kazakhstan
 Russian Federation,Turkiye
 Turkiye,Russian Federation
-Thailand,Burma
-China,Burma
-Republic of Korea,Burma
-Malaysia,Burma
-Cambodia,Burma
-Burma,Thailand
-Burma,China
-Burma,Republic of Korea
-Burma,Malaysia
-Burma,Cambodia
+Thailand,Myanmar
+China,Myanmar
+Republic of Korea,Myanmar
+Malaysia,Myanmar
+Cambodia,Myanmar
+Myanmar,Thailand
+Myanmar,China
+Myanmar,Republic of Korea
+Myanmar,Malaysia
+Myanmar,Cambodia
 France,Turkiye
 Cyprus,Turkiye
 Turkiye,France
@@ -1056,7 +1056,7 @@ India,Turkiye
 India,Mauritius
 India,Switzerland
 Egypt,India
-India,Burma
+India,Myanmar
 India,Republic of Korea
 India,Australia
 India,China
@@ -1070,7 +1070,7 @@ Australia,India
 Maldives,India
 Mauritius,India
 China,India
-Burma,India
+Myanmar,India
 Singapore,Republic of Korea
 India,Maldives
 Austria,India
@@ -1145,7 +1145,6 @@ Peru,Argentina
 Bolivia (Plurinational State of),Argentina
 Cote d'Ivoire,Morocco
 Ghana,Morocco
-Morocco,Western Sahara
 Sweden,Morocco
 United Arab Emirates,Morocco
 Lebanon,Morocco
@@ -1195,7 +1194,6 @@ Denmark,Morocco
 Senegal,Morocco
 Cameroon,Central African Republic
 Cameroon,Morocco
-Western Sahara,Morocco
 Democratic Republic of the Congo,Congo
 Sierra Leone,Morocco
 Brazil,Morocco
@@ -1585,13 +1583,13 @@ Bangladesh,Qatar
 Bangladesh,Italy
 Bangladesh,Kuwait
 Bangladesh,The United Kingdom
-Bangladesh,Burma
+Bangladesh,Myanmar
 Bangladesh,Singapore
 Qatar,United Arab Emirates
 Italy,Bangladesh
 Kuwait,Bangladesh
 The United Kingdom,Bangladesh
-Burma,Bangladesh
+Myanmar,Bangladesh
 Singapore,Bangladesh
 Thailand,Brunei Darussalam
 Brunei Darussalam,Thailand
@@ -3052,9 +3050,7 @@ Ecuador,Argentina
 Ecuador,Chile
 Cuba,Peru
 Peru,Cuba
-Falkland Islands,Chile
 Dominican Republic,Chile
-Argentina,Falkland Islands
 Chile,New Zealand
 Chile,Paraguay
 Chile,Venezuela (Bolivarian Republic of)
@@ -3288,9 +3284,9 @@ Oman,Malaysia
 Maldives,Malaysia
 Mauritius,Malaysia
 Saudi Arabia,Qatar
-East Timor,Singapore
+Timor-Leste,Singapore
 Nepal,Singapore
-Singapore,East Timor
+Singapore,Timor-Leste
 Singapore,Nepal
 Bahrain,Sri Lanka
 Indonesia,Sri Lanka
@@ -3370,25 +3366,20 @@ New Zealand,Japan
 Turkiye,Japan
 Japan,Turkiye
 Japan,New Zealand
-Japan,Burma
+Japan,Myanmar
 Japan,Austria
-Burma,Japan
+Myanmar,Japan
 Austria,Japan
 Saudi Arabia,Pakistan
 Pakistan,Saudi Arabia
 Pakistan,Oman
 Oman,Pakistan
-Western Sahara,Spain
-Spain,Western Sahara
 Spain,Cabo Verde
 Cabo Verde,Spain
 New Zealand,Samoa
 New Zealand,United States of America
 New Zealand,Tonga
 Samoa,New Zealand
-Australia,Norfolk Island
-Norfolk Island,New Zealand
-Norfolk Island,Australia
 Tonga,New Zealand
 Spain,Bolivia (Plurinational State of)
 Bolivia (Plurinational State of),Spain
@@ -3585,8 +3576,8 @@ Suriname,Brazil
 Suriname,Guyana
 Paraguay,Bolivia (Plurinational State of)
 Bolivia (Plurinational State of),Paraguay
-East Timor,Australia
-Australia,East Timor
+Timor-Leste,Australia
+Australia,Timor-Leste
 South Africa,Australia
 Australia,Viet Nam
 Australia,South Africa
@@ -3641,7 +3632,7 @@ Qatar,Maldives
 Qatar,Kenya
 Qatar,Norway
 Qatar,Romania
-Qatar,Burma
+Qatar,Myanmar
 Qatar,Viet Nam
 Qatar,Singapore
 Qatar,Tunisia
@@ -3662,7 +3653,7 @@ Mozambique,South Africa
 Kenya,Qatar
 Norway,Qatar
 Romania,Qatar
-Burma,Qatar
+Myanmar,Qatar
 Viet Nam,Qatar
 Singapore,Qatar
 Tunisia,Qatar
@@ -3756,8 +3747,8 @@ Sudan,South Sudan
 Sudan,Chad
 France,Cabo Verde
 Cabo Verde,France
-East Timor,Indonesia
-Indonesia,East Timor
+Timor-Leste,Indonesia
+Indonesia,Timor-Leste
 Sweden,Russian Federation
 Thailand,Denmark
 Denmark,Thailand
@@ -4030,15 +4021,11 @@ Grenada,Venezuela (Bolivarian Republic of)
 Venezuela (Bolivarian Republic of),Grenada
 Venezuela (Bolivarian Republic of),Guyana
 Australia,Samoa
-Cocos (Keeling) Islands,Christmas Island
-Australia,Christmas Island
 Australia,Tonga
 Tonga,Australia
-Christmas Island,Cocos (Keeling) Islands
-Christmas Island,Australia
 Indonesia,Viet Nam
-Viet Nam,Burma
-Burma,Viet Nam
+Viet Nam,Myanmar
+Myanmar,Viet Nam
 Viet Nam,Indonesia
 Netherlands,Cabo Verde
 United States of America,Cabo Verde
