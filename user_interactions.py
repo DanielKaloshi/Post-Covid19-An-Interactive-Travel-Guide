@@ -16,7 +16,6 @@ copyright for CSC111 project materials, please consult our Course Syllabus.
 
 This file is Copyright (c) 2023 Alex Nguyen, Anson Lau, Daniel Kaloshi, Dua Hussain
 """
-# Contributor: Alex
 from tkinter import *
 from tkinter import messagebox
 
@@ -85,8 +84,10 @@ view_map_label.bind('<Button-1>', lambda x: plot_map('data/country-danger-index.
 
 
 def display_direct_flight(flights: list[tuple]):
-    """Display onto a new tkinter window a safety graph of the destination country, and text explaning that
-    the system has found a direct flight between the user's current country and their destination country
+    """Display onto a new tkinter window a danger index bar graph of the destination country.
+
+    Also, display text explaning that the system has found a direct flight between the user's source country
+    and destination country.
 
     """
     result_root = Toplevel()
@@ -135,10 +136,10 @@ def display_direct_flight(flights: list[tuple]):
 
 
 def one_layover_country(result_root: Toplevel, flights: list[tuple]):
-    """Display text showing one layover country based on the given list
+    """Display text showing one layover country based on the given list.
 
-    - Preconditions:
-        len(flights) == 3
+        - Preconditions:
+            len(flights) == 3
     """
     first = flights[1]
 
@@ -176,8 +177,8 @@ def two_layover_country(result_root: Toplevel, flights: list[tuple]):
 def three_layover_country(result_root: Toplevel, flights: list[tuple]):
     """Display text showing the names of three layover countries based on the given list.
 
-    - Preconditions:
-        len(flights) == 5
+        - Preconditions:
+            len(flights) == 5
 
     """
     first, second, third = flights[1], flights[2], flights[3]
@@ -203,7 +204,7 @@ def three_layover_country(result_root: Toplevel, flights: list[tuple]):
 
 def display_layover_countries(flights: list[tuple]):
     """Display onto a new tkinter window the graphs of the danger index of the source country,
-    the top three safest layover countries, and the destination country based onthe user's input.
+    the top three safest layover countries, and the destination country based on the user's input.
 
     Also, display text explaning that the system has found top three safest layover countries,
     and display a ranking of top three safest layover countries with an emphasis on the safest country.
