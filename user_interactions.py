@@ -1,4 +1,5 @@
-"""This file contains all the functions responsible for user interactions and information display
+"""CSC111 Winter 2023 Course Project: Post COVID-19: An Interactive Travel Guide
+This module contains all the functions responsible for user interactions and information display
 based on our safest flight algorithm and graph data type.
 
 All UI windows are shown using Tkinter library.
@@ -6,6 +7,14 @@ All UI windows are shown using Tkinter library.
 Note: For simplicity, in all the docstrings, 'CC' is short for 'current country',
 and 'DC' is short for 'destination country'
 
+Copyright and Usage Information
+===============================
+This file is provided solely for the personal and private use of the CSC111 instructors and
+TAs at the University of Toronto St. George campus. All forms of distribution of this code,
+whether as given or with any changes, are strictly prohibited. For more information on
+copyright for CSC111 project materials, please consult our Course Syllabus.
+
+This file is Copyright (c) 2023 Alex Nguyen, Anson Lau, Daniel Kaloshi, Dua Hussain
 """
 # Contributor: Alex
 from tkinter import *
@@ -350,14 +359,6 @@ def display_results(flight_network: Flights, source_country: str, dest_country: 
     # Check for a direct flight
     check_direct_flight = flight_network.adjacent(source_country, dest_country)
 
-    # Check for one layover-country path
-    possible_paths = source_vertex.find_flights_2(dest_vertex, set())
-    layover_paths = []
-
-    for path in possible_paths:
-        if len(path) == 3:
-            layover_paths.append(path)
-
     # Compute danger_index for source country and destination country
     source_index_tup = compute_safest_neighbour({source_vertex})
     dest_index_tup = compute_safest_neighbour({dest_vertex})
@@ -368,16 +369,19 @@ def display_results(flight_network: Flights, source_country: str, dest_country: 
         flights.extend(dest_index_tup)
         display_direct_flight(flights)
 
-    if source_vertex.check_connected(dest_country, set()):  # Case 2: Two countries are connected
-        if layover_paths:
-            lst_of_neighbours = compute_neighbours_from_paths(layover_paths, source_country, dest_country)
-            flights = compute_safest_neighbour(lst_of_neighbours)
+    elif source_vertex.check_connected(dest_country, set()):  # Case 2: Two countries are connected
+        neighbour_so_far = set()
 
+        for neighbour in dest_vertex.neighbours:
+            if flight_network.adjacent(neighbour, source_country):
+                neighbour_so_far.add(dest_vertex.neighbours[neighbour])
+
+        if neighbour_so_far:  # not empty
+            flights = compute_safest_neighbour(neighbour_so_far)
             flights.insert(0, source_index_tup[0])
             flights.extend(dest_index_tup)
 
             display_layover_countries(flights)
-
         else:
             display_no_result()
 
@@ -432,25 +436,3 @@ sub_button = Button(root, text='Submit', font=WINDOW_FONT_SIZE, bg=WINDOW_COLOUR
 sub_button.place(x=700, y=600)
 
 root.mainloop()
-
-
-# f = Flights()
-# f.add_country('Canada')
-# f.add_country('Belgium')
-# f.add_country('France')
-# f.add_country('Australia')
-# f.add_country('Burundi')
-#
-# f.add_flight('Canada', 'Belgium')
-# f.add_flight('Belgium', 'Burundi')
-#
-# f.add_flight('Canada', 'France')
-# f.add_flight('France', 'Burundi')
-
-# f.add_flight('Canada', 'Australia')
-# f.add_flight('Australia', 'Burundi')
-#
-# c = f.countries['Canada']
-# b = f.countries['Burundi']
-# bel = f.countries['Belgium']
-# fr = f.countries['France']

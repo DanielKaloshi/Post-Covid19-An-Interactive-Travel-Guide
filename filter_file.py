@@ -1,7 +1,15 @@
-"""
-This file is for filtering the four datasets, WHO-COVID-19-global-data, COVID-19-data-from-2023-02-01.csv, routes.csv
-and airports.csv
-Worked on by Dua Hussain and Daniel Kaloshi
+"""CSC111 Winter 2023 Course Project: Post COVID-19: An Interactive Travel Guide
+This module filters the four datasets, WHO-COVID-19-global-data, COVID-19-data-from-2023-02-01.csv,
+routes.csv and airports.csv.
+
+Copyright and Usage Information
+===============================
+This file is provided solely for the personal and private use of the CSC111 instructors and
+TAs at the University of Toronto St. George campus. All forms of distribution of this code,
+whether as given or with any changes, are strictly prohibited. For more information on
+copyright for CSC111 project materials, please consult our Course Syllabus.
+
+This file is Copyright (c) 2023 Alex Nguyen, Anson Lau, Daniel Kaloshi, Dua Hussain
 """
 import csv
 from datetime import datetime
@@ -174,14 +182,14 @@ def filter_routes(filename: str, output_file='data/new_routes_2.0') -> None:
 
             non_un_list = ['American Samoa', 'Anguilla', 'Aruba', 'Bermuda', 'Bonaire',
                            'British Virgin Islands',
-                           'Cayman Islands', 'Cook Islands', 'Curaçao', 'Falkland Islands (Malvinas)',
-                           'Faroe Islands',
+                           'Cayman Islands', 'Christmas Island', 'Cocos (Keeling) Islands', 'Cook Islands', 'Curaçao',
+                           'Falkland Islands', 'Falkland Islands (Malvinas)', 'Faroe Islands',
                            'French Guiana', 'French Polynesia', 'Gibraltar', 'Greenland', 'Guadeloupe',
                            'Guam',
                            'Guernsey', 'Holy See', 'Hong Kong', 'Isle of Man', 'Jersey', 'Macau',
                            'Kosovo[1]',
                            'Martinique',
-                           'Mayotte', 'Montserrat', 'Netherlands Antilles', 'New Caledonia', 'Niue',
+                           'Mayotte', 'Montserrat', 'Netherlands Antilles', 'New Caledonia', 'Niue', 'Norfolk Island',
                            'Northern Mariana Islands (Commonwealth of the)', 'Northern Mariana Islands',
                            'occupied Palestinian territory, including east Jerusalem',
                            'Other', 'Pitcairn Islands',
@@ -190,7 +198,7 @@ def filter_routes(filename: str, output_file='data/new_routes_2.0') -> None:
                            'Saint Pierre and Miquelon',
                            'Sint Eustatius', 'Sint Maarten', 'Taiwan', 'Tokelau',
                            'Turks and Caicos Islands',
-                           'United States Virgin Islands', 'Virgin Islands', 'Wallis and Futuna']
+                           'United States Virgin Islands', 'Virgin Islands', 'Wallis and Futuna', 'Western Sahara']
 
             rows_so_far = []
 
@@ -276,25 +284,39 @@ def filter_routes(filename: str, output_file='data/new_routes_2.0') -> None:
                     row[0] = 'Czechia'
                 if row[1] == 'Czech Republic':
                     row[1] = 'Czechia'
+                if row[0] == 'East Timor':
+                    row[0] = 'Timor-Leste'
+                if row[1] == 'East Timor':
+                    row[1] = 'Timor-Leste'
+                if row[0] == 'Burma':
+                    row[0] = 'Myanmar'
+                if row[1] == 'Burma':
+                    row[1] = 'Myanmar'
 
                 if row[0] not in non_un_list and row[1] not in non_un_list and row not in rows_so_far:
                     writer.writerow(row)
                     rows_so_far.append(row)
 
 
-def capitalize3(output_file='data/new_routes_cap') -> None:
+if __name__ == '__main__':
+    filter_routes('data/new_routes_with_countries')
+
+
+def capitalize3(file: str, output_file='data/new_routes_cap') -> None:
     """ Capatalizes file new_routes_2.0 for user interaction file """
-    with open('data/new_routes_2.0', mode='r') as main_file:
+    with open(file, mode='r') as main_file:
         reader = csv.reader(main_file)
         with open(output_file, mode='w') as filter_data:
-            writer = csv.writer(filter_data, delimiter=',')
+            writer = csv.writer(filter_data, delimiter=',', lineterminator="\n")
             for row in reader:
                 row1 = [row[0].upper(), row[1].upper()]
                 writer.writerow(row1)
 
 
 if __name__ == '__main__':
-    filter_routes('data/new_routes_with_countries')
+    capitalize3('data/new_routes_2.0')
+
+if __name__ == '__main__':
     python_ta.check_all(config={
         'extra-imports': [],  # the names (strs) of imported modules
         'allowed-io': [],  # the names (strs) of functions that call print/open/input

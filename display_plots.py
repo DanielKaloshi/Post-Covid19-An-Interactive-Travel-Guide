@@ -1,13 +1,20 @@
-""" A file dedicated to plotting the plotly map
-Worked on by Anson Lau
+"""CSC111 Winter 2023 Course Project: Post COVID-19: An Interactive Travel Guide
+This module plots the choropleth map displaying the danger index for each country.
+
+Copyright and Usage Information
+===============================
+This file is provided solely for the personal and private use of the CSC111 instructors and
+TAs at the University of Toronto St. George campus. All forms of distribution of this code,
+whether as given or with any changes, are strictly prohibited. For more information on
+copyright for CSC111 project materials, please consult our Course Syllabus.
+
+This file is Copyright (c) 2023 Alex Nguyen, Anson Lau, Daniel Kaloshi, Dua Hussain
 """
 import json
 import pandas as pd
 import plotly.express as px
-from matplotlib import pyplot as plt
 
-sample_data = 'data/sample_data_map.csv'  # for testing purposes
-data = 'data/country-danger-index.csv'
+
 def plot_map(file: str) -> None:
     """Plot a choropleth map of the countries in the world using the danger indexes from
     the given file.
@@ -35,4 +42,4 @@ def plot_map(file: str) -> None:
 
 
 if __name__ == '__main__':
-    plot_map(data)
+    plot_map('data/country-danger-index.csv')
