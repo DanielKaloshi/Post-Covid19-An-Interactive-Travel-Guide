@@ -2,6 +2,7 @@
  This file was not able to call user_interation in a single runner function since user_interatcion uses the
  library tkinter which layers each function """
 
+from user_interactions import *
 # INSTRUCTIONS FOR TA
 
 # -------TO RUN FILE-------
@@ -24,3 +25,9 @@
 # ------TO VIEW NO DIRECT FLIGHT-----
 # 1. ENTER SOURCE: VANATU
 # 2. ENTER DEST: BELIZE
+
+
+def runner():
+    """Runner to run the entire module.
+    """
+    check_inputs()

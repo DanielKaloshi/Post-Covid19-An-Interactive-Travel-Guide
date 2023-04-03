@@ -35,6 +35,8 @@ from generate_graph import *
 WINDOW_COLOUR = '#E4DCCF'
 WINDOW_FONT_SIZE = ('Helvetica', 18)
 TEXT_COLOUR = 'black'
+
+
 root = Tk()
 root.title('Post-Covid 19: An Interactive Travel Guide')
 root.config(bg=WINDOW_COLOUR)
