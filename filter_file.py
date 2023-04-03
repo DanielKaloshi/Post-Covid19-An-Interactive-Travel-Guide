@@ -48,8 +48,6 @@ def csv_airports_dict(file: str) -> dict[str, list[str]]:
 
     This dict will be used in new_csv function
 
-    :param file:
-    :return:
     """
     # Accumalator Dict
     dict_so_far = {}
@@ -79,9 +77,7 @@ def new_csv(country_dict: dict[str, list[tuple[str, str]]], output_file='data/ne
     """
     Outputs a new file by reading airports.csv, so instead of routes being in terms of airport codes it is in
     terms of countries
-    :param country_dict:
-    :param output_file:
-    :return:
+
     """
     # Opens file to read
     with open('data/airports.csv', mode='r') as main_file:

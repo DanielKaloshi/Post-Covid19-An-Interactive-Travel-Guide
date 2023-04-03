@@ -1,5 +1,5 @@
 """CSC111 Winter 2023 Course Project: Post COVID-19: An Interactive Travel Guide
-This module contains all the functions responsible for user interactions and information display
+This module contains all the functions responsible for user interactions and data visualization
 based on our safest flight algorithm and graph data type.
 
 All UI windows are shown using Tkinter library.
@@ -283,7 +283,7 @@ def display_no_result():
     result_root.geometry("%dx%d" % (w, h))
 
     # Load and resize image
-    image = Image.open('image/error.png')
+    image = Image.open('data/image/error.png')
     resized = image.resize((300, 300), resample=Image.LANCZOS)
     new_image = ImageTk.PhotoImage(resized)
 
@@ -397,7 +397,7 @@ def check_inputs():
     dest_location = dest_entry.get().upper()
 
     # Generate a complete graph of flights from the database
-    flight_network = generate_flight_network('data/new_routes_cap')
+    flight_network = generate_flight_network('data/new_routes_capitalized')
 
     # Compute a list of all countries in the flight network.
     database_countries = flight_network.generate_countries()
