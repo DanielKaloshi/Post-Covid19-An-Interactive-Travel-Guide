@@ -30,7 +30,7 @@ def compute_num_infections(country_name: str) -> int:
 
     cases_so_far = 0
 
-    with open('data/covid19_capatalize') as csv_file:
+    with open('data/covid19_capitalized') as csv_file:
         reader = csv.reader(csv_file)
 
         for row in reader:
@@ -55,7 +55,7 @@ def compute_population(country_name: str) -> int:
 
     population = 1
 
-    with open('data/new_filter_un_pop') as csv_file:
+    with open('data/un_population_capitalized') as csv_file:
         reader = csv.reader(csv_file)
         next(reader)
 
@@ -83,7 +83,7 @@ def compute_num_deaths(country_name: str) -> int:
 
     deaths_so_far = 0
 
-    with open('data/covid19_capatalize') as csv_file:
+    with open('data/covid19_capitalized') as csv_file:
         reader = csv.reader(csv_file)
 
         for row in reader:

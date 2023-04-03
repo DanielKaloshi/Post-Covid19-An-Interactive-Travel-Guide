@@ -18,7 +18,7 @@ import filter_file
 
 def generate_flight_network(file: str) -> f.Flights():
     """ A function which generates a complete flight network of all routes from data_base new_routes_cap
-    >>> net = generate_flight_network('data/new_routes_cap')
+    >>> net = generate_flight_network('data/new_routes_capitalized')
     >>> countries = net.countries
     >>> countries['CANADA']
     <flights.Country object at 0x10cc6e4d0>
