@@ -283,7 +283,7 @@ def display_no_result():
     result_root.geometry("%dx%d" % (w, h))
 
     # Load and resize image
-    image = Image.open('image/error.png')
+    image = Image.open('data/image/error.png')
     resized = image.resize((300, 300), resample=Image.LANCZOS)
     new_image = ImageTk.PhotoImage(resized)
 
