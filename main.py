@@ -27,7 +27,7 @@ from user_interactions import *
 # 1. ENTER SOURCE: VANUATU
 # 2. ENTER DEST: BELIZE
 
-# Here is the link to obtain data file from U of T OneNote: https://tinyurl.com/y9szsb7f
+# Here is the link to obtain data file from U of T OneDrive: https://tinyurl.com/y9szsb7f
 # The file name is called 'data'.
 
 
