@@ -39,11 +39,11 @@ def generate_flight_network(file: str) -> f.Flights():
                 flight.add_flight(source, dest)
     return flight
 
-#
-# if __name__ == '__main__':
-#     # python_ta.check_all(config={
-#     #     'extra-imports': [],  # the names (strs) of imported modules
-#     #     'allowed-io': [],  # the names (strs) of functions that call print/open/input
-#     #     'max-line-length': 120,
-#     #     'disable': ['E9999', 'E9998']
-#     # })
+
+if __name__ == '__main__':
+    python_ta.check_all(config={
+        'extra-imports': [],  # the names (strs) of imported modules
+        'allowed-io': [],  # the names (strs) of functions that call print/open/input
+        'max-line-length': 120,
+        'disable': ['E9999', 'E9998']
+    })
