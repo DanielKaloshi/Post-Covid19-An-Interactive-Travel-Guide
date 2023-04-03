@@ -25,8 +25,7 @@ from user_interactions import *
 # 1. ENTER SOURCE: VANUATU
 # 2. ENTER DEST: BELIZE
 
-# Links to obtain data file:
-# https://utoronto-my.sharepoint.com/personal/ansonbt_lau_mail_utoronto_ca/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fansonbt%5Flau%5Fmail%5Futoronto%5Fca%2FDocuments%2Fdata%2Ezip&parent=%2Fpersonal%2Fansonbt%5Flau%5Fmail%5Futoronto%5Fca%2FDocuments&ga=1
+# Links to obtain data file from U of T OneNote: https://tinyurl.com/53m4uzht
 
 
 def runner():
