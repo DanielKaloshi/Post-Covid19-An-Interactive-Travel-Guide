@@ -1,6 +1,4 @@
-# CSC111 Course Project
-Post Covid-19: An Interactive Travel Guide
-
+## CSC111 Course Project - Post Covid-19: An Interactive Travel Guide
 
 Contributors: Alex Nguyen, Anson Lau, Daniel Kaloshi, Dua Hussain
 
